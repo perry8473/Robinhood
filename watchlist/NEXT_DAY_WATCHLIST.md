@@ -6,74 +6,104 @@
 > 20% pre-market and is already fading by 9:35am ET is a PASS despite being on this list.
 > This file is a head start for the search, not a decision.
 
-**Build status:** built by the ~6:05pm after-hours routine on 2026-09-21, trued up by the
-~6:00am overnight routine on 2026-09-22 for today's (2026-09-22) trading day. This is the
-final version before the 9:40am opening-bell scan — no further update until tonight's build.
+**Build status:** built by the ~6:05pm after-hours routine on 2026-09-22 for tomorrow's
+(2026-09-23) trading day. Will be trued up by the ~6:00am overnight routine before the
+9:40am opening-bell scan.
 
 ---
 
-## For trading day: 2026-09-22 (Tuesday)
+## For trading day: 2026-09-23 (Wednesday)
 
-**Overnight/premarket tone:** Index futures mixed-to-flat (S&P futures ~flat, Nasdaq 100
-futures -0.03%, Russell 2000 futures +0.7%) after Monday's record Nasdaq close. Treasury
-Secretary Bessent announced Iranian airlines will be "shut down" worldwide by Wednesday and
-sanctioned financial institutions in Egypt, Turkey, and Russia over Iran transactions —
-energy prices reversed higher on the news (Brent back to ~$101 after Monday's slide). Richmond
-Fed's Barkin speaks 1pm ET today (non-major). CME FedWatch shows 57.6% odds of a rate hike
-after the October meeting — a notably hawkish read, consistent with Goolsbee's tone yesterday.
-Asian markets closed higher overnight (Nikkei, Kospi, ASX 200, Hang Seng, CSI 300 all up;
-India's Nifty the exception); European markets were lower in early trading. *(SPX/NDX/VIX
-live levels were unavailable through this session's index-quote channel this morning — no
-numeric snapshot to report; check at open.)*
+**After-close/overnight tone (2026-09-22):** Today was a genuine broad risk-on session —
+Nasdaq 100 record close, financials weak on rate/credit worries and a hawkish tone from Fed's
+Musalem, healthcare/biotech broadly strong (VKTX the standout, +36-39% on Phase 3 timeline
+news). Market-breadth divergence warnings are circulating (Jason Goepfert/SentimenTrader
+flagging a rare 1929/1999-style breadth signal worth tracking, not acting on). Macro backdrop:
+Fed's 25bp hike Sept 16 with more signaled, strong Q3 GDP tracking (~5.1% GDPNow), Trump-Xi
+summit and Iran-sanctions developments ongoing. *(SPX/NDX/VIX numeric levels were unavailable
+through this session's index-quote channel all day — check at open.)*
 
 ### Already held — not a new-entry candidate, included for continuity
 
 | Ticker | Status | Note |
 |---|---|---|
-| **WBD** | UNCHANGED | Position (8 sh, avg $30.8459) holding gains: premarket $30.86 vs. Monday's $30.80 close, essentially flat. Overnight: Paramount extended the WBD noteholder exchange/tender offer deadline to Oct. 2 (as of Sept. 18 only 66.87%/75.12% of notes had been tendered — a procedural extension, mildly note-worthy but not a new catalyst). Morgan Stanley nudged its PT to $31 from $29, kept Equalweight (neutral). No incremental move to act on — this stays in Step 1/2 position management, not a new entry. |
+| **VKTX** | UNCHANGED (position) | Extended further after-hours: $40.82 close → ~$41.81-41.97 AH, still up ~36-39% on the day. Truist called it a "best-case scenario" reaction; Phase 3 to start by year-end. Stop was tightened intraday to ~10% below the run-up per user instruction (37-range). No new overnight news yet — re-verify live at open, this is extended and not a fresh-entry idea. |
+| **LEN** | UNCHANGED (position) | Holding today's close level: ~$83.05 → ~$83.27-83.44 AH, flat/steady. Stop set to a fixed ~$77 level per user instruction (loose, non-volatile-name convention). No new catalyst overnight. |
+| **TLX** | UNCHANGED (position) | Flat AH: ~$11.96 → ~$11.95-12.01. Stop explicitly left unchanged per user instruction. No new news. |
+| **CRML** | UNCHANGED (position) | Fading slightly AH: ~$8.535 → ~$8.50, still underwater from the $9.09 entry. Stop at 10% below entry. No new news overnight. |
 
 ### Ranked candidates
 
-**1. NVO — Novo Nordisk (bearish thesis, but developing — re-verify direction at open)**
-- **Status: STRENGTHENED (new information, not yet priced)** — CEO Mike Doustdar told CNBC this morning (reported 5:52am ET, MT Newswires) that Novo is actively looking at M&A to fill gaps in its drug portfolio, and acknowledged the market's negative reaction to Monday's long-term targets shows "work to do" convincing investors.
-- **Direction / magnitude:** Originally bearish (-7.9% Monday). Premarket is flat ($39.82 vs. $39.80 close) — the market hasn't reacted to this follow-up commentary yet, which is exactly why it's worth a fresh look at the open: it could read as reassuring (M&A optionality) and spark a bounce, or as confirmation management is on the back foot and extend the slide. Don't assume the bearish thesis still holds without re-checking live price/tape.
-- **Freshness confidence:** High — same-morning follow-up, direct management commentary, genuinely new.
-- **Disqualifiers to check at open:** Mega-cap ADR, options should be liquid — verify OI/spread on whichever side the open direction favors.
+**1. WOR — Worthington Enterprises (new, bullish, earnings beat)**
+- **Catalyst:** Reported fiscal Q1 earnings after today's close (2026-09-22): EPS $0.82 vs.
+  $0.75 estimate, a clean beat.
+- **Direction / magnitude:** Bullish, strong — $58.15 close → ~$67.72 in after-hours trading,
+  roughly **+16%**. This is a large, real move on a real number, not a rumor.
+- **Freshness confidence:** High — same-day print, same-day reaction, nothing stale about it.
+  Top-ranked candidate for tomorrow.
+- **Disqualifiers to check at open:** A +16% AH move often gives back a chunk at the real
+  open as AH liquidity was thin — confirm the gap holds with real volume before sizing.
+  Verify options chain liquidity/spread once regular trading opens; single-day earnings pops
+  can see elevated IV crush on the options side even after a clean beat.
 
-**2. AMRX — Amneal Pharmaceuticals (bullish continuation)**
-- **Status: UNCHANGED** — no fresh overnight news. Premarket last trade $20.21 vs. $20.16 close, essentially flat — didn't fade overnight, which is a mild positive (no overnight profit-taking), but also didn't extend further.
-- **Direction / magnitude:** Bullish, unchanged from last night (+7.6% Monday close).
-- **Freshness confidence:** Moderate, unchanged — catalyst is now 4 days old (Friday FDA approval), but price structure remains orderly.
-- **Disqualifiers to check at open:** Premarket quote showed a very wide bid/ask ($19.40 / $22.56) — typical for thin premarket trading, but confirm a tight, real-session spread and options OI before sizing.
+**2. KBH — KB Home (scheduled, mixed signal — needs re-verification)**
+- **Catalyst:** Reported earnings after today's close: EPS $1.05 vs. $0.90 estimate, a beat.
+- **Direction / magnitude:** Muted-to-slightly-negative AH reaction despite the beat — $48.59
+  close → ~$47.48 AH. Possibly guidance or margin commentary undercutting the headline beat;
+  not yet confirmed from a single data pull.
+- **Freshness confidence:** High as a same-day print, but the directional read is ambiguous —
+  a beat that sells off AH sometimes continues lower at the open, sometimes reverses once
+  the market digests full details. Needs an explicit re-check of the earnings call/release
+  detail before treating as bullish or bearish.
+- **Disqualifiers to check at open:** Homebuilder sector context matters here given LEN is
+  already held — a KBH-driven sector read could affect LEN's read too. Confirm direction
+  live before any entry.
 
-**3. LEN — Lennar (new, bullish)**
-- **Catalyst:** Berkshire Hathaway (under CEO Greg Abel) disclosed a ~$1.2B stake in the homebuilder — reported premarket 2026-09-22 (Benzinga, ~5:36am ET).
-- **Direction / magnitude:** Bullish but modest — +1.09% premarket as of this build.
-- **Freshness confidence:** High (same-morning, real 13F-type disclosure) but the magnitude is small — this is more of a "known-name sponsor" story than an explosive catalyst; may need the open's volume/price action to confirm it's tradeable rather than a one-line premarket blip.
-- **Disqualifiers to check at open:** Benzinga's own Edge Rankings flag LEN's short/medium/long-term price trend as weak and its quality score as bad — a supportive ownership headline fighting a weak technical backdrop; confirm real volume follow-through before treating as a breakout, not just a headline pop.
+**3. Tomorrow's scheduled earnings (before the bell) — no directional bias yet**
+- **Catalyst:** CTAS (Cintas), MANU (Manchester United), PAYX (Paychex), CBRL (Cracker
+  Barrel), GIS (General Mills) all report before tomorrow's open — confirmed via earnings
+  calendar.
+- **Direction / magnitude:** Unknown — binary earnings-gap setups, no pre-report bias should
+  be assumed for any of these.
+- **Freshness confidence:** High as dated, scheduled catalysts — but purely a "watch the
+  print" list, not yet a thesis. CTAS and GIS are the largest-cap/most-liquid of the group and
+  the most likely to have tradeable options if a gap materializes.
+- **Disqualifiers to check at open:** Confirm actual vs. estimate for each at/after release,
+  then check premarket reaction and options liquidity before considering any of these live.
 
-**4. ONON — On Holding (new, bullish)**
-- **Catalyst:** Announced a buyback of up to $1B through 2029 plus new long-term financial targets — reported premarket 2026-09-22 (Global Banking and Finance / Benzinga, ~5:36am ET).
-- **Direction / magnitude:** Bullish, modest — +2.67% premarket.
-- **Freshness confidence:** High (same-morning) but a multi-year buyback authorization is a slower-burn catalyst, not typically a sharp one-day mover — re-verify there's real volume behind the premarket move, not just a headline drift.
-- **Disqualifiers to check at open:** None identified yet; standard large-cap, should have liquid options — confirm at open.
+**4. Other after-close reporters tonight — lower priority, needs confirmation**
+- **MLKN** (Herman Miller/MillerKnoll) beat ($0.53 vs. $0.35) — AH reaction not yet checked,
+  needs confirmation before ranking.
+- **HERE** (H&E Equipment or similar small-cap — verify ticker) missed; AH reaction not
+  checked.
+- **AYTU** — no actual EPS reported yet as of this build; check first thing tomorrow.
+- **THO** (Thor Industries) missed ($0.78 vs. $0.93), but the stock had already run up ~5%
+  intraday today ahead of the print — likely priced in or stale by tomorrow; low priority
+  unless AH shows a surprising reaction.
+- **Freshness confidence:** Low-to-moderate for all four — incomplete AH reaction data.
+  Re-check first thing at the 6am true-up before considering any of these.
 
-**5. AZO — AutoZone (scheduled, no directional bias)**
-- **Status: UNCHANGED** — earnings before the bell today confirmed (EPS estimate $54.10, get_earnings_calendar verified). Premarket $2,812.69 vs. $2,803.25 close, roughly flat ahead of the print.
-- **Freshness confidence:** High as a dated, scheduled catalyst — still a binary earnings gap, no pre-report directional bias should be assumed.
-- **Disqualifiers to check at open:** High share price ($2,800+) limits whole-share stock sizing at current account buying power; confirm post-earnings IV crush dynamics before any options leg.
+**5. VICR — Vicor Corp (DON'T-CHASE — extended, not a fresh entry)**
+- **Status:** Still elevated but essentially flat after-hours (~$268.50 → ~$267-268.9).
+  Already Day-2-extended per the standing don't-chase rule as of today's 3pm cycle.
+- **Direction / magnitude:** Real catalyst underlying the move, but multiple days into the
+  run already — not proposing a chase here.
+- **Freshness confidence:** Low for a fresh entry given how extended it already is.
+- **Disqualifiers:** Don't-chase rule applies directly; would need a genuinely fresh,
+  un-extended pullback to reconsider.
 
-**6. TLX — Telix Pharmaceuticals (bearish thesis weakening — demoted)**
-- **Status: WEAKENED** — premarket already bouncing: last trade $11.94 vs. Monday's $11.29 close (+5.8%), partially retracing Monday's -10.3% M&A-reaction drop. No new negative news overnight; this looks like the dip-buying/retracement the original entry flagged as a risk.
-- **Direction / magnitude:** Original bearish thesis is de-risking itself as the stock recovers before the open — if a short/put idea, most of the edge from Monday's drop is already gone.
-- **Freshness confidence:** Downgraded from High to Low for a fresh bearish entry; the catalyst (ITM Isotope acquisition) is unchanged but the market's reaction to it is already reversing.
-- **Disqualifiers:** Wide/thin premarket spread persists ($11.58 bid / $12.15 ask) — same liquidity caution as last night, now compounded by the thesis itself weakening.
+**6. ONON — On Holding (flat, no new catalyst — demoted)**
+- **Status:** Flat after-hours (~$29.40-29.58), no incremental news since the buyback/targets
+  announcement already priced in earlier this week.
+- **Freshness confidence:** Low for a fresh entry — catalyst is now stale, price action has
+  gone quiet.
 
-**7. GRML — Greenland Mines (flagged — NOT recommending a chase; risk increased overnight)**
-- **Status: STRENGTHENED price-wise, but disqualification risk increased** — extended even further overnight: premarket last trade $10.54 vs. Monday's $9.42 close (+11.9% more), on top of Monday's +230%+ day. Cumulative move since Friday's $2.85 close is now roughly +270%. No new fundamental news overnight — this is pure continued momentum on Friday's Greenland security-pact story and Monday's license-expansion news.
-- **Direction / magnitude:** Bullish, extreme, and still extending — which is the opposite of reassuring here.
-- **Freshness confidence:** Low for a fresh entry. A microcap (~$9-10M market cap per earlier reporting) up nearly 4x from Friday's close with zero overnight cooling is a textbook parabolic setup for a violent reversal once real-session liquidity returns — this is the DAIC/AIFF/DTSS pattern, just more extreme.
-- **Disqualifiers:** Sub-$15M market cap, historical average volume ~369K vs. 178M+ traded Monday (480x normal), options chain existence/liquidity unconfirmed and unlikely usable at this size. Default posture remains "missed, not chasing" unless a genuinely fresh, un-extended pullback sets up intraday — do not treat continued overnight strength as a green light.
+**7. BLLN — (flagged only for extreme illiquidity, not a candidate)**
+- **Status:** After-hours market extremely wide/illiquid (bid $105.50 / ask $130.00, last
+  $116.07) — this spread alone disqualifies any real-session entry consideration until proven
+  otherwise at the open.
+- **Disqualifiers:** Illiquid AH tape is a standalone red flag; do not size based on AH prints
+  here.
 
 ---
 
@@ -88,8 +118,7 @@ numeric snapshot to report; check at open.)*
 | Disqualifiers | Anything that would knock this out going in: no listed options chain, earnings scheduled again soon, thin historical liquidity, already priced in/capped |
 
 Entries are **ranked by likelihood of still being a live, tradeable setup at the open** — not
-by headline size. GRML again has the loudest headline of the morning but ranks last because
-it's now even more extended than last night, not less.
+by headline size.
 
 ---
 
