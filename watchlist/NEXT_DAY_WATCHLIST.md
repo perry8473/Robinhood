@@ -6,68 +6,79 @@
 > 20% pre-market and is already fading by 9:35am ET is a PASS despite being on this list.
 > This file is a head start for the search, not a decision.
 
-**Build status:** built by the ~6:05pm after-hours routine on 2026-09-22 for tomorrow's
-(2026-09-23) trading day. Will be trued up by the ~6:00am overnight routine before the
-9:40am opening-bell scan.
+**Build status:** built by the ~6:05pm after-hours routine on 2026-09-22 for today's
+(2026-09-23) trading day; trued up by the ~6:00am overnight routine on 2026-09-23. This is
+the final version before the 9:40am opening-bell scan — no further update until tonight's
+build.
 
 ---
 
 ## For trading day: 2026-09-23 (Wednesday)
 
-**After-close/overnight tone (2026-09-22):** Today was a genuine broad risk-on session —
-Nasdaq 100 record close, financials weak on rate/credit worries and a hawkish tone from Fed's
-Musalem, healthcare/biotech broadly strong (VKTX the standout, +36-39% on Phase 3 timeline
-news). Market-breadth divergence warnings are circulating (Jason Goepfert/SentimenTrader
-flagging a rare 1929/1999-style breadth signal worth tracking, not acting on). Macro backdrop:
-Fed's 25bp hike Sept 16 with more signaled, strong Q3 GDP tracking (~5.1% GDPNow), Trump-Xi
-summit and Iran-sanctions developments ongoing. *(SPX/NDX/VIX numeric levels were unavailable
-through this session's index-quote channel all day — check at open.)*
+**Premarket tone (as of ~6:20am ET, 2026-09-23):** Futures modestly green (Dow +0.16%, S&P
++0.11%, Nasdaq 100 +0.06%, Russell 2000 +0.02%). Polymarket odds of a higher open rose to 62%
+(from 53% yesterday). Trump's UN General Assembly address threatened to "annihilate" the
+Islamic Republic of Iran if no deal is reached, but also floated diplomacy after the November
+midterms — market read this as noise, not escalation; oil actually fell on the news (WTI
+~$89-90, a fifth straight down day) on hopes envoys Witkoff/Kushner make progress with Iran
+mediators. September flash manufacturing/services PMI due 9:45am ET — first real data point
+of the day. **VIX 14.18** (live premarket read, calm). NDX ~30,732 / SPX ~7,764.64 reflect
+Tuesday's close (index-quote channel gave live VIX but only yesterday's settled levels for
+NDX/SPX this morning — re-check at open). Jason Goepfert/SentimenTrader's rare 1929/1999-style
+breadth-divergence warning from Monday is still circulating as a background risk, not an
+overnight development.
 
 ### Already held — not a new-entry candidate, included for continuity
 
 | Ticker | Status | Note |
 |---|---|---|
-| **VKTX** | UNCHANGED (position) | Extended further after-hours: $40.82 close → ~$41.81-41.97 AH, still up ~36-39% on the day. Truist called it a "best-case scenario" reaction; Phase 3 to start by year-end. Stop was tightened intraday to ~10% below the run-up per user instruction (37-range). No new overnight news yet — re-verify live at open, this is extended and not a fresh-entry idea. |
-| **LEN** | UNCHANGED (position) | Holding today's close level: ~$83.05 → ~$83.27-83.44 AH, flat/steady. Stop set to a fixed ~$77 level per user instruction (loose, non-volatile-name convention). No new catalyst overnight. |
-| **TLX** | UNCHANGED (position) | Flat AH: ~$11.96 → ~$11.95-12.01. Stop explicitly left unchanged per user instruction. No new news. |
-| **CRML** | UNCHANGED (position) | Fading slightly AH: ~$8.535 → ~$8.50, still underwater from the $9.09 entry. Stop at 10% below entry. No new news overnight. |
+| **VKTX** | UNCHANGED, minor give-back | Pulled back from last night's AH high (~$41.68-41.97) to **~$40.05** premarket (6:10am ET) vs. $40.85 close — a ~2% giveback, unsurprising after a +35.67% day, no new negative news. Bid/ask $39.80/$40.00. Still up huge on the week; stop already tightened to ~10% below the run-up per standing instruction. Not a fresh-entry idea — extended. |
+| **LEN** | UNCHANGED | Holding steady: **~$83.30** premarket (9:11am ET) vs. $83.06 close, essentially flat. No new catalyst overnight; Berkshire stake story already fully priced. Stop at fixed ~$77 per user instruction. |
+| **TLX** | UNCHANGED, modest fade | **~$11.57** premarket (9:27am ET) vs. $11.95 close, down ~3.2%. No new news since Sunday's ITM Isotope acquisition story — this reads as continued fade of Monday's dip-buy bounce, not a fresh catalyst. Stop explicitly left unchanged per user instruction. |
+| **CRML** | UNCHANGED | **~$8.43** premarket (10:17am ET) vs. $8.54 close, essentially flat. No new news since Monday's Greenland-pact story. Stop at 10% below the $9.09 entry. |
 
 ### Ranked candidates
 
-**1. WOR — Worthington Enterprises (new, bullish, earnings beat)**
-- **Catalyst:** Reported fiscal Q1 earnings after today's close (2026-09-22): EPS $0.82 vs.
-  $0.75 estimate, a clean beat.
-- **Direction / magnitude:** Bullish, strong — $58.15 close → ~$67.72 in after-hours trading,
-  roughly **+16%**. This is a large, real move on a real number, not a rumor.
-- **Freshness confidence:** High — same-day print, same-day reaction, nothing stale about it.
-  Top-ranked candidate for tomorrow.
-- **Disqualifiers to check at open:** A +16% AH move often gives back a chunk at the real
-  open as AH liquidity was thin — confirm the gap holds with real volume before sizing.
-  Verify options chain liquidity/spread once regular trading opens; single-day earnings pops
-  can see elevated IV crush on the options side even after a clean beat.
+**1. WOR — Worthington Enterprises (STRENGTHENED — confirmed, still extending)**
+- **Status: STRENGTHENED** — AH reaction has grown overnight, not faded. Benzinga now clocks
+  the move at **+15.93% to +18.8%** (last prints $67.55-$69.54, bid $67.60/ask $69.50 as of
+  ~6am ET) vs. the ~+16% first read last night. This is the constructive pattern (AH strength
+  holding/building, not fading into the morning).
+- **Catalyst:** Fiscal Q1 EPS $0.82 vs. $0.75 est. (beat), revenue $343.9M vs. $331.3M est.
+  (beat), dividend held at $0.20/share. Reported after Tuesday's close.
+- **Freshness confidence:** High — same-day print, reaction still building through premarket.
+  Top-ranked candidate.
+- **Disqualifiers to check at open:** Still confirm the gap holds with real regular-session
+  volume — thin AH tape can overstate a move. Verify options chain liquidity/spread once
+  regular trading opens.
 
-**2. KBH — KB Home (scheduled, mixed signal — needs re-verification)**
-- **Catalyst:** Reported earnings after today's close: EPS $1.05 vs. $0.90 estimate, a beat.
-- **Direction / magnitude:** Muted-to-slightly-negative AH reaction despite the beat — $48.59
-  close → ~$47.48 AH. Possibly guidance or margin commentary undercutting the headline beat;
-  not yet confirmed from a single data pull.
-- **Freshness confidence:** High as a same-day print, but the directional read is ambiguous —
-  a beat that sells off AH sometimes continues lower at the open, sometimes reverses once
-  the market digests full details. Needs an explicit re-check of the earnings call/release
-  detail before treating as bullish or bearish.
-- **Disqualifiers to check at open:** Homebuilder sector context matters here given LEN is
-  already held — a KBH-driven sector read could affect LEN's read too. Confirm direction
-  live before any entry.
+**2. KBH — KB Home (WEAKENED/bearish-leaning — confirmed negative despite the beat)**
+- **Status: STRENGTHENED as a bearish setup, WEAKENED as anything bullish** — the ambiguous
+  read from last night is now resolved: Benzinga confirms KBH **"slipped 1.83% in Wednesday
+  premarket despite reporting upbeat financial results,"** and a same-day KBH-specific article
+  explains why — management's own language: *"operating in a housing market that continues to
+  be challenging, with conditions weakening since our June earnings report... higher mortgage
+  rates have further pressured affordability."* Backlog and deliveries both fell double-digit
+  y/y despite the EPS/revenue beat.
+- **Direction / magnitude:** Bearish-leaning. Premarket last $47.91-47.97, bid $44.88/ask
+  $48.03 — notably wide spread and bid well below the $48.59 close, a soft tape.
+- **Freshness confidence:** High and now unambiguous — a beat-but-cautious-guidance pattern,
+  not a clean beat-and-raise.
+- **Disqualifiers:** Homebuilder-sector read-through matters given LEN is already held —
+  this is company-specific guidance caution, not a fresh negative for the sector broadly
+  (LEN's own catalyst was a Berkshire stake, unrelated to KBH's commentary). Confirm live
+  direction before any entry; the wide bid/ask suggests thin premarket liquidity.
 
-**3. Tomorrow's scheduled earnings (before the bell) — no directional bias yet**
-- **Catalyst:** CTAS (Cintas), MANU (Manchester United), PAYX (Paychex), CBRL (Cracker
-  Barrel), GIS (General Mills) all report before tomorrow's open — confirmed via earnings
-  calendar.
-- **Direction / magnitude:** Unknown — binary earnings-gap setups, no pre-report bias should
-  be assumed for any of these.
-- **Freshness confidence:** High as dated, scheduled catalysts — but purely a "watch the
-  print" list, not yet a thesis. CTAS and GIS are the largest-cap/most-liquid of the group and
-  the most likely to have tradeable options if a gap materializes.
+**3. Today's scheduled earnings (before the bell) — confirmed on calendar, no directional bias yet**
+- **Catalyst:** CTAS (Cintas), PAYX (Paychex), GIS (General Mills), CBRL (Cracker Barrel),
+  MANU (Manchester United) all report before today's open — all "am" timing, confirmed
+  verified via earnings calendar (no shift from last night's build).
+- **Direction / magnitude:** No pre-report bias — premarket quotes show only routine
+  pre-earnings drift: CTAS +0.56% ($199.92), GIS +0.70% ($35.70), PAYX +0.67% ($115.30),
+  CBRL ~flat ($45.55), MANU -1.2% ($20.26). None of these reflect the actual print yet.
+- **Freshness confidence:** High as dated, scheduled catalysts — still purely a "watch the
+  print" list. CTAS and GIS are the largest-cap/most-liquid and most likely to have tradeable
+  options if a gap materializes.
 - **Disqualifiers to check at open:** Confirm actual vs. estimate for each at/after release,
   then check premarket reaction and options liquidity before considering any of these live.
 
