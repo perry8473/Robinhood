@@ -6,135 +6,151 @@
 > 20% pre-market and is already fading by 9:35am ET is a PASS despite being on this list.
 > This file is a head start for the search, not a decision.
 
-**Build status:** built by the ~6:05pm after-hours routine on 2026-09-24; trued up by the
-~6:00am overnight routine on 2026-09-25. This is the final version before the 9:40am
-opening-bell scan — no further update until tonight's build.
+**Build status:** built by the ~6:05pm after-hours routine on 2026-09-25 (actually fired
+~10:05pm ET due to trigger timing). Next trading day is **Monday, 2026-09-28** (Saturday
+9/26 and Sunday 9/27 are non-trading days). Will be trued up by the ~6:00am overnight routine
+Monday morning.
+
+**Data-gap flag — read before trusting any catalyst text below:** `get_equity_news` was down
+for this entire build (confirmed via 11 separate call attempts across different tickers, all
+failing with "tool cannot be found") — same outage first seen mid-afternoon 9/25, apparently
+not yet resolved. Every catalyst claim below that is NOT explicitly sourced to a specific
+dated article is inferred from **price action only** and is marked as such. Step 3 (macro/
+FOMC/CPI/opex calendar scan via news) could not be run at all this pass. **The Monday 6am
+true-up must retry news access and backfill catalyst verification before the open** — treat
+everything here as more provisional than usual.
 
 ---
 
-## For trading day: 2026-09-25 (Friday)
+## For trading day: 2026-09-28 (Monday)
 
-**Overnight/premarket tone (as of ~6:01am ET, 2026-09-25):** VIX 15.34 — continuing to ease
-(down from 16.29 Thursday morning, 15.58 Thursday 3pm, now 15.34) — a mild positive drift.
-(SPX/NDX index-quote channel is returning stale, carried-over Thursday-afternoon values, not
-live premarket levels — re-check at the open.) Dominant macro headwind is unchanged: 10-year
-yield still ~5.13-5.16% (19-year high), CME FedWatch October-hike odds still ~71%. No new
-overnight Fed speakers, economic data, or geopolitical developments materially changed the
-picture since last night. No genuinely new Asian or European overnight-session news was found
-for any watchlist name in this pass — nothing overseas-specific to add.
+**Friday 9/25 close context:** VIX eased to 14.84 intraday (continuing the week's downtrend
+from 16.29 Wed morning). SPX 7739.62 / NDX 30610.90 as of ~3pm ET Friday — both firm. A broad
+cluster of large-caps (MSFT, CRDO, HUM, PYPL, QCOM, AKAM) all moved up together Friday
+afternoon with no individually-confirmed catalyst (news tool down) — most likely a
+broad-market rally day rather than six unrelated company-specific stories. **Per the
+don't-chase rule, none of that cluster is being carried forward as a fresh Monday candidate**
+— a rally that already happened Friday isn't a fresh setup Monday morning, and each name is
+now extended intraday with no verified news to justify continuation. Re-verify at Monday's
+open/true-up once news access is confirmed working, in case a real story is actually behind
+one of them.
+
+**No Asian/European overnight session data yet** — those markets haven't opened as of this
+build (Friday evening ET). The ~6:00am Monday true-up is responsible for checking weekend/
+Sunday-night Asian and Monday-morning European session news before the open.
 
 ### User-flagged watch item — explicit standing instruction
 
 **NNBR (NN, Inc.)** — still priority #1 regardless of where it would otherwise rank per
-standing instruction. **Status: WEAKENING further, flat overnight** — premarket last $3.60,
-essentially unchanged from Thursday's $3.60 close (no overnight move either direction). No new
-news since Tuesday's guidance raise — now 3 days stale. Confidence continues to erode with no
-fresh confirmation; treat as a background watch item only unless new news breaks.
+standing instruction. **Status: small uptick, still no fresh catalyst.** Last $3.66 vs
+Thursday's $3.60 close (+1.7%), AH $3.67. No news confirmable this pass (tool down) — cannot
+say whether this is real strength or just tape noise. Treat as background watch only; needs a
+genuine news check Monday morning before it means anything.
 
 ### Already held — not a new-entry candidate, included for continuity
 
 | Ticker | Status | Note |
 |---|---|---|
-| **IONQ** | UNCHANGED overnight, still holding | Thursday close $44.98, premarket last $44.71 — essentially flat overnight, holding Thursday's breakout cleanly (no fade, no fresh pop). No new overnight news beyond Thursday's catalysts. Entry $43.96, stop $42.00/$41.75 (raised twice Thursday). User-proposed size-up (to ~10 shares) remains open/unexecuted — still only re-evaluate at the open if a fresh pullback-and-hold or volume-confirmed continuation appears, not merely because price is still elevated. |
-| **TLX** | UNCHANGED, flat | Premarket last $11.35 vs Thursday close $11.31 — flat. No fresh news since the 9/21 ITM Isotope acquisition. Stop unchanged $11.00/$10.86. |
+| **IONQ** | Pulled back off Friday's highs | Friday range: opened ~$44.58, spiked to a session high $46.55 (~12:30pm ET), faded back to $45.50 reg close / $45.33 AH. Still +1.2% vs Thursday's $44.98 close, and +3.5% vs entry $43.96. Normal pullback off a high, not a breakdown. Entry $43.96, stop unchanged $42.00/$41.75 (raised three times this week per explicit user instruction). No standing user size-up action pending. |
+| **TLX** | Modest gain, thin AH book | Last $11.44 reg / $11.51 AH (bid/ask 11.50/12.01 — wide, thin AH liquidity, don't trust the AH print much). +1.2% vs Thursday's $11.31 close. No fresh news since the 9/21 ITM Isotope acquisition. Stop unchanged $11.00/$10.86. |
 
 ### Ranked candidates
 
-**1. P — Everpure, Inc. (real catalyst, STRENGTHENED overnight)**
-- **Status: STRENGTHENED.** Continued climbing overnight rather than fading — premarket last
-  $126.25 (bid/ask $125.08/$126.81), up further from Thursday's $121.88 close and above even
-  Thursday's AH print of $123.60. The afternoon fade now looks like it was a mid-day pause,
-  not a top.
-- **Catalyst:** 2026 Financial Analyst Meeting held 9/24 — new preliminary FY2028 outlook
-  ("Rule of 60" vs. prior "Rule of 40" benchmark), FY2028 revenue guidance $7B-7.3B,
-  non-GAAP operating income $1.7B-1.9B, TAM claim of $207B by 2030 (from $50B today). Company
-  also reaffirmed FY2027 guidance (revenue $5.03B-5.07B, op income $940M-960M) — both beat
-  and reaffirmed. Triggered 8+ same-day sell-side price-target raises (Morgan Stanley $137,
-  Needham $150, BofA $180, JPMorgan $165, Northland $167, Wells Fargo $145, Barclays $132,
-  Lake Street $130); UBS notably reiterated a Sell rating with an $80 PT despite calling the
-  growth opportunity real — flagging valuation as already stretched (~6x forward revenue, a
-  premium to storage/AI-infra peers). Sector is Electronic Technology/Computer Peripherals —
-  confirmed NOT entertainment/media, exclusion does not apply.
-- **Direction / magnitude:** Bullish. Thursday close $121.88 (+11.1% vs $109.65 prior close,
-  off an intraday high near $131.40). Premarket now $126.25, +3.6% overnight.
-- **Freshness confidence:** Moderate-high, improved from last night — overnight continuation
-  (rather than fade) is a constructive technical signal, but the stock remains extended off
-  a same-day spike and valuation is rich. UBS's Sell rating is a real dissenting voice worth
-  weighing. Needs a clean base/higher-low structure to confirm at the open, not a chase.
-- **Disqualifiers to check at open:** Options: nearest 7-30 DTE contract (Oct 16, 22 DTE)
-  was priced ~$8/contract ($800) as of Thursday afternoon, well above the ~$296 sizing cap —
-  re-check but options route likely still not viable without stretching delta.
+**1. P — Everpure, Inc. (real catalyst, still extending — now very rich)**
+- **Status: STRENGTHENING further, third straight session.** Reg close $126.00 (+3.4% vs
+  Thursday's $121.88), then continued higher after-hours to $128.00 (per last AH print,
+  21:54 ET) — a fresh high above every prior session's range this week.
+- **Catalyst (confirmed, from Wednesday 9/24, not new tonight):** 2026 Financial Analyst
+  Meeting — new preliminary FY2028 outlook ("Rule of 60"), FY2028 revenue guidance
+  $7B-7.3B, TAM claim of $207B by 2030. Reaffirmed FY2027 guidance. 8+ same-day sell-side PT
+  raises (Morgan Stanley $137, Needham $150, BofA $180, JPMorgan $165, Northland $167, Wells
+  Fargo $145, Barclays $132, Lake Street $130); UBS held a Sell at $80 on valuation. No new
+  incremental news found tonight (news tool down) — this is the same catalyst continuing to
+  run, not a fresh one.
+- **Direction / magnitude:** Bullish, but now +36% off last week's ~$94 level and +5% just
+  since Thursday's premarket. Extremely extended for a name with no new news tonight.
+- **Freshness confidence:** Moderate, trending down — three sessions of continuation is
+  constructive, but this is now chase territory rather than a fresh entry. UBS's Sell/$80 PT
+  is a real, still-unaddressed dissenting view. Needs a clean pullback-and-hold, not a
+  breakout chase, at Monday's open.
+- **Disqualifiers:** Valuation (~6x+ forward revenue per UBS). Options: as of Thursday the
+  nearest 7-30 DTE contract was ~$800/contract, well above the ~$296 sizing cap — will have
+  moved further out of range as the stock has run; options route likely dead for now.
 
-**2. NBIS — Nebius Group (real catalyst, STRENGTHENED slightly, still controversial)**
-- **Status: STRENGTHENED slightly.** Premarket last $247.93 (bid/ask $247.64/$247.90), up
-  further from Thursday's $243.48 close — continuing to extend rather than fade overnight.
-- **Catalyst:** BNP Paribas upgraded to Outperform from Neutral, PT raised to $399 from $260
-  (9/24 AM). Also reports of a ~20% GPU cloud price increase starting Oct. 1 across several
-  NVIDIA GPU models (H100, H200, B200, B300) — signals continued pricing power amid tight AI
-  compute supply. No new overnight news beyond this.
-- **Direction / magnitude:** Bullish. Thursday close $243.48 (+7.4% vs $226.61 prior close).
-  Premarket now $247.93, +1.8% overnight.
-- **Freshness confidence:** Moderate — real, same-day analyst catalyst continuing to hold up
-  overnight, but note significant controversy: Rothschild & Co initiated Sell with an $84 PT
-  just 3 days prior (9/21), and Michael Burry has publicly disclosed a short position in NBIS
-  (reported 9/22). Stock is already up ~122% over the trailing 12 months — an extended
-  long-term winner, not a fresh base.
-- **Disqualifiers to check at open:** The Rothschild/Burry bear case remains a real,
-  non-trivial risk factor — this is not a clean, uncontested setup. Confirm price structure
-  and spread at the open before treating as tradeable.
+**2. CCL / CUK — Carnival Corporation (scheduled earnings, Monday before the bell)**
+- **Status: NEW — dated catalyst, not yet reacted to.** CCL reports fiscal Q3 2026 Monday
+  9/28, timing "am" (unverified in the calendar feed, but before-the-bell has been Carnival's
+  standing pattern). EPS estimate $1.42. CUK (the UK-listed share class) also shows an
+  unverified "am" report same day — likely the same release. Friday close: CCL $22.265
+  (+2.2% vs Thursday), CUK not pulled — a small pre-earnings drift up, unremarkable size, no
+  news confirmable tonight for why.
+- **Catalyst:** Scheduled Q3 earnings release, before Monday's open — a real, dated, binary
+  catalyst.
+- **Direction / magnitude:** Unknown pre-report — this is a preview flag, not a directional
+  call. Large-cap, high-volume, high options liquidity name — a clean post-earnings gap (up
+  or down) with a confirmable beat/miss and guidance would be tradeable either direction.
+- **Freshness confidence:** High as a live catalyst (it's happening Monday morning by
+  definition) but zero edge on direction until the print is out and initial reaction is read.
+  Do not pre-position ahead of the number.
+- **Disqualifiers:** None going in beyond the obvious — must wait for the actual print and
+  react to real price/volume at the open, not the calendar entry itself.
 
-**3. GDDY — GoDaddy (real catalyst, capped merger-arb, STRENGTHENED slightly overnight)**
-- **Status: STRENGTHENED slightly.** Two new overnight sell-side price-target increases:
-  Baird to $120 from $110 (Outperform, 5:52am) and Jefferies to $100 from $85 (Hold, 6:00am).
-  No confirmed deal update — still just analysts reacting to the takeover speculation, but
-  the fact that targets rose overnight (rather than the story going stale) is a mild positive.
-  Premarket last $101.06, roughly flat vs Thursday's $100.81 close, but the bid/ask has
-  blown out to $100.00/$105.85 — thin premarket book, not a real tradeable quote yet.
-- **Catalyst:** Financial Times reported Gen Digital (Norton/LifeLock parent) made an
-  "initial approach" for a potential takeover of GoDaddy; talks are early-stage per the
-  report, "no guarantee they will lead to a deal." First reported 9/24 ~9:00am.
-- **Direction / magnitude:** Bullish but capped. Thursday close $100.81 (+4.6% vs $96.38
-  prior close). Premarket $101.06, essentially flat overnight.
-- **Freshness confidence:** Still low for a tradeable setup despite the overnight PT bumps —
-  this remains unconfirmed, early-stage M&A speculation with binary risk (the approach could
-  be rejected or go nowhere). Not a momentum/technical setup, purely event-driven and capped.
-- **Disqualifiers:** Capped merger-arb by nature — do not treat as a normal breakout/momentum
-  candidate. Wide premarket spread means wait for a real opening market before any read on
-  tradeable levels. Re-confirm no deal-update news at the open.
+**3. COST — Costco (real, sizeable move today, catalyst NOT verified — flag only)**
+- **Status: CHANGED sharply from earlier in the week.** Reg close $922.95, AH $921.18 — up
+  +2.9% on the day (Friday), a much stronger reaction than the "beat and shrug" seen
+  Wednesday/Thursday after the Q4 earnings beat (EPS $6.75 vs ~$6.53 est, revenue $95.72B
+  beat).
+- **Catalyst:** Cannot confirm what specifically drove Friday's move — news tool was down
+  all pass. Possibly late-week digestion of the earnings beat, a sector-wide move, or
+  something else entirely. **This needs an explicit news check at the Monday true-up before
+  it can be treated as a real candidate** — a 2.9% move with no identified cause is not
+  tradeable on its own.
+- **Direction / magnitude:** Bullish today, magnitude moderate.
+- **Freshness confidence:** Unknown/unverified — this entry exists to flag "check COST news
+  Monday morning," not to claim a live setup.
+- **Disqualifiers:** Prior technical backdrop was bearish (Death Cross in August, below
+  200-day SMA per Wednesday's commentary) — if Friday's move has no real news behind it,
+  this could just as easily be a dead-cat bounce as the start of something.
 
-**4. COST — Costco Wholesale (beat, muted reaction, UNCHANGED overnight — low priority)**
-- **Status: UNCHANGED.** Premarket last $895.30, essentially flat/slightly down vs Thursday's
-  $896.48 close — confirms the muted reaction is holding, not building into a gap.
-- **Catalyst:** Fiscal Q4 2026 earnings reported after close 9/24: EPS $6.75 vs. $6.52-6.54
-  est (beat), revenue $95.72B vs. ~$94.9-95.0B est (beat), net sales +11.2% YoY.
-- **Direction / magnitude:** Nominally bullish but muted — essentially flat across the entire
-  AH/premarket window. A beat-and-shrug reaction.
-- **Freshness confidence:** Low as a tradeable setup — despite the beat, the stock carries a
-  bearish technical backdrop (Death Cross formed in August, trading below its 200-day SMA,
-  negative MACD) per same-day analyst commentary. The flat reaction confirms the market had
-  already discounted a good quarter given weak recent price action.
-- **Disqualifiers:** Large-cap, always has options liquidity, but the setup itself is weak —
-  a beat that never moved the stock is not a fresh momentum catalyst.
+**4. NNBR — see user-flagged section above.** Small uptick, no confirmable fresh catalyst.
 
-**5. NNBR — see user-flagged section above.** Continues to weaken, no fresh catalyst.
+### Fading / demoted from prior nights — not carried forward as live candidates
+
+- **NBIS (Nebius)** — reversed today: -2.5% (reg $237.44 vs Thursday's $243.48 close),
+  first down day after a multi-day run. Rothschild's Sell/$84 PT and the disclosed Michael
+  Burry short may finally be weighing on it. Not a fresh candidate — if anything, watch for
+  further downside confirmation, not upside entry.
+- **GDDY (GoDaddy)** — continued fading: -3.6% today (reg $97.19 vs Thursday's $100.81
+  close), third straight session of decay since the Gen Digital "initial approach" report
+  first broke. The overnight analyst PT bumps earlier in the week did not hold up. Treat the
+  merger-arb story as cooling/stale unless a confirmed deal update breaks.
+- **AKAM (Akamai)** — faded again into Friday's close (reg $113.93, down from the day's
+  earlier highs near $118.50) — fourth session without a clean base despite the real
+  underlying Anthropic-deal catalyst. Chart continues to fail Step 6; not carrying forward as
+  a live setup.
+- **Large-cap Friday-afternoon cluster (MSFT, CRDO, HUM, PYPL, QCOM)** — all up meaningfully
+  Friday with no individually confirmed catalyst (news tool down); read as a likely
+  broad-rally day, not fresh company-specific setups. Not carried forward — re-check only if
+  the Monday true-up finds an actual story behind any one of them specifically.
 
 ### Named but explicitly NOT a candidate — standing carve-out reminder
 
-**DTSS (Datasea Intelligent Tech)** — reports earnings tomorrow before the open (unverified
-timing). This is one of the three names (DAIC/AIFF/DTSS) from the 9/17 "don't chase" lesson —
-a sub-$10M market-cap, extremely volatile micro-cap tech name (double-digit % swings almost
-daily this month). Per the standing small-cap/micro-cap Technology carve-out, this can NEVER
-be executed autonomously regardless of how the earnings react — flagging only as a name to be
-aware of, not a live candidate.
+**DTSS (Datasea Intelligent Tech)** — reported earnings this morning (9/25, timing "am");
+actual EPS not yet populated in the calendar feed as of this build. Stock drifted down
+slightly today (-2.5%, $0.871 reg). Per the standing small-cap/micro-cap Technology
+carve-out (the 9/17 "don't chase" lesson, alongside DAIC/AIFF), this can **never** be
+executed autonomously regardless of how it reacts — background awareness only.
 
-### Today's scheduled earnings (2026-09-25) — timing reconfirmed at the true-up
+**OPTT** — reported fiscal Q1 2027 after Friday's close: actual EPS -1.28 vs -0.02 estimate,
+a large miss. Stock only down modestly (-3.8%, thin AH liquidity, last $2.00). Sub-$50M
+market cap, not a serious candidate at any confidence level — noted for completeness only.
 
-- **Before the bell:** CLGN, CBAT, TBN, DTSS — all small/micro-cap, none clear the
-  high-market-cap filter. WALD dropped off this morning's calendar pull (no longer listed —
-  may have already reported or shifted; re-verify if it comes up in the sweep). No large-cap
-  names reporting before today's open.
-- **After today's close:** OPTT (unverified timing) — not relevant to today's open.
-- Nothing on the calendar that materially moves the broad market this morning.
+### Monday's scheduled earnings (2026-09-28) — high-market-cap names
+
+- **Before the bell:** CCL / CUK (Carnival) — see ranked candidate #2 above.
+- **After Monday's close:** MTN (Vail Resorts, EPS est -5.31), JEF (Jefferies, EPS est
+  1.01), IDT (EPS est 0.98) — none relevant to Monday's open; flagging for Tuesday's build.
+- Nothing else high-market-cap scheduled for Monday per this pass.
 
 ---
 
