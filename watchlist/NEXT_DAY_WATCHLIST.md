@@ -6,151 +6,126 @@
 > 20% pre-market and is already fading by 9:35am ET is a PASS despite being on this list.
 > This file is a head start for the search, not a decision.
 
-**Build status:** built by the ~6:05pm after-hours routine on 2026-09-25 (actually fired
-~10:05pm ET due to trigger timing). Next trading day is **Monday, 2026-09-28** (Saturday
-9/26 and Sunday 9/27 are non-trading days). Will be trued up by the ~6:00am overnight routine
-Monday morning.
+**Build status:** built by the ~6:05pm after-hours routine on 2026-09-25 (fired ~10:05pm ET);
+trued up by the ~6:00am overnight routine on 2026-09-28 (fired ~6:01am ET). This is the final
+version before the 9:40am opening-bell scan — no further update until tonight's build.
 
-**Data-gap flag — read before trusting any catalyst text below:** `get_equity_news` was down
-for this entire build (confirmed via 11 separate call attempts across different tickers, all
-failing with "tool cannot be found") — same outage first seen mid-afternoon 9/25, apparently
-not yet resolved. Every catalyst claim below that is NOT explicitly sourced to a specific
-dated article is inferred from **price action only** and is marked as such. Step 3 (macro/
-FOMC/CPI/opex calendar scan via news) could not be run at all this pass. **The Monday 6am
-true-up must retry news access and backfill catalyst verification before the open** — treat
-everything here as more provisional than usual.
+**Data-gap flag, ESCALATED at this true-up — read before trusting any catalyst text below:**
+`get_equity_news` was unreachable all evening 9/25 ("tool cannot be found" on every call).
+At this 6am true-up it has gone a step further: **the tool no longer appears in the toolset
+at all** (a fresh ToolSearch for it returns zero matches, and the Robinhood tool count dropped
+by one vs. Friday). This reads as a genuine server-side removal/outage, not a transient
+per-call error. **No news-based catalyst verification (Steps 2-4 of this routine) was
+possible this pass** — the entire true-up below is built from quotes/premarket price action
+only. If this tool is still gone at the 9:40am scan, that routine will hit the same wall —
+flag it to the user rather than silently scoring on price action alone.
 
 ---
 
 ## For trading day: 2026-09-28 (Monday)
 
-**Friday 9/25 close context:** VIX eased to 14.84 intraday (continuing the week's downtrend
-from 16.29 Wed morning). SPX 7739.62 / NDX 30610.90 as of ~3pm ET Friday — both firm. A broad
-cluster of large-caps (MSFT, CRDO, HUM, PYPL, QCOM, AKAM) all moved up together Friday
-afternoon with no individually-confirmed catalyst (news tool down) — most likely a
-broad-market rally day rather than six unrelated company-specific stories. **Per the
-don't-chase rule, none of that cluster is being carried forward as a fresh Monday candidate**
-— a rally that already happened Friday isn't a fresh setup Monday morning, and each name is
-now extended intraday with no verified news to justify continuation. Re-verify at Monday's
-open/true-up once news access is confirmed working, in case a real story is actually behind
-one of them.
+**Overnight/premarket tone (as of ~6:01am ET, 2026-09-28):** VIX 16.3, live — up from
+Friday's 14.84 intraday low, a modest overnight risk-off tick (still well below the week's
+higher readings). SPX/NDX index-quote channel is returning stale Friday-afternoon
+values again (7743/30608, timestamped Friday) — not live premarket levels, don't trust them
+this pass. No macro-event confirmation possible (news tool gone) — cannot say what, if
+anything, drove the VIX tick up.
 
-**No Asian/European overnight session data yet** — those markets haven't opened as of this
-build (Friday evening ET). The ~6:00am Monday true-up is responsible for checking weekend/
-Sunday-night Asian and Monday-morning European session news before the open.
+**Asian/European overnight session:** could not be checked — news tool unavailable. This is
+a real gap in this pass's coverage; if the tool comes back before 9:40am, worth a quick
+retroactive check for weekend/overnight overseas developments.
 
 ### User-flagged watch item — explicit standing instruction
 
 **NNBR (NN, Inc.)** — still priority #1 regardless of where it would otherwise rank per
-standing instruction. **Status: small uptick, still no fresh catalyst.** Last $3.66 vs
-Thursday's $3.60 close (+1.7%), AH $3.67. No news confirmable this pass (tool down) — cannot
-say whether this is real strength or just tape noise. Treat as background watch only; needs a
-genuine news check Monday morning before it means anything.
+standing instruction. **Status: WEAKENED slightly, thin book.** Premarket last $3.62 vs
+Friday's $3.67 close (-1.4%), bid/ask 3.48/4.34 — very wide, thin pre-market liquidity, don't
+read much into the print. No news confirmable (tool gone). Still a background watch item
+only.
 
 ### Already held — not a new-entry candidate, included for continuity
 
 | Ticker | Status | Note |
 |---|---|---|
-| **IONQ** | Pulled back off Friday's highs | Friday range: opened ~$44.58, spiked to a session high $46.55 (~12:30pm ET), faded back to $45.50 reg close / $45.33 AH. Still +1.2% vs Thursday's $44.98 close, and +3.5% vs entry $43.96. Normal pullback off a high, not a breakdown. Entry $43.96, stop unchanged $42.00/$41.75 (raised three times this week per explicit user instruction). No standing user size-up action pending. |
-| **TLX** | Modest gain, thin AH book | Last $11.44 reg / $11.51 AH (bid/ask 11.50/12.01 — wide, thin AH liquidity, don't trust the AH print much). +1.2% vs Thursday's $11.31 close. No fresh news since the 9/21 ITM Isotope acquisition. Stop unchanged $11.00/$10.86. |
+| **IONQ** | WEAKENED further, continued pullback | Premarket last $44.60 vs Friday's $45.48 close (-1.9%), bid/ask 44.52/44.67. Third session pulling back off the Thursday/Friday high ($46.55). Still +1.5% above entry $43.96. Stop unchanged $42.00/$41.75. Nothing here changes the stop — still well clear of it, no new user instruction. |
+| **TLX** | UNCHANGED, flat | Premarket last $11.51 vs Friday's $11.45 close, but bid/ask 11.10/11.60 — wide, thin premarket book, roughly flat either way. No fresh news since the 9/21 ITM Isotope acquisition. Stop unchanged $11.00/$10.86. |
 
 ### Ranked candidates
 
-**1. P — Everpure, Inc. (real catalyst, still extending — now very rich)**
-- **Status: STRENGTHENING further, third straight session.** Reg close $126.00 (+3.4% vs
-  Thursday's $121.88), then continued higher after-hours to $128.00 (per last AH print,
-  21:54 ET) — a fresh high above every prior session's range this week.
-- **Catalyst (confirmed, from Wednesday 9/24, not new tonight):** 2026 Financial Analyst
-  Meeting — new preliminary FY2028 outlook ("Rule of 60"), FY2028 revenue guidance
-  $7B-7.3B, TAM claim of $207B by 2030. Reaffirmed FY2027 guidance. 8+ same-day sell-side PT
-  raises (Morgan Stanley $137, Needham $150, BofA $180, JPMorgan $165, Northland $167, Wells
-  Fargo $145, Barclays $132, Lake Street $130); UBS held a Sell at $80 on valuation. No new
-  incremental news found tonight (news tool down) — this is the same catalyst continuing to
-  run, not a fresh one.
-- **Direction / magnitude:** Bullish, but now +36% off last week's ~$94 level and +5% just
-  since Thursday's premarket. Extremely extended for a name with no new news tonight.
-- **Freshness confidence:** Moderate, trending down — three sessions of continuation is
-  constructive, but this is now chase territory rather than a fresh entry. UBS's Sell/$80 PT
-  is a real, still-unaddressed dissenting view. Needs a clean pullback-and-hold, not a
-  breakout chase, at Monday's open.
-- **Disqualifiers:** Valuation (~6x+ forward revenue per UBS). Options: as of Thursday the
-  nearest 7-30 DTE contract was ~$800/contract, well above the ~$296 sizing cap — will have
-  moved further out of range as the stock has run; options route likely dead for now.
+**1. CCL / CUK — Carnival Corporation (scheduled earnings, today before the bell — STILL PENDING)**
+- **Status: UNCHANGED, catalyst still live and un-triggered.** No actual EPS populated yet in
+  the calendar feed as of 6am — report has not dropped. Premarket: CCL last $21.96 vs
+  Friday's $22.25 close (-1.3%), bid/ask 21.87/21.96 — a small pre-report drift down, size not
+  meaningful.
+- **Catalyst:** Scheduled Q3 FY2026 earnings, before today's open. EPS estimate $1.42. CUK
+  (UK-listed share class) reports the same release. Real, dated, binary catalyst — promoted to
+  #1 this morning simply because it hasn't happened yet and everything else in the file has
+  either already played out or is unconfirmed.
+- **Direction / magnitude:** Unknown pre-report. Do not pre-position ahead of the number.
+- **Freshness confidence:** High as a live catalyst (happening this morning by definition),
+  zero edge on direction until the print and initial reaction are visible.
+- **Disqualifiers:** None going in — wait for the actual print and real price/volume reaction
+  before treating as tradeable either direction.
 
-**2. CCL / CUK — Carnival Corporation (scheduled earnings, Monday before the bell)**
-- **Status: NEW — dated catalyst, not yet reacted to.** CCL reports fiscal Q3 2026 Monday
-  9/28, timing "am" (unverified in the calendar feed, but before-the-bell has been Carnival's
-  standing pattern). EPS estimate $1.42. CUK (the UK-listed share class) also shows an
-  unverified "am" report same day — likely the same release. Friday close: CCL $22.265
-  (+2.2% vs Thursday), CUK not pulled — a small pre-earnings drift up, unremarkable size, no
-  news confirmable tonight for why.
-- **Catalyst:** Scheduled Q3 earnings release, before Monday's open — a real, dated, binary
-  catalyst.
-- **Direction / magnitude:** Unknown pre-report — this is a preview flag, not a directional
-  call. Large-cap, high-volume, high options liquidity name — a clean post-earnings gap (up
-  or down) with a confirmable beat/miss and guidance would be tradeable either direction.
-- **Freshness confidence:** High as a live catalyst (it's happening Monday morning by
-  definition) but zero edge on direction until the print is out and initial reaction is read.
-  Do not pre-position ahead of the number.
-- **Disqualifiers:** None going in beyond the obvious — must wait for the actual print and
-  react to real price/volume at the open, not the calendar entry itself.
+**2. COST — Costco (real move Friday, decelerating — catalyst still NOT verified)**
+- **Status: WEAKENED — momentum stalling.** Premarket last $926.99 vs Friday's $922.765
+  close, only +0.46% — a much smaller move than Friday's +2.9% reg-session gain. Momentum is
+  fading, not building into a gap.
+- **Catalyst:** Still unconfirmed — news tool unavailable both this pass and Friday's build.
+  Possible causes (earnings-beat digestion, sector move) remain unverified.
+- **Direction / magnitude:** Mildly bullish, decelerating.
+- **Freshness confidence:** Low — two passes now without a confirmed catalyst for a real
+  price move is a genuine blind spot, not a tradeable setup. If news access is restored before
+  9:40am, this is the first name to re-check.
+- **Disqualifiers:** Prior bearish technical backdrop (Death Cross in August, below 200-day
+  SMA) still stands. A stalling premarket move on top of an unconfirmed catalyst is weak.
 
-**3. COST — Costco (real, sizeable move today, catalyst NOT verified — flag only)**
-- **Status: CHANGED sharply from earlier in the week.** Reg close $922.95, AH $921.18 — up
-  +2.9% on the day (Friday), a much stronger reaction than the "beat and shrug" seen
-  Wednesday/Thursday after the Q4 earnings beat (EPS $6.75 vs ~$6.53 est, revenue $95.72B
-  beat).
-- **Catalyst:** Cannot confirm what specifically drove Friday's move — news tool was down
-  all pass. Possibly late-week digestion of the earnings beat, a sector-wide move, or
-  something else entirely. **This needs an explicit news check at the Monday true-up before
-  it can be treated as a real candidate** — a 2.9% move with no identified cause is not
-  tradeable on its own.
-- **Direction / magnitude:** Bullish today, magnitude moderate.
-- **Freshness confidence:** Unknown/unverified — this entry exists to flag "check COST news
-  Monday morning," not to claim a live setup.
-- **Disqualifiers:** Prior technical backdrop was bearish (Death Cross in August, below
-  200-day SMA per Wednesday's commentary) — if Friday's move has no real news behind it,
-  this could just as easily be a dead-cat bounce as the start of something.
+**3. P — Everpure, Inc. (WEAKENED — the expected chase-risk pullback arrived)**
+- **Status: WEAKENED, demoted from #1.** Premarket last $123.00 vs Friday's $126.00 close
+  (-2.4%), bid/ask 120.88/124.26 — giving back some of Friday's after-hours extension to
+  $128. This is the pullback flagged as a risk in last night's build materializing.
+- **Catalyst:** Same Wednesday 9/24 Financial Analyst Meeting guidance/PT-raise catalyst,
+  now four sessions old — no new incremental news confirmable (tool gone).
+- **Direction / magnitude:** Cooling off after a multi-day, +30%+ run.
+- **Freshness confidence:** Low as a fresh entry — this is now a name to watch for a clean
+  base/higher-low, not chase. UBS's Sell/$80 PT remains unaddressed.
+- **Disqualifiers:** Valuation still stretched; options premium likely still well above the
+  ~$296 sizing cap after this run.
 
-**4. NNBR — see user-flagged section above.** Small uptick, no confirmable fresh catalyst.
+**4. NNBR — see user-flagged section above.** Weakened slightly, no confirmable catalyst.
 
-### Fading / demoted from prior nights — not carried forward as live candidates
+### Fading / demoted — not carried forward as live candidates
 
-- **NBIS (Nebius)** — reversed today: -2.5% (reg $237.44 vs Thursday's $243.48 close),
-  first down day after a multi-day run. Rothschild's Sell/$84 PT and the disclosed Michael
-  Burry short may finally be weighing on it. Not a fresh candidate — if anything, watch for
-  further downside confirmation, not upside entry.
-- **GDDY (GoDaddy)** — continued fading: -3.6% today (reg $97.19 vs Thursday's $100.81
-  close), third straight session of decay since the Gen Digital "initial approach" report
-  first broke. The overnight analyst PT bumps earlier in the week did not hold up. Treat the
-  merger-arb story as cooling/stale unless a confirmed deal update breaks.
-- **AKAM (Akamai)** — faded again into Friday's close (reg $113.93, down from the day's
-  earlier highs near $118.50) — fourth session without a clean base despite the real
-  underlying Anthropic-deal catalyst. Chart continues to fail Step 6; not carrying forward as
-  a live setup.
-- **Large-cap Friday-afternoon cluster (MSFT, CRDO, HUM, PYPL, QCOM)** — all up meaningfully
-  Friday with no individually confirmed catalyst (news tool down); read as a likely
-  broad-rally day, not fresh company-specific setups. Not carried forward — re-check only if
-  the Monday true-up finds an actual story behind any one of them specifically.
+- **NBIS (Nebius)** — WEAKENED further. Premarket last $231.81 vs Friday's $237.33 close
+  (-2.3%), continuing Friday's -2.5% reversal. Two consecutive sessions down now after the
+  multi-day run — Rothschild's Sell/$84 PT and the disclosed Burry short look more relevant
+  by the day. Watch for further downside confirmation, not an upside entry.
+- **GDDY (GoDaddy)** — small premarket bounce: last $98.70 vs Friday's $97.14 close (+1.6%),
+  but bid/ask 97.10/99.72 is wide and thin at this hour, and there's no confirmable news
+  (tool gone) behind it. Not upgrading off an unconfirmed, thin-liquidity premarket tick —
+  still reads as a cooling merger-arb story until a real deal update breaks.
+- **AKAM (Akamai)** — WEAKENED further. Premarket last $113.04 vs Friday's $113.94 close,
+  continuing the fade. Fifth session without a clean base. Not carrying forward.
+- **Large-cap Friday-afternoon cluster (MSFT, CRDO, HUM, PYPL, QCOM)** — **INVALIDATED as a
+  group.** All down or flat in premarket (MSFT -0.5%, CRDO -3.4%, HUM flat, PYPL -0.3%, QCOM
+  -1.5%) — Friday's simultaneous move did not carry through, confirming it was very likely a
+  one-day broad-rally effect rather than individual catalysts. Dropped from the file; would
+  need a genuinely new, confirmed story to reappear.
 
 ### Named but explicitly NOT a candidate — standing carve-out reminder
 
-**DTSS (Datasea Intelligent Tech)** — reported earnings this morning (9/25, timing "am");
-actual EPS not yet populated in the calendar feed as of this build. Stock drifted down
-slightly today (-2.5%, $0.871 reg). Per the standing small-cap/micro-cap Technology
-carve-out (the 9/17 "don't chase" lesson, alongside DAIC/AIFF), this can **never** be
-executed autonomously regardless of how it reacts — background awareness only.
+**DTSS (Datasea Intelligent Tech)** — reported earnings Friday morning; actual EPS still not
+populated in the calendar feed. Per the standing small-cap/micro-cap Technology carve-out,
+this can **never** be executed autonomously regardless of how it reacts — background
+awareness only, not re-checked this pass.
 
-**OPTT** — reported fiscal Q1 2027 after Friday's close: actual EPS -1.28 vs -0.02 estimate,
-a large miss. Stock only down modestly (-3.8%, thin AH liquidity, last $2.00). Sub-$50M
-market cap, not a serious candidate at any confidence level — noted for completeness only.
+### Today's scheduled earnings (2026-09-28) — high-market-cap names
 
-### Monday's scheduled earnings (2026-09-28) — high-market-cap names
-
-- **Before the bell:** CCL / CUK (Carnival) — see ranked candidate #2 above.
-- **After Monday's close:** MTN (Vail Resorts, EPS est -5.31), JEF (Jefferies, EPS est
-  1.01), IDT (EPS est 0.98) — none relevant to Monday's open; flagging for Tuesday's build.
-- Nothing else high-market-cap scheduled for Monday per this pass.
+- **Before the bell:** CCL / CUK (Carnival) — see ranked candidate #1 above, still pending
+  as of 6am.
+- **After today's close:** MTN (Vail Resorts, EPS est -5.31), JEF (Jefferies, EPS est 1.01),
+  IDT (EPS est 0.98) — none relevant to today's open; carrying forward for tonight's build.
+- Nothing else high-market-cap scheduled for today per this pass.
 
 ---
 
