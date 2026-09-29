@@ -6,129 +6,116 @@
 > 20% pre-market and is already fading by 9:35am ET is a PASS despite being on this list.
 > This file is a head start for the search, not a decision.
 
-**Build status:** built by the ~6:05pm after-hours routine on 2026-09-28 (fired ~10:06pm ET);
-trued up by the ~6:00am overnight routine on 2026-09-29 (fired ~6:01am ET). This is the final
-version before the 9:40am opening-bell scan — no further update until tonight's build.
+**Build status:** built by the ~6:05pm after-hours routine on 2026-09-29 (fired ~10:05pm ET).
+Not yet trued up — that happens at the ~6:00am overnight routine on 2026-09-30, and again by
+the 9:40am opening-bell cycle before anything here is treated as a live candidate.
 
-**Data-gap flag — still active:** `get_equity_news` remains completely unreachable (zero
-matches again this morning). The KOD 8-K / CAAP 6-K filing content is still unread — not
-re-checked this pass since nothing suggests the filing tool has changed. **Every catalyst
-claim below not sourced to a specific dated calendar entry is inferred from price action
-only.**
+**Data-gap flag — still active:** `get_equity_news` remains completely unreachable (checked
+again this pass, zero matches). No way to confirm the "why" behind any price move tonight —
+every catalyst claim below not sourced to a specific dated earnings print is inferred from
+price action only.
+
+**Asian/European overnight session:** not yet checked — those sessions haven't opened at this
+hour. That is the job of the ~6:00am overnight true-up routine.
 
 ---
 
-## For trading day: 2026-09-29 (Tuesday)
+## For trading day: 2026-09-30 (Wednesday)
 
-**Overnight/premarket tone (as of ~6:01am ET, 2026-09-29):** VIX 16.17, live — up slightly
-from Monday's 16.07 close, a mild overnight risk-off tick. SPX/NDX index-quote channel is
-again returning stale Monday-afternoon carried-over values — not live premarket levels,
-same recurring channel issue as prior mornings.
+### Today's open positions — not new-entry candidates, included for continuity
 
-**Asian/European overnight session:** could not be checked — news tool unavailable. Real
-gap in this pass's coverage, same as every prior morning this week.
+**CCL** — 12 sh @ $24.7377 avg. Confirmed EPS beat this morning ($1.43 vs $1.35 est), gapped up
+and held all session, closed ~$25.14 (+13% from Monday's $22.14 close). Stop trailed twice
+today per the user's "tighten to 5% below ask" directive, now at $23.82 stop / $23.58 limit.
+Continue managing as an open position, not a fresh entry.
 
-### Today's position closed — not a new-entry candidate, included for continuity
-
-**IONQ** — stop triggered and filled at $45.50 for all 10 shares yesterday at 3:38pm ET
-(blended cost $45.44, flat/breakeven exit). **TLX** also sold in full yesterday. Account is
-fully flat. Per the standing rule, neither is a re-entry candidate without a fresh,
-qualifying setup on its own merits.
+**KMX** — 4 sh @ $60.8823 avg. Confirmed EPS beat this morning ($1.16 vs $0.70 est), gapped up
+then whipsawed most of the day ($58-63 range), closed ~$59.27 (still up from Monday's $56.55
+close but below its intraday highs). Stop trailed twice today, now at $56.52 stop / $55.96
+limit. Continue managing as an open position, not a fresh entry.
 
 ### Ranked candidates
 
-**1. KMX — CarMax (EARNINGS OUT — big beat, premarket gap up)**
-- **Status: STRENGTHENED sharply — promoted to #1.** Reported this morning: **actual EPS
-  $1.16 vs. $0.70 estimate**, a large beat (confirmed directly via the earnings-calendar
-  feed, not blocked by the news outage). Premarket last $58.53 (bid/ask $57.86/$58.69) vs.
-  Monday's $56.55 close — **+3.5% premarket gap up**, holding.
-- **Catalyst:** Fiscal Q2 2027 earnings, reported before today's open — confirmed beat.
-- **Direction / magnitude:** Bullish, +3.5% premarket so far.
-- **Freshness confidence:** High — this is the one name tonight with an actual confirmed,
-  dated, numeric catalyst (not just price action guessing at an unread filing). Re-verify
-  the gap holds at the open rather than fades.
-- **Disqualifiers:** None identified yet — check premarket spread/volume quality at the
-  open before treating as tradeable.
+**1. CNXC — Concentrix (earnings beat, but sharp AH selloff — likely guidance miss)**
+- **Catalyst:** Q3 FY2026 earnings, reported after today's close (9/29 PM) — actual EPS $2.92
+  vs. $2.73 estimate, a real beat. Confirmed via earnings-calendar feed.
+- **Direction / magnitude:** Bearish despite the beat — stock down sharply after-hours, last
+  $22.42 vs. today's regular close $25.45 (**-11.9% AH**). Classic "beat the number, missed on
+  guidance/outlook" pattern; the EPS line alone doesn't explain the reaction, so something in
+  the release (guidance, margins, client commentary) is driving it — unconfirmed specifics
+  since news is down.
+- **Freshness confidence:** High as a live, fresh, dated catalyst (just reported tonight) with
+  a real, large AH move already underway — this is exactly the kind of clean next-day gap
+  candidate the routine looks for. Direction is bearish; re-verify at the open whether the gap
+  holds or partially fills before treating either direction as tradeable.
+- **Disqualifiers:** None going in on liquidity/structure grounds, but the "why" behind the
+  guidance reaction is unconfirmed — treat with extra caution until that's resolved or the
+  price action itself gives a clean level.
 
-**2. CCL / CUK — Carnival Corporation (scheduled earnings, today before the bell — still pending)**
-- **Status: UNCHANGED, still pending.** No actual EPS populated yet as of 6am. Premarket:
-  CCL last $22.16 vs Monday's $22.14 close — flat, no pre-report drift. EPS estimate $1.35.
-- **Catalyst:** Scheduled Q3 FY2026 earnings, before today's open — real, dated, un-triggered.
-- **Direction / magnitude:** Unknown pre-report.
-- **Freshness confidence:** High as a live catalyst, zero directional edge until the print.
-- **Disqualifiers:** None going in — wait for the actual print.
+**2. BE — Bloom Energy (large-cap mover, continuing to extend after hours — catalyst unconfirmed)**
+- **Catalyst:** Unknown/unconfirmed — news tool down. Real, large move for an $79-80B market
+  cap name: up ~+11% in the regular session (relvol only ~1.3x, so not an extreme volume spike
+  for a name this size) and continuing to extend after-hours, last $293.88 vs. today's regular
+  close $291.28 (+0.9% further AH on top of the day's gain, vs. Monday's $262.87 close).
+- **Direction / magnitude:** Bullish, extending.
+- **Freshness confidence:** Moderate — the AH extension (holding/adding to gains rather than
+  fading) is a constructive continuation signal, but with zero confirmed source for the move,
+  there's real risk this is a broad-basket/sector-adjacent move (e.g. energy/power-infrastructure
+  theme) rather than a company-specific catalyst. Re-verify catalyst at the open before treating
+  as tradeable — do not chase purely on the chart.
+- **Disqualifiers:** Catalyst entirely unconfirmed.
 
-**3. UEC — Uranium Energy Corp (scheduled earnings, today before the bell — still pending)**
-- **Status: UNCHANGED, still pending.** No actual EPS yet. Premarket last $9.44 (bid/ask
-  $9.27/$9.45) vs Monday's $9.21 close — modest +2.6% premarket firming ahead of the print.
-- **Catalyst:** Scheduled fiscal Q4 2026 earnings, before today's open.
-- **Direction / magnitude:** Mildly bullish drift pre-report, no directional edge on the
-  number itself yet.
-- **Freshness confidence:** High as a live catalyst.
-- **Disqualifiers:** None going in.
+**3. IOVA — Iovance Biotherapeutics (large move, extending after hours — catalyst unconfirmed)**
+- **Catalyst:** Unknown/unconfirmed — news tool down. No earnings due (next report 11/5).
+  Regular session +36% (relvol ~5.6x, high volume — real, not a thin-book artifact given
+  $4.5B market cap and ~68M shares traded), closed $14.445, extending slightly after-hours to
+  $14.51 vs. Monday's $10.99 close.
+- **Direction / magnitude:** Bullish, extending.
+- **Freshness confidence:** Moderate — real volume and AH follow-through are constructive, but
+  same caveat as BE: no confirmed source. Possible biotech-specific news (trial data, FDA,
+  partnership) given the sector and magnitude, but unverifiable this pass.
+- **Disqualifiers:** Catalyst entirely unconfirmed. Multi-day earnings-miss overhang from
+  8/6 report is old news, not the driver of tonight's move.
 
-**4. KOD — Kodiak Sciences (real catalyst, continuing to fade — watch, don't chase)**
-- **Status: WEAKENING further.** Official close $89.92 Monday, premarket last $87.59 (bid/ask
-  $86.00/$87.35, ~1.5% spread — tighter than yesterday, still reasonably liquid) — down
-  another ~2.6% premarket on top of Monday's AH fade from the ~$92 high. Third consecutive
-  read showing this cooling off rather than rebuilding.
-- **Catalyst:** 8-K filed 9/28, content still unread. No new information this pass.
-- **Direction / magnitude:** Continuing to fade — now clearly a multi-session downtrend off
-  the peak, not just a one-bar pullback.
-- **Freshness confidence:** Low as a fresh long — this reads increasingly like the move is
-  over and giving back gains, not consolidating before another leg. Downgraded from
-  yesterday's "watch for rebuild."
-- **Disqualifiers:** Catalyst content still unverified; multi-session fade argues against a
-  fresh entry from either direction without more information.
+**4. SMMT — Summit Therapeutics (repeat mover, catalyst unconfirmed, lower ranked)**
+- **Catalyst:** Unknown/unconfirmed. Small, steady gain (+5.7% today, closed $16.365, holding
+  flat AH at $16.37) on relvol ~3.9x. No earnings due (next report 10/19).
+- **Direction / magnitude:** Mildly bullish, flat/holding.
+- **Freshness confidence:** Low-moderate — this is the third consecutive session this name has
+  shown up on scans without a confirmed catalyst; smaller magnitude than BE/IOVA.
+- **Disqualifiers:** Catalyst unconfirmed; this is a repeat name with no new information.
 
-**5. JEF — Jefferies (earnings beat, continuing to fade — flag only)**
-- **Status: WEAKENED further.** Premarket last $46.50 vs Monday's $47.13 close — continuing
-  the post-earnings slide (beat EPS $1.09 vs $1.01 est, but sold off both in the regular
-  session and now premarket). Cumulative decline since Friday's $47.68 close now ~-2.5%.
-- **Catalyst:** Q3 FY2026 earnings, beat — market reaction negative throughout, cause still
-  unconfirmed (news down).
-- **Direction / magnitude:** Bearish continuation.
-- **Freshness confidence:** Low-moderate — the persistence of the fade across two sessions
-  makes it look more deliberate, but the "why" remains a genuine blind spot.
-- **Disqualifiers:** Catalyst detail unconfirmed.
+**5. KOD — Kodiak Sciences (real catalyst, rebuilding again — watch, don't chase)**
+- **Status:** Rebuilding for a second time. No position held (stop triggered/filled cleanly at
+  $84 on 9/28 for a realized gain). Closed today ~$91.12, extending slightly AH to $91.09, back
+  above both Monday's $89.92 close and its own prior highs.
+- **Catalyst:** 8-K filed 9/28, content still unreadable after two full days of retries —
+  treating this as a persistent, not transient, data gap.
+- **Direction / magnitude:** Bullish, now on its second rebuild leg after the fade/rebound
+  cycle earlier this week.
+- **Freshness confidence:** Low as a fresh entry — no way to confirm what's actually driving
+  either leg of this move without the filing content. Per the standing "don't chase" rule and
+  the user's own "hold until we know more" stance, this stays a watch-only name, not a
+  candidate, until either the filing becomes readable or a fresh, independently-confirmable
+  setup appears.
+- **Disqualifiers:** Catalyst content still unverified after multiple retries across two days.
 
-**6. IDT — IDT Corp (earnings miss, AH/premarket strength holding — flag only)**
-- **Status: UNCHANGED/holding.** Premarket last $70.01 vs Monday's $69.56 close — roughly
-  flat overnight after Monday's AH pop, holding the gain rather than giving it back. Book is
-  thin/wide (bid/ask $69.00/$77.89) — don't trust the exact premarket print, but directionally
-  it held.
-- **Catalyst:** Q4 FY2026 earnings, miss — market reaction stayed positive, cause unconfirmed.
-- **Direction / magnitude:** Bullish, holding.
-- **Freshness confidence:** Moderate — holding the gain overnight is a mildly constructive
-  sign, same catalyst-detail gap as before.
-- **Disqualifiers:** Catalyst detail unconfirmed; thin premarket book.
+### Tomorrow's scheduled earnings (2026-09-30) — before the bell
 
-**7. CAAP — Corporacion America Airports (real move, thin premarket book — demoted)**
-- **Status: WEAKENED on data quality, not necessarily on fundamentals.** Premarket
-  bid/ask has blown out to **$23.42 / $29.65** (>20% spread) — essentially no real
-  premarket quote right now, last print $26.05 looks like a stale carry from Monday's close
-  rather than a genuine level. Demoting purely because there's nothing tradeable to read
-  here yet, not because the story has weakened.
-- **Catalyst:** 6-K filed 9/28, content still unread.
-- **Direction / magnitude:** Unknown until a real quote forms.
-- **Freshness confidence:** Low right now purely on data-quality grounds — re-check once
-  the book tightens after the open.
-- **Disqualifiers:** No tradeable premarket quote; catalyst content unverified.
+- **FDS** (FactSet Research Systems) — EPS est. $4.34, timing AM. Real, dated, un-triggered
+  catalyst — no directional edge until the print.
+- **CAG** (Conagra Brands) — EPS est. $0.29, timing AM.
+- **JBL** (Jabil) — EPS est. $4.02, timing AM.
+- **CALM** (Cal-Maine Foods) — EPS est. -$0.59, timing AM (loss expected).
+- **CBAT, YRD, RBNE** — smaller/less-verified reports, timing AM (report.verified=false on
+  CBAT/RBNE) — flagged for completeness, not ranked candidates pre-print.
 
-### Named but explicitly NOT a candidate — standing carve-out reminder
+### After tomorrow's close (2026-09-30) — not relevant to tomorrow's open
 
-**AMC Entertainment** — excluded — entertainment/media, standing user preference
-(2026-09-22). Premarket roughly flat ($3.27 vs $3.29 close). Not a candidate regardless.
-
-**MTN (Vail Resorts)** — small EPS miss, muted reaction Monday. Premarket book very wide
-($133.70/$144.30), no real signal. Not a meaningful setup.
-
-### Today's scheduled earnings (2026-09-29) — timing reconfirmed at the true-up
-
-- **Before the bell:** CCL/CUK, UEC (still pending) and **KMX (already reported, big beat)**
-  — see ranked candidates above.
-- **After today's close:** CNXC (Concentrix, EPS est $2.73), AIR (AAR Corp, EPS est $1.29) —
-  not relevant to today's open.
+- **MU** (Micron) — EPS est. $31.50, timing PM. Mega-cap; relevant to Thursday's open, not
+  tomorrow's.
+- **PRGS** (Progress Software) — EPS est. $1.44, timing PM.
+- **BSET** (Bassett Furniture) — EPS est. $0.12, timing PM.
 
 ---
 
