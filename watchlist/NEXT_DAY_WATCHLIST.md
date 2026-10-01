@@ -6,116 +6,113 @@
 > 20% pre-market and is already fading by 9:35am ET is a PASS despite being on this list.
 > This file is a head start for the search, not a decision.
 
-**Build status:** built by the ~6:05pm after-hours routine on 2026-09-30 (fired ~10:06pm ET);
-trued up by the ~6:00am overnight routine on 2026-10-01 (fired ~6:01am ET). This is the final
-version before the 9:40am opening-bell scan — no further update until tonight's build.
+**Build status:** built by the ~6:05pm after-hours routine on 2026-10-01 (fired ~6:06pm ET).
+Will be trued up by the ~6:00am overnight routine on 2026-10-02 before the 9:40am opening-bell
+scan.
 
 **Data-gap flag — still active:** `get_equity_news` remains completely unreachable (checked
-again this pass, zero matches). No way to confirm the "why" behind any price move overnight —
+again this pass, zero matches). No way to confirm the "why" behind any price move tonight —
 every catalyst claim below not sourced to a specific dated earnings print is inferred from
 price action only.
 
-**Asian/European overnight session:** could not be checked — news tool unavailable. Real gap
-in this pass's coverage, same as every prior morning.
+**Asian/European overnight session:** not yet checked — those sessions haven't opened/traded
+at this hour (6:06pm ET). That is the job of the ~6:00am overnight true-up routine.
 
-**Overnight/premarket tone (as of ~6:02am ET, 2026-10-01):** SPX/NDX/VIX index-quote channel
-returned empty snapshot values this pull — could not confirm live levels, same recurring
-channel issue as prior mornings.
+**Scheduled events:** could not search for FOMC/CPI/jobs-data/opex dynamics for tomorrow —
+news tool unavailable. Flagging the gap rather than guessing.
 
 ---
 
-## For trading day: 2026-10-01 (Thursday)
+## For trading day: 2026-10-02 (Friday)
 
 ### Today's open positions — not new-entry candidates, included for continuity
 
-**IOVA** — 12 sh @ $14.43 avg. Closed Wednesday $14.82, premarket last $14.73 — roughly flat;
-note the premarket ask ($15.58) looks like a wide/stale quote, not a real level yet. Stop at
-$14.20 stop / $14.05 limit. Continue managing as an open position, not a fresh entry.
+**IOVA** — 12 sh @ $14.43 avg. Closed today ~$14.225 (after-hours last $14.24), down from
+Wednesday's $14.82 — now **-4.0%** from yesterday's close and sitting right on top of the
+$14.20 stop / $14.05 limit. This is the closest IOVA has been to triggering its trailing stop
+all week — watch closely at the open; a further gap down would likely trigger the stop as a
+clean exit per the standing rule, not a reason to loosen it.
 
-**BE** — 1 sh @ $293.39 avg. Closed Wednesday $276.98, premarket last $284.60 (bid/ask
-$284.20/$284.60) — a solid **+2.75%** premarket bounce, continuing Wednesday's late-day
-recovery. Still below the $293.39 entry but the trend has turned constructive. Stop at
-$273.00 stop / $270.50 limit (user-directed). Continue managing as an open position, not a
-fresh entry; re-evaluate whether the stop should trail up once the open confirms the bounce.
+**UTHR** — 1.000000 sh (topped up from fractional today), blended avg cost $575.64. Closed
+today ~$570.87 (after-hours last $571.38) — holding most of today's gain, still well above
+Wednesday's $541.89 close. Real broker-side GTC stop is now live at $565.35 stop / $559.70
+limit (set today once the position reached a full share). Continue managing as an open
+position, not a fresh entry.
 
-**CCL, KMX, CNXC** — all closed Wednesday via trailing stop (CCL and CNXC for gains, KMX for a
-small loss). Per the standing rule, none are re-entry candidates without a fresh, qualifying
-setup on their own merits.
+**ACN** — 1.000000 sh (topped up from fractional today), blended avg cost $216.49. Closed
+today ~$212.54 (after-hours last $213.17) — giving back some of today's huge earnings-beat
+gain (was testing $227 intraday) but still up big from Wednesday's $183.37 close. Real
+broker-side GTC stop live at $204.22 stop / $202.20 limit. Continue managing as an open
+position, not a fresh entry.
+
+**BE, CCL, KMX, CNXC** — all closed out via trailing stop earlier this week (gains on CCL,
+CNXC; losses on BE, KMX). Per the standing rule, none are re-entry candidates without a fresh,
+qualifying setup on their own merits.
 
 ### Ranked candidates
 
-**1. UTHR — United Therapeutics (huge, multi-session real move, catalyst still unconfirmed) — STRENGTHENED, gap holding**
-- **Status: CONFIRMED overnight.** Premarket last $547.33 (bid/ask $543.11/$594.83 — still a
-  wide AH/premarket book, but the last trade is above Wednesday's $541.89 close) — extending
-  further, not fading. This is now the fifth consecutive read (morning scan → 11am → 12pm →
-  3pm → overnight) all independently confirming the move is holding or adding, not reversing.
-- **Catalyst:** Still unknown/unconfirmed — news tool down. Not on today's earnings calendar.
-- **Direction / magnitude:** Bullish, still extending.
-- **Freshness confidence:** High on persistence grounds — five independent reads without a
-  single fade is unusual and argues this isn't just a one-session spike — but the total
-  absence of a confirmed source after a full day-plus of checking is a genuine, unresolved
-  risk. Re-verify catalyst at the open; do not chase purely on the chart.
-- **Disqualifiers:** Catalyst entirely unconfirmed. Book is still wide — wait for a tighter
-  premarket spread before sizing any entry.
+**1. NKE — Nike (confirmed earnings beat, but sharp after-hours selloff) — NEW**
+- **Catalyst:** Q1 FY2027 earnings, reported today 2026-10-01 after close (`get_earnings_calendar`,
+  verified) — actual EPS $0.48 vs. $0.44 est., a real beat.
+- **Direction / magnitude:** Bearish despite the beat — stock fell from a $35.095 regular close
+  to an after-hours last of $32.94, a sharp **-6.1%** after-hours drop. Classic "beat the
+  headline number but something in the details spooked the market" pattern (guidance, margins,
+  tariffs, etc. — can't confirm the specific driver without the news tool).
+- **Freshness confidence:** High as a fresh, sourced, quantified reaction from tonight
+  specifically — this is exactly the kind of after-hours-earnings gap this routine exists to
+  catch. Re-verify at the open that the gap is holding and not already filled by premarket.
+- **Disqualifiers:** The "why" behind the beat-but-sell reaction is unconfirmed (news tool
+  down) — re-verify the specific negative detail (guidance/margins/tariffs) once news access
+  returns or at the open via price action. A large-cap name, so a defined, liquid options
+  chain should exist if a put-side or short-equity setup is considered.
 
-**2. BE — Bloom Energy (open position, strong premarket bounce) — STRENGTHENED, promoted from continuity note**
-- **Status:** Premarket last $284.60 vs. Wednesday's close $276.98 — a **+2.75%** premarket
-  bounce, continuing Wednesday afternoon's recovery off the day's lows. Still below the
-  $293.39 entry, but the short-term trend has turned constructive for the first time since
-  entry.
-- **Catalyst:** Still unknown/unconfirmed — news tool down.
-- **Direction / magnitude:** Bullish bounce, not yet back to entry.
-- **Freshness confidence:** Moderate — this is an existing position, not a fresh-entry
-  candidate, but worth flagging clearly since the trend just turned. Re-verify at the open
-  whether the stop should trail up.
-- **Disqualifiers:** N/A (existing position, not a new entry).
+**2. MAT — Mattel (huge continuing mover, catalyst unconfirmed) — NEW**
+- **Catalyst:** Unknown/unconfirmed — not on today's earnings calendar, news tool down.
+- **Direction / magnitude:** Bullish, big — closed today at $15.04 (+18.8% vs. Wednesday's
+  $12.66), and still extending in after-hours to $15.129.
+- **Freshness confidence:** Moderate — the move is real and still extending (not fading), but
+  a +18.8% day with zero confirmed source is exactly the profile that's burned this account
+  before (chasing an unconfirmed spike). Needs a catalyst source before any entry is proposed.
+- **Disqualifiers:** Catalyst entirely unconfirmed — do not treat as actionable until sourced.
 
-**3. ZETA — Zeta Global (real move, holding flat overnight — catalyst unconfirmed) — UNCHANGED**
-- **Status:** Premarket last $31.65 vs. Wednesday's close $31.57 — flat, holding the gain
-  rather than fading, but no further extension either.
-- **Catalyst:** Still unknown/unconfirmed — news tool down. Not on today's earnings calendar.
-- **Direction / magnitude:** Bullish, holding.
-- **Freshness confidence:** Moderate — unchanged from last night.
+**3. VICR / COHR / LITE / TSEM / AAOI — correlated optics/power-semiconductor basket (catalyst unconfirmed) — NEW**
+- **Catalyst:** Unknown/unconfirmed — none on today's earnings calendar, news tool down. All
+  five moved together today and are holding/extending in after-hours, which suggests a shared
+  sector catalyst (AI-datacenter optical/power-component demand is the obvious guess) rather
+  than five unrelated coincidences — but that's inference, not a sourced fact.
+- **Direction / magnitude:** Bullish across the board. Today's closes vs. Wednesday:
+  VICR $308.50 (+6.8%, AH $310.00), COHR $319.31 (+10.9%, AH $317.68), LITE $1,045.61 (+7.7%,
+  AH $1,043.60), TSEM $241.01 (+6.0%, AH $241.50), AAOI $107.28 (+8.1%, AH $106.51).
+- **Freshness confidence:** Moderate-high on persistence (all five holding gains into AH, not
+  fading) but capped by the total lack of a confirmed source — this is the exact "re-verify
+  before chasing" scenario the top-of-file disclaimer exists for.
+- **Disqualifiers:** Catalyst unconfirmed for all five. All are already up a lot today —
+  per the don't-chase judgment, a clean re-basing structure at the open would be needed before
+  any of these look like a fresh entry rather than a late chase.
+
+**4. KD — Kyndryl (real mover, catalyst unconfirmed) — NEW**
+- **Catalyst:** Unknown/unconfirmed — not on today's earnings calendar, news tool down.
+- **Direction / magnitude:** Bullish — closed today at $12.13 (+7.7% vs. Wednesday's $11.26),
+  extending further in after-hours to $12.48 (+10.8% total).
+- **Freshness confidence:** Moderate — still extending into AH rather than fading, but no
+  source at all.
 - **Disqualifiers:** Catalyst entirely unconfirmed.
 
-**4. HIMS — Hims & Hers Health (real move, holding flat overnight — catalyst unconfirmed) — UNCHANGED**
-- **Status:** Premarket last $29.85 vs. Wednesday's close $29.79 — flat, holding.
-- **Catalyst:** Still unknown/unconfirmed — news tool down. Not on today's earnings calendar.
-- **Direction / magnitude:** Mildly bullish, holding.
-- **Freshness confidence:** Low-moderate — unchanged from last night.
-- **Disqualifiers:** Catalyst entirely unconfirmed.
-
-**5. MU — Micron (big earnings beat, still muted reaction) — UNCHANGED, demoted**
-- **Status:** Premarket last $1,059.46 vs. Wednesday's close $1,065.11 — still essentially
-  flat/-0.5%, confirming the muted reaction from last night rather than developing a drift
-  either way.
-- **Catalyst:** Q4 FY2026 earnings, reported 9/30 PM — actual EPS $33.42 vs. $31.50 estimate,
-  a real beat, confirmed.
-- **Direction / magnitude:** Flat despite the beat.
-- **Freshness confidence:** Low as a tradeable setup — the market has had all night to react
-  and still shows no edge.
-- **Disqualifiers:** No clean directional edge.
-
-**6. SMMT — Summit Therapeutics (repeat mover, catalyst unconfirmed) — UNCHANGED**
-- **Status:** Premarket last $16.80 vs. Wednesday's close $16.91 — flat/slightly soft. No
-  confirmed catalyst after four-plus sessions.
+**5. EFXT — Enerflex (repeat mover, catalyst unconfirmed) — UNCHANGED/CARRIED**
+- **Catalyst:** Unknown/unconfirmed — news tool down. Has now appeared as a mover across
+  multiple scans today (Energy sector, mid-cap tier).
+- **Direction / magnitude:** Bullish, holding — closed $25.45 (+11.7% vs. Wednesday's $22.79),
+  AH last $25.43, essentially flat into the close (holding, not extending further).
+- **Freshness confidence:** Moderate — a repeat appearance across several cycles today without
+  a confirmed catalyst is a yellow flag, not a green one.
 - **Disqualifiers:** Catalyst unconfirmed; repeat name.
 
-**7. KOD — Kodiak Sciences (real catalyst, no position — watch, don't chase) — UNCHANGED**
-- **Status:** Premarket last $94.40 vs. Wednesday's close $94.80 — flat, continuing its slow
-  multi-day climb (now well above the $84 level where the position was stopped out 9/28). No
-  position held; 8-K content still unreadable after four-plus days. Per the standing "don't
-  chase" rule and the user's "hold until we know more" stance, stays watch-only.
-- **Disqualifiers:** Catalyst content still unverified.
+### Today's scheduled earnings (2026-10-02) — tentative, to be reconfirmed at the true-up
 
-### Today's scheduled earnings (2026-10-01) — timing reconfirmed at the true-up
-
-- **Before the bell, already reported:** AYI (Acuity Brands) — actual EPS $5.77 vs. $5.59 est,
-  a beat; not yet checked for a premarket reaction, low priority given the pre-print report.
-- **Before the bell, still pending:** MKC (McCormick, est. $0.75), ACN (Accenture, est. $3.18
-  — large-cap, worth a clean re-check once the market opens), GNS (timing tentative,
-  report.verified=false).
-- **After today's close:** NKE (Nike, est. $0.44) — not relevant to today's open.
+- **Before the bell:** CBAT (est. -$0.06, report.verified=false — date tentative), YYAI (no
+  estimate available, report.verified=false — date tentative). Both are thin/micro-cap names;
+  low priority for the next-day watchlist even if timing holds.
+- Nothing else notable scheduled for tomorrow in the pulled window.
 
 ---
 
