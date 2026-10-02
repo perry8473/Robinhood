@@ -6,117 +6,124 @@
 > 20% pre-market and is already fading by 9:35am ET is a PASS despite being on this list.
 > This file is a head start for the search, not a decision.
 
-**Build status:** built by the ~6:05pm after-hours routine on 2026-10-01 (fired ~6:06pm ET);
-trued up by the ~6:00am overnight routine on 2026-10-02 (fired ~6:01am ET). This is the final
-version before the 9:40am opening-bell scan — no further update until tonight's build.
+**Build status:** built by the ~6:06pm after-hours routine on 2026-10-02 (fired ~6:06pm ET,
+Friday close). **Next trading day is Monday 2026-10-05** — Saturday 10/3 and Sunday 10/4 are
+market-closed; this file covers the full weekend gap, not just one overnight session. Will be
+trued up by the ~6:00am overnight routine on 2026-10-05.
 
-**Data-gap flag — still active:** `get_equity_news` remains completely unreachable (checked
-again this pass, zero matches). No way to confirm the "why" behind any price move overnight —
-every catalyst claim below not sourced to a specific dated earnings print is inferred from
-price action only.
+**News-tool status:** `get_equity_news` remains permanently unavailable in this toolset (not an
+outage — confirmed this session it was never part of the server's tool roster). WebSearch/WebFetch
+are now the standing substitute for catalyst verification, per explicit user authorization
+2026-10-02 — all catalysts below are sourced that way, with specific articles cited.
 
-**Asian/European overnight session:** could not be checked — news tool unavailable. Real gap
-in this pass's coverage, same as every prior morning.
+**Asian/European weekend session:** not yet checked — those markets haven't opened yet as of this
+6pm Friday build. That is the job of Monday's ~6:00am overnight true-up routine, which will have a
+full weekend of Asian Monday-morning and European Monday-morning price action to review before the
+US open — a materially bigger gap to true up than a normal single overnight session.
 
-**Overnight/premarket tone (as of ~6:02am ET, 2026-10-02):** VIX is fresh and down slightly to
-**15.96** (from 16.32 at yesterday's 3pm close) — mildly calmer. SPX/NDX quotes returned but
-with stale venue timestamps from yesterday afternoon (not genuine overnight prints) — could
-not confirm real overnight index levels, flagging rather than presenting stale data as live.
+**Tone at Friday's close (2026-10-02, ~4:15pm ET):** VIX **15.31** (down from 15.96 this morning
+and 16.32 at Thursday's 3pm close) — calm, risk-on. SPX 7,722.72; NDX 30,807.93. Backdrop for
+today's move: a broad, earnings- and AI-datacenter-demand-driven semiconductor rally, not a
+narrow one-off.
 
 ---
 
-## For trading day: 2026-10-02 (Friday)
+## For trading day: 2026-10-05 (Monday)
 
 ### Today's open positions — not new-entry candidates, included for continuity
 
-**IOVA** — 12 sh @ $14.43 avg. Closed Thursday $14.23, premarket last $14.4858 (bid/ask
-$14.31/$15.30 — wide, stale-looking ask) — a mild overnight bounce **away** from the $14.20
-stop / $14.05 limit, though the book is thin enough this early that it shouldn't be read as a
-confirmed reversal. Still the closest IOVA has been to its stop all week; re-verify at the open
-rather than assuming the bounce holds.
+**AAOI** — 2.000000 sh, avg cost $109.86. Closed Thursday ~$107.32, last today $115.53
+(+7.7%) — continuing to extend on the sector-wide semiconductor rally (see below), not on any
+AAOI-specific news found. Real broker-side GTC stop live at $112.00 stop / $110.90 limit — already
+tighter than a flat -5% off current price, left unchanged earlier today per the raise-only rule.
+Continue managing as an open position, not a fresh entry.
 
-**UTHR** — 1.000000 sh, blended avg cost $575.64. Closed Thursday $571.38; premarket book is
-extremely wide (bid $554.00 / ask $638.29) and not a reliable read at this hour. Real
-broker-side GTC stop remains live at $565.35 stop / $559.70 limit. Continue managing as an
-open position, not a fresh entry — re-check with a tighter book once the market opens.
+**COHR** — 1.000000 sh, avg cost $328.82. Closed Thursday ~$319.19, last today $337.15
+(+5.6%) — same sector tailwind, no COHR-specific catalyst found. Real broker-side GTC stop raised
+today to $320.03 stop / $316.83 limit (5% below last). Continue managing as an open position.
 
-**ACN** — 1.000000 sh, blended avg cost $216.49. Closed Thursday $212.30, premarket last
-$213.00 — essentially flat overnight, holding the pullback from Thursday's intraday high
-without further slippage. Real broker-side GTC stop remains live at $204.22 stop / $202.20
-limit. Continue managing as an open position, not a fresh entry.
+**LITE** — closed out entirely today (extended-hours sale, 1.000000 sh @ $1,085.00, avg cost
+$1,076.77, +0.76%) after the broker-side stop on it lapsed between regular sessions. No position
+held overnight into the weekend. Not a re-entry candidate without a fresh, qualifying setup —
+see sector note below for where it stands if that changes.
 
-**BE, CCL, KMX, CNXC** — all closed out via trailing stop earlier this week (gains on CCL,
-CNXC; losses on BE, KMX). Per the standing rule, none are re-entry candidates without a fresh,
-qualifying setup on their own merits.
+**TSEM** — closed out earlier today (1 sh @ $241.89 avg, -$1.42 vs. $243.31 cost) on an explicit
+user decision to reallocate into LITE. No position. Last today $240.81, essentially flat
+(-0.2%) — lagged the rest of the optics/power-semi basket today, consistent with the reasoning
+behind exiting it.
+
+**NKE** — closed out earlier today (sold, +0.70% / +$1.16) on an explicit user decision. No
+position. Last today $33.89, down sharply again (-3.6% on the day, -10% since Wednesday's
+close) — the post-earnings selloff flagged in Thursday night's build continued through today.
+Not a re-entry candidate; if anything this validates Thursday's bearish read as directionally
+correct, though we never traded it short.
 
 ### Ranked candidates
 
-**1. NKE — Nike (confirmed earnings beat, but sharp and widening after-hours/overnight selloff) — STRENGTHENED (as a bearish setup)**
-- **Catalyst:** Q1 FY2027 earnings, reported 2026-10-01 after close (`get_earnings_calendar`,
-  verified) — actual EPS $0.48 vs. $0.44 est., a real beat.
-- **Direction / magnitude:** Bearish despite the beat, and getting worse overnight, not better.
-  Thursday regular close $35.15 → after-hours last night $32.94 (-6.1%) → premarket this
-  morning $31.61 (bid/ask $31.58/$31.61) — now **-10.1%** total from Thursday's close. The gap
-  is extending, not filling. Classic "beat the headline number but something in the details
-  spooked the market" pattern (guidance, margins, tariffs, etc. — still can't confirm the
-  specific driver without the news tool).
-- **Freshness confidence:** High, and higher than last night's build — overnight persistence
-  without any filling is a stronger signal than the after-hours print alone. Re-verify at the
-  open that the gap is holding into the regular session.
-- **Disqualifiers:** The "why" behind the beat-but-sell reaction is still unconfirmed (news
-  tool down) — re-verify the specific negative detail once news access returns or via opening
-  price action. Large-cap name, so a defined, liquid options chain should exist if a put-side
-  or short-equity setup is considered.
+**1. SYNA — Synaptics (M&A: onsemi raises buyout to all-cash, deal price now the ceiling) — NEW, merger arbitrage, not a momentum setup**
+- **Catalyst:** ON Semiconductor replaced its original ~$7B all-stock agreement to acquire
+  Synaptics with a sweetened **$5.7B all-cash bid at $123.00/share**, confirmed today 2026-10-02
+  via multiple outlets (24/7 Wall St., Timothy Sykes, StocksToTrade — see sources). Synaptics'
+  board unanimously reaffirmed the amended offer as superior after reviewing a competing proposal.
+- **Direction / magnitude:** Bullish, +13.6% to +15.1% intraday depending on the print measured,
+  closing/last near $121.10, up against a $123.00 deal price — i.e. roughly a 1.6% spread left to
+  close.
+- **Freshness confidence:** High on the news itself (same-day, multiple independent sources,
+  company-confirmed), but this is fundamentally different from the rest of this list: it is a
+  merger-arbitrage setup, not a breakout. Upside is capped near $123 minus time value; there is no
+  "further room to run" on fundamentals alone.
+- **Disqualifiers:** Capped upside (deal price ceiling) — this is not a chase-the-momentum name.
+  Binary deal-completion risk (financing, regulatory, shareholder vote) could still break the
+  spread wider or collapse it if the deal falls through. Best understood as a bet on deal certainty
+  at a ~1.6% spread, not as a directional semiconductor play.
 
-**2. VICR / COHR / LITE / TSEM / AAOI — correlated optics/power-semiconductor basket (catalyst unconfirmed) — STRENGTHENED**
-- **Catalyst:** Still unknown/unconfirmed — none on today's earnings calendar, news tool down.
-  All five continuing to extend together overnight reinforces that this looks like a real
-  shared sector catalyst (AI-datacenter optical/power-component demand is the obvious guess),
-  but that remains inference, not a sourced fact.
-- **Direction / magnitude:** Bullish, extending further overnight across the board. Thursday
-  close → premarket this morning: VICR $308.59→$315.20 (+2.1%), COHR $319.19→$321.46 (+0.7%),
-  LITE $1,045.78→$1,058.46 (+1.2%), TSEM $241.30→$244.50 (+1.3%), AAOI $107.32→$109.30 (+1.8%).
-- **Freshness confidence:** Moderate-high and improved from last night — persistence through
-  a full overnight session without fading is a better signal than the after-hours read alone.
-  Still capped by the total lack of a confirmed source.
-- **Disqualifiers:** Catalyst unconfirmed for all five. All are already up a lot over two
-  sessions now — per the don't-chase judgment, a clean re-basing structure at the open would
-  be needed before any of these look like a fresh entry rather than a late chase.
+**2. Broad semiconductor / AI-datacenter sector rally (ON, STM, TXN, TER, ARM, NTAP, ENTG, ONTO, ARW, SMCI, GFS, LSCC, SMTC, ALGM, VSH, DIOD, VECO) — STRENGTHENED, sector-wide, already extended**
+- **Catalyst:** Confirmed via WebSearch (The Globe and Mail, Yahoo Finance/247WallSt — see
+  sources): a synchronized earnings-driven recovery across analog/industrial semis layered on top
+  of AI-datacenter demand. Specifics cited: TXN data-center revenue +90% y/y, ON Semi's AI
+  datacenter business expected to double in 2026, STM up 167% YTD. This is the same tailwind that
+  carried our existing AAOI/COHR basket (and LITE/TSEM/VICR before today) — not a narrow,
+  single-name catalyst.
+- **Direction / magnitude:** Bullish and broad — large-caps up 3-8% (TER +8.0%, STM +7.3%, ON
+  +6.0%, ONTO +6.1%, HPE +8.0%, ENTG +5.0%, TXN +4.2%, ARM +5.1%), mid-caps up more sharply
+  (ALGM +8.7%, VSH +11.9%, VECO +7.8%, SYNA +14.1% — though SYNA's move is really the M&A story
+  above layered on top of the sector tailwind).
+- **Freshness confidence:** Moderate. The underlying earnings/AI-demand narrative is real and
+  dated to this week's reports, but by Friday close many of these names have already run hard for
+  multiple sessions — STM is up 167% year-to-date, not just today. A clean re-basing structure at
+  Monday's open would be needed before treating any single name here as a fresh entry rather than
+  a late chase.
+- **Disqualifiers:** Already up a lot across the board — per the don't-chase judgment, this is a
+  sector to watch for continuation/rotation candidates at the open, not to buy blindly into
+  strength. Needs name-by-name re-verification Monday morning against a fresh options chain.
 
-**3. MAT — Mattel (stalled overnight, catalyst still unconfirmed) — WEAKENED**
-- **Catalyst:** Still unknown/unconfirmed — not on today's earnings calendar, news tool down.
-- **Direction / magnitude:** Bullish but no longer extending — Thursday close $15.04, premarket
-  last $15.15 (bid/ask $13.74/$15.90 — a very wide, likely-stale book this early), essentially
-  flat overnight after yesterday's +18.8% day.
-- **Freshness confidence:** Lower than last night — the move has stopped extending, and
-  without a confirmed catalyst a stalled +18.8% name is a weaker setup than one still gaining
-  ground (compare to the optics/semi basket above).
-- **Disqualifiers:** Catalyst entirely unconfirmed; premarket book too wide to trust yet.
+**3. MXL — MaxLinear (fresh product catalyst, but extremely extended) — NEW, high disqualifier**
+- **Catalyst:** Launched "Puma 9," a next-gen DOCSIS 3.1+/4.0 broadband SoC targeting 30-50% CPE
+  cost cuts, with Wi-Fi 8/Edge AI/DDR5 support — confirmed today 2026-10-02 via StocksToTrade and
+  Timothy Sykes (see sources). Framed as AI-datacenter-adjacent (optical networking demand).
+- **Direction / magnitude:** Bullish, +14.9% today to $105.85 (close ~$105.93 per one source).
+- **Freshness confidence:** Low despite the fresh headline — MXL is already up ~87% over the past
+  month and ~549% over the past year per GuruFocus/Fool.com reporting. A name this extended
+  reacting this hard to a single product announcement is a textbook don't-chase setup, not a fresh
+  breakout.
+- **Disqualifiers:** Extreme prior extension (549% YoY) is disqualifying on its own under the
+  don't-chase rule. Q3 earnings aren't until 2026-10-22, so no near-term binary catalyst to anchor
+  a fresh entry before then.
 
-**4. KD — Kyndryl (stalled overnight, catalyst unconfirmed) — WEAKENED**
-- **Catalyst:** Still unknown/unconfirmed — news tool down.
-- **Direction / magnitude:** Bullish but flat overnight — Thursday close $12.12, premarket last
-  $12.20 (bid/ask $11.86/$13.54, also a wide/unreliable book), little follow-through after
-  yesterday's +10.8% peak.
-- **Freshness confidence:** Lower than last night — no overnight extension, no source.
-- **Disqualifiers:** Catalyst entirely unconfirmed; premarket book too wide to trust yet.
+### Today's scheduled earnings (2026-10-02) — reconfirmed, nothing actionable
 
-**5. EFXT — Enerflex (flat overnight, catalyst unconfirmed) — WEAKENED, demoted**
-- **Catalyst:** Still unknown/unconfirmed — news tool down.
-- **Direction / magnitude:** Bullish, holding but not extending — Thursday close $25.44,
-  premarket last $25.73 (bid/ask $22.78/$27.53, thin/unreliable book this early).
-- **Freshness confidence:** Low — now a repeat appearance across multiple cycles with zero
-  overnight follow-through and no confirmed source.
-- **Disqualifiers:** Catalyst unconfirmed; repeat name; premarket book too wide to trust yet.
+- **TAYD, TMQ, YYAI** reported/scheduled before today's open — all thin micro/small-caps, already
+  priced in by the time this build runs, low priority. TAYD missed badly (EPS $0.14 actual vs.
+  $0.92 est.).
+- **No high-market-cap names** reported after today's close.
 
-### Today's scheduled earnings (2026-10-02) — reconfirmed at the true-up
+### Scheduled earnings for Monday 2026-10-05 and the weekend window — nothing notable
 
-- **Before the bell:** YYAI (no estimate available, report.verified=false — date still
-  tentative). Thin micro-cap name; low priority.
-- **Date correction:** CBAT's report date has shifted from tomorrow (2026-10-02) to **2026-10-05**
-  per the refreshed calendar pull — no longer relevant to tomorrow's open, dropped from this
-  list.
-- Nothing else notable scheduled for today in the pulled window.
+- **High-market-cap:** Checked the 2026-10-03 through 2026-10-05 window — zero high-market-cap
+  reports scheduled.
+- **All names:** Only CBAT (am, unverified date), CGTL (pm, unverified), SGMOQ (pm, unverified) —
+  all thin micro-caps, report.verified=false on all three, low priority.
+- Nothing else notable scheduled for Monday's open in the pulled window.
 
 ---
 
@@ -134,6 +141,17 @@ Entries are **ranked by likelihood of still being a live, tradeable setup at the
 by headline size.
 
 ---
+
+## Sources used in this build
+
+- [On Semiconductor Climbs 8%, Synaptics Surges 14% as $5.7B Cash Bid Replaces $7B Stock Deal — 24/7 Wall St.](https://247wallst.com/investing/2026/10/02/on-semiconductor-climbs-8-synaptics-surges-14-as-5-7b-cash-bid-replaces-7b-stock-deal/)
+- [SYNA Stock Jumps As Onsemi Sweetens $5.7B Cash Takeover — Timothy Sykes](https://www.timothysykes.com/news/synaptics-incorporated-syna-news-2026_10_02/)
+- [Synaptics Incorporated (SYNA) Surges 15.1% Pre-Market — GuruFocus](https://www.gurufocus.com/news/9107504/synaptics-inc-syna-surges-151-premarket-ahead-of-september-jobs-data)
+- [Semiconductor Stocks Are Booming and It's Not Just AI — The Globe and Mail](https://www.theglobeandmail.com/investing/markets/stocks/TXN/pressreleases/1908634/semiconductor-stocks-are-booming-and-its-not-just-ai/)
+- [AI and Earnings Set Semiconductor Stocks on Record Rally: 5 Top Picks — Yahoo Finance](https://finance.yahoo.com/markets/stocks/articles/ai-earnings-set-semiconductor-stocks-115800619.html)
+- [MaxLinear (MXL) Surges Over 15% Amid Strong Momentum and Elevated Valuation — GuruFocus](https://www.gurufocus.com/news/9108042/maxlinear-mxl-surges-over-15-amid-strong-momentum-and-elevated-valuation)
+- [MaxLinear Stock Jumps As Puma 9 AI Broadband Platform Debuts — StocksToTrade](https://stockstotrade.com/news/maxlinear-inc-mxl-news-2026_10_02/)
+- [Why MaxLinear Stock Gained 50.7% Last Month — Fool.com](https://www.fool.com/investing/2026/10/02/why-maxlinear-stock-gained-50-7-last-month/)
 
 ## Sources every nightly build draws from
 
