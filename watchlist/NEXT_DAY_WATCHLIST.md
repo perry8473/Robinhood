@@ -6,25 +6,33 @@
 > 20% pre-market and is already fading by 9:35am ET is a PASS despite being on this list.
 > This file is a head start for the search, not a decision.
 
-**Build status:** built by the ~6:06pm after-hours routine on 2026-10-02 (fired ~6:06pm ET,
-Friday close). **Next trading day is Monday 2026-10-05** — Saturday 10/3 and Sunday 10/4 are
-market-closed; this file covers the full weekend gap, not just one overnight session. Will be
-trued up by the ~6:00am overnight routine on 2026-10-05.
+**Build status:** built by the ~6:06pm after-hours routine on 2026-10-02 (Friday close); **trued
+up by the ~6:00am overnight routine on 2026-10-05 (Monday), fired ~6:01am ET** — this true-up
+reviewed the full weekend gap (Asian and European Monday-morning sessions, both of which had
+already traded by this run, unlike a normal single-overnight true-up).
 
-**News-tool status:** `get_equity_news` remains permanently unavailable in this toolset (not an
-outage — confirmed this session it was never part of the server's tool roster). WebSearch/WebFetch
-are now the standing substitute for catalyst verification, per explicit user authorization
+**News-tool status:** `get_equity_news` remains permanently unavailable in this toolset. WebSearch
+continues as the standing substitute for catalyst verification, per explicit user authorization
 2026-10-02 — all catalysts below are sourced that way, with specific articles cited.
 
-**Asian/European weekend session:** not yet checked — those markets haven't opened yet as of this
-6pm Friday build. That is the job of Monday's ~6:00am overnight true-up routine, which will have a
-full weekend of Asian Monday-morning and European Monday-morning price action to review before the
-US open — a materially bigger gap to true up than a normal single overnight session.
+**Asian/European weekend session — now checked:** Asia: MSCI Asia Pacific +1% in Monday trading,
+tech-led, riding Friday's Nasdaq 100 record close plus strong South Korean export/manufacturing
+data. Europe: ASML raised its 2026 revenue outlook (now guiding 43-45B, up from prior) and lifted
+long-term EUV capacity targets over the weekend — a genuine fresh positive for chip-equipment
+names — but by Monday morning this had NOT translated into pre-market strength for our tracked
+basket (see Candidate 2 below), and European equity futures and S&P futures both turned lower
+on Europe political/fiscal concerns per Bloomberg, reversing the earlier Asia-led optimism.
 
-**Tone at Friday's close (2026-10-02, ~4:15pm ET):** VIX **15.31** (down from 15.96 this morning
-and 16.32 at Thursday's 3pm close) — calm, risk-on. SPX 7,722.72; NDX 30,807.93. Backdrop for
-today's move: a broad, earnings- and AI-datacenter-demand-driven semiconductor rally, not a
-narrow one-off.
+**Tone at this true-up (2026-10-05, ~6:00am ET):** VIX ticked up to **16.31** (from 15.31 at
+Friday's close) — a mild risk-off move overnight, consistent with the futures reversal above, not
+alarming. SPX/NDX quotes returned but with stale Friday-afternoon venue timestamps — genuine live
+Monday pre-market index levels could not be confirmed this pass; flagging rather than presenting
+stale data as live.
+
+**Today's scheduled macro (2026-10-05):** ISM Services PMI at 10:00am ET (consensus ~55.1 vs.
+55.4 prior) — the week's first major data point. Fed speakers Williams and Bowman also scheduled
+today. Neither is pre-market-actionable but both matter for intraday tone, especially around
+10:00am.
 
 ---
 
@@ -32,15 +40,15 @@ narrow one-off.
 
 ### Today's open positions — not new-entry candidates, included for continuity
 
-**AAOI** — 2.000000 sh, avg cost $109.86. Closed Thursday ~$107.32, last today $115.53
-(+7.7%) — continuing to extend on the sector-wide semiconductor rally (see below), not on any
-AAOI-specific news found. Real broker-side GTC stop live at $112.00 stop / $110.90 limit — already
-tighter than a flat -5% off current price, left unchanged earlier today per the raise-only rule.
-Continue managing as an open position, not a fresh entry.
+**AAOI** — 2.000000 sh, avg cost $109.86. Friday close $115.59, pre-market Monday $116.64
+(+0.9%) — mild continuation, not a fresh gap. Real broker-side GTC stop live at $112.00 stop /
+$110.90 limit, unchanged. Continue managing as an open position, not a fresh entry.
 
-**COHR** — 1.000000 sh, avg cost $328.82. Closed Thursday ~$319.19, last today $337.15
-(+5.6%) — same sector tailwind, no COHR-specific catalyst found. Real broker-side GTC stop raised
-today to $320.03 stop / $316.83 limit (5% below last). Continue managing as an open position.
+**COHR** — 1.000000 sh, avg cost $328.82. Friday close $337.04, pre-market Monday $335.69
+(-0.4%) — flat to mildly softer, no follow-through. Real broker-side GTC stop raised Friday
+evening (after-hours, queued for today's open) to **$325.00 stop / $321.75 limit** — this will
+activate and should be confirmed once the regular session opens. Continue managing as an open
+position.
 
 **LITE** — closed out entirely today (extended-hours sale, 1.000000 sh @ $1,085.00, avg cost
 $1,076.77, +0.76%) after the broker-side stop on it lapsed between regular sessions. No position
@@ -60,7 +68,7 @@ correct, though we never traded it short.
 
 ### Ranked candidates
 
-**1. SYNA — Synaptics (M&A: onsemi raises buyout to all-cash, deal price now the ceiling) — NEW, merger arbitrage, not a momentum setup**
+**1. SYNA — Synaptics (M&A: onsemi raises buyout to all-cash, deal price now the ceiling) — UNCHANGED, merger arbitrage, not a momentum setup**
 - **Catalyst:** ON Semiconductor replaced its original ~$7B all-stock agreement to acquire
   Synaptics with a sweetened **$5.7B all-cash bid at $123.00/share**, confirmed today 2026-10-02
   via multiple outlets (24/7 Wall St., Timothy Sykes, StocksToTrade — see sources). Synaptics'
@@ -76,39 +84,42 @@ correct, though we never traded it short.
   Binary deal-completion risk (financing, regulatory, shareholder vote) could still break the
   spread wider or collapse it if the deal falls through. Best understood as a bet on deal certainty
   at a ~1.6% spread, not as a directional semiconductor play.
+- **True-up (2026-10-05, 6am):** UNCHANGED. Weekend SEC filings (8-K, Form 425s, DEFA14A) are
+  routine merger paperwork confirming the amended terms, nothing new. Pre-market last $121.16 vs.
+  Friday's $121.10 close — essentially flat, spread to the $123 deal price unchanged (~1.6%).
 
-**2. Broad semiconductor / AI-datacenter sector rally (ON, STM, TXN, TER, ARM, NTAP, ENTG, ONTO, ARW, SMCI, GFS, LSCC, SMTC, ALGM, VSH, DIOD, VECO) — STRENGTHENED, sector-wide, already extended**
+**2. Broad semiconductor / AI-datacenter sector rally (ON, STM, TXN, TER, ARM, NTAP, ENTG, ONTO, ARW, SMCI, GFS, LSCC, SMTC, ALGM, VSH, DIOD, VECO) — WEAKENED, stalling into Monday despite a real catalyst**
 - **Catalyst:** Confirmed via WebSearch (The Globe and Mail, Yahoo Finance/247WallSt — see
   sources): a synchronized earnings-driven recovery across analog/industrial semis layered on top
   of AI-datacenter demand. Specifics cited: TXN data-center revenue +90% y/y, ON Semi's AI
-  datacenter business expected to double in 2026, STM up 167% YTD. This is the same tailwind that
-  carried our existing AAOI/COHR basket (and LITE/TSEM/VICR before today) — not a narrow,
-  single-name catalyst.
-- **Direction / magnitude:** Bullish and broad — large-caps up 3-8% (TER +8.0%, STM +7.3%, ON
-  +6.0%, ONTO +6.1%, HPE +8.0%, ENTG +5.0%, TXN +4.2%, ARM +5.1%), mid-caps up more sharply
-  (ALGM +8.7%, VSH +11.9%, VECO +7.8%, SYNA +14.1% — though SYNA's move is really the M&A story
-  above layered on top of the sector tailwind).
-- **Freshness confidence:** Moderate. The underlying earnings/AI-demand narrative is real and
-  dated to this week's reports, but by Friday close many of these names have already run hard for
-  multiple sessions — STM is up 167% year-to-date, not just today. A clean re-basing structure at
-  Monday's open would be needed before treating any single name here as a fresh entry rather than
-  a late chase.
-- **Disqualifiers:** Already up a lot across the board — per the don't-chase judgment, this is a
-  sector to watch for continuation/rotation candidates at the open, not to buy blindly into
-  strength. Needs name-by-name re-verification Monday morning against a fresh options chain.
+  datacenter business expected to double in 2026, STM up 167% YTD.
+- **Direction / magnitude:** Was bullish and broad Friday (large-caps +3-8%, mid-caps +7-12%).
+- **Freshness confidence:** DOWNGRADED from Friday's "moderate" to low-moderate. Overnight/weekend
+  developments were genuinely constructive for the sector — Asia tech +1% Monday, ASML raised its
+  2026 outlook and EUV capacity targets over the weekend (a real European chip-equipment positive)
+  — but this did NOT carry through to pre-market strength in our tracked names: as of this 6am
+  true-up, STM -1.6%, GFS -2.0%, TXN -0.9%, VECO -1.3%, TER -0.7% pre-market vs. Friday's close,
+  with ARM, ENTG, ALGM, VSH, SMCI, NTAP essentially flat and only LSCC/ONTO marginally positive on
+  thin pre-market books. European and S&P futures reportedly turned lower overnight on Europe
+  political/fiscal concerns, reversing the earlier Asia-led optimism. VIX also ticked up slightly
+  (15.31 → 16.31).
+- **Disqualifiers:** The Friday rally is not extending into Monday's pre-market — this reads as
+  consolidation/pause after a multi-session run, not continuation. Needs real conviction from
+  actual regular-session price action and volume at the open before treating any single name here
+  as a fresh entry; the pre-market tape alone argues against chasing this basket today.
 
-**3. MXL — MaxLinear (fresh product catalyst, but extremely extended) — NEW, high disqualifier**
+**3. MXL — MaxLinear (fresh product catalyst, but extremely extended) — WEAKENED further, demote**
 - **Catalyst:** Launched "Puma 9," a next-gen DOCSIS 3.1+/4.0 broadband SoC targeting 30-50% CPE
-  cost cuts, with Wi-Fi 8/Edge AI/DDR5 support — confirmed today 2026-10-02 via StocksToTrade and
-  Timothy Sykes (see sources). Framed as AI-datacenter-adjacent (optical networking demand).
-- **Direction / magnitude:** Bullish, +14.9% today to $105.85 (close ~$105.93 per one source).
-- **Freshness confidence:** Low despite the fresh headline — MXL is already up ~87% over the past
-  month and ~549% over the past year per GuruFocus/Fool.com reporting. A name this extended
-  reacting this hard to a single product announcement is a textbook don't-chase setup, not a fresh
-  breakout.
-- **Disqualifiers:** Extreme prior extension (549% YoY) is disqualifying on its own under the
-  don't-chase rule. Q3 earnings aren't until 2026-10-22, so no near-term binary catalyst to anchor
-  a fresh entry before then.
+  cost cuts, with Wi-Fi 8/Edge AI/DDR5 support — confirmed 2026-10-02 via StocksToTrade and
+  Timothy Sykes (see sources).
+- **Direction / magnitude:** Was bullish Friday (+14.9% to a $105.93 close).
+- **Freshness confidence:** Low, now lower. No new weekend catalyst found, and pre-market Monday
+  is flat-to-soft ($105.45 vs. $105.93 Friday close, -0.4%) — no follow-through on the product
+  news. MXL remains up ~87% over the past month / ~549% over the past year per GuruFocus/Fool.com,
+  so this was always a don't-chase setup; the lack of pre-market continuation reinforces that.
+- **Disqualifiers:** Extreme prior extension (549% YoY) plus no overnight follow-through. Q3
+  earnings aren't until 2026-10-22 — no near-term binary catalyst to anchor a fresh entry before
+  then. Demoting to bottom of the list; drop entirely if the open doesn't show renewed strength.
 
 ### Today's scheduled earnings (2026-10-02) — reconfirmed, nothing actionable
 
@@ -117,13 +128,15 @@ correct, though we never traded it short.
   $0.92 est.).
 - **No high-market-cap names** reported after today's close.
 
-### Scheduled earnings for Monday 2026-10-05 and the weekend window — nothing notable
+### Scheduled earnings for Monday 2026-10-05 — reconfirmed at this true-up, nothing notable
 
-- **High-market-cap:** Checked the 2026-10-03 through 2026-10-05 window — zero high-market-cap
-  reports scheduled.
-- **All names:** Only CBAT (am, unverified date), CGTL (pm, unverified), SGMOQ (pm, unverified) —
-  all thin micro-caps, report.verified=false on all three, low priority.
-- Nothing else notable scheduled for Monday's open in the pulled window.
+- **High-market-cap:** Re-checked at this 6am true-up — still zero high-market-cap reports
+  scheduled for 2026-10-05.
+- **All names:** Still only CBAT (am, unverified date), CGTL (pm, unverified), SGMOQ (pm,
+  unverified) — all thin micro-caps, report.verified=false on all three, low priority, unchanged
+  from Friday's build.
+- The real scheduled catalyst for today is macro, not earnings: ISM Services PMI at 10:00am ET
+  and Fed speakers Williams/Bowman — see the tone note at the top of this file.
 
 ---
 
@@ -152,6 +165,14 @@ by headline size.
 - [MaxLinear (MXL) Surges Over 15% Amid Strong Momentum and Elevated Valuation — GuruFocus](https://www.gurufocus.com/news/9108042/maxlinear-mxl-surges-over-15-amid-strong-momentum-and-elevated-valuation)
 - [MaxLinear Stock Jumps As Puma 9 AI Broadband Platform Debuts — StocksToTrade](https://stockstotrade.com/news/maxlinear-inc-mxl-news-2026_10_02/)
 - [Why MaxLinear Stock Gained 50.7% Last Month — Fool.com](https://www.fool.com/investing/2026/10/02/why-maxlinear-stock-gained-50-7-last-month/)
+
+### Added at the 2026-10-05 6am true-up
+
+- [onsemi Buys Synaptics for $123 a Share in a 2026 Cash Deal — FinanceFeeds](https://financefeeds.com/onsemi-buys-synaptics-123-a-share-cash/)
+- [Stock Market Today: Dow, S&P Live Updates — Bloomberg (Asian stocks to rise, European futures turn lower)](https://www.bloomberg.com/news/articles/2026-10-04/asian-stocks-to-rise-as-hike-bets-ease-oil-climbs-markets-wrap)
+- [European chip stocks gain as ASML lifts outlook for second time in 2026 — Investing.com](https://www.investing.com/news/stock-market-news/european-chip-stocks-gain-as-asml-lifts-outlook-for-second-time-in-2026-4792257)
+- [STMicroelectronics stock gained 6.54 percent on October 2 — ad-hoc-news.de](https://www.ad-hoc-news.de/boerse/news/corporate-news/stmicroelectronics-stock-gained-6-54-percent-on-october-2/70227672)
+- [Next US ISM Services PMI: October 5, 2026 — FinanceCalendar](https://www.financecalendar.com/us-ism-services-pmi/)
 
 ## Sources every nightly build draws from
 
