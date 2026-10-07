@@ -6,196 +6,182 @@
 > 20% pre-market and is already fading by 9:35am ET is a PASS despite being on this list.
 > This file is a head start for the search, not a decision.
 
-**Build status:** built fresh by the after-hours routine on 2026-10-06 (Tuesday close), fired
-~6:06pm ET; **trued up by the overnight routine, fired ~7:53am ET on 2026-10-07 (Wednesday)**.
+**Build status:** built fresh by the after-hours routine on 2026-10-07 (Wednesday close), fired
+~6:05pm ET (actually ~6:05pm ET window, fired slightly later at ~6:06pm ET per this session's clock);
+**will be trued up by the overnight routine ~7:52am ET on 2026-10-08 (Thursday)**.
 
-**Pre-market small-cap-tech shortlist (Step 3b):** Technology sector scan returned **zero
-matches** at the standing threshold (≥8% change, ≥3x relative volume) as of ~7:53am ET. No
-shortlist to present this morning.
+**Account status:** Flat all day today (no stock or options positions) — AAOI and PENG, the
+morning's only trades, both closed via trailing stops before 9:40am for realized gains (+12.65%
+and +5.4% respectively). No held position to defend tonight (Step 0 — nothing to do).
 
-**True-up tone (2026-10-07, ~7:53am ET):** Broad overnight fade across yesterday's biggest
-sector-wide winners — classic "sell the news" after a big one-day pop, not fresh negative news.
-VIX ticked up slightly to **16.00** (from 15.07 yesterday) — mild risk-off. SPX/NDX quotes stale
-(last fresh print ~6:30-6:40pm ET yesterday). Futures were little-changed/mixed overnight as
-markets await today's FOMC minutes (2:00pm ET). **PENG is the one candidate that held/extended
-its gain overnight — now the top-ranked name.**
+**Tone at this build (2026-10-07, ~6:06pm ET):** A genuinely quiet day for fresh momentum — the
+2pm FOMC September-minutes release was a non-event for the market (SPX/NDX each +0.1%, VIX
+actually ticked down). The day's real-size movers (SPOT, PGNY, DRUG, BKV) all lack a confirmed
+fresh catalyst despite trading on real volume — flagged below as "unconfirmed, re-verify live"
+rather than dropped outright, since real money moved these names for *some* reason we haven't
+pinned down yet. The clearest story of the day is the NWE/BKH merger-arb pair (Montana PSC
+procedural fight), which stays in the declined capped-merger-arb bucket per the standing
+framework. Also notable: the CIEN/VST/TLN optical-and-power cluster diverged from the broader
+CEG/OKLO/SMR/NXE/CCJ nuclear-sympathy basket today, closing green while the rest of the basket
+stayed red — a possible emerging split worth watching, not yet a catalyst-backed thesis.
 
-**IMPORTANT — AAOI gap-down risk:** Our open AAOI position (3 sh, avg $111.45, stop resting at
-$128.00/$126.72) is quoted **pre-market at $124.80** — already trading below both the stop
-trigger ($128) and the limit floor ($126.72). If this gap holds into the 9:30 open, the stop
-will trigger but may not fill at $126.72 since the stock would already be trading below that
-limit — real risk of an unprotected gap-through. Flag for the 9:40am cycle to address
-immediately: either accept a worse fill by lowering the limit closer to the market, or reassess
-the thesis fresh given the pre-market weakness. No action possible before the open (stops are
-regular-hours only).
+**Standing watch — optoelectronic sector (AAOI / COHR), added 2026-10-07 per explicit user
+instruction:** AAOI closed today at **$122.55 (-5.85% vs. yesterday's $130.16 close)**, extending
+the fade that started after this morning's profitable stop-out at $125.56 — AH $121.70, still
+drifting down. COHR (Coherent) closed at **$334.57 (-1.12% vs. $338.36 close)**, AH $333.04,
+a mild pullback, no fresh news found. Neither shows a scoreable catalyst tonight; both logged
+here as the standing sector-interest watch item, not as candidates.
 
 **News-tool status:** `get_equity_news` remains permanently unavailable in this toolset.
-WebSearch continues as the standing substitute for catalyst verification — all catalysts below
-are sourced that way, with specific articles cited where used.
-
-**Options consideration (new 2026-10-06):** Off-hours routines now record a preliminary options
-read on top candidates (listed chain + 7-30 DTE confirmed, premium vs. current sizing cap) —
-explicitly NOT a live quote, re-verify fresh at the open. Options orders can only execute during
-regular market hours (9:30am-4:00pm ET) regardless of what's recorded here.
-
-**Tone at this build (2026-10-06, ~6:06pm ET):** Today was dominated by two sector-wide
-sympathy rallies layered on top of individual earnings reactions — a nuclear/power basket (Google
-signed a 20-year, ~3,590MW nuclear PPA with Constellation) and an AI-networking/optical basket
-(Marvell's Investor Day optimism on interconnect TAM + bullish sell-side initiations). SPX closed
-at a new record high; VIX ~15. Tomorrow's macro event: **FOMC September-meeting minutes at 2:00pm
-ET** — the week's main event risk, ahead of Thursday's CPI print.
+WebSearch continues as the standing substitute for catalyst verification — multiple searches
+tonight on SPOT, PGNY, and the NWE/BKH merger came back with no October 7-dated coverage, which
+is itself informative (these moves haven't been written up yet, or the driver is something
+WebSearch's index hasn't indexed same-day) — treated as "no catalyst confirmed," not as "no
+catalyst exists."
 
 ---
 
-## Today's open positions (context, not pre-approved for new sizing)
-
-- **AAOI** — 3 sh, avg cost $111.45, last $130.16 (+16.8%), extended-hours $130.29. Stop resting
-  at $128.00/$126.72 (raised throughout today). Appears in the options-flow scan with decent
-  liquidity (rel. options volume ~2.6x, IV ~86%) if a scale-in or options overlay is considered
-  tomorrow — informational only, not a recommendation.
-- **PCVX put (10/16 $65 strike)** — closed today for a realized loss (-28% vs. the -20%
-  mandatory stop, late-session reversal outpaced the exit) with the account's resting-stop
-  mechanism now a standing fix. No open options position.
+## Today's open positions
+None. Account flat at the 6pm build.
 
 ---
 
-## Ranked candidates (re-ranked at true-up — PENG promoted to #1)
+## Ranked candidates
 
-### 1. PENG (Penguin Solutions) — STRENGTHENED, held gains overnight
-- **Status:** STRENGTHENED. Regular close $64.21 → pre-market **$66.70 (+3.9%)** — the ONLY
-  name in this basket holding/extending its gain overnight rather than fading. Confirms this is
-  the cleanest, most idiosyncratic setup (same-day earnings beat + raised guidance, not sector
-  sympathy).
-- **Options read (refreshed at true-up):** $65 strike call, 10/16 exp (9 DTE as of today):
-  bid $5.80 / ask $6.00, mark $5.90 → **$590/contract — still above the ~$303 sizing cap. FAIL
-  on premium** even at this near-the-money strike, despite excellent liquidity (OI 4,704, volume
-  5,492 — among the most liquid single-stock options chains checked this week) and very high IV
-  (150%, reflecting the fresh earnings move). A further-OTM strike might fit the dollar cap but
-  would be a much weaker delta/directional expression. Stock trade remains the likely vehicle if
-  this still looks clean at the open.
+### 1. PGNY (Progyny) — real move, catalyst unconfirmed, still extending after-hours
+- **Catalyst:** Unknown. Closed regular session +6.4% ($25.91 → $27.57), then kept extending
+  after-hours to $28.11 (+1.9% beyond the close, +8.5% vs. yesterday's close). WebSearch found
+  no October 7-dated news — last confirmed catalyst is the August 6 Q2 beat (stock fell 14.3%
+  that day, the opposite direction), so this is NOT a continuation of that. Next earnings not
+  until the Q3 report (date TBD, guided $335-345M revenue / $0.50-0.52 EPS).
+- **Direction/magnitude:** Bullish, real volume (relvol ~1.7x on a $2.1B-cap name — not a thin-float
+  pop), and notably still climbing after-hours rather than fading — the single most "alive"
+  looking chart of tonight's build.
+- **Freshness confidence:** Moderate-low on catalyst (unconfirmed), moderate-high on structure
+  (clean, orderly, still extending). Re-verify catalyst live at the open via a fresh news check —
+  if something real surfaces (buyback, contract win, insider buying, analyst move) this jumps to
+  the top tier fast.
+- **Disqualifiers:** No confirmed catalyst is a real disqualifier under the standing framework —
+  "a price move with no explanation" is explicitly a reject per Step 5 unless something concrete
+  turns up tomorrow morning.
+- **Options read (PRELIMINARY, last-close prices, NOT a live quote):** 10/16 expiration (9 DTE
+  from tonight, 8 DTE from tomorrow's open) — in window. $25 call: bid $1.40 / ask $3.90, mark
+  $2.65 → **$265/contract, passes the current ~$295 sizing cap**, but open interest is only 12
+  and today's volume was 0 — **FAILS on OI/volume (too thin)**. $30 call: mark $0.10 ($10/contract,
+  well under cap) with better liquidity (OI 125, volume 1,864) but delta only 0.11 — too far OTM
+  to be a clean directional expression. **Net: FAIL — no contract threads the needle between
+  liquidity and a clean at-the-money delta.** Re-check live at the open; opening volume may fill
+  in the $25-27.5 strikes.
 
-### 2. CIEN (Ciena Corp) — WEAKENED, faded hard overnight
-- **Catalyst:** Marvell's Investor Day (Oct 6, NYC) projected the AI interconnect market growing
-  to ~$65B by 2030 (60-70% CAGR), validating demand for optical-networking suppliers; compounded
-  by bullish sell-side initiations calling AI networking a "bona fide mega boom."
-  [TradingKey](https://www.tradingkey.com/news/market-movers/262202264-market-movers-cien-20261006)
-- **Direction/magnitude:** Was bullish — closed regular session +13.8% at $443.66, extended
-  further AH to $444.16. **Overnight reversal:** now quoted pre-market at **$429.00, down -3.3%
-  from yesterday's close** — the AH strength did not hold into the next session.
-- **Freshness confidence:** DOWNGRADED. The catalyst itself is still real, but price action has
-  now round-tripped a meaningful chunk of the move — this reads as profit-taking after a big
-  one-day pop rather than a name building a fresh base. Needs to show a stabilizing structure
-  intraday before treating as live.
-- **Disqualifiers:** Already-extended entry risk, now compounded by an overnight fade — exactly
-  the pattern the don't-chase rule warns about.
-- **Options read:** Listed chain confirmed (expirations through 2029, including 10/16 = 10 DTE
-  and 10/23 = 17 DTE, both in window). Specific ATM strike/premium not resolved this build
-  (the $445 strike didn't exist in the instrument list — strikes are likely at non-round
-  increments for a $440+ name); re-check the actual strike ladder and premium live at the open,
-  but note CEG's $300 ATM call priced at ~$960/contract tonight (see #2) — a $440+ stock's ATM
-  premium is very likely to exceed the ~$300 sizing cap too, so any options expression would
-  need to go meaningfully OTM to fit, which may also fail delta/liquidity screens. Flag as
-  likely FAIL on premium pending live confirmation.
+### 2. SPOT (Spotify) — large-cap mover, catalyst unconfirmed
+- **Catalyst:** Unknown. Closed regular session +5.1% ($488.13 → $512.97), basically holding the
+  gain after-hours ($511.31). WebSearch found nothing dated October 7; next earnings isn't until
+  October 22, so this isn't an earnings reaction. A $112B-cap name moving 5% without an obvious
+  headline is unusual enough to flag, not dismiss — possible analyst action, index-related flow,
+  or a catalyst not yet indexed.
+- **Direction/magnitude:** Bullish, large and liquid, held its gain into the close — the kind of
+  large-cap move the framework was built to catch, just missing the catalyst confirmation.
+- **Freshness confidence:** Moderate — real size and real volume, but "no catalyst found" is
+  disqualifying under Step 5 until something surfaces. Worth a first-thing-tomorrow news check.
+- **Disqualifiers:** No confirmed catalyst (same caveat as PGNY).
+- **Options read (PRELIMINARY):** 10/16 expiration (in window). $510 call: mark $14.58 →
+  **$1,458/contract — FAILS premium cap** (~5x the ~$295 limit). $515 call: mark $12.13 →
+  **$1,213/contract — FAILS premium cap** too. SPOT's own share price is high enough that even
+  OTM near-money contracts blow through this account's sizing cap — any options expression here
+  would need to go meaningfully further OTM, which would also fail delta/liquidity screens.
+  **Net: FAIL on premium across the board.** Stock-only vehicle if this re-qualifies tomorrow.
 
-### 3. CEG (Constellation Energy) — WEAKENED further, continuing to fade overnight
-- **Catalyst:** Google signed a 20-year, ~3,590MW nuclear PPA with Constellation (the Oct 6 deal
-  driving the whole sector).
-  [Benzinga](https://www.benzinga.com/markets/tech/26/10/62190391/google-constellation-energy-nuclear-deal-stocks-rally)
-- **Direction/magnitude:** Bullish catalyst, but price action already rolled over intraday —
-  peaked ~$309.80 around 12:30pm ET, faded to $298-300 by the close, extended-hours $295.68, and
-  **now pre-market $289.63 (-3.6% from yesterday's close)** — the fade has continued overnight,
-  not stabilized.
-- **Freshness confidence:** DOWNGRADED further. Catalyst is fresh and durable (20-year
-  contract), but the stock's reaction has now faded three sessions' worth of price action in a
-  row (intraday peak → close → AH → pre-market, each one lower) — the weakest structure of any
-  name in this build.
-- **Disqualifiers:** Rolling-over price structure; already extended; direct deal party but
-  arguably the most "used up" name in the basket by end of day.
-- **Options read:** Listed chain confirmed, 10/16 (10 DTE) in window. $300 ATM call: bid $9.50 /
-  ask $9.70, mark $9.60 → **~$960/contract, well above the ~$302 sizing cap. FAIL on premium**
-  at any ATM/near-ATM strike; a deep-OTM contract might fit the cap but would carry a low delta
-  weak directional expression — not a clean fit for this account's sizing.
+### 3. DRUG (Bright Minds Biosciences) — real move, catalyst unconfirmed, dilution overhang
+- **Catalyst:** Unknown. Closed +7.7% ($48.25 → $51.96), roughly flat after-hours ($52.00). No
+  October 7 news found. Recent history is a headwind, not a tailwind: a $175M public offering
+  (May) and a $100M equity offering (July) have been diluting the stock — a name with an active
+  dilution overhang rallying 7.7% without a stated reason is a lower-confidence setup than PGNY
+  or SPOT, not a higher one.
+- **Direction/magnitude:** Bullish but smaller/thinner ($581M cap) than SPOT/PGNY.
+- **Freshness confidence:** Low — no catalyst, and the fundamental backdrop (recent dilution) cuts
+  against a clean momentum thesis even if one existed.
+- **Disqualifiers:** No confirmed catalyst; recent dilutive offering history.
+- **Options read:** Not checked — ranks below the top candidates and the dilution overhang
+  already weakens the case enough that the research budget wasn't spent here tonight.
 
-### 3. PENG (Penguin Solutions) — fresh earnings beat + raised guidance
-- **Catalyst:** Q4 FY2026 earnings beat ($1.00 actual vs. $0.74 est.) reported after today's
-  close, with raised FY2027 guidance citing continued AI-infrastructure/memory strength.
-  [Investing.com](https://za.investing.com/news/stock-market-news/earnings-call-transcript-penguin-solutions-tops-q4-2026-estimates-shares-rise-93CH-4492686)
-- **Direction/magnitude:** Bullish. Up +5.77% in the regular session (likely pre-report
-  positioning/leak-adjacent drift) plus another +5.12% after the print, AH price ~$67.50.
-- **Freshness confidence:** High — this is a same-day, same-report catalyst, the freshest of
-  tonight's build, with explicit forward guidance (not just a beat) as the driver.
-- **Disqualifiers:** Small-ish cap (~$3.1B) with a now ~11% two-session move already in; AH
-  liquidity/price can be unreliable — must re-verify the gap holds at the actual open before
-  treating as live.
-- **Options read:** Listed chain confirmed (10/16 = 10 DTE in window). Specific ATM strike
-  ($67.50) not found in this build's instrument pull — likely a strike-spacing mismatch at this
-  price level; re-resolve the real strike ladder and premium live at the open. Given PENG's
-  lower share price (~$67) versus CIEN/CEG, this name is the most likely of the three to
-  actually fit the ~$302 sizing cap on a near-ATM contract — worth prioritizing for the live
-  options-potential check tomorrow.
-
-### 4. Nuclear/power sympathy basket (OKLO, VST, SMR, NXE, TLN, CCJ, LEU, XE, UUUU, UEC) — WEAKENED, broad-basket fade overnight
-- **Overnight update:** OKLO pre-market $37.68 (-2.3% from $38.55 close), VST pre-market $156.62
-  (-2.4% from $160.50 close) — same sell-the-news fade pattern as CEG/CIEN. Basket-wide weakness,
-  not isolated.
-- **Catalyst:** Same Google/Constellation nuclear PPA — sympathy buying across advanced-reactor
-  developers and uranium/fuel names, treated by investors as evidence of real demand for the
-  next wave of projects.
-  [24/7 Wall St.](https://247wallst.com/investing/2026/10/06/nuclear-stocks-rally-as-googles-reactor-deal-lifts-the-sector-nano-nuclear-energy-jumps-8-oklo-climbs-8-nuscale-power-gains-7/)
-- **Direction/magnitude:** Bullish, broad (OKLO +8%, VST +10.8%, SMR +7%, several others +5-12%).
-  OKLO/VST both continued higher into AH (OKLO AH $38.78 vs regular $38.58; VST roughly flat).
-- **Freshness confidence:** Moderate — real underlying catalyst, but these are sympathy plays on
-  someone else's news, not idiosyncratic. A second day of follow-through would strengthen the
-  case; a single name with its own fresh catalyst inside this basket would rank higher.
-- **Disqualifiers:** Broad-basket moves are explicitly excluded from individual high-confidence
-  scoring per the standing framework — no single name here is a scored candidate tonight, this
-  is a theme to watch, not a trade list entry.
-- **Options read:** Not checked — basket entries aren't individually scored, so the research
-  budget wasn't spent on options chains for every name. If any of these show a fresh, idiosyncratic
-  catalyst of its own by tomorrow's open (not just basket momentum), run it through properly then.
-
-### 5. OPCH (Option Care Health) — UNCHANGED, capped merger-arb
-- Still the McKesson/CD&R advanced-talks situation ($32.05/sh cash target). Flat overnight
-  ($31.00 close → $31.02 pre-market) — the only name in this build that's genuinely stable,
-  consistent with it being merger-arb-driven rather than momentum. Same declining verdict as
-  every prior cycle — binary completion risk, multi-month timeline, doesn't fit this account's
+### 4. NWE (NorthWestern Energy) / BKH (Black Hills) — confirmed capped merger-arb, still declined
+- **Catalyst confirmed via WebSearch:** This is the all-stock "merger of equals" (→ Bright Horizon
+  Energy Corporation) that has already cleared shareholder votes, HSR, FERC, Nebraska PSC, and
+  South Dakota PUC. The **only remaining approval is Montana's PSC**, currently tangled in a
+  procedural fight over whether Commissioner Kirk Bushman is eligible to vote on the $15.4B deal
+  (litigation pending in Lewis and Clark County District Court). Both stocks moved together today
+  (NWE +7.3%, BKH +7.2%) and again after-hours (NWE $73.97→$74.00, BKH $75.85→$76.11) — classic
+  merger-arb spread behavior, almost certainly tied to anticipation of a Montana PSC
+  development, though no ruling was found tonight.
+- **Verdict:** Same as every prior cycle — binary/event-driven, doesn't fit this account's
   momentum framework. Carried forward for continuity, not as a live candidate.
+- **Options read:** Not checked — declined category, not worth the research budget.
+
+### 5. CIEN / VST / TLN vs. CEG / OKLO / SMR / NXE / CCJ — nuclear/power basket divergence (watch only)
+- **What changed:** The basket that's been broadly fading since Tuesday's Google-Constellation
+  nuclear PPA news split today. CIEN closed **green for the first time** (+0.63%, $443.65→$446.46),
+  VST closed +3.9% ($160.50→$166.73, extending further AH to $166.10... actually held roughly
+  flat AH), and TLN closed +1.51% ($373.11→$378.74). Meanwhile CEG, OKLO, SMR, NXE, and CCJ all
+  stayed red through the close.
+- **Freshness confidence:** No fresh catalyst identified for the split — this is a structural/
+  price-action observation, not a news-driven thesis. Flagging for continuity so tomorrow's
+  cycles can see whether the divergence holds, extends, or was just afternoon noise.
+- **Disqualifiers:** No catalyst; basket-level entries aren't individually scored per the standing
+  framework anyway. Not a trade list entry, purely a structure to watch.
+- **Options read:** Not checked — informational only.
+
+### 6. OPCH (Option Care Health) — unchanged, capped merger-arb
+- Still the McKesson/CD&R advanced-talks situation. Not re-checked tonight (no reason to expect
+  movement); carried forward for continuity per standing practice. Same declining verdict.
 
 ---
 
-## Today's earnings reactions (after-close)
+## Today's earnings reactions (after-close, 2026-10-07)
 
 | Ticker | Est. | Actual | Reaction |
 |---|---|---|---|
-| PENG | $0.74 | $1.00 | Beat big, +5.1% AH (see #3 above) |
-| STZ (Constellation Brands) | $3.56 | $3.74 | Modest beat |
-| NEOG | $0.05 | $0.08 | Beat |
-| SAR | $0.49 | $0.46 | Miss |
-| AXIL | $0.13 | $0.05 | Miss |
-| WS | $1.16 | $0.57 | Big miss |
+| LEVI (Levi Strauss) | $0.36 | $0.48 | Beat — but note LEVI was already down -4.4% in today's regular session per the options-flow scan; after-hours reaction not yet separately verified, re-check at the open |
+| RELL (Richardson Electronics) | $0.09 | $0.27 | Big beat |
+| RGP (Resources Connection) | -$0.18 | -$0.16 | Smaller-than-expected loss |
+| APLD (Applied Digital) | -$0.29 | -$0.01 | Big beat (smaller loss than expected) — note APLD was already down -5.1% in today's regular session per the options-flow scan, a pre-earnings move; after-hours reaction not yet separately verified |
+| LFS, HKD, NPT, NXTT, ADVB | n/a | n/a | No estimate/actual on file — small/micro-cap, not pursued |
 
-No major after-hours price reactions found for the misses beyond normal noise — none rank as
-tomorrow candidates.
+None of these rank as tomorrow candidates on their own — LEVI and APLD are large enough to be
+worth a quick after-hours price check at the 8am true-up given the beat-while-the-stock-was-
+already-down setup, but nothing here was chased tonight.
 
-## Tomorrow's scheduled earnings (2026-10-07)
-No high-market-cap names reporting tomorrow per the calendar (RELL, LFS, APLD, LEVI, RGP, and a
-handful of unverified small/micro-caps only, mostly "pm" timing). Nothing here moves the needle
-for an opening-bell watchlist.
+## Tomorrow's scheduled earnings (2026-10-08)
+
+| Ticker | Timing | Est. EPS | Notable? |
+|---|---|---|---|
+| **PEP (PepsiCo)** | **am** | $2.29 | Yes — large, well-known, reports before the open |
+| NG (Novagold) | am | -$0.08 | Small |
+| HELE (Helen of Troy) | am | $0.46 | Mid-cap |
+| TLRY (Tilray) | am | -$0.15 | Small-cap, volatile sector |
+| BYRN, ANGO | am | — | Small |
+| PKE, ODC, SVNDY, IPW | pm | — | Small |
+
+PEP is the one name here worth a pre-market check tomorrow — a reliable large-cap print that can
+move defensively-oriented sectors on a beat/miss, though it's not an idiosyncratic momentum setup
+in the style this account trades.
 
 ## Scheduled macro events
-- **FOMC September-meeting minutes, Wed 10/7, 2:00pm ET** — the week's primary event risk.
-  Minutes detail the unanimous rate-hike vote and may hint at guidance for the next meeting —
-  watch for volatility into and after the 2pm release, though this lands well after the
-  standing cycle times (9:40am/11am/12pm/3pm) are mostly done for the day.
-- **CPI + initial jobless claims, Thu 10/8, 8:30am ET** — flagged for the next build.
+- **CPI + initial jobless claims, Thu 10/8, 8:30am ET** — the next real macro catalyst, lands
+  before the 9:40am opening-bell cycle. Watch for a gap reaction.
+- FOMC September minutes (10/7, 2pm ET) — now resolved; confirmed a non-event (SPX/NDX +0.1%,
+  VIX down slightly). No lingering overhang into tomorrow.
 
 ## Small-cap-tech shortlist
-Not run this build (Step 3b is the overnight true-up routine's job, ~8:00am ET). Will populate
-tomorrow morning's true-up per standing process.
+Not run this build (Step 3b is the overnight true-up routine's job, ~8:00am ET).
+
+## Asian/European overnight session
+Not yet checked at this hour (6pm ET build) — this is explicitly the overnight true-up routine's
+job (~8:00am ET), since those sessions haven't traded yet when this file is built.
 
 ## Sources used in this build
-- [Ciena Corp Stock (CIEN) Moved Up by 11.02%/13.8% on Oct 6 — TradingKey](https://www.tradingkey.com/news/market-movers/262202264-market-movers-cien-20261006)
-- [Google Bets 20 Years On Constellation Reactors — Benzinga](https://www.benzinga.com/markets/tech/26/10/62190391/google-constellation-energy-nuclear-deal-stocks-rally)
-- [Nuclear Stocks Rally as Google's Reactor Deal Lifts the Sector — 24/7 Wall St.](https://247wallst.com/investing/2026/10/06/nuclear-stocks-rally-as-googles-reactor-deal-lifts-the-sector-nano-nuclear-energy-jumps-8-oklo-climbs-8-nuscale-power-gains-7/)
-- [Penguin Solutions tops Q4 2026 estimates — Investing.com](https://za.investing.com/news/stock-market-news/earnings-call-transcript-penguin-solutions-tops-q4-2026-estimates-shares-rise-93CH-4492686)
-- [What to Look Out for in Economic Data This Week (October 5-9) — Kiplinger](https://www.kiplinger.com/investing/economy/this-weeks-economic-calendar)
+- [Black Hills Corp. and NorthWestern Energy Shareholders Approve Merger Proposals](https://ir.blackhillscorp.com/news-releases/news-release-details/black-hills-corp-and-northwestern-energy-shareholders-approve)
+- [Nebraska approves Black Hills-NorthWestern Energy merger](https://www.1011now.com/2026/05/19/nebraska-approves-black-hills-northwestern-energy-merger/)
+- [Merger of NorthWestern Energy and Black Hills Energy approved by the PUC](https://www.dakotanewsnow.com/2026/06/25/merger-northwestern-energy-black-hills-energy-approved-by-puc/)
+- [Montana PSC hearing potential merger between NorthWestern Energy and Black Hills Energy](https://www.kpax.com/news/montana-politics/montana-psc-hearing-potential-merger-between-northwestern-energy-and-black-hills-energy)
+- [Public Service Commissioners squabble over NorthWestern case](https://www.yahoo.com/news/articles/public-commissioners-squabble-over-northwestern-204338432.html)
+- WebSearch queries on SPOT, PGNY, DRUG, HESM, BULL — no October 7, 2026-dated coverage found for any; noted as "catalyst unconfirmed," not "no catalyst."
