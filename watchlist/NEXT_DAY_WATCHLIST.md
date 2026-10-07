@@ -6,8 +6,28 @@
 > 20% pre-market and is already fading by 9:35am ET is a PASS despite being on this list.
 > This file is a head start for the search, not a decision.
 
-**Build status:** fresh build by the after-hours routine on 2026-10-06 (Tuesday close), fired
-~6:06pm ET. Will be trued up by the ~8:00am overnight routine tomorrow (2026-10-07).
+**Build status:** built fresh by the after-hours routine on 2026-10-06 (Tuesday close), fired
+~6:06pm ET; **trued up by the overnight routine, fired ~7:53am ET on 2026-10-07 (Wednesday)**.
+
+**Pre-market small-cap-tech shortlist (Step 3b):** Technology sector scan returned **zero
+matches** at the standing threshold (≥8% change, ≥3x relative volume) as of ~7:53am ET. No
+shortlist to present this morning.
+
+**True-up tone (2026-10-07, ~7:53am ET):** Broad overnight fade across yesterday's biggest
+sector-wide winners — classic "sell the news" after a big one-day pop, not fresh negative news.
+VIX ticked up slightly to **16.00** (from 15.07 yesterday) — mild risk-off. SPX/NDX quotes stale
+(last fresh print ~6:30-6:40pm ET yesterday). Futures were little-changed/mixed overnight as
+markets await today's FOMC minutes (2:00pm ET). **PENG is the one candidate that held/extended
+its gain overnight — now the top-ranked name.**
+
+**IMPORTANT — AAOI gap-down risk:** Our open AAOI position (3 sh, avg $111.45, stop resting at
+$128.00/$126.72) is quoted **pre-market at $124.80** — already trading below both the stop
+trigger ($128) and the limit floor ($126.72). If this gap holds into the 9:30 open, the stop
+will trigger but may not fill at $126.72 since the stock would already be trading below that
+limit — real risk of an unprotected gap-through. Flag for the 9:40am cycle to address
+immediately: either accept a worse fill by lowering the limit closer to the market, or reassess
+the thesis fresh given the pre-market weakness. No action possible before the open (stops are
+regular-hours only).
 
 **News-tool status:** `get_equity_news` remains permanently unavailable in this toolset.
 WebSearch continues as the standing substitute for catalyst verification — all catalysts below
@@ -39,21 +59,35 @@ ET** — the week's main event risk, ahead of Thursday's CPI print.
 
 ---
 
-## Ranked candidates
+## Ranked candidates (re-ranked at true-up — PENG promoted to #1)
 
-### 1. CIEN (Ciena Corp) — AI-networking, real catalyst, strongest continuation
+### 1. PENG (Penguin Solutions) — STRENGTHENED, held gains overnight
+- **Status:** STRENGTHENED. Regular close $64.21 → pre-market **$66.70 (+3.9%)** — the ONLY
+  name in this basket holding/extending its gain overnight rather than fading. Confirms this is
+  the cleanest, most idiosyncratic setup (same-day earnings beat + raised guidance, not sector
+  sympathy).
+- **Options read (refreshed at true-up):** $65 strike call, 10/16 exp (9 DTE as of today):
+  bid $5.80 / ask $6.00, mark $5.90 → **$590/contract — still above the ~$303 sizing cap. FAIL
+  on premium** even at this near-the-money strike, despite excellent liquidity (OI 4,704, volume
+  5,492 — among the most liquid single-stock options chains checked this week) and very high IV
+  (150%, reflecting the fresh earnings move). A further-OTM strike might fit the dollar cap but
+  would be a much weaker delta/directional expression. Stock trade remains the likely vehicle if
+  this still looks clean at the open.
+
+### 2. CIEN (Ciena Corp) — WEAKENED, faded hard overnight
 - **Catalyst:** Marvell's Investor Day (Oct 6, NYC) projected the AI interconnect market growing
   to ~$65B by 2030 (60-70% CAGR), validating demand for optical-networking suppliers; compounded
   by bullish sell-side initiations calling AI networking a "bona fide mega boom."
   [TradingKey](https://www.tradingkey.com/news/market-movers/262202264-market-movers-cien-20261006)
-- **Direction/magnitude:** Bullish. Closed regular session +13.8% at $443.66, and **kept
-  climbing after hours** to $444.16 — the single strongest closing/AH profile of anything
-  scanned today (most other movers faded or went flat into the close).
-- **Freshness confidence:** High — catalyst is today's news, price action confirms genuine
-  demand (closed at/near highs, extended further AH) rather than a spike-and-fade.
-- **Disqualifiers:** Already up ~14% intraday by the time it was caught at the 3pm cycle —
-  don't-chase judgment applies to large-caps too; needs a fresh basing structure at tomorrow's
-  open, not an automatic gap-chase.
+- **Direction/magnitude:** Was bullish — closed regular session +13.8% at $443.66, extended
+  further AH to $444.16. **Overnight reversal:** now quoted pre-market at **$429.00, down -3.3%
+  from yesterday's close** — the AH strength did not hold into the next session.
+- **Freshness confidence:** DOWNGRADED. The catalyst itself is still real, but price action has
+  now round-tripped a meaningful chunk of the move — this reads as profit-taking after a big
+  one-day pop rather than a name building a fresh base. Needs to show a stabilizing structure
+  intraday before treating as live.
+- **Disqualifiers:** Already-extended entry risk, now compounded by an overnight fade — exactly
+  the pattern the don't-chase rule warns about.
 - **Options read:** Listed chain confirmed (expirations through 2029, including 10/16 = 10 DTE
   and 10/23 = 17 DTE, both in window). Specific ATM strike/premium not resolved this build
   (the $445 strike didn't exist in the instrument list — strikes are likely at non-round
@@ -63,16 +97,18 @@ ET** — the week's main event risk, ahead of Thursday's CPI print.
   need to go meaningfully OTM to fit, which may also fail delta/liquidity screens. Flag as
   likely FAIL on premium pending live confirmation.
 
-### 2. CEG (Constellation Energy) — nuclear deal, direct counterparty, but already rolling over
+### 3. CEG (Constellation Energy) — WEAKENED further, continuing to fade overnight
 - **Catalyst:** Google signed a 20-year, ~3,590MW nuclear PPA with Constellation (the Oct 6 deal
   driving the whole sector).
   [Benzinga](https://www.benzinga.com/markets/tech/26/10/62190391/google-constellation-energy-nuclear-deal-stocks-rally)
 - **Direction/magnitude:** Bullish catalyst, but price action already rolled over intraday —
-  peaked ~$309.80 around 12:30pm ET, faded to $298-300 by the close, extended-hours $295.68
-  (further fade, not a recovery).
-- **Freshness confidence:** Catalyst is fresh and durable (20-year contract), but the stock's
-  reaction has already priced in the initial pop and is now fading — weak setup for tomorrow
-  without a fresh basing session first.
+  peaked ~$309.80 around 12:30pm ET, faded to $298-300 by the close, extended-hours $295.68, and
+  **now pre-market $289.63 (-3.6% from yesterday's close)** — the fade has continued overnight,
+  not stabilized.
+- **Freshness confidence:** DOWNGRADED further. Catalyst is fresh and durable (20-year
+  contract), but the stock's reaction has now faded three sessions' worth of price action in a
+  row (intraday peak → close → AH → pre-market, each one lower) — the weakest structure of any
+  name in this build.
 - **Disqualifiers:** Rolling-over price structure; already extended; direct deal party but
   arguably the most "used up" name in the basket by end of day.
 - **Options read:** Listed chain confirmed, 10/16 (10 DTE) in window. $300 ATM call: bid $9.50 /
@@ -98,7 +134,10 @@ ET** — the week's main event risk, ahead of Thursday's CPI print.
   actually fit the ~$302 sizing cap on a near-ATM contract — worth prioritizing for the live
   options-potential check tomorrow.
 
-### 4. Nuclear/power sympathy basket (OKLO, VST, SMR, NXE, TLN, CCJ, LEU, XE, UUUU, UEC) — broad-basket, not individually scored
+### 4. Nuclear/power sympathy basket (OKLO, VST, SMR, NXE, TLN, CCJ, LEU, XE, UUUU, UEC) — WEAKENED, broad-basket fade overnight
+- **Overnight update:** OKLO pre-market $37.68 (-2.3% from $38.55 close), VST pre-market $156.62
+  (-2.4% from $160.50 close) — same sell-the-news fade pattern as CEG/CIEN. Basket-wide weakness,
+  not isolated.
 - **Catalyst:** Same Google/Constellation nuclear PPA — sympathy buying across advanced-reactor
   developers and uranium/fuel names, treated by investors as evidence of real demand for the
   next wave of projects.
@@ -115,11 +154,12 @@ ET** — the week's main event risk, ahead of Thursday's CPI print.
   budget wasn't spent on options chains for every name. If any of these show a fresh, idiosyncratic
   catalyst of its own by tomorrow's open (not just basket momentum), run it through properly then.
 
-### 5. OPCH (Option Care Health) — unchanged, capped merger-arb
-- Still the McKesson/CD&R advanced-talks situation ($32.05/sh cash target), +32.7% today,
-  holding flat into AH ($31.01 → $31.02). Same declining verdict as every prior cycle — binary
-  completion risk, multi-month timeline, doesn't fit this account's momentum framework. Carried
-  forward for continuity, not as a live candidate.
+### 5. OPCH (Option Care Health) — UNCHANGED, capped merger-arb
+- Still the McKesson/CD&R advanced-talks situation ($32.05/sh cash target). Flat overnight
+  ($31.00 close → $31.02 pre-market) — the only name in this build that's genuinely stable,
+  consistent with it being merger-arb-driven rather than momentum. Same declining verdict as
+  every prior cycle — binary completion risk, multi-month timeline, doesn't fit this account's
+  momentum framework. Carried forward for continuity, not as a live candidate.
 
 ---
 
