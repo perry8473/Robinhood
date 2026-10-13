@@ -6,219 +6,172 @@
 > 20% after-hours and is already fading by 9:35am ET is a PASS despite being on this list.
 > This file is a head start for the search, not a decision.
 
-**Build status:** built fresh by the after-hours routine on 2026-10-12 (Monday close), fired
-~6pm ET; **trued up by the overnight routine, fired ~7:54am ET on 2026-10-13 (Tuesday).**
+**Build status:** built fresh by the after-hours routine on 2026-10-13 (Tuesday close), fired
+~6:06pm ET. Asian/European overnight-session news has **not** been checked at this hour — that is
+the job of the ~8am overnight true-up routine before tomorrow's (2026-10-14, Wednesday) open.
 
-**Account status (trued up, ~7:54am ET):** **SKYA, 58 shares, avg cost $2.59.** Step 0 this
-morning: pre-market last $2.53, bid $2.51/ask $2.57 — still above the user-specified $2.35 floor,
-so **no action taken — holding**, consistent with every overnight check since Monday's close
-(11pm: $2.51, 3am: $2.50, all above the floor). No resting stop (expired Monday at close; still
-not enrolled in extended-hours/24-Hour-Market trading). **First action item at the 9:40am
-opening-bell cycle: place a fresh regular-hours stop on SKYA** (the $2.35 floor remains the
-reference point pending fresh user guidance intraday).
+**Step 0 — held position defense check:** `get_equity_positions` confirms the account is **flat —
+no equity or options positions held.** Nothing to defend off-hours this evening.
 
-**Standing watch — AAOI / COHR (per standing user instruction, checked every morning regardless
-of scan results):** **AAOI** prior close $100.68 → pre-market $99.55, bid $99.06/ask $99.50
-(**-1.1%**) — continuing to hold roughly in its recent range, not a fresh move. **COHR** prior
-close $288.02 → pre-market $282.68, bid $282.18/ask $282.99 (**-1.9%**) — still fading, extending
-yesterday's reversal. No fresh catalyst found for either. The recommendation from last night's
-build stands: this no longer looks like a live thesis worth nightly padding, but it's retained
-here per the standing instruction to check both every morning.
+**Account status:** Flat, $2,943.47 cash/buying power. SKYA (bought earlier today on explicit user
+instruction, stop raised $2.20→$2.35→$2.40 through the session) was stopped out at today's open
+per the user's final $2.40 floor — that trade is closed; see this afternoon's chat for the exact
+fill. No other positions opened today; GS, UNH, BMBL, JNJ, FRMI, MDB, EFXT, AGBK, STGW, RGC and the
+rest of today's movers were all checked across the 11am/12pm/3pm cycles and none qualified (no
+confirmed catalyst, or capped-arb/structure problems — see below).
 
-**Tone at this build:** A real risk-off day for one specific complex — the optical-component
-group (LITE/CIEN/COHR/AAOI) that looked merely "stalled" this morning fully reversed and
-deepened into the close: **LITE -9.8% to $995.22, CIEN -10.0% to $404.89, COHR -7.9% to $288.02,
-AAOI -8.1% to $100.71** — all extending the fade into after-hours too. LITE's close is now
-**below** last Thursday's pre-catalyst level ($1,048.60), meaning the Lumentum optical-shortage
-catalyst from last week has now fully round-tripped and reversed on net. Broader indices were
-only mildly soft (SPY -0.06%, QQQg -0.70%) — this was complex-specific, not macro-driven.
+**Standing watch — AAOI / COHR (per standing user instruction, checked every morning regardless of
+scan results; AH figures below are for continuity only, not a substitute for the 8am true-up):**
+**AAOI** close $100.68 → now $99.00 after-hours (**-1.7%**), still fading. **COHR** close $288.02 →
+now $290.25 after-hours (**+0.8%**), a modest bounce off today's -7.9% close but not a reversal of
+the broader thesis. **LITE** $995.41 → $990.00 AH (-0.5%), **CIEN** $405.01 → $401.99 AH (-0.7%) —
+both still soft. No fresh catalyst found for any of the four. Unchanged recommendation from
+yesterday: this optical-sector thesis (LITE/CIEN/COHR/AAOI) remains invalidated after Monday's full
+reversal; retained here only per the standing AAOI/COHR morning-check instruction.
 
-**True-up headline (~7:54am ET): the AM bank/healthcare earnings cluster has reported, and GS
-and UNH are the clean, confirmed-catalyst standouts of the morning.** **GS** beat massively
-($17.01 actual vs. $13.05 est., +30%) and is up cleanly pre-market: close $893.95 → $917.32
-(**+2.6%**), bid $917.01/ask $919.60. **UNH** also beat strongly ($4.69 vs. $4.14 est., +13%) and
-is following through: close $378.52 → $386.04 (**+2.0%**), bid $386.02/ask $386.75 — directly
-relevant given last week's HUM/ELV health-insurer context. Both are real catalyst + clean
-pre-market confirmation, the cleanest combination in tonight's/this morning's build. The rest of
-the cluster is a mixed bag: **JPM** missed ($5.75 vs $5.94) but is only mildly positive
-pre-market (+0.6%) — muted reaction either way. **WFC** (+beat, -0.9% pre-market), **JNJ**
-(+beat, -2.1%), and **DPZ** (+beat, -2.1%) all beat but are trading down — guidance-driven
-reactions, not momentum setups. **ACI** missed and is down (-2.1%), consistent with the miss. C
-and AZZ have not yet reported.
-
-**BMBL (Bumble) — confirmed M&A-rumor catalyst from Monday, still extending, still declined as
-capped-arb.** Close $3.798 (+49.5% Monday), now pre-market **$3.95 (+4.0% further)**, bid
-$3.94/ask $3.98. A fresh search this morning found no confirmed update to deal terms — same
-WSJ/Reuters take-private-talks catalyst as last night, just continuing to grind higher. Still
-genuinely binary/event-driven (per the NWE/BKH merger-arb precedent) and still largely priced —
-unchanged verdict: flagged for visibility, not proposed as a live candidate.
+**Tone at this build:** A quiet, directionless afternoon after the morning's bank/healthcare
+earnings cluster. SPX/NDX drifted mildly higher intraday (SPX 7798→7810.74, VIX flat at 15.43) with
+no stress signal. The GS/UNH earnings-beat setups that looked promising this morning both failed
+Step 6 price structure by the 11am cycle (gapped to highs, reversed hard within the first 10
+minutes) and were formally rejected — a reminder that a big beat alone doesn't guarantee a clean
+technical setup once the open's volatility resolves. BMBL (Bumble take-private talks) continued
+extending all day (+56% at the close) but remains declined as capped merger-arb. JNJ deteriorated
+further through the day (-5.4% to -6.5% depending on the snapshot) with no actionable thesis
+either direction.
 
 ---
 
-## Today's open positions
-**SKYA** — 58 shares, avg cost $2.59, pre-market $2.53 (-2.3% from entry). No resting stop
-(expired Monday at close); see Account status above — first action is placing a fresh stop at
-the 9:40am opening-bell cycle.
+## Today's closed position
+**SKYA** — bought today on explicit user instruction (~$150 stake), stop raised $2.20→$2.35→$2.40
+across the session, stopped out at the open per the final $2.40 floor. Account is flat as of this
+build. Do not re-enter without a fresh, independently-qualifying setup — per the STOCK
+TRAILING-STOP RULE, a clean stop-out is not followed by an automatic re-entry.
 
 ---
 
 ## Ranked candidates
 
-### 1. GS (Goldman Sachs) — NEW, confirmed massive earnings beat, clean pre-market follow-through
-- **Catalyst confirmed:** Q3 2026 EPS $17.01 actual vs. $13.05 estimate (+30%), reported before
-  this morning's open.
-- **Price action:** Close $893.95 → pre-market $917.32 (**+2.6%**), bid $917.01/ask $919.60 —
-  clean, orderly follow-through on real size ($large-cap).
-- **Direction/magnitude:** Bullish, large, and the reaction direction matches the catalyst —
-  exactly the setup the standing framework is built to catch.
-- **Freshness confidence:** High — same-morning, confirmed via the earnings calendar, clean
-  pre-market price confirmation already in hand before the open.
-- **Disqualifiers:** None on the stock side. A mega-cap bank stock moving 2.6% pre-market on a
-  beat this size is a real, tradeable setup worth the 9:40am cycle's full live re-verification.
-- **Options read (PRELIMINARY, last-close-basis quotes):** Chain exists; 11/06 expiration (24 DTE
-  from today) — **PASSES the 7-30 DTE window.** $920 call: mark $19.825 → **~$1,982.50/contract —
-  FAILS the ~$295 sizing cap badly.** GS's own share price makes any near-the-money contract
-  structurally too expensive for this account's cap; a compliant contract would need to be deep
-  OTM (weak directional exposure). **Net: FAIL on premium** — stock-only expression if this
-  re-qualifies live.
-- **Verdict:** Best-qualified setup of this build — real catalyst, clean confirmation, stock-only
-  given the premium-cap problem. Top priority for the 9:40am cycle's live re-check.
+### 1. AZZ (AZZ Inc.) — NEW, confirmed earnings beat, clean after-hours follow-through
+- **Catalyst confirmed:** Q2 FY2027 EPS $2.00 actual vs. $1.84 estimate (beat), reported after
+  today's close (`get_earnings_calendar`, timing=pm, verified=true).
+- **Price action:** Regular close $136.73 → after-hours $140.03 (**+2.4%** vs. last regular trade;
+  **+1.65%** vs. yesterday's official close of $137.76), bid $139.69/ask $140.75 — real size
+  ($4.14B market cap, industrials/metal-coatings), orderly follow-through, no halt.
+- **Direction/magnitude:** Bullish, matches the catalyst direction, moderate-size mid-cap.
+- **Freshness confidence:** High — same-evening, confirmed via the earnings calendar, with a clean
+  AH price reaction already in hand.
+- **Disqualifiers:** None identified yet on the stock side — needs the standard live re-verification
+  at the open (gap size, whether it holds or fades pre-market, clean entry/stop structure).
+- **Options read (PRELIMINARY, last-close-basis quotes):** Chain exists; expirations are 10/16 (3
+  DTE from today, 2 DTE from tomorrow's open — **FAILS**, under the 4-DTE floor), 11/20 (37 DTE
+  from tomorrow — **FAILS**, over the 30-DTE window), 2027-02/05 (far too long). **No expiration
+  threads the 7-30 DTE window — FAIL on DTE structurally**, same way BMBL failed earlier this week.
+  Stock-only if this re-qualifies live.
+- **Verdict:** Best-qualified fresh setup of this build — real, same-day catalyst with clean AH
+  confirmation. Top priority for tomorrow's 9:40am opening-bell cycle's live re-check.
 
-### 2. UNH (UnitedHealth) — NEW, confirmed strong earnings beat, clean pre-market follow-through
-- **Catalyst confirmed:** Q3 2026 EPS $4.69 actual vs. $4.14 estimate (+13%), reported before
-  this morning's open.
-- **Price action:** Close $378.52 → pre-market $386.04 (**+2.0%**), bid $386.02/ask $386.75.
-- **Direction/magnitude:** Bullish, large-cap, clean follow-through — also directly relevant
-  context given last week's HUM/ELV health-insurer-sector moves (still unconfirmed catalyst at
-  the time, now UNH gives a confirmed, real data point for the same sub-sector).
-- **Freshness confidence:** High — same reasoning as GS.
-- **Disqualifiers:** None on the stock side.
-- **Options read (PRELIMINARY):** Chain exists; 11/06 expiration (24 DTE) — **PASSES DTE window.**
-  $385 call: mark $15.375 → **~$1,537.50/contract — FAILS the sizing cap badly**, same high-share-
-  price problem as GS. **Net: FAIL on premium** — stock-only expression.
-- **Verdict:** Second-best-qualified setup — real catalyst, clean confirmation, stock-only.
-  Priority for the 9:40am live re-check alongside GS.
+### 2. Tomorrow's scheduled earnings cluster (before-the-bell, 2026-10-14) — WATCH, not yet actionable
+- **MS (Morgan Stanley)**, **BAC (Bank of America)**, **BLK (BlackRock)**, **STT (State Street)**,
+  **PGR (Progressive)**, **FAST (Fastenal)** all report before tomorrow's open; **ASML** also
+  reports before the open (large semiconductor-equipment name, NDX-relevant).
+- This is a direct continuation of today's bank cluster (GS/JPM/WFC/C/JNJ/UNH) — another wave of
+  large-cap, high-market-cap reports hits right at tomorrow's open. None of these have reported yet
+  (`eps.actual` is null for all as of this build), so there is no reaction to evaluate tonight.
+- **Verdict:** Not a candidate yet — flagging for the 8am true-up and 9:40am cycle to check
+  immediately once actuals post. Given today's lesson (GS/UNH beats both failed to hold a clean
+  base), treat any gap here with the same Step 6 scrutiny rather than chasing the headline beat.
+- **Options read:** Not checked — no catalyst to evaluate against yet.
 
-### 3. BMBL (Bumble) — confirmed catalyst (M&A talks), still extending, still binary/capped-arb profile
-- **Catalyst confirmed:** WSJ/Reuters reports (dated today) that Bumble is in advanced talks to
-  go private via Ithaca Holdings at ~$1B valuation. Real and sourced, not rumor-only — but still
-  unsigned deal talk, not a completed transaction.
-- **Price action:** Close $3.798 (+49.5% vs. Friday's $2.54), extending to $3.85 (+51.5%)
-  after-hours. Intraday trading halt for volatility.
-- **Direction/magnitude:** Bullish and large, but the framework's standing treatment of
-  merger/take-private situations (per the NWE/BKH precedent) is that these don't fit the momentum
-  thesis this account trades — the move is event-driven and the stock has already captured most
-  of the reported premium. A failed/renegotiated deal is real downside risk from here.
-- **Freshness confidence:** High on the catalyst itself (same-day, multiply-sourced), low on
-  "still actionable" — the premium is largely already in the price, and further upside depends on
-  deal terms firming up, which is not a tradeable technical setup.
-- **Disqualifiers:** Binary/event-driven, capped-arb profile; doesn't fit the standing framework
-  regardless of confidence in the catalyst's accuracy.
-- **Options read (PRELIMINARY, last-close-basis quotes):** Chain exists; nearest clean expiration
-  is 11/20 (38 DTE from tomorrow) — **FAILS the 7-30 DTE window** (10/16 is only 3 DTE, also
-  fails). $4 call, 11/20: mark $0.175 → **~$17.50/contract, passes the sizing cap**, OI 96/volume
-  5,415 (liquidity fine). **Net: FAIL on DTE window** — no listed expiration threads the 7-30 DTE
-  needle for this name right now.
-- **Verdict:** Decline as a live candidate per standing merger-arb treatment. Watch for news on
-  deal terms, not a momentum re-entry point.
+### 3. BNAI — reported today, narrower-than-expected loss, not a setup
+- **Catalyst:** Q2 EPS -$0.49 actual vs. -$0.80 estimate — a narrower loss, technically a "beat"
+  but still a loss, reported pm, **unverified** per the earnings calendar.
+- **Price action:** Close $5.28 → AH $5.14 (**-2.7%**) — down despite the narrower loss; market
+  not rewarding it.
+- **Verdict:** Decline — price action doesn't confirm the catalyst, and it's a small/thin name with
+  an unverified report. Not pursued.
 
-### 4. TRAX (First Tracks Biotherapeutics) — WEAKENED, no catalyst confirmed, fading pre-market
-- **Status (true-up, ~7:54am ET): WEAKENED.** Close $34.05 → pre-market $32.60, bid $33.50/ask
-  $36.45 (**-4.3%**) — giving back a real chunk of Monday's gain, a reversal from last night's
-  "extending" read.
-- **Catalyst:** Still **not confirmed.** No fresh October 13 news found.
-- **Verdict:** Demoted — fading pre-market on top of no catalyst. Low priority; re-verify live if
-  pursuing at all.
-- **Options read:** Not re-checked — fading price action plus no catalyst means no fresh thesis.
+### 4. SGLY — reported/reporting today, no edge
+- **Status:** No EPS estimate on file, timing pm, unverified. Close $0.704 → AH $0.68 (-3.4%).
+  Sub-$1 micro-cap with no confirmed catalyst detail available.
+- **Verdict:** Decline — too illiquid/small, no real catalyst data to evaluate.
 
-### 5. CHA / ALLT / DHT / FIGS — WEAKENED to flat, no catalyst, no longer extending
-- **Status (true-up, ~7:54am ET):** The clean "extending after-hours" signal from last night did
-  not carry into pre-market. **CHA** $11.97→$11.88 (-0.75%). **ALLT** $8.76→$8.72 (-0.5%). **DHT**
-  $26.22→$26.09 (-0.5%). **FIGS** $17.74→$17.71 (-0.2%). All four are now roughly flat rather than
-  extending — the technical case from last night has weakened.
-- **Catalyst:** Still not confirmed for any of the four.
-- **Verdict:** Demoted to standing watch only — flat price action plus no catalyst is a clear
-  pass for today.
-- **Options read:** Not checked.
+### 5. GS / UNH — formally rejected intraday, carried forward for the record only
+- Both beat materially this morning (GS $17.01 vs $13.05 est.; UNH $4.69 vs $4.14 est.) and gapped
+  up clean at the open, but both failed Step 6 price structure by the 11am cycle — gapped to highs
+  then reversed hard within the first 10 minutes (UNH went net negative intraday, GS failed to
+  rebuild a base) and were formally rejected. Options were already a structural FAIL on premium cap
+  for both regardless (~$1,540-$1,980/contract vs. the ~$294 cap).
+- **Verdict:** Rejected for today. Would need a genuinely fresh setup (new basing structure,
+  unrelated to today's earnings pop) to be reconsidered — not carried as an active candidate.
 
-### 6. GRML (Greenland Mines) — continuing to fade, no catalyst
-- **Status:** Pre-market $5.90 vs. close $6.02 (**-2.0%**), continuing Monday's after-hours fade.
-- **Verdict:** Decline — no catalyst, no longer even holding its gain. Lowest priority.
-- **Options read:** Not checked.
+### 6. BMBL (Bumble) — still extending, still declined as capped merger-arb
+- **Status:** Extended through the day to +56% intraday ($5.93-5.94), still no confirmed update to
+  deal terms beyond Monday's WSJ/Reuters take-private-talks story (Ithaca Holdings, ~$1B
+  valuation).
+- **Verdict:** Unchanged — declined per standing merger-arb treatment (NWE/BKH precedent). Watch
+  for deal-terms news, not a momentum re-entry point.
 
-### 7. AAOI / COHR / LITE / CIEN — standing optoelectronic-sector watch, thesis remains INVALIDATED
-- **Status:** See the Standing Watch note above for AAOI/COHR's fresh pre-market figures (both
-  still fading, no new catalyst). LITE/CIEN not re-pulled this morning — Monday's reversal already
-  fully invalidated the Lumentum thesis; nothing suggests a change.
-- **Verdict:** Unchanged from last night — **recommend dropping this as an active standing-watch
-  thesis** beyond the mandatory AAOI/COHR morning check the user has standing in place.
+### 7. JNJ — deteriorating, no actionable thesis either direction
+- **Status:** Beat this morning ($2.59 vs $2.53 est.) but sold off progressively through the day,
+  -5.4% to -6.5% depending on the snapshot. No catalyst explains the magnitude of the decline beyond
+  "beat but guidance-driven selloff," consistent with the broader WFC/DPZ pattern today.
+- **Verdict:** No thesis either direction — not a short or long candidate under this framework.
+
+### 8. EFXT / AGBK / FRMI / STGW / RGC / API and the broader large-cap basket (BP, INFY, ERIC, IFF,
+PR, CDW, FIS, BCE, PBF) — no catalyst confirmed across multiple WebSearch attempts today
+- All of these appeared as sizeable (>$300M, several >$1B) movers across today's 11am/12pm/3pm
+  sweeps. WebSearch was run multiple times today on EFXT, AGBK, FRMI, STGW, RGC, API, PBF and the
+  dollar/macro angle for the large-cap basket — none turned up a dated, same-day catalyst.
+- The large-cap basket (BP/INFY/ERIC/IFF/PR/CDW/FIS/BCE/PBF) moving 3-7% together across unrelated
+  sectors/geographies on moderate relative volume looks like a broad-basket/macro move (possibly
+  dollar-driven given the ADR concentration), not individual stock catalysts — flagged as a pattern
+  worth re-checking if it repeats tomorrow, but not actionable without a confirmed driver.
+- RGC specifically carries a DOJ-investigation/class-action overhang and an extreme-volatility
+  history — would be excluded regardless of catalyst strength.
+- **Verdict:** No catalyst found for any — not carried forward as candidates.
 
 ---
 
-## Today's after-close earnings reactions (2026-10-12)
+## Today's after-close earnings reactions (2026-10-13, pm)
 
-| Ticker | Est. EPS | Actual EPS | Notes |
+| Ticker | Est. EPS | Actual EPS | AH reaction | Notable? |
+|---|---|---|---|---|
+| **AZZ** | $1.84 | **$2.00 — beat** | **+1.65%** (vs. official close) | Yes — see candidate #1 |
+| BNAI | -$0.80 | -$0.49 (narrower loss) | -2.7% | No — price doesn't confirm |
+| SGLY | — (no estimate) | — (not detailed) | -3.4% | No — too small/thin |
+| SGMOQ | -$0.06 | Not yet reported | — | Not pursued, tiny |
+
+## Tomorrow's scheduled earnings (2026-10-14) — before the open unless noted
+
+| Ticker | Timing | Est. EPS | Notable? |
 |---|---|---|---|
-| LNAI, HKD, CGTL, NPT | — | Not yet reported | All small/unverified (HKD and NPT carry stale 2023/2025 calendar labels) — nothing material tonight |
-
-## Today's scheduled earnings (2026-10-13) — major catalyst day, now reported
-
-| Ticker | Timing | Est. EPS | Actual EPS | Pre-market reaction | Notable? |
-|---|---|---|---|---|---|
-| **GS (Goldman Sachs)** | am | $13.05 | **$17.01 — big beat** | **+2.6%** | Yes — see candidate #1 |
-| **UNH (UnitedHealth)** | am | $4.14 | **$4.69 — strong beat** | **+2.0%** | Yes — see candidate #2 |
-| **JPM (JPMorgan)** | am | $5.94 | $5.75 — miss | +0.6% (muted) | Miss but barely positive reaction — not a clean setup |
-| **WFC (Wells Fargo)** | am | $1.85 | $1.87 — beat | -0.9% | Beat but down — guidance-driven, not pursued |
-| **JNJ (Johnson & Johnson)** | am | $2.53 | $2.59 — beat | -2.1% | Beat but down — same pattern |
-| **DPZ (Domino's)** | am | $4.38 | $4.60 — beat | -2.1% | Beat but down — same pattern |
-| **ACI (Albertsons)** | am | $0.43 | $0.36 — miss | -2.1% | Miss, down — consistent |
-| **FBK (FB Financial)** | am | $1.21 | $1.21 — in-line | Not checked | Small, in-line |
-| **UNTY** | am | $1.55 | $1.51 — miss | Not checked | Small |
-| C, AZZ | am/pm | $2.63 / $1.84 | Not yet reported | — | C still pending as of this true-up |
-| BNAI | am | -$0.06 | -$0.49 (beat vs. revised est.) | Not checked | Small |
-| SGMOQ, SGLY | pm | — | — | — | Small, not pursued |
-
-**Confirmed this morning: GS and UNH are the clean beat+pop setups** (candidates #1/#2 above);
-everything else in the cluster either missed, or beat but sold off on guidance — a reminder that
-"beat" alone doesn't predict direction once guidance is in play.
+| **MS (Morgan Stanley)** | am | $2.90 | Yes — bank cluster continuation, see candidate #2 |
+| **BAC (Bank of America)** | am | $1.11 | Yes — same cluster |
+| **BLK (BlackRock)** | am | $14.25 | Yes — same cluster |
+| **STT (State Street)** | am | $3.67 | Yes — same cluster |
+| **PGR (Progressive)** | am | $4.35 | Yes — insurer, worth a check |
+| **FAST (Fastenal)** | am | $0.34 | Moderate — industrials bellwether |
+| **ASML** | am | $12.47 | Yes — large semi-equipment name, NDX-relevant |
+| EDUC, SOTK, EQBK, CMTL, PNFP, HOMB, VSEE, SNV | am/pm | various | Small-caps, not pursued |
 
 ## Scheduled macro events
-Per last week's research (not independently re-verified this morning): September CPI is expected
-tomorrow, Wednesday 10/14, 8:30am ET — not a factor for today's open. VIX this morning: **15.43**,
-essentially unchanged — no overnight risk-off signal. SPX/NDX cash levels are stale (last prints
-from yesterday's regular session; they don't trade pre-market).
+September CPI is expected tomorrow, Wednesday 2026-10-14, 8:30am ET (per last week's research, not
+independently re-verified tonight) — directly relevant given tomorrow's open also carries the
+MS/BAC/BLK/STT/PGR/FAST/ASML earnings cluster. VIX this evening: **15.43**, flat — no risk-off
+signal heading into tomorrow.
 
 ## Small-cap-tech shortlist
-Checked at true-up (~7:54am ET): Technology sector scan returned **zero matches**. Nothing to
-shortlist this morning.
+Checked across today's cycles: IZM, VEEA, GMEX, JZ all surfaced in the Technology sector sweep at
+various points today, all sub-$15M market cap, all thin/no catalyst confirmed. None carried forward
+as live candidates — carve-out requires explicit user approval and none of these were caught early
+enough or with a real catalyst to even propose.
 
-## Sources used in this build (6pm, 2026-10-12; trued up ~7:54am ET, 2026-10-13)
-- WebSearch (extended): "Bumble" stock October 12 2026 why up today announcement — confirmed
-  WSJ/Reuters-sourced take-private talks via Ithaca Holdings at ~$1B valuation; intraday halt.
-- WebSearch: "TRAX First Tracks Biotherapeutics... news October 12 2026" (run earlier today,
-  re-confirmed no update tonight) — no same-day catalyst found.
-- WebSearch: Allot / Greenland Mines / Picard Medical / Chagee / DHT / FIGS catalyst checks (run
-  earlier today) — no same-day catalyst found for any.
-- `get_equity_quotes` (TRAX, BMBL, CHA, GRML, ALLT, DHT, FIGS, AAOI, COHR, LITE, CIEN, SPY, QQQ) —
-  all after-hours follow-through figures above, vs. today's official close.
-- `get_earnings_calendar` (today -1 day, tomorrow +1 day, both filtered and unfiltered) — all
-  figures in the earnings tables above.
-- `get_option_chains` / `get_option_instruments` / `get_option_quotes` (BMBL, TRAX, 11/20
-  expiration) — options-read figures for candidates #1 and #2.
-- `get_equity_positions` / `get_equity_orders` / `get_equity_tradability` (SKYA) — confirmed open
-  position, expired stop, after-hours price above the user's $2.35 floor, and 24-Hour-Market
-  ineligibility.
-
-## True-up sources (~7:54am ET, 2026-10-13)
-- `get_equity_positions` / `get_equity_orders` (SKYA) — confirmed still held, no resting stop,
-  pre-market price above the $2.35 floor.
-- `get_equity_quotes` (SKYA, AAOI, COHR, BMBL, TRAX, CHA, ALLT, DHT, FIGS, GRML, SPY, QQQ, GS,
-  UNH, JPM, WFC, JNJ, DPZ, ACI) — all pre-market figures above.
-- `get_earnings_calendar` (2026-10-13, 1-day window) — actual EPS figures for the full bank/
-  healthcare cluster, now reported.
-- `get_index_quotes` (VIX, SPX, NDX) — VIX 15.43 live; SPX/NDX stale (pre-market, no cash trade).
-- `run_scan` (Technology sector sweep) — zero matches.
-- `get_option_chains` / `get_option_instruments` / `get_option_quotes` (GS, UNH, 11/06
-  expiration) — options-read figures for candidates #1 and #2.
-- WebSearch: "Bumble BMBL deal update October 13 2026" — no fresh update found; most recent
-  confirmed item is the same Monday take-private-talks story, still unconfirmed on terms.
+## Sources used in this build (6pm, 2026-10-13)
+- `get_equity_positions` — confirmed flat, no held positions (Step 0 — nothing to defend).
+- `get_earnings_calendar` (today -1 day window, tomorrow +1 day window, unfiltered) — all figures
+  in the earnings tables above.
+- `get_equity_quotes` (AZZ, BNAI, SGLY, AAOI, COHR, LITE, CIEN, SPY, QQQ, SKYA) — all after-hours
+  figures above vs. today's official close.
+- `get_option_chains` (AZZ) — confirmed no expiration threads the 7-30 DTE window.
+- Today's 11am/12pm/3pm market-hours cycles (this session's own chat record) — GS/UNH rejection,
+  BMBL/JNJ/EFXT/AGBK/FRMI/STGW/RGC/API status, large-cap-basket pattern, small-cap-tech shortlist.
