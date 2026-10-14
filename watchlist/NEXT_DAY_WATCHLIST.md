@@ -10,6 +10,17 @@
 ~6:06pm ET. Asian/European overnight-session news has **not** been checked at this hour — that is
 the job of the ~8am overnight true-up routine before tomorrow's (2026-10-15, Thursday) open.
 
+**⚠️ EXPLICIT USER PRIORITY WATCH (flagged ~6:56pm ET, 2026-10-14): SCHW and TSM — be ready to
+move fast at the open if either sets up cleanly.** Both report before tomorrow's open and neither
+has reported yet. As of ~6:56pm ET:
+- **TSM:** close $445.12 → AH $423.80 (**-4.8%**). This is **pre-earnings drift**, not a reaction
+  (hasn't reported) — drifting down with today's broader chip-sector weakness (STM/MCHP/UMC/GFS
+  all soft). Watch whether this reverses, extends, or the actual print changes the picture entirely.
+- **SCHW:** close $95.94 → AH $96.64 (**+0.7%**), mild, also pre-earnings.
+- Both must still clear the full Step 5 (catalyst)/Step 6 (price structure) gate live once actuals
+  post — this flag means "check first and fast," not "pre-approved." Carry forward into the 8am
+  true-up and 9:40am opening-bell cycle as top-priority checks the moment each reports.
+
 **Step 0 — held position defense check:** `get_equity_positions` confirms **BLK and AZZ are both
 still held.** Neither needed off-hours defense this evening:
 - **AZZ's $130 resting stop expired untriggered at the close** (GFD order, `last_transaction_at`
