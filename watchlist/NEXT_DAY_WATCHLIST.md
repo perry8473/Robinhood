@@ -7,64 +7,72 @@
 > This file is a head start for the search, not a decision.
 
 **Build status:** built fresh by the after-hours routine on 2026-10-15 (Thursday close), fired
-~6:05pm ET for tomorrow (2026-10-16, Friday). Asian/European overnight-session news has **not**
-been checked at this hour — that is the job of the ~8am overnight true-up routine before
-tomorrow's open.
+~6:05pm ET for today (2026-10-16, Friday); **trued up by the 8am overnight pass**, fired ~7:53am
+ET. AA remains top candidate, now extending further pre-market. RF and MTB join as new
+beat-and-up names from today's bank wave; TFC/CFG/TRV are beat/miss-but-down, continuing the
+week's dominant pattern (TRV especially — a ~25% EPS beat reacting -4% pre-market).
 
-**Step 0 — held position defense check:** Only position now is **MRSH's fractional remainder**
-(0.237949 sh, avg cost $189.83) — the whole-share portion (1 sh) was sold today, first via a
-regular-hours stop raised to $185 (expired untriggered at the close) and then via an after-hours
-limit sell that filled at **$185.00**. The fractional remainder has **no resting stop** (can't
-carry one) and **cannot be sold in extended_hours or the 24-Hour Market either** — confirmed via
-`get_equity_tradability` (`extended_hours_fractional_tradability: false`,
-`all_day_tradability: untradable`). Current AH price ~$186.49-186.54, down modestly from the
-$189.83 cost but not an emergency — and no action is possible regardless until the regular
-session reopens. BLK and AZZ were both fully closed earlier today (BLK +$7.49 at the 3pm cycle;
-AZZ -$13.80 and WETO -$2.37 scratch, both per explicit user instruction) — neither carries
-forward.
+**Step 0 (8am true-up) — held position defense check:** Only position is still **MRSH's
+fractional remainder** (0.237949 sh, avg cost $189.83). `get_equity_orders(state=confirmed)`
+confirms zero resting orders (no stop possible on a fractional position). Pre-market price
+$187.36 (bid $186.60) — actually recovered slightly overnight, nowhere near a floor even if one
+existed. **No action possible or needed** — same structural gap as every check since yesterday
+afternoon; resolves automatically once the regular session reopens and the fraction becomes
+sellable again. BLK and AZZ were fully closed yesterday (BLK +$7.49; AZZ -$13.80; WETO -$2.37
+scratch; AMOD +18% via a laddered stop) — none carry forward.
 
 **Account status:** One position — **MRSH**, 0.237949 sh @ $189.83 avg cost, ~$186.50 AH
 (-1.75%). Cash ~$2,604 (post BLK/AZZ/WETO closes and the 1-share MRSH sale). No options positions.
 
-**Tone at this build:** Quiet, stable close. SPX 7,744.06 (flat vs. today's levels), NDX
-29,935.59, VIX 16.46 (continuing to ease all week from Monday's highs). No broad risk-off or
-risk-on theme — today was an earnings-digestion day, not a macro-driven one.
+**Tone at this build (8am):** Quiet, stable. SPX 7,744.06, NDX 29,935.59, VIX **16.14** —
+continuing to ease overnight (16.46 → 16.14), no overnight macro event found. Calm backdrop
+heading into today's bank-earnings wave.
 
 ---
 
-## Ranked candidates (new, for tomorrow's open)
+## Ranked candidates (trued up 8am, 2026-10-16)
 
-### 1. AA (Alcoa) — large beat, clean positive AH reaction
-- **Catalyst:** Q3 2026 earnings, after today's close (~4:05pm ET). EPS **$1.82 actual vs $1.52
-  est. — a ~20% beat**, one of the largest beats of the week. Source: `get_earnings_calendar`.
-- **Direction/magnitude:** Bullish. AH: close $40.08 → $40.75 (**+1.7%**). Modest relative to the
-  size of the beat, but confirmed positive — beat AND up, breaking this week's dominant
-  "beat-but-down" pattern.
-- **Freshness confidence:** High — report is only ~2 hours old at this build, reaction still
-  forming in thin AH trade.
-- **Disqualifiers:** None identified yet. AH volume/spread not yet verified at scale — re-check
-  live at the open.
-- **Options read (PRELIMINARY, not a live quote):** $41C exp. 2026-11-06 (22 DTE — **passes**
-  7-30 window). Last close premium $1.68, AH mark $1.78 → **~$178/contract, passes the ~$295
-  sizing cap**. OI 63 (moderate). Listed chain: **pass**. Structural read: PASS on all three
-  checkable items — needs live spread/volume/catalyst confirmation at the open per the 9:40am
-  cycle's own Step 6.
-- **Verdict:** Top candidate for tomorrow — the cleanest "beat and up" reaction of the day, with
-  a structurally viable options path unlike most of this week's candidates.
+### 1. AA (Alcoa) — STRENGTHENED — large beat, reaction extending pre-market
+- **Catalyst:** Q3 2026 earnings, after Thursday's close. EPS **$1.82 actual vs $1.52 est. — a
+  ~20% beat**. Source: `get_earnings_calendar`.
+- **Direction/magnitude:** Bullish, strengthening. AH close (Thu) $40.75 → pre-market now
+  **$41.18-41.35** (bid/ask), i.e. **+1.9% pre-market on top of** Thursday's +1.7% AH move —
+  continuing to extend, not fading. Still a clean "beat and up."
+- **Freshness confidence:** High — reaction has now held/extended through two full sessions of
+  quotes (AH Thursday → pre-market Friday) without reversing.
+- **Disqualifiers:** None found. Still needs live spread/volume confirmation at the open.
+- **Options read (PRELIMINARY, not a live quote, refreshed 8am):** $41C exp. 2026-11-06 (22 DTE
+  — **passes**). Premium unchanged at $1.78 close, OI 64. **Still passes the ~$295 sizing cap**
+  (~$178/contract). Listed chain: **pass**. Structural read unchanged: PASS on all three
+  checkable items.
+- **Verdict:** Still the top candidate — the only name this week with a genuinely confirmed,
+  extending beat-and-up reaction AND a structurally viable options path. Check first at 9:40am.
 
-### 2. Bank earnings wave continues — TFC, CFG, RF, MTB, TRV, LADR, WBS, CMA (tomorrow, before open)
-- Direct continuation of this week's bank-earnings parade (GS/JPM/WFC/C Tue; BLK/MS/BAC/STT Wed;
-  SCHW/USB/PNC/BNY/FHN/MRSH Thu). Truist (TFC, est. $1.20), Citizens (CFG, est. $1.38), Regions
-  (RF, est. $0.66), M&T (MTB, est. $4.93), Travelers (TRV, est. $7.32), Ladder Capital (LADR, est.
-  $0.21), Webster (WBS, est. $1.63), Comerica (CMA, est. $1.45) all report AM.
-- **Verdict:** Not a candidate yet — this week's overwhelming pattern has been "beat but down"
-  across nearly every bank reporting (GS, UNH, MS, BAC, STT, FAST, TSM, SCHW, PNC all beat with
-  negative-to-flat reactions). BNY and MRSH were the rare exceptions, and MRSH's own reaction
-  faded hard intraday today after the open. Treat tomorrow's wave with the same skepticism —
-  check live at 9:40am, don't assume a beat moves these names up.
-- **Options read:** Not checked — no reaction to evaluate yet.
+### 2. RF (Regions Financial) and MTB (M&T Bank) — NEW, beat-and-up from today's bank wave
+- **RF:** Q3 EPS **$0.73 vs $0.66 est. — beat.** Reaction: close $27.31 → pre-market $27.70
+  (**+1.4%**). Beat and up.
+- **MTB:** Q3 EPS **$5.08 vs $4.94 est. — beat.** Reaction: close $218.65 → pre-market $220.00
+  (**+0.6%**). Mild beat and up.
+- **Freshness confidence:** High (confirmed actuals + live pre-market reaction), but — per the
+  standing lesson from BNY/MRSH this week — a pre-market beat-and-up reaction has repeatedly
+  faded hard once the regular session opens. Needs live confirmation, not assumed to hold.
+- **Options read:** Not checked yet — second-tier candidates behind AA; check live at 9:40am if
+  either still looks clean at the open.
+- **Verdict:** Flagged for the 9:40am cycle to check early, with the explicit caveat that this
+  week's beat-and-up names have tended to fade by mid-morning.
 
-### 3. IBKR, INDB — smaller beat-and-up names, weaker setups
+### 3. CFG, TFC, TRV — beat/miss-but-down, continuing the week's dominant pattern
+- **TRV** (Travelers): Q3 EPS **$9.18 vs $7.35 est. — a massive ~25% beat** — yet pre-market
+  **-4.1%** ($368.00 vs $383.89 close). The starkest "beat but down" of the entire week.
+- **CFG:** beat ($1.41 vs $1.38), pre-market **-2.1%** ($62.11 vs $63.43).
+- **TFC:** missed ($1.16 vs $1.20), pre-market **-2.0%** ($45.61 vs $46.57) — miss and down,
+  consistent with the miss.
+- **LADR, WBS, CMA, CBAT, CLPS:** not yet reported or unverified as of this build.
+- **Verdict:** Not candidates — TRV in particular is a strong reminder that even an exceptional
+  beat does not predict direction this week. Check live at 9:40am only if price action reverses
+  materially from pre-market.
+
+### 4. IBKR, INDB — smaller beat-and-up names, weaker setups (from Thursday's close)
 - **IBKR:** inline EPS ($0.67 vs $0.67 est.), AH +1.7% ($85.61 vs $84.14) — mild positive drift,
   not a clean beat-driven move. Options: $85C exp. 2026-11-06, close $3.33/AH mark $4.45 →
   **~$445/contract, FAILS the ~$295 sizing cap**.
@@ -74,7 +82,7 @@ risk-on theme — today was an earnings-digestion day, not a macro-driven one.
 - **Verdict:** Both weaker than AA — smaller reactions, one fails sizing, the other too thin to
   trust pre-open. Not carried as top candidates, flagging for completeness only.
 
-### 4. CNS, JBHT, LOOP — mixed/noisy, not pursued
+### 5. CNS, JBHT, LOOP — mixed/noisy, not pursued
 - **CNS:** missed ($0.89 vs $0.90) but AH **+3.9%** — counterintuitive reaction on a very
   wide/thin AH spread (bid $63.11/ask $74.00), likely unreliable thin-trade noise rather than a
   real signal. Re-check at the open.
@@ -82,6 +90,15 @@ risk-on theme — today was an earnings-digestion day, not a macro-driven one.
   the week's theme, not a candidate.
 - **LOOP:** missed (-$0.06 vs -$0.05 est.), AH move noisy on a sub-$1 penny stock — too
   illiquid/small to pursue.
+
+---
+
+## Optoelectronic standing watch — AAOI / COHR (user standing interest, 8am check)
+- **AAOI:** close $83.73 → pre-market $83.76-83.80 — essentially flat, **holding its recent
+  range**. No fresh catalyst found (no equity-news tool available this session).
+- **COHR:** close $250.60 → pre-market $248.00-248.51 (**-0.8%**) — mild **fading**, no fresh
+  catalyst found.
+- Standing watch only, not a trade signal. Neither shows a scoreable move this morning.
 
 ---
 
@@ -99,33 +116,42 @@ risk-on theme — today was an earnings-digestion day, not a macro-driven one.
 | WAFD | $0.84 | pending | +1.9% (pre-report drift) | Pending — hasn't reported yet as of this build |
 | UBFO | — (unverified) | — | Not checked | No — unverified small-cap |
 
-## Tomorrow's scheduled earnings (2026-10-16) — before the open unless noted
+## Today's earnings (2026-10-16) — actuals as of 8am true-up, before the open unless noted
 
-| Ticker | Timing | Est. EPS | Notable? |
-|---|---|---|---|
-| **TFC** (Truist) | am | $1.20 | Yes — bank wave, see candidate #2 |
-| **CFG** (Citizens) | am | $1.38 | Yes — same cluster |
-| **RF** (Regions) | am | $0.66 | Yes — same cluster |
-| **MTB** (M&T Bank) | am | $4.93 | Yes — same cluster |
-| **TRV** (Travelers) | am | $7.32 | Yes — same cluster, large-cap insurer |
-| **LADR** (Ladder Capital) | am | $0.21 | Moderate — smaller REIT |
-| **WBS** (Webster) | am | $1.63 | Yes — same cluster |
-| **CMA** (Comerica) | am | $1.45 | Yes — same cluster |
-| CBAT, CLPS | am | small-cap | No — too small, not pursued |
+| Ticker | Est. EPS | Actual EPS | Pre-market reaction | Notable? |
+|---|---|---|---|---|
+| **TRV** | $7.35 | $9.18 — huge beat | **-4.1%** | Beat but down hard — see #3 |
+| **CFG** | $1.38 | $1.41 — beat | **-2.1%** | Beat but down — see #3 |
+| **TFC** | $1.20 | $1.16 — miss | **-2.0%** | Miss and down — see #3 |
+| **RF** | $0.66 | $0.73 — beat | **+1.4%** | Beat and up — see candidate #2 |
+| **MTB** | $4.94 | $5.08 — beat | **+0.6%** | Beat and up — see candidate #2 |
+| LADR, WBS, CMA | $0.21 / $1.63 / $1.45 | not yet reported | — | Pending, check at 9:40am |
+| CBAT, CLPS | — | unverified/small | — | Too small, not pursued |
 
 ## Scheduled macro events
-No major scheduled macro print identified for tomorrow as of this build (not independently
-re-verified — check at the 8am true-up). Today closed quiet (VIX 16.46, SPX roughly flat) —
-no broad macro theme heading into tomorrow's bank-earnings continuation.
+No major scheduled macro print identified for today as of this true-up. VIX 16.46 → 16.14
+overnight — continuing to ease, no overnight shock. Calm backdrop into today's bank wave.
 
 ## Small-cap-tech shortlist
-Not checked at this build (the Technology-sector pre-market scan is the 8am true-up's job). Note
-for continuity: today's market-hours cycles saw BBCI, AMOD, WETO, XLAB surface repeatedly in the
-Technology sweep — AMOD and WETO were both traded today on explicit user instruction (AMOD
-stopped out +18%, WETO closed flat) and should not be chased again without a fresh setup. BBCI
-and XLAB were never pursued (no catalyst found all day).
+Checked at this build: Technology-sector pre-market scan (scan_id 4ab9bad9) returned **zero
+matches**. Nothing to add. Note for continuity: yesterday's BBCI/AMOD/WETO/XLAB — AMOD and WETO
+were both traded yesterday on explicit user instruction (AMOD stopped out +18%, WETO closed
+flat) and should not be chased again without a fresh setup.
 
-## Sources used in this build (6pm, 2026-10-15)
+## Sources used in this build (8am true-up, 2026-10-16)
+- `get_equity_positions` / `get_equity_orders(state=confirmed)` (MRSH) — Step 0 check, zero
+  resting orders, no action possible or needed on the fractional remainder.
+- `get_equity_quotes` (MRSH, AAOI, COHR, AA, IBKR, TFC, CFG, RF, MTB, TRV, WBS, CMA, SPY) — all
+  pre-market figures above vs. official prior-session close.
+- `get_index_quotes` (SPX, NDX, VIX) — overnight tone read.
+- `get_earnings_calendar` (today, 1-day window) — confirmed actuals for MTB/RF/CFG/TFC/TRV and
+  pending names.
+- `run_scan` (Technology sector, scan_id 4ab9bad9) — zero matches.
+- `get_option_quotes` (AA) — refreshed, unchanged from the 6pm build, still passes all checks.
+- No `get_equity_news` tool available this session (confirmed again) — AAOI/COHR catalyst check
+  and all "no catalyst found" verdicts rely on price action only.
+
+## Sources used in the 6pm build (2026-10-15, carried forward)
 - `get_equity_positions` / `get_equity_orders` (MRSH) — confirmed the 1-share AH sale filled at
   $185.00, fractional remainder has no stop and is structurally untradable off-hours.
 - `get_equity_tradability` (MRSH) — confirmed no extended_hours or all_day fractional support.
@@ -133,8 +159,7 @@ and XLAB were never pursued (no catalyst found all day).
   vs. official close.
 - `get_earnings_calendar` (today, tomorrow, 1-day windows each) — all figures in the earnings
   tables above.
-- `get_index_quotes` (SPX, NDX, VIX) — overnight tone read.
 - `get_option_chains` / `get_option_instruments` / `get_option_quotes` (AA, IBKR) — AA passes all
   preliminary structural checks (DTE, cap, listed chain); IBKR fails the sizing cap.
-- Today's 11am/12pm/3pm market-hours cycles (this session's own chat record) — AMOD/WETO/AZZ/BLK
-  trade history, MRSH continuation thesis, broad sector-sweep results.
+- Thursday's 11am/12pm/3pm market-hours cycles (this session's own chat record) — AMOD/WETO/AZZ/
+  BLK trade history, MRSH continuation thesis, broad sector-sweep results.
