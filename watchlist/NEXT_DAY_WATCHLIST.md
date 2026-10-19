@@ -6,139 +6,142 @@
 > 20% after-hours and is already fading by 9:35am ET is a PASS despite being on this list.
 > This file is a head start for the search, not a decision.
 
-**Build status:** this file is built FRESH this morning (2026-10-19, Monday 8am overnight
-true-up) rather than updated in place. The standing 6pm after-hours routine only fires
-weekdays, so no build ran over the weekend (Fri 10/16 close → Mon 10/19 open) — by explicit
-user instruction on Friday afternoon ("button it down until Monday... pick it up with 6pm on
-Sunday"), scans were paused from the Friday 3pm cycle through Sunday, and no Sunday 6pm firing
-exists on the weekday-only schedule to have built a Sunday-night version anyway. The prior file
-(dated 2026-10-16, Friday) is fully stale — it covered AA/RF/MTB/TRV/CFG/TFC, all closed out or
-irrelevant to today — so per Step 1's own instruction this is a clean overnight-only build using
-the standard format, not an edit of Friday's content.
+**Build status:** built fresh by the after-hours routine on 2026-10-19 (Monday close), fired
+~6:06pm ET for tomorrow (2026-10-20, Tuesday).
 
-**Step 0 (8am true-up) — held position defense check:** `get_equity_positions` confirms **zero
-open positions** (stock or options) — the book was fully closed out Friday (AA sold flat,
-MRSH/AZZ/WETO/AMOD/BLK all closed prior). **No action needed or possible** — nothing to defend.
+**Step 0 (6pm) — held position defense check:** Only position is **CLF**, 21 sh @ $13.96 avg.
+`get_equity_orders` confirms its regular-hours stop (was $12.90) expired at today's close as
+expected (GFD) — no resting order right now. `get_equity_quotes` shows CLF trading
+$14.00-14.15 after-hours (last non-reg $14.14), comfortably above both entry and the old stop
+level. **No defensive action needed or possible to improve on** — nothing near the floor. A
+fresh regular-hours stop will be re-placed at the next session (8am true-up safety-net check, or
+9:40am opening-bell cycle at the latest).
 
-**Account status:** Flat. No stock or options positions. Cash ~$2,655 (as of Friday's close;
-not re-pulled this run since Step 0 found nothing to size against).
+**Account status:** One position — **CLF**, 21 sh @ $13.96 avg, ~$14.14 after-hours (+1.3%).
+Cash ~$2,662. No options positions.
 
-**Tone at this build (8am):** Mixed/cautious. SPX and NDX levels only reflect Friday's
-regular-session close (7,659.44 / 29,187.55) — no pre-market index tick exists for either.
-**VIX 18.81**, up from Friday's 17.20 (+9.4%) on a fresh pre-market read — a mild uptick in
-caution heading into the week, consistent with Friday's "entire market turning negative" move
-that prompted closing out. SPY pre-market $766.90 vs Friday's close $763.25 (+0.48%) — a small
-positive drift, but not enough alone to call the VIX pickup resolved.
+**Tone at this build (6pm):** Mildly positive. SPY $767.30-767.38 after-hours vs today's close
+$766.54 (+0.1-0.2% drift). No overnight macro event identified yet at this hour.
 
 ---
 
-## Ranked candidates (fresh build, 2026-10-19 8am true-up)
+## Ranked candidates (6pm build, 2026-10-20)
 
-### 1. CLF (Cleveland-Cliffs) — strong beat, strong confirmed pre-market reaction
-- **Catalyst:** Q3 2026 earnings, reported this morning (before-open). EPS **$0.28 actual vs
-  $0.24 est. — a ~17% beat**. Source: `get_earnings_calendar`.
-- **Direction/magnitude:** Bullish. Pre-market **$13.40-13.51** (bid/ask) vs Friday's close
-  $12.12 — **+11.5% pre-market**, a large, clean reaction to a real beat.
-- **Freshness confidence:** High — fresh this morning, "am" timing confirmed, reaction already
-  sizeable pre-market. Still needs live volume/spread confirmation at the open (pre-market
-  prints can be thin).
-- **Disqualifiers:** None found yet. Basic Materials/steel sector — not excluded under any
-  standing rule.
-- **Options read (PRELIMINARY, NOT A LIVE QUOTE — reflects Friday's close, options market not
-  yet open):** $14C exp. 2026-11-06 (18 DTE — **passes** the 7-30 window). Friday's close premium
-  $0.37/contract (~$37 total) — **passes** the current ~$295 sizing cap (10% of ~$2,955 balance,
-  since balance is now over $2,000). OI 252, volume 50 — reasonable liquidity for a name this
-  size. Listed chain: **pass**. Structural read: **PASS on all three checkable items**, same
-  caveat as always that spread/volume must be re-verified live.
-- **Verdict:** Top candidate — a real, fresh, sizeable beat-and-up reaction with a structurally
-  viable options path. Check first at 9:40am.
+### 1. GE, RTX, NOC, MMM, HAL — tomorrow's big industrials/aerospace earnings wave (AM, before open)
+- **Catalyst:** Q3 2026 earnings, all reporting before tomorrow's open: General Electric (GE,
+  est. $2.01), RTX (Raytheon, est. $1.78), Northrop Grumman (NOC, est. $7.19), 3M (MMM, est.
+  $2.39), Halliburton (HAL, est. $0.58). None have reported yet — all `eps.actual` still null as
+  of this build.
+- **Direction/magnitude:** Unknown — pending. This is the single biggest cluster of large-cap
+  earnings reporting before tomorrow's open; flagging the cluster now so the 8am true-up and
+  9:40am cycle know to check all five immediately once actuals post.
+- **Freshness confidence:** N/A until actuals + pre-market reaction exist.
+- **Disqualifiers:** None assessable yet — nothing to disqualify until there's a number and a
+  reaction.
+- **Options read:** Not checked — no reaction to evaluate against yet. Re-check live once
+  earnings post pre-market.
+- **Verdict:** Top priority for the 8am overnight true-up — check actuals and pre-market
+  reaction on all five the moment they're available.
 
-### 2/3. AAOI / COHR — standing optoelectronic watch, both showing notable pre-market gaps
-- **AAOI:** Friday close $75.57 → pre-market **$79.24-79.47** (bid/ask), **+5.1%**. Crosses the
-  5% move threshold that would normally trigger a news check — but **no catalyst found (no
-  equity-news tool available this session)**, so this cannot be confirmed as catalyst-driven vs.
-  sector-wide drift.
-- **COHR:** Friday close $232.90 → pre-market **$242.60-243.26** (bid/ask), **+4.3%**. Same
-  situation — notable move, no verifiable catalyst with the tools available.
-- Both names moving together in the same direction raises the possibility of a sector-wide
-  optoelectronics/datacenter-optics catalyst, but this is speculation without a news tool to
-  confirm it — treat as unconfirmed.
-- **Options read (AAOI, PRELIMINARY):** $80C exp. 2026-11-06 (18 DTE — passes). Friday's close
-  premium **$7.00/contract (~$700 total) — FAILS the ~$295 sizing cap** outright. OI only 41,
-  volume 22 — thin. Structural read: **FAIL (premium far exceeds cap)**. Not pursued further;
-  COHR not checked given AAOI already fails on sizing and COHR is a higher-priced name.
-- **Verdict:** Standing watch only, not a trade signal per the routine's own framing — this is
-  a real pre-market move worth flagging to the user, but neither has a confirmed catalyst and
-  AAOI's options route is structurally closed on sizing. Re-check live at the open; do not treat
-  the pre-market gap alone as tradeable.
+### 2. NFLX — tomorrow's after-close marquee earnings (PM, 2026-10-20)
+- **Catalyst:** Q3 2026 earnings, est. EPS $0.82, reports after tomorrow's close (not tonight).
+- **Direction/magnitude:** N/A yet — this is a heads-up for Wednesday's open, not tomorrow's.
+- **Verdict:** Note for continuity; becomes relevant to the Tuesday 6pm build, not tomorrow
+  morning.
 
-### 4. FITB (Fifth Third Bancorp) — big beat, but reaction already negative
-- **Catalyst:** Q3 2026 earnings, this morning. EPS **$1.13 actual vs $0.87 est. — a ~30% beat**,
-  the largest beat of today's reporters.
-- **Direction/magnitude:** Despite the beat, pre-market **$48.01-50.17** (bid/ask) vs Friday's
-  close $50.37 — roughly **flat to -0.75%**, with a notably wide pre-market spread (~4.5%)
-  signaling thin/unreliable liquidity at this hour.
-- **Freshness confidence:** Catalyst is fresh, but the "beat but down" reaction (continuing last
-  week's dominant pattern seen in TRV/CFG) makes this a weak setup regardless of beat size.
-- **Disqualifiers:** Wide, unreliable pre-market spread.
-- **Options read:** Not checked — reaction doesn't support a bullish thesis, so no options read
-  pulled.
-- **Verdict:** Not a candidate. Flagging for completeness only, consistent with the "beat does
-  not predict direction" lesson from last week.
+### 3/4. IRON (Disc Medicine) / AMRO (Amaero) — continuing unconfirmed-catalyst momentum
+- **IRON:** Friday close $56.84 → today's regular close $78.98 (**+39.0%**), now $77.6-78.1
+  after-hours — holding most of the day's gain, pulling back slightly off the $80.22 intraday
+  high. Still **no catalyst found (no equity-news tool available this session)** despite 3
+  consecutive cycles of checking — the move's size and persistence suggest something is real
+  (a trial/regulatory catalyst is likely for a biotech this size), but it remains unconfirmed.
+  **Options disqualifier:** nearest listed expiration is 2026-11-20 — 31 DTE from tomorrow,
+  just outside the 7-30 DTE preferred window. Options read: **FAIL (no expiration in 7-30 DTE
+  window)**.
+- **AMRO:** Friday close $4.50 → today's regular close $5.61 (**+24.7%**), extending further
+  after-hours to $5.48-5.61. Also **no catalyst found**. **Options disqualifier: no listed
+  options chain at all** (`get_option_chains` returned empty) — options read: **FAIL (no
+  listed chain)**.
+- **Verdict:** Both remain standing-watch momentum names, not scored candidates, given the
+  catalyst can't be confirmed with the tools available this session. Re-check live at the open;
+  if either is still extending cleanly with volume, it's a candidate for stock-only scoring (no
+  options route exists for either regardless).
 
-### 5. VFS (VinFast) — big miss, muted/thin reaction
-- **Catalyst:** Q2 FY2027 earnings. EPS **-$0.53 actual vs -$0.31 est. — a large miss**.
-- **Direction/magnitude:** Pre-market $3.00-3.20 vs Friday's close $3.12 — essentially flat
-  (-1.6% at the low end), muted for a miss this size, likely already priced in on this
-  low-value name.
-- **Verdict:** Not a candidate — miss already largely discounted, no clean setup either
-  direction.
-
-### 6. CBZ (CBIZ) — small miss, no real pre-market tick
-- **Catalyst:** Q3 2026 earnings. EPS **$1.21 actual vs $1.26 est. — a small miss**.
-- **Direction/magnitude:** Pre-market quote shows no fresh print (last_non_reg_trade_price
-  identical to Friday's final regular-session trade) — effectively no pre-market liquidity yet,
-  bid/ask abnormally wide ($54.73/$59.97).
-- **Verdict:** Not a candidate — no reliable pre-market signal to act on.
+### 5. RLI, STLD, DX, AGNC, HBCP — today's after-close bank/financial earnings batch, no fresh setups
+- **RLI:** huge beat ($0.86 vs $0.54 est., +59%) but AH reaction flat (~-0.2%) — beat, no
+  reaction, not a candidate.
+- **STLD** (Steel Dynamics — same sector as CLF): missed ($5.29 vs $5.41 est.) and down
+  further AH (-3.75% from regular close) — miss and down, not a candidate, but notable as a
+  same-sector read against CLF's strength (sector dispersion, not a sector-wide move).
+  announced
+- **DX:** big miss (-28% vs est.) but already fully priced in during today's regular session
+  (-3.3% intraday); AH flat. Not fresh.
+- **AGNC:** miss, -2.3% further AH on top of an intraday decline. Small, not a candidate.
+- **HBCP:** miss; quote data unreliable (broken bid), not pursued.
+- **Verdict:** None of tonight's financial-sector earnings produced a fresh, tradeable reaction.
 
 ---
 
-## Small-cap-tech shortlist
-Technology sector pre-market scan (scan_id 4ab9bad9) returned **zero matches** this build.
-Nothing to add.
+## Optoelectronic standing watch — AAOI / COHR (user standing interest, 6pm check)
+- **AAOI:** today's regular close $78.26 → after-hours $78.24-78.68 (+0.5%) — continuing to
+  extend modestly, still no fresh catalyst found.
+- **COHR:** today's regular close $231.91 → after-hours $232.20-233.50 (~flat) — holding,
+  no fresh catalyst found.
+- Standing watch only, not a trade signal.
 
-## Today's earnings (2026-10-19) — actuals as of 8am true-up, before the open unless noted
+---
 
-| Ticker | Est. EPS | Actual EPS | Pre-market reaction | Notable? |
+## Today's after-close earnings reactions (2026-10-19, pm)
+
+| Ticker | Est. EPS | Actual EPS | AH reaction | Notable? |
 |---|---|---|---|---|
-| **CLF** | $0.24 | $0.28 — beat | **+11.5%** | **Yes — candidate #1** |
-| **FITB** | $0.87 | $1.13 — big beat | ~flat/-0.75% | Beat but down — see #4 |
-| **VFS** | -$0.31 | -$0.53 — miss | ~flat/-1.6% | No — muted, already priced in |
-| **CBZ** | $1.26 | $1.21 — small miss | No pre-market print | No — no liquidity yet |
-| CCK, AERO, RMCF, AGNC, BOKF, RLI, HBCP, WTFC, SFBS, WASH, DX, RBB, ZION, KARO, WRB, WAL, FNB, SMBK, STLD, HCWC, IMMR | various | not yet reported (pm timing or unverified) | — | Pending/unchecked, mostly after today's close |
+| **RLI** | $0.54 | $0.86 — huge beat | ~flat | No — beat, no reaction |
+| **STLD** | $5.41 | $5.29 — miss | -3.75% | No — miss and down |
+| ZION | $1.65 | $1.78 — beat | Not checked | No — small regional bank |
+| BOKF | $2.52 | $2.64 — beat | Not checked | No |
+| WASH | $0.87 | $1.01 — beat | Not checked | No |
+| WRB | $1.16 | $1.17 — inline | Not checked | No |
+| RBB | $0.57 | $0.74 — beat | Not checked | No |
+| KARO | $0.57 | $0.57 — inline | Not checked | No |
+| WAL | $2.43 | $2.45 — inline | Not checked | No |
+| FNB | $0.43 | $0.43 — inline | Not checked | No |
+| WTFC | $3.30 | $3.37 — beat | Not checked | No |
+| SMBK | $0.96 | $1.10 — beat | Not checked | No |
+| AERO | $0.27 | $0.28 — beat | Not checked | No |
+| **AGNC** | $0.39 | $0.37 — miss | -2.3% AH | No — miss and down |
+| CCK | $2.26 | $2.39 — beat | Not checked | No |
+| **HBCP** | $1.50 | $1.28 — miss | Unreliable quote | No |
+| **DX** | $0.53 | $0.38 — big miss | Flat AH (priced in intraday) | No — already reacted |
+
+## Tomorrow's scheduled earnings (2026-10-20) — before the open ("am") unless noted
+
+| Ticker | Est. EPS | Timing | Notable? |
+|---|---|---|---|
+| **GE** | $2.01 | am | **Yes — candidate #1 cluster** |
+| **RTX** | $1.78 | am | **Yes — candidate #1 cluster** |
+| **NOC** | $7.19 | am | **Yes — candidate #1 cluster** |
+| **MMM** | $2.39 | am | **Yes — candidate #1 cluster** |
+| **HAL** | $0.58 | am | **Yes — candidate #1 cluster** |
+| SYF, KEY, UCB, VICR, GPC, MSCI, EFX, CBSH, AUB, VMI, ALLY, DCOM | various | am | Pending, second-tier — check live |
+| COF, OZK, HWC, CB, QCRH, UAL, ELS, NLY, ISRG, ALK, GM, LRN, EWBC, HAS, **NFLX** | various | pm | After tomorrow's close — relevant to Wed 6pm build |
 
 ## Scheduled macro events
-No major scheduled macro print identified for today as of this true-up. VIX ticked up overnight
-(17.20 Friday → 18.81 this morning) — a mild caution signal, not a confirmed shock. No FOMC,
-CPI/PPI, or jobs data flagged for today.
+No major scheduled macro print identified for tomorrow as of this build. SPY drifting mildly
+positive after-hours (+0.1-0.2%). Will be rechecked at the 8am true-up alongside SPX/NDX/VIX.
 
-## Overseas session carry-over (Step 3)
-Asian and European overnight sessions were not specifically checked for name-level news (no
-equity-news tool available this session to search). SPX/NDX readings above reflect Friday's
-regular-session close only — no live pre-market index tick exists for either; VIX's reading is
-fresh and is the only overnight-tone signal directly observed.
+## Small-cap-tech shortlist
+Not checked at this 6pm build (not yet run this cycle) — will be checked at the 8am true-up per
+Step 3b. Continuity note: EXYN (Exyn Technologies) was flagged "already extended, not chasing"
+earlier today per the DON'T-CHASE RULE — not carried forward as a live candidate.
 
-## Sources used in this build (8am true-up, 2026-10-19)
-- `get_equity_positions` — Step 0 check, zero open positions, nothing to defend.
-- `get_equity_quotes` (AAOI, COHR, SPY, CLF, VFS, CBZ, FITB) — all pre-market figures above vs.
-  official Friday close.
-- `get_indexes` / `get_index_quotes` (SPX, NDX, VIX) — overnight tone read; SPX/NDX are
-  Friday-close carryover, VIX is a fresh pre-market print.
-- `get_earnings_calendar` (today, 1-day window) — confirmed actuals for CLF/FITB/VFS/CBZ and
-  the pending after-close list.
-- `run_scan` (Technology sector, scan_id 4ab9bad9) — zero matches.
-- `get_option_chains` / `get_option_instruments` / `get_option_quotes` (CLF, AAOI) — CLF $14C
-  11/06 passes all three preliminary structural checks; AAOI $80C 11/06 fails on premium vs. the
-  current ~$295 sizing cap.
-- No `get_equity_news` tool available this session (confirmed again) — AAOI/COHR catalyst check
-  and all "no catalyst found" verdicts rely on price action only.
+## Sources used in this build (6pm, 2026-10-19)
+- `get_equity_positions` / `get_equity_orders` (CLF) — Step 0 check, GFD stop expired as
+  expected, no action needed or possible.
+- `get_equity_quotes` (CLF, IRON, AMRO, SLN, AAOI, COHR, RLI, STLD, DX, AGNC, HBCP, SPY) — all
+  after-hours figures above vs. official Friday close and today's regular close.
+- `get_earnings_calendar` (today days=1, tomorrow days=1, both filtered and unfiltered) — all
+  figures in the earnings tables above.
+- `get_option_chains` (IRON, AMRO) — IRON fails DTE window (nearest expiration 31 DTE), AMRO has
+  no listed chain at all.
+- No `get_equity_news` tool available this session (confirmed again) — IRON/AMRO/AAOI/COHR
+  catalyst checks and all "no catalyst found" verdicts rely on price action only.
