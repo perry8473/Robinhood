@@ -82,14 +82,26 @@ for a bearish/avoid read at the open rather than a long entry.
 - **RITM, RCI, GRC, NHYDY, ALV, FLG, VLVLY, INFY, BCPC:** modest beats/misses, none large
   enough in magnitude or market cap to prioritize this morning.
 
-## Standing watch — AAOI / COHR (user standing interest, 8am check)
-- **AAOI:** Thursday's close $68.07 → pre-market $69.84-70.20 (**+3.1%**) — extending higher,
-  partially reversing yesterday's pullback. No fresh catalyst found (no equity-news tool
-  available this session).
-- **COHR:** Thursday's close $207.82 → pre-market $211.00-213.15 (**+1.8-2.6%**) — also
-  extending higher, same pattern.
-- Both recovering some of yesterday's reversal on no identifiable catalyst — standing watch
-  only, not a trade signal.
+## PRIORITY FLAG FOR 9:40AM — AAOI / COHR rebound watch (explicit user instruction, 2026-10-23)
+User's thesis: tech was broadly oversold yesterday (10/22) amid the session's risk-off tape
+(VIX ran from 18.28 at noon to 20.23 by 3pm), and both AAOI and COHR may be candidates for a
+mean-reversion bounce rather than a continuing breakdown. Flagged explicitly for priority
+review at the 9:40am opening-bell cycle — not pre-approved, still subject to the normal Step 6
+structure gate.
+- **AAOI:** held a stable $75.89-79.20 range Mon-Tue, gapped down hard at Thursday's open
+  (-6.5%), fell to a $66.94 intraday low, closed $68.07 (-13% off the stable range). Pre-market
+  Friday $69.28-70.20 (**+1.8-3.1%** off Thursday's close) — still well below the broken range.
+  No catalyst identified for either the Thursday breakdown or this morning's bounce (no
+  equity-news tool available this session).
+- **COHR:** same shape — held $230-239 Mon-Tue, gapped down -8% Thursday, fell to a $204.38
+  low, closed $207.82 (-12% off the stable range). Pre-market Friday $211.00-213.15
+  (**+1.8-2.6%**) — still well below the broken range. Same catalyst gap as AAOI.
+- **Read:** both legs (the Thursday drop and this morning's bounce) are unconfirmed by any
+  known catalyst — a thin pre-market tick alone doesn't distinguish a real reversal from a
+  dead-cat bounce. The 9:40am cycle should specifically check whether either name opens and
+  **holds** above pre-market levels on real volume in the first several minutes (confirming
+  the bounce) versus fading back toward Thursday's lows (confirming continued breakdown) —
+  the former is the actionable signal, the latter is a pass despite the oversold thesis.
 
 ## Pre-market small-cap-tech shortlist (Step 3b)
 Technology sector scan (scan_id `4ab9bad9...`) returned **0 matches** this morning — nothing
