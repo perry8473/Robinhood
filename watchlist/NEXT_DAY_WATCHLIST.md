@@ -6,106 +6,98 @@
 > 20% after-hours and is already fading by 9:35am ET is a PASS despite being on this list.
 > This file is a head start for the search, not a decision.
 
-**Build status:** built fresh by the after-hours routine on 2026-10-22 (Thursday close), fired
-~6:06pm ET for 2026-10-23 (Friday); **trued up by the 8am overnight pass**, fired ~7:53am ET.
-Asian/European sessions checked via pre-market quotes — no fresh overseas-specific catalyst
-found. Main development: **RNG has strengthened overnight**, extending from +13.9% AH to
-+15.7% pre-market — real follow-through, not fading.
+**Build status:** built fresh by the after-hours routine on 2026-10-23 (Friday close), fired
+~6:06pm ET for 2026-10-26 (Monday — markets closed the weekend). **Asian/European overnight
+sessions have NOT been checked yet at this hour** — that's the job of the ~8:00am Monday
+overnight true-up routine before the open.
 
-**Step 0 — held position defense check:** No positions held (unchanged from last night — all
-four stock positions sold to close by explicit user instruction at ~3:52pm ET yesterday).
-Account remains 100% cash. **No action possible or needed.**
+**Step 0 — held position defense check:** No positions held. Both AAOI and COHR (opened earlier
+Friday on the user's oversold-tech rebound thesis) were stopped out cleanly during the regular
+session — AAOI at $68.50 (1:00pm ET) and COHR at $208.50 (3:31pm ET). Account is 100% cash.
+**No action possible or needed.**
 
-**Account status:** No open stock or options positions. Cash ~$2,927.
+**Account status:** No open stock or options positions. Cash ~$2,920.
 
-**Tone at this build (8am):** SPX/NDX readings are stale (yesterday-close carryover, no live
-pre-market index tick), **VIX 19.57**, down from yesterday's 3pm reading of 20.23 — a modest
-cooling of the risk-off tone overnight, though still elevated vs. earlier in the week.
+**Catalyst-sourcing limitation (standing, every cycle this session):** `get_equity_news` has been
+unavailable all session — no way to confirm any of tonight's big movers against a real news item.
+Every candidate below is therefore flagged **catalyst unconfirmed** regardless of how large or
+clean the price action looks. Ranking is by live price-action follow-through (holding/extending
+into the close and after-hours vs. fading) only, per Step 4 guidance — not by confirmed cause.
 
-## Ranked candidates (tonight's after-close earnings reactions)
+## Today's after-close (pm) earnings — nothing notable
+Only thin regional-bank reporters tonight: RCBC (small beat, $1.29 vs $1.27 est, tiny/illiquid),
+CLBK and AFBI and PW not yet reported as of this build. No high-market-cap pm reporter tonight —
+nothing here moves tomorrow's open.
 
-### 1. RNG (RingCentral) — STRENGTHENED, best setup two checks running
-- **Catalyst:** Q3 EPS $1.33 vs. $1.16 est (+14.7% beat), reported after Thursday's close.
-- **Direction/magnitude:** Bullish, and building. AH reaction was +13.9% (10:01pm ET); now
-  **+15.7% pre-market** (Thursday's close $79.42 → pre-market $91.90, 7:51am ET quote) — real
-  follow-through overnight, not a fade. The cleanest, most persistent beat-and-up on the board.
-- **Freshness confidence:** High, raised from last night — two consecutive checks show the
-  move holding and extending rather than giving it back.
-- **Disqualifiers:** None structural. Still needs live price-action re-verification at the
-  open — a stock up 15%+ into the open can still gap-and-fade on broad market tone.
-- **Options read (PRELIMINARY, NOT A LIVE QUOTE — still last-close pricing, market not yet
-  open):** $90C 11/13 (22 DTE): mark unchanged at $2.975 (~$297.50/contract) — **borderline
-  FAILS** the ~$293 cap already, and with the stock now 15.7% above Thursday's close this
-  contract is deep ITM and will reprice sharply higher at the open — options route very
-  unlikely to be viable. Stock-only candidate if pursued.
+## Monday 2026-10-26 scheduled earnings
+- **VZ (Verizon) — reports BEFORE Monday's open.** The only mega-cap "am" reporter on the
+  calendar. Pre-report drift tonight: -1.3% (close $45.20 → $44.61), flat into the print. Pure
+  event-risk name — direction unknown until the release; re-verify live at the open.
+- Rest of Monday's "am" slate (KOF, MMYT, TMSNY, ARLP, HBT, DEA, LKFN, BFST, BOH, CX, GABC,
+  CZWI, BMRC) — all small/mid caps, none large enough to prioritize.
+- Monday's "pm" reporters (CDNS, NUE, HIG, WHR, BRO, ARE, PSA, SUI, WELL, CLS, AMKR, RMBS, CFLT,
+  etc.) — these react Monday evening/Tuesday morning, not relevant to Monday's open.
 
-## Broad "beat but down" pattern — dominant theme again tonight, not scored
-Continuing the pattern from yesterday morning/evening and this morning: several large
-after-close reporters beat EPS big but traded down AH:
-- **BE (Bloom Energy):** huge beat $0.94 vs $0.65 (+44.6%), but AH **-5.2%** (close $217.77 →
-  AH $206.54).
-- **WDC:** beat $4.64 vs $4.06 (+14.3%), but AH **-5.0%** (close $354.22 → AH $336.00-337.00).
-- **DECK:** beat $2.03 vs $1.80 (+12.8%), but AH **-7.1%** (close $85.25 → AH $79.04-79.20) —
-  one of the hardest fades of the night despite a clean beat.
-- **KNSL:** beat $5.70 vs $5.08 (+12.2%), but AH **-5.2%** (close $390.35 → AH $370.00, wide
-  spread down to $340 bid — treat with caution).
-- **FIX:** beat $13.91 vs $12.82 (+8.5%), but AH **-5.1 to -5.9%** (close $1274.95 → AH
-  $1200-1210).
-- **SIGI:** huge beat $2.37 vs $1.93 (+22.8%), essentially flat AH (close $91.70 → AH $91.74,
-  very wide spread $87.50-94.54 — unreliable quote, re-verify at open).
-- **UVE:** massive beat $1.93 vs $1.34 (+44%), barely moved AH (-0.8%, close $48.40 → AH
-  $48.03) — looks fully priced in/capped.
-- **NEM:** beat $2.20 vs $1.94 (+13.4%), modest AH **+1.9%** (close $113.96 → AH $116.09) — the
-  one large beat tonight that didn't fade, though the move is small.
+## Ranked candidates — today's movers with AH follow-through (catalyst unconfirmed, see limitation above)
 
-Not scored — no clean bullish setup among them; several (DECK, KNSL, FIX, BE) are candidates
-for a bearish/avoid read at the open rather than a long entry.
+### 1. RHI (Robert Half) — strongest follow-through
+- **Move:** closed +21.8% (Thu $37.68 → Fri close $45.90), extending further AH to $46.02.
+- **Freshness confidence:** High on price action alone — holding/extending into AH is a genuine
+  continuation signal, not a fade. Catalyst unconfirmed (magnitude strongly suggests earnings,
+  but unverifiable this session).
+- **Disqualifiers:** None structural. Needs live catalyst confirmation at the open.
+- **Options read (PRELIMINARY, NOT A LIVE QUOTE):** $45C 11/20 (28 DTE): mark $3.15
+  (~$315/contract) — **FAILS** the ~$292 cap (balance >$2,000 → 10% cap). OI 57/vol 131 —
+  adequate but thinner side of acceptable. Stock-only candidate if pursued; options route fails
+  on premium alone.
 
-## Genuine misses — clean bearish, not scored
-- **HTH:** missed $0.44 vs $0.64 (-31%), AH **-10.3%** (close $37.315 → AH $33.48) — clean,
-  large reaction to a real miss.
-- **SLM:** missed badly, swung to a loss (-$0.19 vs +$0.18 est), AH **-5.1%** (close $21.805 →
-  AH $20.70).
-- **VTMX:** reported a near-total EPS miss ($0.05 vs $0.44 est, -89%), but the AH quote has an
-  extremely wide, unreliable spread ($14.30-57.18) — treat as stale/illiquid until a fresh
-  quote is available at the open.
+### 2. CRWD (CrowdStrike) — large-cap momentum, holding near highs
+- **Move:** closed +8.3% (Thu $237.94 → Fri $257.58), AH flat at $257.40 — held the gain, no fade.
+- **Freshness confidence:** High — clean, large-cap continuation signature.
+- **Disqualifiers:** None structural. Catalyst unconfirmed.
+- **Options read (PRELIMINARY):** $255C 11/13 (21 DTE): mark $15.50 (~$1,550/contract) —
+  **FAILS** cap badly. Stock-only if pursued.
 
-## Today's "am" earnings reactions (2026-10-23) — now reported
-- **AXP:** beat $4.68 vs $4.49 (+4.2%), pre-market essentially flat/down (-1.2%, close $325.17
-  → pre-market $321.22) — muted reaction to a modest beat, not interesting.
-- **SLB:** beat $0.64 vs $0.62 (+3.2%), pre-market flat (+0.3%, close $49.55 → $49.70) —
-  negligible reaction.
-- **FCNCA:** huge beat $55.37 vs $46.11 (+20.1%) — small regional bank, not checked for
-  pre-market reaction (thin volume expected, low priority).
-- **BAH (Booz Allen):** beat $1.76 vs $1.47 (+19.7%) — not yet checked for reaction.
-- **E (Eni):** beat $2.18 vs $1.92 (+13.5%) — ADR, not yet checked for reaction.
-- **RITM, RCI, GRC, NHYDY, ALV, FLG, VLVLY, INFY, BCPC:** modest beats/misses, none large
-  enough in magnitude or market cap to prioritize this morning.
+### 3. CCI / AMT / SBAC — cell-tower REIT basket moving together
+- **Move:** CCI +9.1% (AH $86.82, extending), AMT +4.1% (AH $189.50, extending), SBAC +3.6%
+  (AH $184.69, flat). All three moving in the same direction/magnitude on the same day.
+- **Read:** basket/sector-wide move (likely rate-sensitive, REIT-complex), not a single-name
+  catalyst — weaker individual-name conviction even though each one's price action looks clean.
+- **Disqualifiers:** Broad-basket signature — lower priority than a true single-name mover.
+- **Options read (PRELIMINARY, CCI as basket representative):** $85C 11/20 (28 DTE): mark $4.20
+  (~$420/contract) — **FAILS** cap. OI 558/vol 143 — good liquidity, just too expensive.
 
-## PRIORITY FLAG FOR 9:40AM — AAOI / COHR rebound watch (explicit user instruction, 2026-10-23)
-User's thesis: tech was broadly oversold yesterday (10/22) amid the session's risk-off tape
-(VIX ran from 18.28 at noon to 20.23 by 3pm), and both AAOI and COHR may be candidates for a
-mean-reversion bounce rather than a continuing breakdown. Flagged explicitly for priority
-review at the 9:40am opening-bell cycle — not pre-approved, still subject to the normal Step 6
-structure gate.
-- **AAOI:** held a stable $75.89-79.20 range Mon-Tue, gapped down hard at Thursday's open
-  (-6.5%), fell to a $66.94 intraday low, closed $68.07 (-13% off the stable range). Pre-market
-  Friday $69.28-70.20 (**+1.8-3.1%** off Thursday's close) — still well below the broken range.
-  No catalyst identified for either the Thursday breakdown or this morning's bounce (no
-  equity-news tool available this session).
-- **COHR:** same shape — held $230-239 Mon-Tue, gapped down -8% Thursday, fell to a $204.38
-  low, closed $207.82 (-12% off the stable range). Pre-market Friday $211.00-213.15
-  (**+1.8-2.6%**) — still well below the broken range. Same catalyst gap as AAOI.
-- **Read:** both legs (the Thursday drop and this morning's bounce) are unconfirmed by any
-  known catalyst — a thin pre-market tick alone doesn't distinguish a real reversal from a
-  dead-cat bounce. The 9:40am cycle should specifically check whether either name opens and
-  **holds** above pre-market levels on real volume in the first several minutes (confirming
-  the bounce) versus fading back toward Thursday's lows (confirming continued breakdown) —
-  the former is the actionable signal, the latter is a pass despite the oversold thesis.
+### 4. GMAB (Genmab) — best-fitting options structure of the group
+- **Move:** closed +9.5% (Thu $40.00 → Fri $43.79), AH $44.04, modest further extension.
+- **Freshness confidence:** Moderate-high — holding gains into AH. Catalyst unconfirmed (biotech
+  names often move on trial/regulatory news, unverifiable this session).
+- **Disqualifiers:** None structural.
+- **Options read (PRELIMINARY):** $45C 11/20 (28 DTE): mark $2.25 (~$225/contract) — **PASSES**
+  the ~$292 cap. OI 953/vol 95 — strong open interest. DTE 28, within the 7-30 window (upper
+  edge). This is the only name in tonight's group that structurally fits the options checklist on
+  premium/liquidity — still needs live catalyst + technical confirmation at the open, and this
+  routine never pre-approves or places anything.
+
+### 5. ENVX (Enovix) — smaller, same pattern
+- **Move:** closed +9.4% (Thu $2.55 → Fri $2.79), AH $2.82, slight extension. Small-cap,
+  options route not checked (ranks below the top 4, outside the 3-5 research budget).
+
+## Bearish / avoid-list carryover
+- **BE (Bloom Energy):** continuing to fade, now -11.3% on the day (close $217.77 → $193.12),
+  AH $192.87 — holding near the lows, no bounce. Third straight session of post-earnings fade.
+  Avoid long; not a short candidate under this account's standing rules.
+
+## AAOI / COHR — closed out, folded back to normal watch
+Both positions from Friday's oversold-tech rebound thesis were stopped out cleanly during the
+regular session (AAOI -1.44%, COHR -1.80%, combined -$5.82). Per the STOCK TRAILING-STOP RULE,
+treating both as clean exits — not chasing re-entry. AAOI continued fading AH ($67.52, below its
+$68.50 stop-exit) confirming the exit was correct; COHR ticked back up slightly AH ($209.23,
+above its $208.485 stop-exit) but not enough to suggest the thesis is still live. Both fold back
+into the normal scan process with no standing flag.
 
 ## Pre-market small-cap-tech shortlist (Step 3b)
-Technology sector scan (scan_id `4ab9bad9...`) returned **0 matches** this morning — nothing
-clearing the pre-market gap/volume filter. Shortlist empty.
+Not re-run this cycle — this routine's scope is after-hours catalyst research, not a live sector
+sweep. The 8am overnight true-up and 9:40am opening-bell cycles own this check.
 
 ## Entertainment/media exclusion (standing user preference, 2026-09-22)
 No new entertainment/media names surfaced tonight.
