@@ -7,37 +7,37 @@
 > This file is a head start for the search, not a decision.
 
 **Build status:** built fresh by the after-hours routine on 2026-10-22 (Thursday close), fired
-~6:06pm ET for 2026-10-23 (Friday). Asian/European overnight sessions have **not** been
-checked at this hour — that is the job of the ~8:00am overnight true-up pass tomorrow.
+~6:06pm ET for 2026-10-23 (Friday); **trued up by the 8am overnight pass**, fired ~7:53am ET.
+Asian/European sessions checked via pre-market quotes — no fresh overseas-specific catalyst
+found. Main development: **RNG has strengthened overnight**, extending from +13.9% AH to
++15.7% pre-market — real follow-through, not fading.
 
-**Step 0 — held position defense check:** No positions held. All four stock positions open
-earlier today (CSX, PG, BHVN, MLTX) were sold to close by explicit user instruction at ~3:52pm
-ET, before the close, specifically to avoid after-hours gap risk. Account is 100% cash.
-**No action possible or needed.**
+**Step 0 — held position defense check:** No positions held (unchanged from last night — all
+four stock positions sold to close by explicit user instruction at ~3:52pm ET yesterday).
+Account remains 100% cash. **No action possible or needed.**
 
-**Account status:** No open stock or options positions. Cash ~$2,927 (full account value,
-flat/cash after today's round-trip: net -$2.48 realized across the four closed positions).
+**Account status:** No open stock or options positions. Cash ~$2,927.
 
-**Tone at this build (6pm):** SPX 7637.58, NDX 28878.76, VIX 20.23 at the 3pm cycle, worsening
-through the afternoon — genuine risk-off session, the worst tape of the week so far. A massive
-after-close earnings slate tonight (dozens of regional banks/insurers/industrials) plus AXP and
-SLB reporting before tomorrow's open.
+**Tone at this build (8am):** SPX/NDX readings are stale (yesterday-close carryover, no live
+pre-market index tick), **VIX 19.57**, down from yesterday's 3pm reading of 20.23 — a modest
+cooling of the risk-off tone overnight, though still elevated vs. earlier in the week.
 
 ## Ranked candidates (tonight's after-close earnings reactions)
 
-### 1. RNG (RingCentral) — clean beat-and-up, best setup of the night
-- **Catalyst:** Q3 EPS $1.33 vs. $1.16 est (+14.7% beat), reported after today's close.
-- **Direction/magnitude:** Bullish. AH reaction **+13.9%** (today's regular close $79.40 →
-  AH $90.41, 10:01pm ET quote).
-- **Freshness confidence:** High — fresh tonight, the cleanest beat-and-up of a crowded
-  earnings night; no visible fade yet.
-- **Disqualifiers:** None structural. Needs fresh price-action re-verification at the open —
-  a +14% AH move can easily give back most of its gain by 9:35am given how many other "beat
-  but down" names faded hard today and yesterday.
-- **Options read (PRELIMINARY, NOT A LIVE QUOTE — last-close pricing, pre-dates the AH move):**
-  $90C 11/13 (22 DTE): last-close mark $2.975 (~$297.50/contract) — **borderline FAILS** the
-  ~$293 sizing cap even before the AH move reprices it higher; OI 4/volume 2 — very thin.
-  Options route unlikely to be viable; stock-only candidate if pursued.
+### 1. RNG (RingCentral) — STRENGTHENED, best setup two checks running
+- **Catalyst:** Q3 EPS $1.33 vs. $1.16 est (+14.7% beat), reported after Thursday's close.
+- **Direction/magnitude:** Bullish, and building. AH reaction was +13.9% (10:01pm ET); now
+  **+15.7% pre-market** (Thursday's close $79.42 → pre-market $91.90, 7:51am ET quote) — real
+  follow-through overnight, not a fade. The cleanest, most persistent beat-and-up on the board.
+- **Freshness confidence:** High, raised from last night — two consecutive checks show the
+  move holding and extending rather than giving it back.
+- **Disqualifiers:** None structural. Still needs live price-action re-verification at the
+  open — a stock up 15%+ into the open can still gap-and-fade on broad market tone.
+- **Options read (PRELIMINARY, NOT A LIVE QUOTE — still last-close pricing, market not yet
+  open):** $90C 11/13 (22 DTE): mark unchanged at $2.975 (~$297.50/contract) — **borderline
+  FAILS** the ~$293 cap already, and with the stock now 15.7% above Thursday's close this
+  contract is deep ITM and will reprice sharply higher at the open — options route very
+  unlikely to be viable. Stock-only candidate if pursued.
 
 ## Broad "beat but down" pattern — dominant theme again tonight, not scored
 Continuing the pattern from yesterday morning/evening and this morning: several large
@@ -70,16 +70,30 @@ for a bearish/avoid read at the open rather than a long entry.
   extremely wide, unreliable spread ($14.30-57.18) — treat as stale/illiquid until a fresh
   quote is available at the open.
 
-## Tomorrow's scheduled "am" earnings (before the open, 2026-10-23)
-Large/notable names reporting before tomorrow's open: **AXP** (American Express), **SLB**
-(Schlumberger), GNTX, BAH, RITM, FCNCA, E, ALV, INFY, RDY, RCI, FHB, TMP. These are
-**scheduled, not yet reported** — no direction/magnitude to assess yet. The ~8am overnight
-true-up pass will check for any pre-market reaction once these release. AXP and SLB are the
-headline large-caps worth prioritizing in that check.
+## Today's "am" earnings reactions (2026-10-23) — now reported
+- **AXP:** beat $4.68 vs $4.49 (+4.2%), pre-market essentially flat/down (-1.2%, close $325.17
+  → pre-market $321.22) — muted reaction to a modest beat, not interesting.
+- **SLB:** beat $0.64 vs $0.62 (+3.2%), pre-market flat (+0.3%, close $49.55 → $49.70) —
+  negligible reaction.
+- **FCNCA:** huge beat $55.37 vs $46.11 (+20.1%) — small regional bank, not checked for
+  pre-market reaction (thin volume expected, low priority).
+- **BAH (Booz Allen):** beat $1.76 vs $1.47 (+19.7%) — not yet checked for reaction.
+- **E (Eni):** beat $2.18 vs $1.92 (+13.5%) — ADR, not yet checked for reaction.
+- **RITM, RCI, GRC, NHYDY, ALV, FLG, VLVLY, INFY, BCPC:** modest beats/misses, none large
+  enough in magnitude or market cap to prioritize this morning.
 
-## Standing watch — AAOI / COHR (user standing interest)
-Not re-checked this cycle — carry forward to the 8am overnight true-up for a fresh pre-market
-read; both were last seen reversing hard (-5.2% to -8% range) on no identifiable catalyst.
+## Standing watch — AAOI / COHR (user standing interest, 8am check)
+- **AAOI:** Thursday's close $68.07 → pre-market $69.84-70.20 (**+3.1%**) — extending higher,
+  partially reversing yesterday's pullback. No fresh catalyst found (no equity-news tool
+  available this session).
+- **COHR:** Thursday's close $207.82 → pre-market $211.00-213.15 (**+1.8-2.6%**) — also
+  extending higher, same pattern.
+- Both recovering some of yesterday's reversal on no identifiable catalyst — standing watch
+  only, not a trade signal.
+
+## Pre-market small-cap-tech shortlist (Step 3b)
+Technology sector scan (scan_id `4ab9bad9...`) returned **0 matches** this morning — nothing
+clearing the pre-market gap/volume filter. Shortlist empty.
 
 ## Entertainment/media exclusion (standing user preference, 2026-09-22)
 No new entertainment/media names surfaced tonight.
