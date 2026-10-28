@@ -7,8 +7,38 @@
 > This file is a head start for the search, not a decision.
 
 **Build status:** built fresh by the after-hours routine on 2026-10-27 (Tuesday close), fired
-~6:06pm ET for 2026-10-28 (Wednesday). Will be trued up by the ~8am overnight pass. Asian/
-European sessions not yet checked at this hour.
+~6:06pm ET for 2026-10-28 (Wednesday). **Trued up by the ~8am overnight pass, 2026-10-28**
+(see pre-market update section below). Asian/European session carryover reflected via
+VIX/SPX/NDX index pull only — no name-specific overnight news surfaced (WebSearch turned up
+nothing dated this week for UCTT or NXPI; standing caveat that WebSearch results can be
+stale/unreliable applies).
+
+## 8am true-up — pre-market update (2026-10-28)
+- **Positions:** Confirmed 100% cash, no stock/options positions held — nothing to defend.
+- **UCTT — STRENGTHENED.** Pre-market $58.94 (bid $58.50/ask $60.38) vs. yesterday's regular
+  close $51.48 — **+14.5%**, holding most of Monday night's +23.5% AH pop. Still the top
+  candidate; re-verify live at the open per the standing PRELIMINARY caveat, and re-price the
+  $60C 11/20 options read fresh (last night's $2.575 mark is now stale after two legs of
+  movement).
+- **NXPI — bearish watch, STRENGTHENED (to the downside).** Pre-market $235.00 (bid
+  $233.06/ask $235.00) vs. yesterday's regular close $253.50 — **-7.3%**, extending the
+  after-hours decline further overnight. Still not a short candidate under this account's
+  standing rules; avoid long.
+- **AAOI — standing optoelectronic watch, modest extension.** Pre-market $78.82 (bid
+  $78.81/ask $79.01) vs. prior close $76.95 — **+2.4%**. No new catalyst found; likely
+  sector/momentum carryover from yesterday's position. Not large enough to flag for pre-9:40am
+  approval on its own.
+- **COHR — standing optoelectronic watch, modest extension.** Pre-market $241.55 (bid
+  $241.51/ask $242.00) vs. prior close $235.79 — **+2.5%**. Same read as AAOI — modest
+  carryover, no fresh catalyst, not flagged as actionable pre-market.
+- **Index/tone read:** VIX 17.52, calm/flat vs. yesterday (live). SPX/NDX quotes stale
+  (no live pre-market tick) — tone read from VIX only, consistent with every prior night this
+  session.
+- **Today's (2026-10-28) am earnings:** large slate already mostly reported — BSX in-line,
+  BIIB big beat, AON/GEHC/ETSY/GRMN/OTIS/VRT/AEP beats, plus a long tail of smaller names.
+  Heavy pm slate tonight: GOOGL/GOOG, MSFT, NOW, EBAY, CMG, KLAC, MGM, F, FTNT, TMUS, FDX,
+  ORLY, CSL, and more — relevant for Thursday tone, not today's open.
+- **Pre-market small-cap-tech shortlist (Step 3b):** re-run this cycle — **0 matches**, empty.
 
 **Step 0 — held position defense check:** No stock or options positions held — account is
 100% cash after closing all five positions during today's regular session (CLS, SOFI, GMAB,
@@ -66,11 +96,13 @@ FTNT** — these react Wednesday evening/Thursday morning, not relevant to tomor
 flagged now since it's a significant one to watch for broad market tone Thursday.
 
 ## Overnight session note
-Asian/European sessions not yet checked (too early at this hour) — pending the ~8am true-up.
+Checked at the 8am true-up via VIX/SPX/NDX index pull — VIX calm/flat, SPX/NDX no live
+pre-market tick (stale quotes). No Asian/European name-specific catalysts surfaced for UCTT
+or NXPI via WebSearch (standing caveat: results stale/unreliable, nothing dated this week
+found for either name).
 
 ## Entertainment/media exclusion (standing user preference, 2026-09-22)
-No new entertainment/media names surfaced tonight.
+No new entertainment/media names surfaced tonight or at the true-up.
 
 ## Pre-market small-cap-tech shortlist (Step 3b)
-Not re-run this cycle — no small-cap-tech pre-market scan available at this after-hours hour;
-this is the job of the 8am true-up and 9:40am opening-bell cycles.
+Re-run at the 8am true-up — **0 matches**, shortlist empty.
