@@ -6,103 +6,111 @@
 > 20% after-hours and is already fading by 9:35am ET is a PASS despite being on this list.
 > This file is a head start for the search, not a decision.
 
-**Build status:** built fresh by the after-hours routine on 2026-10-27 (Tuesday close), fired
-~6:06pm ET for 2026-10-28 (Wednesday). **Trued up by the ~8am overnight pass, 2026-10-28**
-(see pre-market update section below). Asian/European session carryover reflected via
-VIX/SPX/NDX index pull only — no name-specific overnight news surfaced (WebSearch turned up
-nothing dated this week for UCTT or NXPI; standing caveat that WebSearch results can be
-stale/unreliable applies).
-
-## 8am true-up — pre-market update (2026-10-28)
-- **Positions:** Confirmed 100% cash, no stock/options positions held — nothing to defend.
-- **UCTT — STRENGTHENED.** Pre-market $58.94 (bid $58.50/ask $60.38) vs. yesterday's regular
-  close $51.48 — **+14.5%**, holding most of Monday night's +23.5% AH pop. Still the top
-  candidate; re-verify live at the open per the standing PRELIMINARY caveat, and re-price the
-  $60C 11/20 options read fresh (last night's $2.575 mark is now stale after two legs of
-  movement).
-- **NXPI — bearish watch, STRENGTHENED (to the downside).** Pre-market $235.00 (bid
-  $233.06/ask $235.00) vs. yesterday's regular close $253.50 — **-7.3%**, extending the
-  after-hours decline further overnight. Still not a short candidate under this account's
-  standing rules; avoid long.
-- **AAOI — standing optoelectronic watch, modest extension.** Pre-market $78.82 (bid
-  $78.81/ask $79.01) vs. prior close $76.95 — **+2.4%**. No new catalyst found; likely
-  sector/momentum carryover from yesterday's position. Not large enough to flag for pre-9:40am
-  approval on its own.
-- **COHR — standing optoelectronic watch, modest extension.** Pre-market $241.55 (bid
-  $241.51/ask $242.00) vs. prior close $235.79 — **+2.5%**. Same read as AAOI — modest
-  carryover, no fresh catalyst, not flagged as actionable pre-market.
-- **Index/tone read:** VIX 17.52, calm/flat vs. yesterday (live). SPX/NDX quotes stale
-  (no live pre-market tick) — tone read from VIX only, consistent with every prior night this
-  session.
-- **Today's (2026-10-28) am earnings:** large slate already mostly reported — BSX in-line,
-  BIIB big beat, AON/GEHC/ETSY/GRMN/OTIS/VRT/AEP beats, plus a long tail of smaller names.
-  Heavy pm slate tonight: GOOGL/GOOG, MSFT, NOW, EBAY, CMG, KLAC, MGM, F, FTNT, TMUS, FDX,
-  ORLY, CSL, and more — relevant for Thursday tone, not today's open.
-- **Pre-market small-cap-tech shortlist (Step 3b):** re-run this cycle — **0 matches**, empty.
+**Build status:** built fresh by the after-hours routine on 2026-10-28 (Wednesday close), fired
+~6:05pm ET for 2026-10-29 (Thursday). Will be trued up by the ~8am overnight pass. Asian/
+European sessions not yet checked at this hour.
 
 **Step 0 — held position defense check:** No stock or options positions held — account is
-100% cash after closing all five positions during today's regular session (CLS, SOFI, GMAB,
-AAOI, COHR all closed; net day P&L +$18.28). **No action possible or needed.**
+100% cash after closing both positions (BOOM, AXGN) during today's regular session (net day
+P&L +$8.43). **No action possible or needed.**
 
-## Tonight's theme — a LOT of "beat but sold off anyway"
-Across the pm earnings slate, several large/liquid names beat estimates clearly but still
-traded down 2-4.5% after hours — RNR (+24.9% EPS beat, stock -3.1%, but quote very wide/
-unreliable), FFIV (beat, -2.4%, decent liquidity), LOGI (+16% beat, -2.2%, decent liquidity),
-ACGL (beat, -1.95%, wide/unreliable), **NXPI** (modest beat, -4.5%, tight ~0.3% spread —
-most reliable of this group), V (small beat, -2.2%, very tight spread), STX (beat, -2.6%,
-reasonable spread). This looks like a broad "sell the print" pattern tonight (likely guidance-
-driven), not isolated to one name — worth keeping in mind for market tone tomorrow even
-though none of these are long candidates.
+## Tonight's theme — huge pm earnings night, and the "beat but sold off" pattern is back, hard
+A massive pm slate reported tonight (136 names with actuals already in). Two stood out as
+severe: **FTNT (-30.2% AH)** and **NOW (-19.5% AH)** both BEAT estimates comfortably (FTNT
++8.3% EPS beat, NOW +7.5% beat) but got crushed anyway — both have a documented history of
+guidance-driven post-earnings routs, and tonight's reaction size suggests another one, though
+the specific driver isn't confirmed via available sources tonight (standard caveat: WebSearch
+returned only historical precedent, not tonight's actual release details). **GOOGL/GOOGL
+-9.4% AH** on a real, large EPS miss (~$2.12 vs. ~$2.96-2.99 est, roughly -29%). Also softer:
+MORN -4.9%, HRTG -3.2%, FDX -3.0%, all beat-but-faded. None of these are long candidates;
+noted for market-tone awareness only, not as short candidates per standing account rules.
 
 ## Ranked candidates
 
-### 1. UCTT (Ultra Clean Holdings) — best candidate, big clean beat
-- **Catalyst:** Q3 EPS beat (+26.4% vs. estimate), reported pm 2026-10-27 (Robinhood earnings
-  calendar, verified).
-- **Direction/magnitude:** Bullish. Regular close $46.71 → after-hours $57.65 (last print,
-  21:38 UTC) — **+23.5%**, bid/ask $56.33-57.40 (~1.9% spread, reasonably tradeable for an
-  after-hours read).
-- **Freshness confidence:** High — fresh tonight, large reaction, decent liquidity for the hour.
-- **Disqualifiers:** None structural. Semiconductor-equipment supplier, liquid options chain.
-- **90-day/1-year context (per standing check):** 1-year range $21.49-$144.22; 90-day range
-  $43.96-$98.68. Regular close ($46.71) was near the 90-day **low**; even after the AH pop to
-  $57.65 it's still well below both the 90-day high and the 1-year high. **This is the
-  opposite setup from GMAB** — bouncing off a low, not chasing a high — materially lower
-  mean-reversion/IV-crush risk if an options route is considered.
-- **Options read (PRELIMINARY, last regular-session quote — stock has since moved +23.5%, so
-  this will be far closer to the money and meaningfully more expensive at the open):** $60C
-  11/20 (24 DTE): mark $2.575 (~$257.50/contract, as of Monday's close) — **PASSES** the
-  current ~$294 sizing cap as of this stale quote, but re-price live — a 23% underlying move
-  will have moved this a lot. OI 141 / vol 17 — moderate, re-verify same-day volume at the
-  open. **Re-verify everything live before treating as tradeable**, per the standing
-  PRELIMINARY caveat.
+### 1. BHC (Bausch Health) — best candidate, big beat + big AH pop
+- **Catalyst:** Q3 EPS beat (+46% vs. estimate, $1.77 vs. $1.21 est), reported pm 2026-10-28
+  (Robinhood earnings calendar, verified). Likely compounded by sister-company BLCO's own
+  strong earnings beat reported this morning (BHC moved up during the regular session too).
+- **Direction/magnitude:** Bullish. Regular close $6.95 → after-hours $7.83 (last print,
+  22:01 UTC) — **+12.7%** AH on top of today's regular-session gain. Bid/ask $7.74-7.86
+  (~1.5% spread, tradeable).
+- **Freshness confidence:** High — fresh tonight, large reaction, decent liquidity.
+- **Disqualifiers:** None structural.
+- **90-day/1-year context:** 1-year range $4.33-$8.00; 90-day range $4.97-$7.30. AH price
+  $7.83 is **within a few percent of the 1-year high ($8.00)** and above the 90-day high —
+  flag per standing rule: elevated mean-reversion/IV-crush risk if sizing an options route,
+  even though the setup itself (bouncing off lows over the past year, not a fresh breakout
+  from nowhere) is otherwise reasonable.
+- **Options read (PRELIMINARY, last regular-session quote — stock has since moved +12.7% AH,
+  so this will reprice materially higher at the open):** $7C 11/20 (23 DTE): mark $0.475
+  (~$47.50/contract, as of Wednesday's 4pm close, BEFORE tonight's earnings) — **PASSES** the
+  current ~$295 sizing cap on this stale quote, but re-price live — a 12.7%+ underlying move
+  will have moved this a lot, likely still inside the cap given the low base premium, but
+  re-verify. OI 381/vol 848 — good liquidity. **Re-verify everything live before treating as
+  tradeable**, per the standing PRELIMINARY caveat.
 
-## Checked, not promoted — broad "beat but sold off" bearish-leaning watch
-- **NXPI:** Modest beat, -4.5% after-hours on a tight ~0.3% spread (most reliable quote in
-  this group). 90-day range $216.66-$257.32, regular close $245.83 — mid-range, not at an
-  extreme either way. Large-cap semiconductor name; avoid long given the reaction, not a short
-  candidate under this account's standing rules.
-- **FFIV, LOGI, V, STX:** All beat, all down 2-3% after hours on workable (not razor-tight)
-  spreads. Not pursued — same logic as NXPI, avoid long, no short candidate.
-- **RNR, ACGL, CZR, NBHC:** Reactions present but quotes too wide/unreliable this late to call
-  (spreads of $5-10+ on some) — not scoreable tonight.
+### 2. GKOS (Glaukos) — huge beat, but a fresh 1-year-high entry
+- **Catalyst:** Q3 swung to a large EPS beat (+$0.47 actual vs. -$0.10 est — a swing to
+  profitability), reported pm 2026-10-28 (verified).
+- **Direction/magnitude:** Bullish. Regular close $181.17 → after-hours $215.01 (last print,
+  21:59 UTC) — **+18.7%**, bid/ask $214.00-217.97 (~1.8% spread).
+- **Freshness confidence:** High — fresh, large reaction.
+- **Disqualifiers:** **This is a fresh 1-year AND 90-day high entry** — 1-year range
+  $73.16-$191.62, 90-day range $146.39-$191.62 — the AH price of $215 is already well above
+  both prior highs. Per the standing 90-day/1-year context rule (added after the GMAB
+  lesson), this carries real added mean-reversion/IV-crush risk and must be weighed
+  explicitly, not treated as an automatic disqualifier but also not ignored.
+- **Options read (PRELIMINARY, stale quote):** $190C 11/20 (23 DTE): mark $12.45
+  (~$1,245/contract) — **FAILS** the sizing cap decisively (cap ~$295), and this was before
+  tonight's +18.7% move which will have pushed it higher still. OI 13/vol 14 — thin. No
+  options route here under current sizing; stock-only if pursued at all, and the fresh-high
+  flag above argues for caution even there.
 
-## Tomorrow (2026-10-28) scheduled earnings — before-the-open ("am") slate, not yet reported
-A very large am slate: **BSX, BIIB, AON, ETSY, GEHC, APH, GRMN, OTIS, VRT, AEP**, plus a long
-tail of smaller names. None pre-analyzed here since they haven't reported yet — check fresh at
-the open. Note: tomorrow's **pm** slate is unusually heavy with mega-caps — **GOOGL/GOOG
-(Alphabet), MSFT (Microsoft), NOW (ServiceNow), EBAY, CMG (Chipotle), KLAC, MGM, F (Ford),
-FTNT** — these react Wednesday evening/Thursday morning, not relevant to tomorrow's open, but
-flagged now since it's a significant one to watch for broad market tone Thursday.
+### 3-5. Secondary tier — real beats, modest AH reactions (not deep-researched, flagged for
+awareness)
+- **EQIX:** beat +25% ($11.64 vs $9.28 est), AH +3.0% ($1029 vs $999.38 close). Large-cap data
+  center REIT, modest reaction suggests partially priced in.
+- **EBAY:** beat +11.9% ($1.51 vs $1.35 est), AH +5.0% ($123.70 vs $117.83 close).
+- **ORLY:** beat +4.3% ($0.97 vs $0.93 est), AH +4.6% ($93.99 vs $89.82 close).
+- **KLAC:** beat +3.4% ($1.22 vs $1.18 est), AH +7.4% ($165 vs $153.66 close) — stronger
+  reaction relative to the beat size, worth a closer look at the open.
+- **MSFT:** beat +3.6% ($4.89 vs $4.72 est), AH +3.7% ($551 vs $531.33 close). Mega-cap,
+  liquid options, modest-but-real positive reaction.
+- Not individually researched for options or 90-day/1-year context tonight given research
+  budget — re-check live at the open if still interesting.
+
+## Anomaly worth flagging — CMG
+Chipotle (CMG) EPS slightly *missed* ($0.27 vs $0.29 est) but is **up +10.0% AH** ($30.78 vs
+$27.98 close) — an unusual mismatch. Revenue (~$3.3B) landed roughly in line with the ~$3.27B
+consensus, and the company announced $110M in buybacks during the quarter; Q3 comps were
+guided to a tough ~1% compare. The AH pop may reflect comps or guidance beating a very low
+bar, but the specific driver isn't confirmed via available sources tonight. Not scored as a
+candidate — flagged as a reminder to check the actual comp/guidance details fresh at the open
+before dismissing or chasing it.
+
+## Checked, not promoted — "beat but sold off" bearish-leaning watch
+- **FTNT:** Beat +8.3%, but -30.2% AH — one of the most severe reactions seen this earnings
+  season. Avoid long given the reaction; not a short candidate under standing rules.
+- **NOW:** Beat +7.5%, but -19.5% AH — same pattern, severe reaction to a real beat.
+- **GOOGL/GOOG:** Real, large miss (-29% vs. estimate), -9.4% AH. Avoid long.
+- **MORN, HRTG, FDX:** All beat, all down 3-5% AH. Avoid long, no short candidate.
+- **MGM:** Missed (swung to a loss vs. a small positive estimate), -2.3% AH — minor.
+
+## Tomorrow (2026-10-29) scheduled earnings — before-the-open ("am") slate, not yet reported
+An exceptionally large am slate (178 names) including several mega-caps: **LLY (Eli Lilly),
+MA (Mastercard), MRK (Merck), BMY (Bristol-Myers), CAT (Caterpillar), LIN (Linde), SHEL
+(Shell), ICE (Intercontinental Exchange), HSY (Hershey), CARR (Carrier), DHI (D.R. Horton),
+HWM (Howmet), TT (Trane Technologies), CTSH (Cognizant), SIRI (Sirius XM), K (Kellanova),
+CROX, AMP (Ameriprise), BG (Bunge), WTW, QSR (Restaurant Brands), AOS, TXT, KBR, BWA, HOG,
+NCLH, STM, ALNY, INCY** and many more. None pre-analyzed here since they haven't reported yet
+— check fresh at the open. Tomorrow's own pm slate not yet checked (job of the 8am true-up).
 
 ## Overnight session note
-Checked at the 8am true-up via VIX/SPX/NDX index pull — VIX calm/flat, SPX/NDX no live
-pre-market tick (stale quotes). No Asian/European name-specific catalysts surfaced for UCTT
-or NXPI via WebSearch (standing caveat: results stale/unreliable, nothing dated this week
-found for either name).
+Asian/European sessions not yet checked (too early at this hour) — pending the ~8am true-up.
 
 ## Entertainment/media exclusion (standing user preference, 2026-09-22)
-No new entertainment/media names surfaced tonight or at the true-up.
+No new entertainment/media names surfaced tonight.
 
 ## Pre-market small-cap-tech shortlist (Step 3b)
-Re-run at the 8am true-up — **0 matches**, shortlist empty.
+Not re-run this cycle — no small-cap-tech pre-market scan available at this after-hours hour;
+this is the job of the 8am true-up and 9:40am opening-bell cycles.
