@@ -7,12 +7,61 @@
 > This file is a head start for the search, not a decision.
 
 **Build status:** built fresh by the after-hours routine on 2026-10-28 (Wednesday close), fired
-~6:05pm ET for 2026-10-29 (Thursday). Will be trued up by the ~8am overnight pass. Asian/
-European sessions not yet checked at this hour.
+~6:05pm ET for 2026-10-29 (Thursday). **Trued up by the ~8am overnight pass, 2026-10-29** (see
+pre-market update section below).
 
 **Step 0 — held position defense check:** No stock or options positions held — account is
-100% cash after closing both positions (BOOM, AXGN) during today's regular session (net day
-P&L +$8.43). **No action possible or needed.**
+100% cash after closing both positions (BOOM, AXGN) during Wednesday's regular session (net
+day P&L +$8.43). **No action possible or needed.**
+
+## 8am true-up — pre-market update (2026-10-29)
+- **Positions:** Confirmed 100% cash, nothing to defend.
+- **AAOI (standing optoelectronic watch):** Pre-market $79.98 (bid $79.80/ask $80.10) vs.
+  yesterday's close $82.22 — **-2.7%**, a modest pullback, still within its recent range. No
+  fresh overnight news found.
+- **COHR (standing optoelectronic watch):** Pre-market $242.45 (bid $242.45/ask $242.98) vs.
+  yesterday's close $239.59 — **+1.2%**, holding/extending slightly. No fresh overnight news.
+- **BHC — STRENGTHENED but faded from the AH peak.** Pre-market $7.44 (bid $7.40/ask $7.60,
+  wide ~2.6% spread) vs. close $6.92 — **+7.5%**, down from last night's AH print of $7.83
+  (+12.7%). Still a real, held gain, but the fade is worth noting — less euphoric than
+  immediately post-print.
+- **GKOS — STRENGTHENED, catalyst confirmed independently.** Pre-market $210.98-213.00 (bid
+  $210.50/ask $213.00) vs. close $181.43 — **+16.4%**, holding most of the AH pop. WebSearch
+  confirms the 8-K: record net sales $211.0M (+58% YoY), driven by iDose TR and Corneal
+  Health (+154% YoY segment growth) — a genuinely strong, real catalyst, not noise. **Still a
+  fresh 1-year AND 90-day high entry** (prior highs ~$191.62) — the mean-reversion/IV-crush
+  flag from last night stands.
+- **EQIX:** Pre-market last print $1019.99 vs. close $1007.66 — +1.2%, but bid/ask
+  ($1020-1097) is an absurdly wide ~7.5% spread — thin, unreliable pre-market quote, treat
+  with caution until the open.
+- **EBAY — STRENGTHENED.** Pre-market $125.21 (bid $124.01/ask $125.00) vs. close $118.02 —
+  **+6.1%**, extending from last night's AH +5.0%.
+- **ORLY:** Pre-market last print $93.47 vs. close $90.44 — +3.4%, but bid/ask
+  ($84.15-93.99) is a similarly unreliable ~10% spread — don't trust this quote pre-open.
+- **KLAC:** Pre-market $164.00 (bid $163.44/ask $164.02) vs. close $158.77 — +3.3%, holding
+  roughly steady vs. last night's AH level.
+- **MSFT:** Pre-market $539.03 (bid $539.00/ask $539.19) vs. close $531.01 — +1.5%, steady.
+- **CMG — catalyst now understood, no longer a pure anomaly.** Pre-market $30.80 vs. close
+  $28.73 — **+7.2%**, holding most of last night's pop. WebSearch confirms Chipotle's own
+  8-K: comparable sales **+2.1%** (above the ~1% the company had guided to), a third straight
+  quarter of positive transaction growth, revenue +9.6% to $3.3B — the GAAP EPS miss ($0.27
+  vs. $0.29, margin compression from higher G&A) was outweighed by the comp/traffic beat.
+  Still not scored as a candidate tonight, but the move makes more sense now.
+- **FTNT — bearish, confirmed holding the crash.** Pre-market $128.65 vs. close $174.08 —
+  still **-26.1%**. Avoid long.
+- **NOW — bearish, confirmed holding the crash.** Pre-market $121.51 vs. close $150.13 —
+  still **-19.1%**. Avoid long.
+- **GOOGL — WEAKENED further (more bearish).** Pre-market $288.32 vs. close $324.89 — now
+  **-11.3%**, extending below last night's AH -9.4%. Avoid long.
+- **MORN — STRENGTHENED (recovered), removed from bearish watch.** Pre-market $214.78 vs.
+  close $214.86 — essentially flat now, having recovered from last night's AH -4.9%. No
+  longer a bearish-leaning name; not promoted to a candidate either given the choppy picture.
+- **HRTG, FDX, MGM:** Roughly flat to slightly positive pre-market; HRTG's quote
+  (bid $34.78/ask $42.33) is untrustworthy (stale/wide), FDX -0.8%, MGM +0.5% — none promoted.
+- **Index/tone read:** VIX 17.13, calm/flat (live). SPX/NDX quotes stale — tone read from VIX
+  only, consistent with every prior night this session.
+- **Pre-market small-cap-tech shortlist (Step 3b):** re-run this cycle — **0 matches**,
+  shortlist empty.
 
 ## Tonight's theme — huge pm earnings night, and the "beat but sold off" pattern is back, hard
 A massive pm slate reported tonight (136 names with actuals already in). Two stood out as
@@ -89,12 +138,16 @@ candidate — flagged as a reminder to check the actual comp/guidance details fr
 before dismissing or chasing it.
 
 ## Checked, not promoted — "beat but sold off" bearish-leaning watch
-- **FTNT:** Beat +8.3%, but -30.2% AH — one of the most severe reactions seen this earnings
-  season. Avoid long given the reaction; not a short candidate under standing rules.
-- **NOW:** Beat +7.5%, but -19.5% AH — same pattern, severe reaction to a real beat.
-- **GOOGL/GOOG:** Real, large miss (-29% vs. estimate), -9.4% AH. Avoid long.
-- **MORN, HRTG, FDX:** All beat, all down 3-5% AH. Avoid long, no short candidate.
-- **MGM:** Missed (swung to a loss vs. a small positive estimate), -2.3% AH — minor.
+- **FTNT:** Beat +8.3%, -30.2% AH, confirmed still -26.1% pre-market. Avoid long; not a short
+  candidate under standing rules.
+- **NOW:** Beat +7.5%, -19.5% AH, confirmed still -19.1% pre-market. Same read.
+- **GOOGL/GOOG:** Real, large miss (-29% vs. estimate), extending to -11.3% pre-market
+  (was -9.4% AH). Avoid long.
+- **HRTG, FDX:** Beat/flat, roughly flat to slightly down pre-market — no longer notably
+  bearish, not promoted either way.
+- **MGM:** Missed (swung to a loss vs. a small positive estimate), roughly flat pre-market
+  (-2.3% AH recovered to +0.5%) — minor, not actionable.
+- **MORN:** Moved off this list — recovered to flat pre-market (see true-up above).
 
 ## Tomorrow (2026-10-29) scheduled earnings — before-the-open ("am") slate, not yet reported
 An exceptionally large am slate (178 names) including several mega-caps: **LLY (Eli Lilly),
@@ -106,11 +159,12 @@ NCLH, STM, ALNY, INCY** and many more. None pre-analyzed here since they haven't
 — check fresh at the open. Tomorrow's own pm slate not yet checked (job of the 8am true-up).
 
 ## Overnight session note
-Asian/European sessions not yet checked (too early at this hour) — pending the ~8am true-up.
+Checked at the 8am true-up via VIX index pull — calm/flat (17.13). SPX/NDX quotes stale (no
+live pre-market tick). No Asian/European name-specific catalysts surfaced for any watchlist
+name via WebSearch tonight.
 
 ## Entertainment/media exclusion (standing user preference, 2026-09-22)
-No new entertainment/media names surfaced tonight.
+No new entertainment/media names surfaced tonight or at the true-up.
 
 ## Pre-market small-cap-tech shortlist (Step 3b)
-Not re-run this cycle — no small-cap-tech pre-market scan available at this after-hours hour;
-this is the job of the 8am true-up and 9:40am opening-bell cycles.
+Re-run at the 8am true-up — **0 matches**, shortlist empty.
