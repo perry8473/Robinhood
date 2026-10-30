@@ -1,7 +1,10 @@
 # Next-Day Watchlist — build for Friday, 2026-10-30
 
 > **PROVISIONAL — RESEARCH ONLY. NOT A TRADE LIST.**
-> Nothing below is pre-approved. Every entry must be re-verified against live price action and a fresh options chain at the open before being treated as a candidate. Built 6:07pm ET 2026-10-29 from today's after-close earnings reactions only — **Asian and European overnight-session news has NOT been checked yet** (those sessions haven't opened/traded at this hour). That is the job of the ~8:00am "Overnight true-up" routine, which will update this file in place before the open.
+> Nothing below is pre-approved. Every entry must be re-verified against live price action and a fresh options chain at the open before being treated as a candidate. Built 6:07pm ET 2026-10-29, trued up 8:00am ET 2026-10-30 against overnight/pre-market action.
+
+## 8am true-up — Step 0 held position check
+No stock or options position held. Nothing to defend.
 
 ## Step 0 — held position defense check
 No stock or options position held entering tonight (GKOS and BHC both closed earlier today, +$14.30 and +$6.80 realized). Nothing to defend.
@@ -29,45 +32,54 @@ None of these are being proposed as fresh longs — a beat-and-dump reaction int
 
 ### Bullish — ranked candidates for tomorrow's open
 
-**#1 GILD (Gilead Sciences)**
+**#1 GILD (Gilead Sciences) — STRENGTHENED**
 - **Catalyst:** Q3 EPS beat $2.55 vs. $2.18 est, reported after close 2026-10-29 (Robinhood earnings calendar, verified).
-- **Direction/magnitude:** Bullish, **+6.9% AH** ($170.15 vs. $159.20 close).
-- **Freshness confidence:** High — reaction is fresh (within the hour), beat-and-raise profile, one of the few genuinely positive reactions tonight.
-- **Disqualifiers:** None identified yet; standard large-cap pharma, well-covered, liquid. Re-verify at open since AH volume/price can be thin.
-- **Options read:** Listed chain exists (id `bd91f7b8-2108-43de-9623-26f9e482b524`), expirations include 11/13 (~15 DTE) and 11/20 (~22 DTE) — both pass the DTE 7-30 window structurally. **PRELIMINARY, NOT A LIVE QUOTE** — specific strike/premium/OI not pulled this run; re-check fresh at the open per structural constraint (options only trade regular hours).
+- **Direction/magnitude:** Bullish, extended overnight — **AH close +6.9%, now pre-market +4.1% further on top of that** ($172.45, bid/ask $172.50/$175.00, vs. yesterday's regular close $165.61). Continued buying through the whole overnight session, not just an AH pop that faded.
+- **Freshness confidence:** High — follow-through strengthens the thesis; beat-and-raise profile holding up.
+- **Disqualifiers:** None new. Re-verify live spread at the open — pre-market spread ($172.50/$175.00) is wide, confirm it tightens once regular session opens.
+- **Options read:** Listed chain confirmed still active (id `bd91f7b8-2108-43de-9623-26f9e482b524`), 11/13 (~14 DTE) and 11/20 (~21 DTE) still in the 7-30 DTE window. **PRELIMINARY, NOT A LIVE QUOTE** — specific strike/premium/OI still not pulled; defer to the 9:40am cycle for a live contract read.
 
-**#2 DXCM (Dexcom)**
-- **Catalyst:** Q3 EPS beat $0.73 vs. $0.67 est, reported after close 2026-10-29.
-- **Direction/magnitude:** Bullish, **+3.7% AH** ($81.55 vs. $78.62 close).
-- **Freshness confidence:** High — fresh reaction, clean beat.
-- **Disqualifiers:** Smaller % move than GILD, less conviction; medtech/diabetes-device name, generally liquid.
-- **Options read:** Listed chain exists (id `6e934755-9fc0-49e6-b2ee-ad78cb90c8f0`), 11/13 and 11/20 expirations both in DTE window. PRELIMINARY — not pulled, re-check at open.
-
-**#3 RIVN (Rivian)**
+**#2 RIVN (Rivian) — STRENGTHENED, promoted to #2**
 - **Catalyst:** Q3 narrower loss -$0.48 vs. -$0.74 est, reported after close 2026-10-29.
-- **Direction/magnitude:** Bullish, **+4.6% AH** ($12.21 vs. $11.67 close).
-- **Freshness confidence:** Medium — a "smaller loss than feared" beat is a weaker catalyst than a genuine profit beat, and EV names are prone to AH volatility on thin volume.
-- **Disqualifiers:** Still unprofitable; low share price means any stop will be proportionally wide in cents-terms but fine in %-terms; watch for overnight fade given AH moves on this name have reversed before.
-- **Options read:** Listed chain exists (id `c6d645a9-e206-4469-8246-035b423cee25`), 11/13 and 11/20 expirations in DTE window. PRELIMINARY — not pulled, re-check at open.
+- **Direction/magnitude:** Bullish, extended further overnight — **AH +4.6%, now pre-market +6.3%** ($12.17-$12.18, vs. $11.45 close).
+- **Freshness confidence:** Medium-high — the move has held and extended overnight rather than fading, which raises confidence versus last night's "smaller loss than feared" read alone.
+- **Disqualifiers:** Still unprofitable; low share price means a tight stop is wide in % terms relative to tick size. Re-verify real volume at the open, not just thin pre-market prints.
+- **Options read:** Listed chain confirmed (id `c6d645a9-e206-4469-8246-035b423cee25`), 11/13 and 11/20 in DTE window. PRELIMINARY — not pulled, re-check at open.
 
-**Secondary/not deeply checked:** SBUX (flat +0.3% despite a beat — muted reaction, low priority).
+**#3 DXCM (Dexcom) — STRENGTHENED slightly, demoted to #3**
+- **Catalyst:** Q3 EPS beat $0.73 vs. $0.67 est, reported after close 2026-10-29.
+- **Direction/magnitude:** Bullish, **AH +3.7%, now pre-market +2.9% vs. close** ($82.22-$83.15 vs. $79.93 close) — smallest incremental move of the three overnight, hence the demotion.
+- **Freshness confidence:** High — clean beat, steady (if modest) follow-through.
+- **Disqualifiers:** Smallest % move of the three; medtech name, generally liquid.
+- **Options read:** Listed chain confirmed (id `6e934755-9fc0-49e6-b2ee-ad78cb90c8f0`), 11/13 and 11/20 in DTE window. PRELIMINARY — not pulled, re-check at open.
 
-## Tomorrow's scheduled earnings (Fri 2026-10-30)
-**Heavy AM slate, energy majors + large pharma dominate:**
-- Energy: **XOM**, **CVX**, **BP**, IMO, HESM
-- Pharma/biotech: **ABBV**, **REGN**, SNY, AZN, CPRI(?), MRUS
-- Defense: **GD**
-- Consumer/household: CL, KVUE, NWL, CHD
-- Utilities: D, EXC
-- Other large/mid: MGA, LYB, CBOE, CNI, LEA, OMF
+**Secondary/not deeply checked:** SBUX (pre-market $105.09 vs. $105.51 close, essentially flat — muted reaction, low priority, UNCHANGED).
 
-No PM reporters flagged yet for tomorrow at this hour — will be refreshed if any surface overnight.
+## Standing watch — optoelectronic sector (AAOI / COHR)
+Both extending **sharply lower** overnight, in sympathy with a sector-wide optical/photonics move tied to reported Marvell-Lumentum acquisition talk (10/29: Marvell -13%, Lumentum +6%) rather than company-specific bad news on either name:
+- **AAOI:** pre-market $72.06 (bid/ask $71.90/$72.24) vs. $79.19 close, **-9.0%**. No AAOI-specific news found; earnings not until 11/5 (after close), so this isn't an earnings reaction. Needham reportedly cut its price target recently, which may be contributing to sector-wide caution. Read: **fading**, sector-driven, not an AAOI-specific catalyst.
+- **COHR:** pre-market $216.00 (bid/ask $215.50/$216.90) vs. $237.22 close, **-8.9%**. Same sector dynamic; some technical commentary flagging a possible "death cross" pattern as an added technical risk. Read: **fading**, sector-driven.
+- Both are standing-watch items only, not scored or tradeable candidates — this note does not pre-approve anything. The 9:40am cycle applies its own Step 5/6 gate before either could be treated as live, and a sector-wide selloff with no company-specific catalyst is a weak setup for either direction right now.
+
+## Today's scheduled earnings (Fri 2026-10-30) — now confirmed, all AM, most already beat by 8am
+**Heavy AM slate, energy majors + large pharma dominate, and the vast majority beat:**
+- Energy: **XOM** (beat $4.23 vs $4.01), **CVX** (beat $5.28 vs $4.82), **BP** (beat $5.26→ reported $3.26 vs $2.63 est), IMO (not yet reported), HESM (beat)
+- Pharma/biotech: **ABBV** (beat $3.82 vs $3.77), **REGN** (big beat $20.07 vs $15.75), SNY (big beat $2.04 vs $1.63), **AZN** (big beat $2.79 vs $1.44)
+- Defense: **GD** (beat $4.49 vs $4.13)
+- Consumer/household: CL (beat), KVUE (inline), NWL (inline), CHD (beat)
+- Utilities: D (beat), EXC (beat)
+- Other large/mid: MGA (beat), LYB (slight miss $2.54 vs $2.59), CBOE (beat), CNI (beat), LEA (beat), OMF (slight miss), NWG (miss $0.444 vs $0.51)
+
+This is a broadly positive earnings morning on the macro level — most large-caps beat. None of these have been checked yet for pre-market price reaction/gap; that's the 9:40am cycle's job once more pre-market volume builds. No PM reporters flagged for tonight yet.
+
+## Market tone overnight
+SPX 7,720 (~flat vs. yesterday's 3pm level ~7,699), NDX 29,403 (~flat), **VIX 18.66 — up from 16.95 at yesterday's 3pm cycle**, a meaningful overnight pickup in vol. Consistent with last night's wave of guidance-driven post-earnings selloffs (INTC, RDDT, TWLO, RBLX, PINS) and the optoelectronics sector move — some risk-off tone building even as the broad index levels stay flat.
 
 ## Overnight/follow-through check
-No prior-day movers from today's regular session (GKOS, BHC, CROX, HII, NCLH, FCN, LLY, DASH) currently held — all closed. Today's AH action is dominated entirely by the new earnings slate above, not follow-through on today's regular-session movers.
+No prior-day movers from yesterday's regular session (GKOS, BHC, CROX, HII, NCLH, FCN, LLY, DASH) currently held — all closed. Today's pre-market action is dominated by the new earnings slate above plus the optoelectronics sector move.
 
 ## Small-cap tech shortlist
-Empty — nothing surfaced tonight in the small-cap tech carve-out category from this after-hours pass (that category is primarily refreshed by the market-hours sector sweep, not this earnings-focused routine).
+Empty — Technology sector scan returned 0 matches at this hour (8am pre-market, thin volume). Nothing to flag for the carve-out shortlist this morning.
 
 ## Pending binary events / standing notes
 - DAIC (CID HoldCo) remains excluded from consideration regardless of any future move — tied to the 2026-09-17 "don't chase" realized-loss lesson.
