@@ -1,83 +1,76 @@
-# Next-Day Watchlist — build for Monday, 2026-11-02
+# Next-Day Watchlist — build for Tuesday, 2026-11-03
 
 > **PROVISIONAL — RESEARCH ONLY. NOT A TRADE LIST.**
-> Nothing below is pre-approved. Every entry must be re-verified against live price action and a fresh options chain at the open before being treated as a candidate. Built 6pm ET Friday 2026-10-30 (after-hours catalyst research), **trued up 8am ET Monday 2026-11-02** against pre-market action.
-
-## 8am true-up — Step 0 held position check
-No stock or options position held. Nothing to defend.
+> Nothing below is pre-approved. Every entry must be re-verified against live price action and a fresh options chain at the open before being treated as a candidate. Built 6:05pm ET Monday 2026-11-02 (after-hours catalyst research).
+>
+> **Standing instruction from the user tonight: HOLD on LOAR/NXT/MGRC/ZG/CLRO — "let's hold... see what earnings reports bring and maybe sleep on those." None of these are to be treated as ready for action; this file is pure overnight research for tomorrow's cycles to re-verify live.**
 
 ## Step 0 — held position defense check
-No stock or options position held entering the weekend (`get_equity_positions` confirmed empty). Nothing to defend. No trades were executed Friday afternoon — the elevated "real positive expectations for Monday AM" bar set by the user was not met by any candidate across the 9:40am/11am/12pm/3pm cycles, so the account stays flat into the weekend.
-
-## 8am true-up summary
-**RIVN strengthens further pre-market (+3.6%), stays #1.** REGN/GILD/DXCM all roughly flat overnight — no fresh catalyst, no material change. **AAOI (+2.6%) and COHR (+4.1%) are both bouncing meaningfully pre-market** — notable move, flagged below, but still sector-driven/no specific catalyst, not a scored candidate. GPN still flat (+0.5%), rumor still unconfirmed (fresh WebSearch check below). VIX cooled overnight (21.88→19.39), a modestly more risk-on tone than Friday's close. Small-cap-tech shortlist: 0 matches. No positions to defend.
+`get_equity_positions` confirmed empty for account 787937630. Nothing to defend after-hours. TATT was closed out earlier today via its trailing stop (filled $36.12 vs. entry — realized loss -$5.04 / -1.7%); account is flat into Tuesday.
 
 ## Account state
-Flat, fully in cash. No new realized P&L Friday (no trades). Benchmark account (570898312, read-only, ETF buy-and-hold) tracked for comparison only — never traded.
+Flat, fully in cash. Realized loss today: TATT stop-out, -$5.04 (-1.7%). Per the standing trailing-stop rule, this is a **clean stop-out — not to be chased for re-entry**, even though the underlying catalyst (see below) turned out to be real. Benchmark account (570898312, read-only, ETF buy-and-hold) tracked for comparison only — never traded.
 
-## Market tone into the close — broadening, deepening selloff
-SPX 7,540 (down from 7,720 overnight / ~7,699 Thursday 3pm), NDX 28,162 (down from 29,403 overnight), **VIX 21.88 — up from 16.95 at Thursday's 3pm cycle and 18.66 at Friday's 8am true-up**. The options-flow scan's red/bearish match count nearly doubled through the day (67 at noon → 124 at 3pm). This is the dominant backdrop for Monday: broad risk-off, not isolated to a few names.
+## Key retroactive finding: TATT's catalyst WAS real — a tool-coverage lesson, not a thesis error
+`get_earnings_calendar` for 2026-11-02 now shows **TATT beat Monday AM: EPS $0.58 actual vs. $0.43 est**, reported same day — this is the real, verified catalyst WebSearch failed to surface before entry. TATT closed the day $37.29 (+17.3% vs. Friday's $31.80), extending well past the level at which the position was stopped out intraday. This does not change the stop-out decision (the stop followed the standing trailing-stop rule correctly), but it's a reminder that "no catalyst found via WebSearch" is a **tool-coverage limitation**, not proof no catalyst exists — `get_earnings_calendar` with `eps.actual` populated remains the more reliable confirmation source this session. TATT itself stays excluded from re-entry (clean stop-out rule) regardless.
 
-## Key finding: late-day reversal of pattern on the day's biggest earnings movers
-REGN, RIVN, and GPN all **closed the regular session measurably stronger than their 3pm intraday reads** — a reversal of the "spike-then-fade" pattern that characterized the 9:40am open (where REGN, GILD, RIVN, DXCM all showed failed-breakout/reversal behavior). Per the routine's own Step 4 standard ("a stock that closed strong near its high is a better next-day continuation candidate than one that faded into the close"), this strengthens the case for Monday follow-through on REGN and RIVN specifically:
+## Today's (2026-11-02) earnings slate — now mostly reported, actuals confirmed
+**AM reporters (already reflected in today's price action):** TATT beat ($0.58 vs $0.43 — see above).
+**PM reporters (after today's close — these are the fresh, relevant catalysts for Tuesday's open):**
 
-| Ticker | 3pm | Regular close | AH (as of ~6pm) | Change (close vs. prior close) |
-|---|---|---|---|---|
-| REGN | $917.95 | **$928.61** | $926.00 | +13.4% (fresh high, held) |
-| RIVN | $11.72 | **$12.19** | $12.15 | +6.5% (held) |
-| GPN | $94.85 | **$96.98** | $96.00 | +13.1% (held) — still excluded, see below |
-| GILD | — | $170.80 | $170.92 | +3.1% (pared back from the $172.45 pre-market high) |
-| DXCM | — | $82.31 | $83.50 | +3.0% (modest, AH ticking higher) |
+| Ticker | Result | WebSearch corroboration |
+|---|---|---|
+| AAPL | Beat, $2.10 vs $1.98 est (per earnings calendar) | Not found — WebSearch surfaced only prior-year (FY24/FY25) Q4 reports; same-day-coverage gap persists |
+| **ROKU** | **Big beat** — $1.20 vs $0.55 est (per earnings calendar); **independently corroborated**: SEC 8-K/shareholder letter shows Q3 revenue ~$1.5B (+24% YoY), above the ~$1.41B consensus, net income $183M, adj. EBITDA $249M | **Confirmed via primary-source SEC filing** — genuine news-source hit, not price action alone |
+| PLTR | Beat, $0.44 vs $0.39 est | Not found |
+| VRTX | Beat, $4.76 vs $4.70 est | Not found |
+| ON | Beat, $0.90 vs $0.88 est | Not found |
+| FANG | Beat, $5.86 vs $5.46 est | Not found |
+| NBIX | Big beat, $3.29 vs $2.59 est | Not found |
+| DOC, O | Beat | Not found |
+| WMB, CRBG | Roughly inline | Not found |
+| MTCH | Miss, $0.73 vs $0.98 est | Not found |
+| JAZZ | Miss | Not found |
+| GRAB | Not yet reported as of this build | — |
 
-## Bullish — ranked candidates for Monday's open
+**ROKU is the one PM reporter with an actual news-source-confirmed beat tonight** — satisfies the mandatory catalyst-confirmation rule outright (eps/revenue beat + SEC-filing corroboration, not price action alone). The others remain earnings-calendar-only confirmations (reliable per tonight's TATT lesson, but not yet independently news-corroborated) — surfaceable for a live look at tomorrow's open, not yet auto-scorable under the strict rule.
 
-**#1 RIVN (Rivian) — STRENGTHENED further overnight, strongest close-vs-3pm follow-through + tradeable options size**
-- **Catalyst:** Q3 narrower loss -$0.48 vs. -$0.74 est, reported after close Thursday 10/29. Still fresh (4 calendar days by Monday, markets closed over the weekend) — catalyst not stale.
-- **Direction/magnitude:** Bullish, closed Friday $12.19 (+6.5% on the day), and **extending further pre-market Monday to $12.60** (bid $12.58/ask $12.62), **+3.6% on top of Friday's close**. Continued buying through the weekend gap, not a fade.
-- **Freshness confidence:** Medium-high, raised slightly on the overnight follow-through — this is the one name among the group where the options market shows real liquidity at a size this account can actually use.
-- **Options read (as of Friday's regular-session close — no pre-market options session exists for this equity underlying; re-verify live once the market opens, 11/13 expiration, ~11 DTE):** $12 call — mark **$0.675** (bid $0.62 / ask $0.73), IV 67.3%, delta 0.58, **OI 919 / volume 601** (genuinely liquid, unlike the thin REGN contract below). One contract = **$67.50**, comfortably inside the ~$297 options cap (10% of ~$2,970 balance) — up to ~4 contracts fits the cap. Structural read: DTE window PASS, premium-vs-cap PASS, listed chain PASS. This remains the one candidate where options sizing actually works for this account.
-- **Disqualifiers:** Still unprofitable as a company; low share price means tight stops are wide in % terms. Re-verify real (not thin pre-market) volume at Monday's open.
+## Tuesday 2026-11-03 earnings slate (large-cap, AM/PM)
+PFE, YUM, ADM, BALL, AMGN, AMD, SHOP, BKNG, MPC, RACE, ANET, SMCI, ZBRA, WAT, ETN, and others — full slate pulled via `get_earnings_calendar(filter="high_market_cap")`. None of these report pre-open-relevant actuals yet; re-pull at the 9:40am cycle once AM actuals populate.
 
-**#2 REGN (Regeneron) — UNCHANGED overnight, options still not viable for this account's size**
-- **Catalyst:** Q3 big beat $20.07 vs. $15.75 est, reported after close Thursday 10/29.
-- **Direction/magnitude:** Bullish, closed Friday $928.61 (+13.4%, fresh high) after reversing off an intraday whipsaw. **Pre-market Monday essentially flat** at $925.62 (bid $925.12/ask $930.00), -0.2% vs. Friday's close — no fresh overnight move either direction.
-- **Freshness confidence:** High on the catalyst; tempered by the standing 90-day/1-year price-context rule — Friday's print was a fresh high, which the standing rule flags for elevated mean-reversion/IV-crush risk.
-- **Options read (as of Friday's close, 11/13 expiration, ~11 DTE):** $930 call — mark **$24.90** (bid $21.80 / ask $28.00, a wide ~$6 spread), IV 38.3%, delta 0.51, **OI 2 / volume 0** — essentially no liquidity, unchanged from Friday. One contract = **$2,490**, more than 8x the entire ~$297 options cap. **Structural read: DTE window PASS, premium-vs-cap FAIL, listed chain PASS — options entry here is not viable for this account regardless of thesis quality.** Any REGN exposure would have to be via stock, and even then $928/share means a single share is ~31% of total account value, a real concentration/sizing problem on its own.
-- **Disqualifiers:** Fresh-high mean-reversion risk (standing rule); untradeable options size; stock-only entry would be a large single-name concentration for this account.
+## Ranked candidates for Tuesday — by live-tradeable-setup likelihood
 
-**#3 GILD (Gilead) — UNCHANGED overnight**
-- **Catalyst:** Q3 EPS beat $2.55 vs. $2.18 est.
-- **Direction/magnitude:** Bullish, closed Friday $170.80 (+3.1%, paring back from the $172.45 pre-market high at Friday's 8am true-up). **Pre-market Monday flat** at $170.24 vs. Friday's close $170.68.
-- **Freshness confidence:** Medium — clean beat holding a real gain, but the smallest % move of the earnings-driven group and no fresh overnight catalyst.
-- **Disqualifiers:** Needs a fresh options/liquidity check at Monday's open; not yet re-verified since Friday.
+**#1 ROKU — fresh, independently-confirmed catalyst, reports after today's close**
+- **Catalyst:** Q3 double beat, revenue ~$1.5B (+24% YoY) vs. ~$1.41B consensus, EPS $1.20 vs $0.55 est, positive operating income. Confirmed via `get_earnings_calendar` AND independently corroborated via SEC 8-K/shareholder letter — passes the mandatory catalyst-confirmation bar cleanly.
+- **Direction/magnitude:** Bullish; no after-hours quote pulled yet tonight — **re-verify AH/pre-market price action and real (not thin) volume at the 9:40am cycle** before any scoring.
+- **Freshness confidence:** High on the catalyst itself (double beat, first positive operating income since 2021 per sourcing); untested yet on price reaction — this is the key unknown for tomorrow.
+- **Disqualifiers:** None yet identified; needs options-chain liquidity check, DTE window, and premium-vs-cap check live at the open. Not pre-approved.
 
-**#4 DXCM (Dexcom) — UNCHANGED overnight**
-- **Catalyst:** Q3 EPS beat $0.73 vs. $0.67 est.
-- **Direction/magnitude:** Bullish, closed Friday $82.31 (+3.0%). **Pre-market Monday flat** at $82.27 vs. Friday's close $82.29 — the after-hours Friday tick higher ($83.50) did not hold into Monday's pre-market.
-- **Freshness confidence:** Medium — smallest regular-session move, no fresh overnight catalyst.
-- **Disqualifiers:** Needs fresh options check; medtech name, generally liquid.
+**#2–#5 LOAR / NXT / MGRC / ZG — HOLD per explicit user instruction, still no catalyst found**
+All four extended further after today's close, continuing a trend WebSearch could not explain at any point this session:
+- **LOAR** $68.04 (+9.5% vs. Friday's $62.11 close)
+- **NXT** $91.18 (+14.9% vs. $79.33)
+- **MGRC** $129.44 (+9.5% vs. $118.28)
+- **ZG** $32.91 (+3.2% vs. $31.89 — paring back from a larger intraday gain)
+- **Catalyst:** None found via WebSearch on any of the four, consistent with every check run this session. Per the mandatory catalyst-confirmation rule, none of these can be auto-scored or auto-executed — no-catalyst status alone does not disqualify them from being surfaced, but **the user has explicitly instructed to hold and sleep on all four** pending tomorrow's fresh earnings reports and a clearer read. No action to be taken on any of these at tomorrow's open without a fresh conversation.
+- **Micro-cap concurrency cap note:** none of these four are sub-$5/thin-float, so the micro-cap cap does not apply to them directly — the gating factor here is purely the user's explicit hold instruction.
 
-## Excluded — GPN (Global Payments), capped merger-arb / unconfirmed rumor
-+13.1% Friday on an FT report of a CD&R/GTCR take-private approach (~$40B EV). **Fresh WebSearch Monday morning confirms the report is real (FT, corroborated by Stocktwits/Quiver) but still explicitly unconfirmed**: "talks remain ongoing and a deal may not materialize"; William Blair pegs fair value near $101/share if a deal happens but puts completion odds "comfortably below 50%"; B. Riley's range is a wide $84-$190. No official confirmation from GPN, CD&R, or GTCR. GPN is pre-market flat Monday ($97.35 vs. Friday's $96.84 close, +0.5%) — no fresh weekend development either way.
-**Still excluded per the user's own stated Friday-afternoon standard** ("need real positive expectations to jump in Friday afternoon" / "looking for things that may have value or potential Monday AM"): binary, unconfirmed deal-news risk is the opposite of that standard, and sub-50% completion odds per William Blair reinforce it. Not a candidate — reuse this reasoning for any future capped-arb rumor near a weekend.
+**#6 CLRO — HOLD, still in chaotic/carve-out structure**
+- $5.66 (+66% vs. Friday's $3.41), still showing volatility (non-reg last trade $5.78). This is the same name declined earlier today for a genuine spike-then-fade pattern even under the user's blanket "take swings at TATT and CLRO" approval — tonight's continued volatility reinforces that read. Also under the explicit hold instruction. No action tomorrow without a fresh re-evaluation of price structure.
 
-## Standing watch — optoelectronic sector (AAOI / COHR), update — NOTABLE PRE-MARKET BOUNCE
-Both sold off sharply Friday (sector-wide, Marvell/Lumentum M&A-sympathy move, not company-specific) but are **bouncing meaningfully pre-market Monday**:
-- **AAOI:** Friday close $69.05 (-12.8% Friday). **Pre-market Monday $70.84** (bid $70.28/ask $70.52), **+2.6%** off Friday's close.
-- **COHR:** Friday close $210.32 (-11.3% Friday). **Pre-market Monday $219.00** (bid $218.20/ask $220.00), **+4.1%** off Friday's close — the stronger of the two bounces.
-- Still no company-specific catalyst found on either (AAOI earnings not until 11/5) — this reads as a broad sector-sentiment bounce/short-covering after Friday's sympathy-driven selloff, not a fresh fundamental development. Remains standing-watch only, not a scored or tradeable candidate — the 9:40am cycle applies its own Step 5/6 gate before either could be treated as live, and the size of this bounce (especially COHR's) is worth a closer look live at the open given how sharp Friday's drop was.
+**Flag — INO, completely unexplained, extreme move, approach with caution**
+- INO closed/traded $1.90 vs. Friday's $0.6024 — **+215%**, by far the largest move of any tracked ticker tonight, and still entirely unexplained after repeated WebSearch attempts across the session. A move this size with zero confirmable catalyst is a textbook case for the mandatory catalyst-confirmation rule: it cannot be scored or auto-executed under any circumstance, and given the size of the move (likely extreme illiquidity/short-squeeze/retail-driven dynamics), it warrants real caution even as a discretionary idea. Flagging prominently rather than ranking it — this is not a "sleep on it" candidate, it's a "watch from a distance" one.
 
-## Market tone overnight
-VIX cooled from Friday's close of 21.88 to **19.39** as of ~8am ET Monday — a meaningful overnight de-escalation in vol, consistent with the modestly risk-on pre-market tone seen in RIVN/AAOI/COHR above. SPX/NDX cash index levels are not updating over the weekend close (last venue timestamps still show Friday afternoon) — no reliable overnight index-level read beyond the VIX signal.
+**Other no-catalyst movers (standing-watch only, not scored):** PERI $11.40 (+31% vs $8.70), EVGO $1.84 (+46% vs $1.26), ATYR $6.35 (+28.5% vs $4.94) — none have a confirmable catalyst; all would need the micro-cap concurrency cap applied if any were ever surfaced for approval (sub-$5 names among them: EVGO, PERI near the line).
 
-## Pre-market small-cap-tech shortlist
-Empty — Technology sector scan (scan_id `4ab9bad9-37da-48c1-8335-02f496fcc010`) returned 0 matches at 8am pre-market. Nothing to flag for the carve-out shortlist this morning.
-
-## Monday 2026-11-02 earnings slate
-**AM reporters, now mostly already verified/reported by 8am — broadly positive morning:** CHKP (beat $2.49 vs $2.39), IDXX (big beat $4.01 vs $3.71), MAR (beat $3.02 vs $2.85), ETR (beat $1.98 vs $1.70), TEM (beat big, $0.07 vs -$0.13 est), AXSM (beat, -$0.25 vs -$0.64 est), LITE (beat $4.57 vs $4.14), TSEM (beat $1.15 vs $1.05), CHH (beat $2.33 vs $2.29), KRYS (beat $2.05 vs $1.90), RYAAY (beat $3.54 vs $3.49), EL (beat $0.72 vs $0.51). A few misses: KOS ($0.06 vs $0.14 est), CNA ($0.75 vs $1.14 est — notable miss), PEG (slight miss $1.15 vs $1.20). None of these overlap with the ranked candidates above; worth a quick live scan at 9:40am for a fresh standalone setup given the mostly-positive tape, but none pre-screened or added here.
-**Heavy PM slate** (after Monday's close — relevant for Tuesday's open, not Monday's): AAPL, PLTR, VRTX, ON, ROKU, GRAB, FANG, WMB, CRBG, NBIX, MTCH, DOC, O, JAZZ, and many smaller names.
+## Macro / overseas check
+WebSearch for overnight Asia/Europe futures and macro drivers returned no results dated to this session's simulated date (2026-11-03) — consistent with the same-day-coverage gap observed on every WebSearch query this entire session (TATT, CLRO, INO, and now broad-market futures). No reliable overnight macro read available via WebSearch; re-check live index levels (SPX/NDX/VIX) at the 9:40am cycle instead.
 
 ## Pending binary events / standing notes
+- TATT: clean stop-out today, catalyst retroactively confirmed real — **excluded from re-entry** per the standing "don't chase a clean stop-out" rule.
+- CLRO: carve-out-eligible but declined on price-structure grounds today; still under explicit user hold tonight.
+- LOAR/NXT/MGRC/ZG: no catalyst found all session; under explicit user hold tonight pending fresh earnings-informed context.
+- INO: +215%, completely unexplained — flag only, never score.
 - DAIC (CID HoldCo) remains excluded from consideration regardless of any future move — tied to the 2026-09-17 "don't chase" realized-loss lesson.
-- ADT still shows no confirmed earnings catalyst for its sustained move — actual report date is 2026-11-03 — continue flagging as unexplained/stale until that date.
+- ADT: no confirmed earnings catalyst for its sustained move; actual report date is 2026-11-03 — re-check tomorrow.
 - Benchmark account 570898312 (ETF buy-and-hold, SPY/QQQ/SCHD/JEPI/WQTM/DDDD) remains **read-only** — tracked for performance comparison only, never traded.
