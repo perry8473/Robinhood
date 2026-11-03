@@ -1,9 +1,12 @@
 # Next-Day Watchlist — build for Tuesday, 2026-11-03
 
 > **PROVISIONAL — RESEARCH ONLY. NOT A TRADE LIST.**
-> Nothing below is pre-approved. Every entry must be re-verified against live price action and a fresh options chain at the open before being treated as a candidate. Built 6:05pm ET Monday 2026-11-02 (after-hours catalyst research).
+> Nothing below is pre-approved. Every entry must be re-verified against live price action and a fresh options chain at the open before being treated as a candidate. Built 6:05pm ET Monday 2026-11-02 (after-hours catalyst research), **trued up 8am ET Tuesday 2026-11-03** against overnight/pre-market action.
 >
-> **Standing instruction from the user tonight: HOLD on LOAR/NXT/MGRC/ZG/CLRO — "let's hold... see what earnings reports bring and maybe sleep on those." None of these are to be treated as ready for action; this file is pure overnight research for tomorrow's cycles to re-verify live.**
+> **Standing instruction from the user Monday night: HOLD on LOAR/NXT/MGRC/ZG/CLRO — "let's hold... see what earnings reports bring and maybe sleep on those." Still in force this morning; none of these are to be treated as ready for action.**
+
+## 8am true-up — Step 0 held position check
+No stock or options position held (`get_equity_positions`/`get_option_positions` both confirmed empty). Nothing to defend. No action needed.
 
 ## Step 0 — held position defense check
 `get_equity_positions` confirmed empty for account 787937630. Nothing to defend after-hours. TATT was closed out earlier today via its trailing stop (filled $36.12 vs. entry — realized loss -$5.04 / -1.7%); account is flat into Tuesday.
@@ -63,14 +66,30 @@ All four extended further after today's close, continuing a trend WebSearch coul
 
 **Other no-catalyst movers (standing-watch only, not scored):** PERI $11.40 (+31% vs $8.70), EVGO $1.84 (+46% vs $1.26), ATYR $6.35 (+28.5% vs $4.94) — none have a confirmable catalyst; all would need the micro-cap concurrency cap applied if any were ever surfaced for approval (sub-$5 names among them: EVGO, PERI near the line).
 
+## 8am true-up summary
+**ROKU is flat pre-market ($155.95 vs. Monday's close $155.52, +0.3%) despite the confirmed double-beat** — the market is not yet pricing in last night's SEC-corroborated beat; this materially weakens (does not kill) the thesis — demoting from "promising fresh catalyst" to "needs real volume confirmation at the open" pending a clearer reaction. **LOAR/NXT extended further overnight** (LOAR $67.91 regular close holding, NXT now $92.75 pre-market, +1.8% on top of yesterday's +14.9%) — still no catalyst found, still on explicit hold. **MGRC/ZG pre-market quotes show abnormally wide bid/ask spreads** (MGRC bid $114.32/ask $205.80; ZG bid $29.93/ask $35.23) — thin/unreliable pre-market liquidity, not a real tradeable spread; disregard until regular-session quotes normalize. **CLRO and INO are both pulling back** from yesterday's extreme spikes (CLRO pre-market $4.97 vs. $5.66 close, -12%; INO pre-market $1.78 vs. $1.90 close, -6%) — consistent with the "unexplained spike, now fading" read on both; reinforces staying out. **AAOI (+3.4%) and COHR (+2.7%) are both extending their bounce** from Monday — see standing watch below. **VIX ticked up to 21.29** (7:53am ET) — a modestly more cautious pre-market tone than recent sessions, though no reliable overnight SPX/NDX futures-implied read is available (cash index timestamps still show Monday's close). Small-cap-tech shortlist: 0 matches. No positions to defend.
+
+## Standing watch — optoelectronic sector (AAOI / COHR), update — bounce continues
+Per the user's standing instruction (2026-10-07) to check both every morning regardless of scan hits:
+- **AAOI:** Monday close $62.50. **Pre-market Tuesday $64.65** (bid $64.56/ask $64.70), **+3.4%** — extending its Monday pre-market bounce (+2.6% then) further. Trend read: extending higher, not fading. No fresh company-specific news found (get_equity_news unavailable all session; AAOI's own earnings aren't until 11/5).
+- **COHR:** Monday close $199.95. **Pre-market Tuesday $205.39** (bid $203.85/ask $205.97), **+2.7%** — also extending its Monday bounce (+4.1% then), a bit more measured today. Trend read: holding the recent range on the upside, still no identified fresh catalyst.
+- Still reads as sector-sentiment follow-through, not a scored or tradeable candidate — the 9:40am cycle's own Step 5/6 gate still applies before either could be treated as live.
+
+## Top candidate — options read (preliminary, pre-open)
+**ROKU, 11/13 expiration (~10 DTE):** $155 call — mark **$4.10** (bid $3.45/ask $4.75), IV 36.0%, delta 0.54, **OI 30 / volume 9** — thin. One contract = **$410**, likely above the account's ~10%-of-balance options cap (re-verify exact cap against live balance at the open). Structural read: DTE window PASS, listed chain PASS, premium-vs-cap **likely FAIL** (needs live balance check) — **PRELIMINARY, priced off Monday's regular-session close; same-day volume/spread and real price reaction are unconfirmed until the market opens.**
+
+## Today's earnings slate (2026-11-03) — large volume of AM reporters already verified
+Among the AM reporters already showing `eps.actual`: **PFE beat** ($0.87 vs $0.73), **ADM beat** ($1.77 vs $1.61), **ETN beat** ($3.68 vs $3.55), **ZBRA beat** ($4.95 vs $4.77), **SHOP beat** ($0.49 vs $0.43), **RACE beat** ($2.81 vs $2.66), **BNTX big beat** ($2.03 vs $0.97), **MDGL big beat/turned profitable** ($1.83 vs -$1.09 est), **WAT beat** ($4.10 vs $4.00), **YUM beat** ($1.56 vs $1.46), **TEVA beat** ($0.86 vs $0.72). **ADT beat** ($0.24 vs $0.23) — this resolves the standing "ADT unexplained move, report date TBD" note from prior builds: ADT did in fact report today, with a clean (if modest) beat. A few misses worth noting: **UPST miss** ($0.33 vs $0.55), **ALKS miss** ($0.09 vs $0.18), **ENLT miss**, **WLFC big miss**. None of these overlap with the ranked candidates above and none are pre-screened as new candidates here — worth a live scan at 9:40am given the broadly positive AM tape. **Heavy PM slate today** (AMD, AMGN, ANET, BKNG, SMCI, SHOP already AM, RIOT, ALAB, DUOL, XYZ, and more) — relevant for Wednesday's open, not today's.
+
 ## Macro / overseas check
-WebSearch for overnight Asia/Europe futures and macro drivers returned no results dated to this session's simulated date (2026-11-03) — consistent with the same-day-coverage gap observed on every WebSearch query this entire session (TATT, CLRO, INO, and now broad-market futures). No reliable overnight macro read available via WebSearch; re-check live index levels (SPX/NDX/VIX) at the 9:40am cycle instead.
+WebSearch for overnight Asia/Europe futures and macro drivers returned no results dated to this session's simulated date (2026-11-03) — consistent with the same-day-coverage gap observed on every WebSearch query this entire session (TATT, CLRO, INO, and now broad-market futures). No reliable overnight macro read available via WebSearch. SPX/NDX cash index levels are not updating overnight (still showing Monday's regular-session close, ~7,541 / ~27,990); **VIX did provide a live overnight print: 21.29 as of 7:53am ET**, a modest uptick suggesting a slightly more cautious tone than the de-escalation seen Monday morning. Re-check live index levels at the 9:40am cycle.
 
 ## Pending binary events / standing notes
-- TATT: clean stop-out today, catalyst retroactively confirmed real — **excluded from re-entry** per the standing "don't chase a clean stop-out" rule.
-- CLRO: carve-out-eligible but declined on price-structure grounds today; still under explicit user hold tonight.
-- LOAR/NXT/MGRC/ZG: no catalyst found all session; under explicit user hold tonight pending fresh earnings-informed context.
-- INO: +215%, completely unexplained — flag only, never score.
+- TATT: clean stop-out Monday, catalyst retroactively confirmed real — **excluded from re-entry** per the standing "don't chase a clean stop-out" rule.
+- CLRO: carve-out-eligible but declined on price-structure grounds Monday; now fading further pre-market (-12%) — still under explicit user hold.
+- LOAR/NXT/MGRC/ZG: no catalyst found all session; under explicit user hold pending fresh earnings-informed context. MGRC/ZG pre-market quotes currently unreliable (wide spreads).
+- INO: yesterday's +215% unexplained spike is now fading (-6% pre-market) — flag only, never score.
+- ROKU: confirmed, news-corroborated double-beat, but pre-market price is flat — needs a real volume/price reaction before being treated as live.
 - DAIC (CID HoldCo) remains excluded from consideration regardless of any future move — tied to the 2026-09-17 "don't chase" realized-loss lesson.
-- ADT: no confirmed earnings catalyst for its sustained move; actual report date is 2026-11-03 — re-check tomorrow.
+- ADT: earnings catalyst now resolved — reported today, clean beat ($0.24 vs $0.23). No longer "unexplained."
 - Benchmark account 570898312 (ETF buy-and-hold, SPY/QQQ/SCHD/JEPI/WQTM/DDDD) remains **read-only** — tracked for performance comparison only, never traded.
