@@ -1,9 +1,22 @@
 # Next-Day Watchlist — build for Thursday, 2026-11-05
 
 > **PROVISIONAL — RESEARCH ONLY. NOT A TRADE LIST.**
-> Nothing below is pre-approved. Every entry must be re-verified against live price action and a fresh options chain at the open before being treated as a candidate. Built 6:05pm ET Wednesday 2026-11-04 (after-hours catalyst research). Asian/European overnight-session news has NOT been checked yet at this hour — that's the job of the ~8am overnight true-up routine before the open.
+> Nothing below is pre-approved. Every entry must be re-verified against live price action and a fresh options chain at the open before being treated as a candidate. Built 6:05pm ET Wednesday 2026-11-04 (after-hours catalyst research), **trued up 8am ET Thursday 2026-11-05** against overnight/pre-market action.
 
-## Step 0 — held position defense check
+## 8am true-up — Step 0 held position check
+No stock or options position held (`get_equity_positions`/`get_option_positions` both confirmed empty). Nothing to defend. No action needed.
+
+## Standing watch — optoelectronic sector (AAOI / COHR), update
+- **AAOI:** 11/4 close $59.27. Pre-market 11/5 $56.52-56.68, **-4.4%** — pulling back further, extending the pullback trend noted yesterday. No fresh news found (WebSearch); most recent coverage is months old (1.6T transceiver order, manufacturing expansion, insider sales in Feb/Mar 2026) — nothing dated to overnight.
+- **COHR:** 11/4 close $195.09 (closed +1.1% on its own earnings beat yesterday). Pre-market 11/5 $188.40-188.47, **-3.4%** — fading despite the beat, no fresh news found to explain it. Standing watch only, not scored.
+
+## Pre-market small-cap-tech shortlist (Step 3b)
+Technology sector scan (scan_id 4ab9bad9...): **0 matches** this morning. Nothing qualifies — no small-cap-tech shortlist today.
+
+## Market condition — overnight/pre-market update
+SPX 7,688.62, NDX 28,437.17, VIX 16.95 — essentially flat overnight vs. yesterday's 3pm levels (SPX 7,697/NDX 28,470/VIX 16.7-16.8). Calm, no overnight macro surprise identified. No Asian/European-session breaking news found on existing watchlist names via WebSearch.
+
+## Step 0 (6pm build) — held position defense check
 `get_equity_positions` confirmed empty for account 787937630. Nothing to defend — the account is flat. MOH and CNC (today's re-entry basket, election/managed-care catalyst) were both closed out by the user at 3:03pm ET for a combined +$14.01 gain, partially offsetting the morning's -$38 loss across the original 5-position election basket (FSLR/RUN/ENPH/MOH/CNC).
 
 ## Account state
@@ -39,33 +52,33 @@ Pulled via `get_earnings_calendar` (report.verified=true, eps.actual populated) 
 **PM (after close):** ABNB, AFRM, DKNG, MCHP, TEAM, AAOI (closed out of account 11/4, FYI only), ARM, QCOM already reported tonight — correction, next PM batch includes NET, IONQ, SRPT, ALB, LYFT.
 Nothing identified yet as a same-day binary catalyst for tomorrow beyond the normal earnings slate — re-check at 8am true-up for anything scheduled overseas overnight.
 
-## Ranked candidates for Thursday's open
+## Ranked candidates for Thursday's open — UPDATED 8am true-up
 
-**#1 APP (AppLovin) — strongest, freshest catalyst of the night**
-- **Catalyst:** Q3 beat confirmed via SEC 8-K, $4.30 EPS (vs. ~$4.01-4.03 est), revenue $2,185M +55% YoY, 84% adj. EBITDA margin, $1.4B FCF. Reported after close today (2026-11-04), verified.
-- **Direction/magnitude:** Bullish, +36.0% AH ($245.51 → $333.86) — a genuinely large, confirmed beat.
-- **Freshness confidence:** High — primary-source confirmed, same-day, not a rehash.
-- **Disqualifiers:** The move is already very large by the time of this research pass — a 36% AH pop risks being mostly priced in by the cash open, and mega-cap AH moves of this size can see meaningful fade/profit-taking intraday. Re-verify real (not thin AH) price/volume structure at the open; don't chase if it's already extended multiple hours in.
-- **Options read (PRELIMINARY — last regular-close pricing, not a live AH quote):** Listed chain confirmed, 11/13 expiration (~9 DTE) — within the 7-30 DTE window, structural PASS. Premium, OI, and live spread not pulled this pass (AH quotes aren't tradeable regardless) — check fresh at market open.
+**#1 RUN (Sunrun) — STRENGTHENED, pre-market extends further than the AH move**
+- **Catalyst:** Q3 beat, $0.56 vs $0.31 est, reported after close yesterday, verified.
+- **Direction/magnitude:** Bullish, was +11.5% AH ($8.68 → $9.68) last night; now **+22.2% pre-market** ($8.79 → $10.70-10.81) — real continued follow-through, not a fade. Promoted to #1 on this strength.
+- **Freshness confidence:** High, but flagged for care — RUN was one of yesterday morning's election-basket positions, stopped out at $9.59 on real continued weakness (confirmed down through midday, well below both entry and stop). Last night's earnings beat is a genuinely separate, independent catalyst, and the overnight follow-through (AH +11.5% → pre-market +22.2%) strengthens the case this is a real fresh setup, not a chase — but re-verify a clean re-basing structure (not just a thin pre-market print) at the open.
+- **Disqualifiers:** Small-cap-adjacent, volatile name (sub-$11 share price) — the MICRO-CAP CONCURRENCY CAP may apply if another no-confirmed-catalyst speculative position is open at the time; not the case this morning (account flat).
+- **Options read (PRELIMINARY — still last regular-close pricing, options market not open yet):** Listed chain confirmed, 11/13 expiration (~8 DTE), structural PASS on DTE. Premium/OI not checked this pass given low share price — a call here would need a strike check against the sizing cap live at open.
 
-**#2 RUN (Sunrun) — fresh, independent catalyst distinct from this morning's trade**
-- **Catalyst:** Q3 beat, $0.56 vs $0.31 est, reported after close today, verified.
-- **Direction/magnitude:** Bullish, +11.5% AH ($8.68 → $9.68).
-- **Freshness confidence:** High, but flagged for care — RUN was one of this morning's election-basket positions, stopped out at $9.59 on real continued weakness (confirmed down through midday, well below both entry and stop). Tonight's earnings beat is a genuinely separate, independent catalyst — not the same setup — so per the standing re-entry rule this qualifies as a fresh setup on its own merits, not a chase of the morning's stop-out. Still, re-verify a clean re-basing structure at the open rather than assuming the AH pop holds.
-- **Disqualifiers:** Small-cap-adjacent, volatile name (sub-$10 share price) — the MICRO-CAP CONCURRENCY CAP may apply if another no-confirmed-catalyst speculative position is open at the time; not the case tonight (account flat).
-- **Options read (PRELIMINARY):** Listed chain confirmed, 11/13 expiration (~9 DTE), structural PASS on DTE. Premium/OI not checked this pass given low share price — a call here would need a strike check against the sizing cap live at open.
+**#2 APP (AppLovin) — STRENGTHENED, held the vast majority of its AH pop**
+- **Catalyst:** Q3 beat confirmed via SEC 8-K, $4.30 EPS (vs. ~$4.01-4.03 est), revenue $2,185M +55% YoY, 84% adj. EBITDA margin, $1.4B FCF. Reported after close yesterday (2026-11-04), verified.
+- **Direction/magnitude:** Bullish — was +36.0% AH ($245.51 → $333.86) last night; now **+19.9% pre-market** ($271.75 → $325.60-326.50) — gave back some of the AH spike but is holding a large, real gain, not round-tripping.
+- **Freshness confidence:** High — primary-source confirmed, same-day, not a rehash. Demoted from #1 to #2 only because the move has partially faded from its AH peak (normal for a +36% single-night spike) while RUN's move is still expanding.
+- **Disqualifiers:** Still a very large move by the cash open — re-verify real (not thin pre-market) price/volume structure; don't chase if it's already extended multiple hours in by the time it's evaluated live.
+- **Options read (PRELIMINARY):** Listed chain confirmed, 11/13 expiration (~8 DTE) — within the 7-30 DTE window, structural PASS. Premium/OI/spread to be checked live at the open.
 
-**#3 ELF (e.l.f. Beauty) — clean beat, moderate reaction**
-- **Catalyst:** Big beat, $1.21 vs $0.55 est, reported after close today, verified.
-- **Direction/magnitude:** Bullish, +6.3% AH ($111.50 → $118.50).
-- **Freshness confidence:** High, same-day, real beat.
+**#3 ELF (e.l.f. Beauty) — UNCHANGED/slightly strengthened, holding its beat**
+- **Catalyst:** Big beat, $1.21 vs $0.55 est, reported after close yesterday, verified.
+- **Direction/magnitude:** Bullish — was +6.3% AH ($111.50 → $118.50); now +5.7% pre-market ($113.63 → $119.00-121.12), essentially holding steady.
+- **Freshness confidence:** High, same-day, real beat, stable overnight.
 - **Disqualifiers:** None identified yet — worth a Step 5/6 catalyst+structure check at the open. Not checked for options this pass (ranked #3, scoped out of the top-2 options research this run — check live at 9:40am if still a live candidate).
 
-**Flag — HUBS, bearish reaction despite a real beat**
-HubSpot beat ($3.81 vs $2.80) but sold off hard after hours (-11.7%, $226.17 → $199.78) — likely a guidance disappointment. Not a long candidate; possible short/put thesis if the reaction holds, but needs the actual guidance commentary (not available via WebSearch this pass) before treating as more than a flag.
+**Flag — HUBS, WEAKENED further, bearish reaction holding**
+HubSpot beat ($3.81 vs $2.80) but sold off hard after hours (-11.7%, $226.17 → $199.78) and is still down **-9.1% pre-market** ($216.64 → $196.00-198.01) — the bearish reaction is holding overnight, not bouncing. Not a long candidate; possible short/put thesis given the reaction has held, but still needs the actual guidance commentary (not available via WebSearch) before treating as more than a flag.
 
-**Flag — ZG, bearish reaction on the user's standing hold name**
-Zillow beat EPS ($0.55 vs $0.53) but sold off -8.9% AH ($31.35 → $28.56) — WebSearch points to a trimmed full-year revenue guide as the likely driver (unconfirmed, pre-earnings-only sources found). ZG sits in the user's standing LOAR/MGRC/ZG/NXT hold group — this is new, relevant information for revisiting that group fresh tomorrow, not a trade signal on its own.
+**Flag — ZG, WEAKENED further, bearish reaction deepening — relevant to standing hold group**
+Zillow beat EPS ($0.55 vs $0.53) but sold off -8.9% AH ($31.35 → $28.56) and is now down **-14.9% pre-market** ($34.45 → $29.00-31.87) — the reaction is deepening, not recovering, consistent with WebSearch's read of a trimmed full-year revenue guide. ZG sits in the user's standing LOAR/MGRC/ZG/NXT hold group — this deepening weakness is worth a fresh look at that whole group at or before the open, not just a trade signal on its own.
 
 **Excluded — entertainment/media**
 SBGI (Sinclair Broadcast Group), +4.7% AH on a beat — excluded per the standing entertainment/media sector exclusion (broadcaster), not scored for entry regardless of the clean reaction.
