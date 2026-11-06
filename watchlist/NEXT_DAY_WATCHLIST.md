@@ -255,6 +255,12 @@ Per explicit user instruction — raised both stops again:
 - **COHR:** $191.00 → **$193.00** (4 sh) — ~1.2% below the ~$195.40 price at the time.
 Both confirmed resting (shares_held_for_sells = quantity for both). User also confirmed: if neither stop triggers by end of trading, sell both at market — consistent with the existing defend-and-exit-by-close plan (no change to that mechanism).
 
+## Further stop tightening — 3:36pm ET 2026-11-06
+Per explicit user instruction ("bump to 194 and 50") — raised both stops again as both names continue to run:
+- **AAOI:** $48.50 → **$50.00** (6 sh) — just below the ~$50.43 price at the time (AAOI has now cleared $50 for the first time today).
+- **COHR:** $193.00 → **$194.00** (4 sh) — just below the ~$194.36 price at the time.
+Both confirmed resting (shares_held_for_sells = quantity for both).
+
 ## Pending binary events / standing notes
 - LOAR/MGRC/ZG/NXT remain on the user's explicit hold from Monday — no new information since yesterday's ZG earnings-reaction flag.
 - DAIC (CID HoldCo) remains excluded from consideration regardless of any future move — tied to the 2026-09-17 "don't chase" realized-loss lesson.
