@@ -120,6 +120,41 @@ Combined cost basis $676.03, ~23% of the $2,921.95 account — sized as a small 
 - Stops GFD (day-only) — will need fresh resting stops placed each morning if either position is still open overnight; flag per AFTER-HOURS POSITION DEFENSE if still open at the close.
 - Re-evaluate/stop laddering at the 3:50pm cycle per user's own cutoff.
 
+## 11am market-hours cycle — full sweep, 2026-11-06
+**Market:** SPX 7,412.78, NDX 27,075.82, VIX 24.81 — VIX continuing to grind lower (28.18 → 25.09 → 25.28 → 24.81), stabilization intact.
+
+**Position management (AAOI/COHR):** AAOI $49.94 (+1.2% from $49.37 entry), COHR $187.41 (-1.3% from $189.90 entry). Neither has moved 15%+ — no stop trail warranted (STOCK TRAILING-STOP RULE). Stops unchanged: AAOI $44.75, COHR $178.50. Neither ladder-add trigger cleared (AAOI needs >$51.90-52; COHR needs >$193.32). Time-stop: N/A, same-day entry.
+
+**Full sweep (fresh this cycle):**
+| Tier/Sector | Matches |
+|---|---|
+| General | 1 — GOGO (+43.7%, $306M mkt cap) |
+| Small-mid | 1 — GOGO (same) |
+| Mid-cap | 0 |
+| Large-cap | 0 |
+| Technology | 1 — PSQH ($6.1M) |
+| Healthcare | 0 |
+| Industrials | 2 — CIIT ($1.8M), SNT ($30M) |
+| Energy | 1 — CLNE (+30.1%, $332M) |
+| Communication Services | 1 — GOGO (cross-listed) |
+| Utilities | 0 |
+| Consumer Defensive | 2 — SKIN ($68M), VSA ($4.3M) |
+| Real Estate | 0 |
+| Financial Services | 1 — PLUT ($18.9M) |
+| Consumer Cyclical | 1 — NAAS ($26.2M) |
+| Basic Materials | 0 |
+| Options-flow | unavailable — rate-limited again |
+
+**Catalyst verdicts:** GOGO and CLNE both checked via WebSearch — no dated 11/6 catalyst found for either; both already extended (+43.7% / +30.1%) by the time of this check — not proposing a chase (DON'T-CHASE principle). PSQH/CIIT/SNT/SKIN/VSA/PLUT/NAAS all sub-$70M thin-float — too illiquid, no-catalyst, not scored. No qualifying trade this cycle.
+
+**Earnings calendar (today, verified actuals):** large AM slate — notable beats: MRNA ($0.38 vs -$1.22 est), HUM (-$0.70 vs -$1.01 est, explains this morning's +7% reversal), WULF (-$0.03 vs -$0.32 est), DK, UI, AD, VEON, BEN; notable misses: PAA, BIP, PAGP, AMR, UTZ, KYIV (large miss), MMI. CHTR reports AM, actual not yet posted (still fading per this morning's check). No new action — all consistent with prior tracking.
+
+**Crypto watchlist:** COIN -1.7%, MSTR -1.2%, MARA +1.1%, RIOT +5.1%, CLSK +1.7%, HUT +5.6%, BMNR -1.7%, HOOD +1.9%, CORZ +0.2%. RIOT/HUT crossed the 5% flag threshold — no fresh catalyst dug up this cycle, noting only.
+
+**Sector concentration slots:** optoelectronics/AI-optics theme AT CAP (2/2: AAOI, COHR). Micro-cap concurrency slot: open (none occupied — AAOI/COHR have confirmed earnings-beat catalysts, not speculative no-catalyst names). Exceptional small-deal exception: not used, available. No-catalyst candidates for approval: none surfaced (GOGO/CLNE rejected on extension, not approval-worthy). Small-cap tech: none this cycle.
+
+**Standing pause:** still in effect for anything outside the already-approved AAOI/COHR plan. Nothing this cycle qualified or needed NEED APPROVE treatment.
+
 ## Pending binary events / standing notes
 - LOAR/MGRC/ZG/NXT remain on the user's explicit hold from Monday — no new information since yesterday's ZG earnings-reaction flag.
 - DAIC (CID HoldCo) remains excluded from consideration regardless of any future move — tied to the 2026-09-17 "don't chase" realized-loss lesson.
