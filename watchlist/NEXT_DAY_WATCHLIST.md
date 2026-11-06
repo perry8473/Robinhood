@@ -261,6 +261,11 @@ Per explicit user instruction ("bump to 194 and 50") — raised both stops again
 - **COHR:** $193.00 → **$194.00** (4 sh) — just below the ~$194.36 price at the time.
 Both confirmed resting (shares_held_for_sells = quantity for both).
 
+## COHR stop triggered — closed, 3:37pm ET 2026-11-06
+Resting $194.00 stop fired: sold 4 sh @ avg $193.88 (fees $0.02). Blended cost basis was $191.7316 (4 sh = $766.93); exit proceeds $775.50 → **+$8.57 (+1.12%)**. Clean exit per the trailed stop, consistent with the STOCK TRAILING-STOP RULE's "treat a trailed-stop hit as a clean, successful exit" guidance — not chasing a re-entry. COHR position fully closed.
+
+AAOI remains open: 6 sh, avg $49.37, stop $50.00, trading $50.38 (+1.4% from entry) as of 3:40pm ET. Defend-and-exit-by-close chain continues for AAOI only; still before the ~3:55pm cutoff.
+
 ## Pending binary events / standing notes
 - LOAR/MGRC/ZG/NXT remain on the user's explicit hold from Monday — no new information since yesterday's ZG earnings-reaction flag.
 - DAIC (CID HoldCo) remains excluded from consideration regardless of any future move — tied to the 2026-09-17 "don't chase" realized-loss lesson.
