@@ -212,6 +212,12 @@ Per explicit user instruction ("getting late... tighten up the stops. 3-5% below
 
 **End-of-day plan:** continue monitoring both every ~30 min. If neither stop is hit, close both positions (cancel resting stop, sell at market) shortly before the 4:00pm ET close rather than holding overnight — per user's explicit instruction, not the standing AFTER-HOURS POSITION DEFENSE rule (which would otherwise just flag overnight exposure).
 
+## Further stop tightening — 2:39pm ET 2026-11-06
+Per explicit user instruction ("ok to move to 191 and 97 respectively... 47 i meant") — raised both stops again:
+- **AAOI:** $46.60 → **$47.00** (6 sh) — ~2.8% below the ~$48.35-48.40 price at the time.
+- **COHR:** $189.50 → **$191.00** (4 sh) — ~0.8% below the ~$192.5-192.7 price at the time.
+Both confirmed resting (shares_held_for_sells = quantity for both). User explicitly fine with either triggering ("if they trigger thats ok") — consistent with the defend-and-exit-by-close plan from 2:37pm; no change to the ~3:55pm end-of-day close plan if neither stop fires first.
+
 ## Pending binary events / standing notes
 - LOAR/MGRC/ZG/NXT remain on the user's explicit hold from Monday — no new information since yesterday's ZG earnings-reaction flag.
 - DAIC (CID HoldCo) remains excluded from consideration regardless of any future move — tied to the 2026-09-17 "don't chase" realized-loss lesson.
