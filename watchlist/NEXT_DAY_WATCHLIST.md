@@ -266,6 +266,11 @@ Resting $194.00 stop fired: sold 4 sh @ avg $193.88 (fees $0.02). Blended cost b
 
 AAOI remains open: 6 sh, avg $49.37, stop $50.00, trading $50.38 (+1.4% from entry) as of 3:40pm ET. Defend-and-exit-by-close chain continues for AAOI only; still before the ~3:55pm cutoff.
 
+## AAOI stop triggered — closed, 3:45pm ET 2026-11-06 — both positions now flat
+Resting $50.00 stop fired: sold 6 sh @ avg $49.9516 (no fees). Cost basis $49.3699 × 6 = $296.22; exit proceeds $299.71 → **+$3.49 (+1.18%)**. Clean exit per the trailed stop, same as COHR earlier.
+
+**Day summary, AAOI/COHR ladder trade:** both positions fully closed by their own trailed stops before the 3:55pm end-of-day-close cutoff (never needed the manual market-sell fallback). Combined P&L: COHR +$8.57 (+1.12%) + AAOI +$3.49 (+1.18%) = **+$12.06 total**, on ~$1,062 combined cost basis (6 AAOI @ $49.37 + 4 COHR blended @ $191.73). Account is flat again. 3:50pm options stop-gap check confirmed no options position open and caught this AAOI stop status during its routine stock-stop sanity check.
+
 ## Pending binary events / standing notes
 - LOAR/MGRC/ZG/NXT remain on the user's explicit hold from Monday — no new information since yesterday's ZG earnings-reaction flag.
 - DAIC (CID HoldCo) remains excluded from consideration regardless of any future move — tied to the 2026-09-17 "don't chase" realized-loss lesson.
