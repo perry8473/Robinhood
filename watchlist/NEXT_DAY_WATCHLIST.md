@@ -188,6 +188,15 @@ Combined cost basis $676.03, ~23% of the $2,921.95 account — sized as a small 
 
 **Standing pause:** still in effect outside the approved AAOI/COHR plan. No qualifying trade this cycle.
 
+## COHR ladder add #1 — 1:48pm ET 2026-11-06
+COHR cleared and held its $193.32 trigger (11/6 intraday high) with rising 5-minute lows (190.62 → 190.88 → 191.88 → 193.045 → 193.07 over 18:20-18:40 UTC bars, real volume ~50-105k/bar) — read as a genuine breakout, not a spike, per the plan agreed with the user.
+
+**Add #1:** bought 2 more COHR @ avg $193.56 (limit $194.50, filled immediately). Position now 4 sh, blended avg cost $191.7316.
+**Stop raised:** cancelled the old $178.50/2-share stop (confirmed cancelled), placed new resting stop_market for the full 4 shares at **$189.50** — just under the pre-breakout consolidation floor (~$188-190 held through midday), a meaningful raise from the original floor per STOCK TRAILING-STOP RULE (only raises, never lowers).
+AAOI unchanged — still well below its own $51.90-52 trigger (~$48.49 as of this check), no action.
+
+Next COHR band: $195.09 (11/4 close) / $207.49 (11/3 close) — same break-and-hold discipline applies before any further add. Laddering continues per user's "ladder till 3:50" instruction; still outside the standing sit-tight pause for everything else.
+
 ## Pending binary events / standing notes
 - LOAR/MGRC/ZG/NXT remain on the user's explicit hold from Monday — no new information since yesterday's ZG earnings-reaction flag.
 - DAIC (CID HoldCo) remains excluded from consideration regardless of any future move — tied to the 2026-09-17 "don't chase" realized-loss lesson.
