@@ -155,6 +155,39 @@ Combined cost basis $676.03, ~23% of the $2,921.95 account — sized as a small 
 
 **Standing pause:** still in effect for anything outside the already-approved AAOI/COHR plan. Nothing this cycle qualified or needed NEED APPROVE treatment.
 
+## 12pm market-hours cycle — full sweep, 2026-11-06
+**Market:** SPX 7,387.76, NDX 26,956.34, VIX 25.77 — cooled off slightly from the 11am stabilization (VIX ticked back up from 24.81). Not a reversal, just midday chop.
+
+**Position management (AAOI/COHR):** AAOI $48.02 (-2.7% from $49.37 entry), COHR $188.60 (-0.7% from $189.90 entry). Both have pulled back from their midday peaks but remain well above stops ($44.75 / $178.50 — AAOI would need to fall another ~6.8pp to threaten its floor). No 15% move either direction, no stop change. Neither ladder trigger cleared (AAOI needs >$51.90-52; COHR needs >$193.32, having peaked intraday at $191.40 around 11:41am before fading).
+
+**Full sweep (fresh this cycle):**
+| Tier/Sector | Matches |
+|---|---|
+| General | 1 — GOGO (now +57%, $306M, further extended) |
+| Small-mid | 1 — GOGO |
+| Mid-cap | 1 — LION (Lionsgate Studios, $3.74B, +9.6%) — **excluded, entertainment/media, standing 2026-09-22 preference** |
+| Large-cap | 0 |
+| Technology | 1 — PSQH ($6.1M) |
+| Healthcare | 0 |
+| Industrials | 3 — CIIT ($1.8M), SNT ($30M), HTCO ($12.2M, new) |
+| Energy | 2 — STAK ($34M, new), CLNE (+26.5%, $332M, still extended) |
+| Communication Services | 1 — GOGO |
+| Utilities | 0 |
+| Consumer Defensive | 2 — SKIN (+40.7%, $68M), VSA ($4.3M) |
+| Real Estate | 1 — ONL ($134M, +13.6%, new) |
+| Financial Services | 1 — XYF ($173.6M, +20.2%, new) |
+| Consumer Cyclical | 2 — CLAR ($161.6M, +15.6%, new), NAAS ($26.2M, +23.1%) |
+| Basic Materials | 0 |
+| Options-flow | unavailable — rate-limited again |
+
+**Catalyst verdicts:** LION excluded (entertainment/media). GOGO still no catalyst found, now +57% — further extended, not chasing. All remaining names (PSQH/CIIT/SNT/HTCO/STAK/CLNE/SKIN/VSA/ONL/XYF/CLAR/NAAS) are sub-$175M thin-float movers with no catalyst checked individually this cycle (consistent with established too-illiquid treatment) — none scored.
+
+**Crypto watchlist:** COIN -3.1%, MSTR -2.2%, MARA +2.6%, RIOT **+11.5%**, CLSK +3.9%, HUT **+11.2%**, BMNR -2.4%, HOOD +0.3%, CORZ +2.5%. RIOT/HUT both well past the 5% flag — WebSearch found no dated 11/6 catalyst; consistent with a broad crypto/BTC bounce (miners amplify BTC moves 2-4x) rather than a name-specific event. Noting as broad-basket/sector move, not scored.
+
+**Sector concentration slots:** optoelectronics/AI-optics theme AT CAP (2/2: AAOI, COHR). Micro-cap concurrency slot: open. Exceptional small-deal exception: not used, available. No-catalyst candidates for approval: none surfaced. Small-cap tech: none.
+
+**Standing pause:** still in effect outside the approved AAOI/COHR plan. No qualifying trade this cycle.
+
 ## Pending binary events / standing notes
 - LOAR/MGRC/ZG/NXT remain on the user's explicit hold from Monday — no new information since yesterday's ZG earnings-reaction flag.
 - DAIC (CID HoldCo) remains excluded from consideration regardless of any future move — tied to the 2026-09-17 "don't chase" realized-loss lesson.
