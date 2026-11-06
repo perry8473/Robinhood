@@ -101,6 +101,25 @@ None of these are being proposed as candidates: AAOI/COHR remain standing-watch-
 
 **No candidates clear scoring this cycle, and none would have triggered NEED APPROVE** — the sector sweep's only hits are sub-quality micro-floats, and every watchlist name is either a standing-watch-only pair or actively de-risking/earnings-day noise. Sit-tight pause carried forward; no action taken.
 
+## AAOI / COHR — user-approved entry, 10:21am ET 2026-11-06 (standing watch promoted to position)
+Per explicit user chat instruction ("let's take small entry today, protect as you suggested... we can see if it runs further since there is a lot of head room on previous values" + "expect that we could double down if its running up, and ladder till 3:50") — this is a genuine user approval, not autonomous execution, satisfying the standing "need approve" pause for this specific opportunity.
+
+**Context given to user before approval:** this is NOT a one-day dip — AAOI is down ~59% from its 10/2 high ($115.59) and ~80% off its 52-wk high ($233.67, 5/13); COHR is down ~47% from its 10/1 level ($319.19) and ~57% off its 52-wk high ($440, 6/3). Both names actually *beat* their most recent prints (AAOI $0.17 vs $0.13 est, reported 11/5 PM; COHR $2.09 vs $1.93 est, reported 11/4 PM) — selling appears sentiment/valuation/dilution/sector-rotation driven (AAOI: $500M ATM dilution fears; sector: AI-infra margin jitters post-Broadcom commentary), not fundamental misses. Today is the first green day after ~4 straight weeks down. AAOI is unprofitable trailing (P/E -60); COHR P/E 35, P/B 2.95.
+
+**Entries (both filled, 10:21-10:22am ET):**
+| Ticker | Qty | Avg fill | Cost | Stop (resting stop_market, GFD) | Stop distance |
+|---|---|---|---|---|---|
+| AAOI | 6 sh | $49.3699 | $296.22 | $44.75 (just under today's low $45.15) | -9.4% |
+| COHR | 2 sh | $189.9032 | $379.81 | $178.50 (just under today's low $179.05) | -6.0% |
+
+Combined cost basis $676.03, ~23% of the $2,921.95 account — sized as a small starter tranche with most of the account held in reserve for laddering. Both names are the same sub-sector (optoelectronics/AI-optics) — this fills 2 of 2 slots under the SECTOR CONCENTRATION CAP; no further same-theme adds beyond laddering these two.
+
+**Laddering plan through 3:50pm per user instruction** — add only on a clean break-and-hold above the next resistance band (not a single spike print), trail the stop up to just under the new higher-low after each add per the STOCK TRAILING-STOP RULE (never lower it):
+- AAOI: next add trigger = clean hold above today's high (~$51.90-52.00); second band = $56.89 (11/5 intraday high) / $59.27 (11/4 close).
+- COHR: next add trigger = clean hold above today's high (~$193.32); second band = $195.09 (11/4 close) / $207.49 (11/3 close).
+- Stops GFD (day-only) — will need fresh resting stops placed each morning if either position is still open overnight; flag per AFTER-HOURS POSITION DEFENSE if still open at the close.
+- Re-evaluate/stop laddering at the 3:50pm cycle per user's own cutoff.
+
 ## Pending binary events / standing notes
 - LOAR/MGRC/ZG/NXT remain on the user's explicit hold from Monday — no new information since yesterday's ZG earnings-reaction flag.
 - DAIC (CID HoldCo) remains excluded from consideration regardless of any future move — tied to the 2026-09-17 "don't chase" realized-loss lesson.
