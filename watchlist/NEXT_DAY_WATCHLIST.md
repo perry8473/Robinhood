@@ -218,6 +218,37 @@ Per explicit user instruction ("ok to move to 191 and 97 respectively... 47 i me
 - **COHR:** $189.50 → **$191.00** (4 sh) — ~0.8% below the ~$192.5-192.7 price at the time.
 Both confirmed resting (shares_held_for_sells = quantity for both). User explicitly fine with either triggering ("if they trigger thats ok") — consistent with the defend-and-exit-by-close plan from 2:37pm; no change to the ~3:55pm end-of-day close plan if neither stop fires first.
 
+## 3pm market-hours cycle — full sweep, 2026-11-06
+**Market:** SPX 7,402.72, NDX 27,091.71, VIX 24.51 — lowest VIX print of the day, stabilization holding into the close.
+
+**Position management (AAOI/COHR):** AAOI $49.45 (+0.16% from $49.37 entry), stop $47.00. COHR $194.54 (+1.46% from $191.73 blended entry), stop $191.00. Both confirmed open and protected. Per user's 2:37-2:39pm instructions: no new adds; defend-and-exit-by-close plan active (separate 30-min chain handling this, next check ~3:08pm ET); will close both outright near 3:55pm if neither stop fires first.
+
+**Full sweep (fresh this cycle) — notably busier than prior cycles, apparent broad healthcare/biotech rally plus continued crypto-miner strength:**
+| Tier/Sector | Matches |
+|---|---|
+| General | 4 — IMCR ($1.47B +6.8%), LION (excluded, entertainment), GOGO (+70%, extended), CLNE (+27%, extended) |
+| Small-mid | 6 — IMCR, SKIN (+49%, $68M), CLAR ($161.6M +14%), GOGO, ONL ($134M +12%), CLNE |
+| Mid-cap | 5 — IMVT ($5.87B +6.7%), CGON ($5.74B +15.7%), LION (excluded), ZLAB ($2.88B +12.6%), FLY ($2.54B +36%) |
+| Large-cap | 0 |
+| Technology | 1 — PSQH ($6.1M) |
+| Healthcare | 5 — CGON, IMCR, TECX ($377.8M +6.2%), OBX ($596.7M +43.5%), IPSC ($271.6M +10.9%) |
+| Industrials | 4 — SPPL ($24.2M), CIIT ($1.8M), SNT ($30M), HTCO ($12.2M) |
+| Energy | 2 — STAK ($34M +66%), CLNE |
+| Communication Services | 1 — GOGO |
+| Utilities | 0 |
+| Consumer Defensive | 3 — SKIN, TWG ($1.69M), VSA ($4.3M) |
+| Real Estate | 1 — ONL |
+| Financial Services | 2 — LION (excluded), XYF ($173.6M +21.6%) |
+| Consumer Cyclical | 3 — COOK ($173.8M +8.1%), CLAR, NAAS ($26.2M +27.7%) |
+| Basic Materials | 0 |
+| Options-flow | unavailable — rate-limited again |
+
+**Catalyst verdicts:** LION excluded (entertainment/media). Checked CGON, FLY, OBX via WebSearch (the three largest/most notable movers) — no dated 11/6 catalyst confirmed for any; CGON/IMCR/OBX/IPSC/TECX/IMVT/ZLAB moving together reads as a broad healthcare/biotech sector rally rather than individual news. GOGO/CLNE still extended with no catalyst (carried from earlier cycles). All remaining names sub-$180M thin-float, not individually checked (established too-illiquid treatment). **Nothing scored or proposed this cycle** — standing pause plus proximity to close means no new positions regardless of setup quality.
+
+**Crypto watchlist:** COIN -1.6%, MSTR -0.6%, MARA **+8.3%**, RIOT **+13.9%**, CLSK **+8.0%**, HUT **+15.5%**, BMNR -1.6%, HOOD +2.5%, CORZ +4.4%. Broad, accelerating miner rally (likely BTC-driven) continuing from midday; no name-specific catalyst found, not pursued.
+
+**Sector concentration slots:** optoelectronics/AI-optics AT CAP (2/2: AAOI, COHR). Micro-cap concurrency: open. Exceptional small-deal exception: not used. No-catalyst candidates for approval: none surfaced (nothing cleared the bar to even warrant it, and it's too late in the day regardless). Small-cap tech: none. Time-stop flags: none (same-day entries).
+
 ## Pending binary events / standing notes
 - LOAR/MGRC/ZG/NXT remain on the user's explicit hold from Monday — no new information since yesterday's ZG earnings-reaction flag.
 - DAIC (CID HoldCo) remains excluded from consideration regardless of any future move — tied to the 2026-09-17 "don't chase" realized-loss lesson.
