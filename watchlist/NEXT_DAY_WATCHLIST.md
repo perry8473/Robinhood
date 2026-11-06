@@ -57,6 +57,50 @@ AXON/TEAM/MCHP all posted real, clean beats and still sold off nearly 20% — th
 ## Watch item — CHTR (Charter), reports today AM — WEAKENED further
 11/5 close $125.86 → pre-market 11/6 $116.55-119.93 (**-4.7% to -7.4%**) — continuing to fade.
 
+## 9:40am opening-bell cycle — market-open true-up
+**Step 0 held position check:** No stock or options position held (confirmed empty again at open). Nothing to defend.
+
+**Market condition at open (9:43am ET):** SPX 7,398.45, NDX 27,134.42, VIX 25.28 — vs. 11/5 close (SPX 7,353.73 / NDX 26,629.81 / VIX 28.18): SPX +0.6%, NDX +1.9%, VIX down another ~10% intraday from yesterday's close. A real, if tentative, stabilization — second consecutive improving VIX print (28.18 → 25.09 at 8am true-up → 25.28 confirmed at open with NDX leading).
+
+**Step 4 mandatory sweep (all tiers + 11 Morningstar sectors + options-flow), live at 9:43am ET:**
+| Tier/Sector | Matches |
+|---|---|
+| General market-cap movers | 0 |
+| Small-mid cap movers | 0 |
+| Mid-cap movers | 0 |
+| Large-cap movers | 0 |
+| Technology | 0 |
+| Healthcare | 0 |
+| Industrials | 3 — CIIT ($1.8M mkt cap), SNT ($30M), RAYA ($1.1M) |
+| Energy | 0 |
+| Communication Services | 0 |
+| Utilities | 0 |
+| Consumer Defensive | 1 — VSA ($4.3M mkt cap) |
+| Real Estate | 0 |
+| Financial Services | 0 |
+| Consumer Cyclical | 0 |
+| Basic Materials | 0 |
+| Options-flow (high options volume/IV) | **unavailable this cycle** — rate-limited (ResourceExhausted), consistent with intermittent limiting seen repeatedly this week; not retried |
+
+The 4 sector hits (CIIT, SNT, RAYA, VSA) are all sub-$30M micro-float names with no identified catalyst — not candidates; this is the kind of thin-float volume spike the DON'T-CHASE RULE and quality bar already screen out, independent of today's pause.
+
+**Watchlist names re-verified live at open (9:43am ET) vs. 11/5 close:**
+| Ticker | 11/5 close | Live (9:43am) | Change | Note |
+|---|---|---|---|---|
+| AAOI | $46.89 | $48.61 | **+3.7%** | Bounce holding, moderated slightly from premarket +4.3% |
+| COHR | $169.76 | $187.38 | **+10.4%** | Bounce strengthening further vs. premarket +9.1% |
+| AXON | $382.56 | $326.82 | **-14.6%** | Rolling over hard — worse than premarket -10.5%; de-risking continues, not basing |
+| TEAM | $183.29 | $163.02 | **-11.1%** | Still down double digits, though off premarket low (-15.4% to -17.3%) |
+| MCHP | $64.85 | $60.81 | **-6.2%** | Breaking down further at the open vs. premarket -0.8% to -2.1% — WEAKENED |
+| WULF | $10.08 | $10.22 | **+1.4%** | Giving back most of premarket +8.1% strength |
+| MRNA | $241.46 | $245.92 | **+1.9%** | Giving back some of premarket +4.3% strength |
+| HUM | $411.79 | $441.19 | **+7.1%** | Sharp reversal from premarket weakness (-2.5% to -4.7%) — strong post-earnings reaction; no fresh confirming news found via WebSearch this pass (search returned stale/conflicting prior-year Humana earnings coverage, not today's print) |
+| CHTR | $125.86 | $118.58 | **-5.8%** | Continuing to fade, consistent with premarket -4.7% to -7.4% |
+
+None of these are being proposed as candidates: AAOI/COHR remain standing-watch-only (not scored) per the 2025-10-07 instruction; AXON/TEAM/MCHP/CHTR are deteriorating, not basing; WULF/MRNA/HUM are earnings-day moves on names not pursued pre- or post-print per standing practice.
+
+**No candidates clear scoring this cycle, and none would have triggered NEED APPROVE** — the sector sweep's only hits are sub-quality micro-floats, and every watchlist name is either a standing-watch-only pair or actively de-risking/earnings-day noise. Sit-tight pause carried forward; no action taken.
+
 ## Pending binary events / standing notes
 - LOAR/MGRC/ZG/NXT remain on the user's explicit hold from Monday — no new information since yesterday's ZG earnings-reaction flag.
 - DAIC (CID HoldCo) remains excluded from consideration regardless of any future move — tied to the 2026-09-17 "don't chase" realized-loss lesson.
