@@ -249,6 +249,12 @@ Both confirmed resting (shares_held_for_sells = quantity for both). User explici
 
 **Sector concentration slots:** optoelectronics/AI-optics AT CAP (2/2: AAOI, COHR). Micro-cap concurrency: open. Exceptional small-deal exception: not used. No-catalyst candidates for approval: none surfaced (nothing cleared the bar to even warrant it, and it's too late in the day regardless). Small-cap tech: none. Time-stop flags: none (same-day entries).
 
+## Further stop tightening — 3:04pm ET 2026-11-06
+Per explicit user instruction — raised both stops again:
+- **AAOI:** $47.00 → **$48.50** (6 sh) — ~2% below the ~$49.56 price at the time.
+- **COHR:** $191.00 → **$193.00** (4 sh) — ~1.2% below the ~$195.40 price at the time.
+Both confirmed resting (shares_held_for_sells = quantity for both). User also confirmed: if neither stop triggers by end of trading, sell both at market — consistent with the existing defend-and-exit-by-close plan (no change to that mechanism).
+
 ## Pending binary events / standing notes
 - LOAR/MGRC/ZG/NXT remain on the user's explicit hold from Monday — no new information since yesterday's ZG earnings-reaction flag.
 - DAIC (CID HoldCo) remains excluded from consideration regardless of any future move — tied to the 2026-09-17 "don't chase" realized-loss lesson.
