@@ -204,6 +204,14 @@ At the 2:20pm ladder check, found that the COHR resting stop_market order placed
 
 **Open question for the user:** this account has several scheduled routines beyond this chat's own 30-min chain (the main 11am/12pm/3pm market-hours routine, an 11pm/3am overnight check, a 3:50pm options stop-gap check) — one of these may have cancelled this specific resting stop as a side effect (e.g. if it re-evaluated the position and didn't realize a chat-placed add had just happened), or it could be an app-side/broker-side event unrelated to any routine. Flagging this plainly rather than guessing further; recommend double-checking this doesn't recur on the next ladder add.
 
+## Plan shift — defend-and-exit-by-close, 2:37pm ET 2026-11-06
+Per explicit user instruction ("getting late... tighten up the stops. 3-5% below current price. stay close till 3:50 and sell at end of trading if no stop is triggered") — laddering/adding is OFF for the rest of today; the remaining posture is defend what's held and exit by the close.
+
+**AAOI:** stop tightened from $44.75 to **$46.60** (~4% below the $48.525 price at the time) — confirmed resting (shares_held_for_sells 6/6).
+**COHR:** left at **$189.50** — this was already ~1.8% below the $193.02 price at the time, tighter than the requested 3-5% band; moving it to 3-5% would have meant *loosening* it, so it stays as-is (confirmed resting, shares_held_for_sells 4/4). User separately noted COHR "ran out of steam" after the $194 push faded back toward $193 — consistent with holding the tighter floor rather than adding.
+
+**End-of-day plan:** continue monitoring both every ~30 min. If neither stop is hit, close both positions (cancel resting stop, sell at market) shortly before the 4:00pm ET close rather than holding overnight — per user's explicit instruction, not the standing AFTER-HOURS POSITION DEFENSE rule (which would otherwise just flag overnight exposure).
+
 ## Pending binary events / standing notes
 - LOAR/MGRC/ZG/NXT remain on the user's explicit hold from Monday — no new information since yesterday's ZG earnings-reaction flag.
 - DAIC (CID HoldCo) remains excluded from consideration regardless of any future move — tied to the 2026-09-17 "don't chase" realized-loss lesson.
