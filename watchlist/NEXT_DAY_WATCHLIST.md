@@ -197,6 +197,13 @@ AAOI unchanged — still well below its own $51.90-52 trigger (~$48.49 as of thi
 
 Next COHR band: $195.09 (11/4 close) / $207.49 (11/3 close) — same break-and-hold discipline applies before any further add. Laddering continues per user's "ladder till 3:50" instruction; still outside the standing sit-tight pause for everything else.
 
+## ⚠ COHR stop-order gap — found and fixed, 2:21pm ET 2026-11-06
+At the 2:20pm ladder check, found that the COHR resting stop_market order placed at 1:48pm (4 sh, stop $189.50) had been **cancelled at 7:12pm UTC (2:12pm ET) by some agentic process — not this chain, no fill, no record of why** (`get_equity_orders` showed state `cancelled`, `cumulative_quantity` 0, `executions` empty, `placed_agent: agentic`). COHR's 4-share position was unprotected for roughly 9 minutes before being caught. AAOI's stop was unaffected and remained intact throughout.
+
+**Fix:** immediately re-placed the resting stop_market for the full 4 shares at $189.50 — confirmed via `get_equity_positions` that `shares_held_for_sells` is back to 4/4.
+
+**Open question for the user:** this account has several scheduled routines beyond this chat's own 30-min chain (the main 11am/12pm/3pm market-hours routine, an 11pm/3am overnight check, a 3:50pm options stop-gap check) — one of these may have cancelled this specific resting stop as a side effect (e.g. if it re-evaluated the position and didn't realize a chat-placed add had just happened), or it could be an app-side/broker-side event unrelated to any routine. Flagging this plainly rather than guessing further; recommend double-checking this doesn't recur on the next ladder add.
+
 ## Pending binary events / standing notes
 - LOAR/MGRC/ZG/NXT remain on the user's explicit hold from Monday — no new information since yesterday's ZG earnings-reaction flag.
 - DAIC (CID HoldCo) remains excluded from consideration regardless of any future move — tied to the 2026-09-17 "don't chase" realized-loss lesson.
