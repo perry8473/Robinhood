@@ -56,3 +56,29 @@ SPX 7,376.86, NDX 26,989.99, VIX 23.04 (down further from Friday's 24.51 close) 
 
 ## Options consideration
 Not checked this pass — none of today's AM reporters cleanly rank as a top-5 live candidate yet this early (pre-market spreads too wide/thin on several, MNDY's reaction is bearish not bullish). The 9:40am opening-bell cycle should do the options-potential read fresh against live open data for whichever of CEG/NRG/KKR (or others) actually score after Step 5/6 gating.
+
+## 9:40am opening-bell cycle (2026-11-09) — results
+**Account:** flat, $2,934.01, all cash. No positions, no time-stop flags. Sector concentration: 0/2 used every sector. Micro-cap concurrency slot: open.
+**Market:** SPX 7,478.93, NDX 27,489.52, VIX 21.98 — VIX continuing to drop (24.51 Fri → 23.04 Sat 8am → 21.98 now), stabilization trend extending.
+**Crypto watchlist (opening reaction):** mixed — RIOT +2.4%, CLSK +2.6%, HUT +1.6%, HOOD +1.7%, CORZ +1.0% up; MARA -1.6%, BMNR -1.8%, COIN -0.6%, MSTR -4.4% down. No action — not a qualifying stock-trade setup, just context. MARA earnings tonight (PM) sets up Tuesday, not actionable today.
+
+**Full 15-scan sweep:** General=1 (DDI +15.4%), Small-mid=2 (MF +58.7%, DDI), Mid-cap=0, Large-cap=0, Technology=0, Healthcare=1 (EDSA +50.9%, relvol ~997x), Industrials=0, Energy=3 (CKX +53.3% relvol 4403x, GFR +38.75% $1.35B, SKYQ +5.1%), Communication Services=2 (MF, DDI), Utilities=0, Consumer Defensive=0, Real Estate=0, Financial Services=1 (NCPL +20.7%), Consumer Cyclical=0, Basic Materials=2 (NWGL +24.1%, YMAT +20%). Options-flow scan: **unavailable — rate-limited again, not retried.**
+
+**Step 5 catalyst verification (WebSearch):**
+- **GFR (Greenfire Resources, $1.35B mkt cap — the one real-sized name from the sweep):** No fresh dated news found for 11/9. Last confirmed event was Q3 earnings ~11/3 (already 6 days old, consensus ~C$0.05/sh, unconfirmed actual). **No fresh catalyst — fails Step 5, not scored**, despite real size.
+- **DDI:** No fresh 11/9 news. Live story is an ongoing take-private proposal from controlling shareholder DoubleU Games (announced earlier, not dated today) — stale relative to today's move. **No fresh catalyst confirmed for today — fails Step 5.**
+- **MF (MindForge):** Extreme thin-float China microcap, no fresh 11/9 news; prior move tied to a late-October 20-F filing, already priced in days ago. **No fresh catalyst — fails Step 5.**
+- **EDSA, CKX, SKYQ, NCPL, NWGL, YMAT:** extreme-relvol microcap/thin-float spikes (CKX relvol 4403x, EDSA ~997x) — pattern consistent with no-catalyst speculative froth seen repeatedly this session. Not individually searched given consistent pattern and sub-$25M caps on most; treated as **no confirmed catalyst, fails Step 5.**
+- **CEG/NRG/KKR/MNDY/FERG/RBA/AMG/CNH/TGTX/IONS:** catalyst already confirmed via earnings-calendar verified actuals (the standing substitute for news confirmation per this morning's true-up) — all **pass Step 5** on that basis.
+
+**Step 6 price-structure check (5-min bars, first ~10 min of trading) on earnings-beat names with passing catalysts:**
+- **NRG:** opened $93.98, spiked to $94.67, **dropped to $90.23 low**, recovered to ~$93.5 — a ~4.7% round-trip in 10 minutes. Choppy, not a clean structure. Spread $93.29/$93.80 (~0.5%, thin size).
+- **FERG:** opened $248.06, spiked to $261.17, pulled back to ~$257-259 — holding most of the gain but very fast/wide range. Bid size only 3 shares at $257.35 (ask $258.40) — thin liquidity despite price strength.
+- **CEG:** opened $260.38, dropped to $247.00, recovered to ~$256 — a ~5% round-trip, choppy. Spread tight ($255.72/$255.94) but the underlying action is volatile.
+- **KKR:** flat vs. Friday's close (premarket +2.1% read didn't hold) — no setup.
+- **MNDY:** confirmed bearish "sell the beat" continuing (-6.7% at open vs. -5.6% premarket) — not a long candidate, not pursued (standing pause context, no short approval).
+
+**Verdict:** No qualifying trade this cycle. Every earnings-beat name with a confirmed catalyst (NRG, FERG, CEG) showed a sharp multi-percent round-trip/whipsaw in the first 10 minutes of trading rather than a clean, low-risk entry structure — exactly the kind of volatile chase the DON'T-CHASE RULE and this week's conservative WEEKLY PERFORMANCE TARGET (3-5%/wk via tight stops, no size/risk escalation) argue against entering into. No fresh-catalyst microcap sweep hit passed Step 5 (GFR, the one real-sized name, has no dated 11/9 news). AAOI/COHR remain standing-watch-only, closed positions — COHR is actually running hard this morning (+7.6%→+8.5%, $197.50→$209+ in 10 min) but no re-entry proposed without its own fresh qualifying setup per the standing rule, and chasing a closed winner back in on a gap-up is itself a don't-chase case.
+**Options potential:** not run — no candidate cleared Step 6.
+**Exceptional small-deal exception:** not invoked — no qualifying small-cap-tech name this cycle (0 matches in Technology sector scan).
+**Time-stops:** none (flat). **Sector concentration:** 0/2 every sector, no slots occupied.
