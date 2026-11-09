@@ -82,3 +82,23 @@ Not checked this pass — none of today's AM reporters cleanly rank as a top-5 l
 **Options potential:** not run — no candidate cleared Step 6.
 **Exceptional small-deal exception:** not invoked — no qualifying small-cap-tech name this cycle (0 matches in Technology sector scan).
 **Time-stops:** none (flat). **Sector concentration:** 0/2 every sector, no slots occupied.
+
+## 11:00am cycle (2026-11-09) — results
+**Account:** flat, $2,934.01, all cash. No positions. Sector concentration: 0/2 every sector. Micro-cap slot: open. Time-stops: none.
+**Market:** SPX 7,537.52, NDX 27,882.15, VIX 20.54 — VIX now under 21, stabilization trend continuing to extend (24.51 Fri → 23.04 Sat → 21.98 at open → 20.54 now).
+**Crypto watchlist:** broad rally continuing/strengthening — CLSK +11.7%, HUT +8.2%, CORZ +7.2%, RIOT +6.8%, MARA +5.9%, HOOD +4.9%, COIN +3.5%, BMNR +3.3%, MSTR flat (+0.01%). No action — informational only, not a qualifying stock-trade setup.
+
+**Full 15-scan sweep:** General=2 (DDI +15.9%, GFR +38.2%), Small-mid=3 (MF +99.4%, DDI, GFR), Mid-cap=3 (TTD +15.9% $6.1B, SGRY +13.8% $3.0B, VIR +13.6% $2.1B), Large-cap=0, Technology=1 (JZ +22.6%, $2.6M), Healthcare=7 (SGRY, VIR, EDSA +38.6% relvol 1627x, ATNM +11.9%, SILO +16.5%, RGNT +18.5%, MRKR +13.1%), Industrials=1 (FJET +33.8%, $45M), Energy=3 (CKX +52.4% relvol 6555x, GFR, SKYQ +7.0%), Communication Services=2 (MF, DDI), Utilities=0, Consumer Defensive=0, Real Estate=0, Financial Services=1 (NCPL +19.2%), Consumer Cyclical=0, Basic Materials=2 (NWGL +124.9% relvol 346x, YMAT +19.5% relvol 182x). Options-flow scan: **unavailable — rate-limited again, not retried** (persistent every cycle this session).
+
+**Step 5 catalyst verification (WebSearch) on new/notable names this cycle:**
+- **TTD (Trade Desk, $6.1B, mid-cap):** No confirmed dated 11/9 news found. TTD is a known PM earnings reporter (reports after today's close per the overnight watchlist) — today's +15.9% move may reflect pre-earnings positioning, but that is speculation on an unreported print, not a confirmed catalyst. **No catalyst found — fails Step 5, not scored.**
+- **SGRY (Surgery Partners, $3.0B):** No 11/2026-dated news found; last confirmed news is from July 2026 (unrelated to today). A 2025 Bain Capital takeover approach concluded without a deal — stale, not today's driver. **No catalyst found — fails Step 5.**
+- **VIR (Vir Biotechnology, $2.1B):** Real but **stale** catalyst — Q3 2026 results + new Gilead collaboration deal + ECLIPSE 1 Phase 3 pivotal-data timing, released 11/4 (5 days old), not a fresh 11/9 story. **Stale (dated 11/4) — fails Step 5 as a fresh catalyst.**
+- **GFR, DDI, MF:** already checked this morning (9:40am cycle) — no fresh catalyst confirmed for either; unchanged this cycle.
+- **EDSA, CKX, NWGL, YMAT, NCPL, FJET, JZ, SILO, RGNT, ATNM, MRKR:** extreme-relvol microcap/thin-float spikes (CKX relvol 6555x, NWGL 346x, EDSA 1627x), consistent with the no-catalyst speculative-froth pattern seen every cycle this session; not individually searched given consistent pattern and sub-$50M caps on all. **No confirmed catalyst, fails Step 5.**
+
+**Verdict:** No qualifying trade this cycle — not one sweep hit (including the three real-sized mid-caps TTD/SGRY/VIR) produced a confirmed fresh dated catalyst. Market-wide: VIX continuing to grind lower (20.54, below 21 for the first time this week) is a genuine stabilization signal, but breadth of real catalysts remains thin — today's action is mostly thin-float speculative churn plus a strong, broad crypto-adjacent equity rally (no action taken, informational).
+**No-catalyst candidates suggested for approval:** No — none of today's no-catalyst movers (TTD, SGRY, VIR, GFR) showed a sufficiently clean/compelling technical setup on top of the missing catalyst to warrant surfacing for discretionary approval; TTD's size and move are notable but entering ahead of its own unreported earnings print is specifically the kind of speculation the catalyst-confirmation rule exists to prevent.
+**Options potential:** not run — no candidate cleared Step 5.
+**Exceptional small-deal exception:** not invoked. **Small-cap tech:** JZ (+22.6%, $2.6M) flagged only — no catalyst, not pursued even under the carve-out's approval gate given no catalyst at all.
+**Time-stops:** none (flat). **Sector concentration:** 0/2 every sector. **Micro-cap slot:** open.
