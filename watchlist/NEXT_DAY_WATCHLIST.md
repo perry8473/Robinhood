@@ -102,3 +102,23 @@ Not checked this pass — none of today's AM reporters cleanly rank as a top-5 l
 **Options potential:** not run — no candidate cleared Step 5.
 **Exceptional small-deal exception:** not invoked. **Small-cap tech:** JZ (+22.6%, $2.6M) flagged only — no catalyst, not pursued even under the carve-out's approval gate given no catalyst at all.
 **Time-stops:** none (flat). **Sector concentration:** 0/2 every sector. **Micro-cap slot:** open.
+
+## 12:00pm cycle (2026-11-09) — results
+**Account:** flat, $2,934.01, all cash. No positions. Sector concentration: 0/2 every sector. Micro-cap slot: open. Time-stops: none.
+**Market:** SPX 7,548.61, NDX 27,839.75, VIX 20.15 — VIX continuing to grind lower, now just above 20; stabilization trend intact.
+**Crypto watchlist:** cooling slightly from the 11am peak but still broadly green vs. Friday's close — HUT +5.9%, CORZ +7.0%, RIOT +5.4%, CLSK +10.1%, HOOD +3.9%, COIN +1.4%, BMNR +0.2%; MARA +2.4%, MSTR -2.9% (the two laggards). No action — informational only.
+
+**Full 15-scan sweep:** General=2 (DDI +15.6%, GFR +38.3%), Small-mid=4 (MF +69.1%, DDI, GFR, FISN +41.6% new), Mid-cap=5 (TTD +17.5%, LFST +4.9% new $5.2B, SGRY +12.9%, TIC +8.3% new $2.3B, VIR +12.1%), **Large-cap=2 (new this cycle: JHX +7.4% $16.2B, QXO +19.7% $12.0B)**, Technology=1 (JZ +40.6%), Healthcare=13 (SGRY, VIR, EDSA +35.7% relvol 2042x, DCTH +28.1% new $518M, VOGX +6.1% new, MODD +39.1% new, SILO +22.6%, ATNM +11.2%, RGNT +13.9%, TLPH +6.7% new, LSTA +6.8% new, TVRD +9.6% new, MRKR +13.7%), Industrials=4 (FISN, SHMD +15.1% new, VAI +9.4% new, FJET +33.8%), Energy=2 (CKX +111.2%, GFR), Communication Services=3 (MF, DDI, TTD), Utilities=1 (BESS +24.4% new), Consumer Defensive=0, Real Estate=1 (**OMH +587.6%** new — extreme spike), Financial Services=3 (EZRA +15.2% new, NCPL +52.2%, LGHL +18.8% new), Consumer Cyclical=3 (KXIN +9.6% new, EMPD +7.0% new, IPW +9.4% new), Basic Materials=1 (NWGL +28.5%, YMAT dropped off). Options-flow scan: **unavailable — rate-limited again, not retried.**
+
+**Step 5 catalyst verification (WebSearch) on new names this cycle:**
+- **QXO ($12.0B, large-cap, +19.7%):** No confirmed 11/9-dated news. Earnings-date sources conflict (11/5, 11/12, or 11/17 variously cited) — nothing verified/actual posted. **No catalyst found — fails Step 5.**
+- **JHX (James Hardie, $16.2B, large-cap, +7.4%):** No confirmed 11/9-dated news; earnings-date sources also conflict for this name. Most recent confirmed items (investor day, brand campaign) are from September/October, stale. **No catalyst found — fails Step 5.**
+- **OMH (+587.6%, extreme spike):** No fresh verified cause found; this ticker has a documented history of pure no-news speculative spikes on thin float (per 2024 precedent). **No catalyst found — fails Step 5**, despite the magnitude.
+- **LFST, TIC, FISN, DCTH, VOGX, MODD, SHMD, VAI, EZRA, LGHL, KXIN, EMPD, IPW, BESS, TLPH, LSTA, TVRD:** not individually searched — all sub-$5.3B with most well under $150M, consistent with the thin-float no-catalyst pattern established every cycle today; carried as **no confirmed catalyst, fails Step 5.**
+- **TTD, SGRY, VIR, GFR, DDI, MF, CKX, NCPL, NWGL, EDSA:** unchanged from 11am cycle — no fresh catalyst confirmed; verdicts stand.
+
+**Verdict:** No qualifying trade this cycle — now the third consecutive cycle today with zero confirmed-catalyst candidates, despite an expanding and increasingly dramatic scan list (two new large-caps >$10B, one extreme +587% microcap spike). VIX continues to grind lower (20.15), and today's broad character remains thin-float speculative churn + a strong crypto-adjacent equity rally, with no name clearing the catalyst-confirmation bar.
+**No-catalyst candidates suggested for approval:** No — QXO and JHX are real-sized and the moves are large, but neither shows a clean, compelling technical setup distinct from "unexplained mover," and OMH's spike pattern is a known false-signal profile for this ticker specifically.
+**Options potential:** not run — no candidate cleared Step 5.
+**Exceptional small-deal exception:** not invoked. **Small-cap tech:** JZ (+40.6%, $2.6M) flagged only, no catalyst, not pursued.
+**Time-stops:** none (flat). **Sector concentration:** 0/2 every sector. **Micro-cap slot:** open.
