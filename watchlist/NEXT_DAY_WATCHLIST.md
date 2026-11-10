@@ -93,3 +93,31 @@ SPX 7,549.94, NDX 27,907.63, VIX 20.17 — essentially flat overnight vs. Monday
 
 ## Options consideration
 Covered above for last night's top 3 (ONTO/TTWO/TTD) — all preliminary/structural only. Updated this morning's top candidate, **VG**: listed chain confirmed, expirations include 2026-11-13 (3 DTE, too close) and 2026-11-20 (10 DTE, within window) — DTE window: PASS (structural), listed chain: PASS. Premium/OI/live spread: not checked (pre-market, no live tradeable quote). Re-pull live for all four (ONTO/TTWO/VG, TTD now demoted) fresh at the 9:40am opening-bell cycle before any options consideration — this is pure head-start research, not a pre-approval of any kind.
+
+## 9:40am opening-bell cycle (2026-11-10) — results
+**Account:** flat, **$3,534.01** (up from Monday's $2,934.01 — a **$600 increase** with `pending_deposits: $600` showing on the account; this looks like a deposit, not a trading gain — flagging plainly since today's account value jumped exactly $600 with zero trades taken). Balance now clearly >$2,000, so OPTIONS SIZING cap reverts to 10% of balance (~$353) once/if an options position is considered. No positions open, nothing to manage. Sector concentration: 0/2 every sector. Micro-cap slot: open. Time-stops: none. WBD one-time exit instruction from 2026-09-22 remains moot (no WBD position has existed in months).
+**Market:** SPX 7,506.27, NDX 27,689.57, VIX 20.81 — ticked up slightly from yesterday's close (VIX 19.87→20.81), still range-bound, no major shock.
+**Crypto watchlist:** mixed today (no repeat of yesterday's broad rally) — MARA +6.3%, RIOT +4.7% up; COIN -1.5%, MSTR -1.6%, CLSK -0.7%, HUT -1.1%, BMNR -2.7%, HOOD -1.1% down; CORZ +0.5% flat. No action, informational only.
+
+**Carryover candidates from the overnight watchlist, re-verified live at the open:**
+- **ONTO:** $198.26 vs Monday close $194.04, +2.2% — but the first 10 minutes ranged $196.31-$206.09 (~4.9% range), a spike-and-fade pattern typical of opening noise. **Too early to call — re-check at 11am.**
+- **TTWO:** $221.31 vs close $207.40, +6.7% — first 10 min ranged $217.73-$229.46 (~5.3%), same opening-noise pattern despite the strong headline gain. **Too early to call — re-check at 11am.**
+- **VG:** $11.90 vs close $11.80, +0.8% — moderated further from this morning's pre-market +3.6%; first 10 min ranged $11.60-$12.19 (~5% range). **Too early to call — re-check at 11am.**
+- **TTD:** demoted per the 8am true-up (reversed to -5.2% pre-market); live now -0.6% — no longer a live bullish candidate, dropped from consideration.
+
+**Full 15-scan sweep — notably quiet session:** General=0, Small-mid=2 (**PEPG +163%** $166M relvol 37x, TTEC +37.6% $69M relvol 7.8x), Mid-cap=0, Large-cap=0, Technology=3 (PXLW +29.6% $31M relvol 872x, TTEC, MNDO +45.4% $17.6M relvol 146x), Healthcare=2 (PEPG, AMIX +25.3% $3.3M relvol 37x), Industrials=0, Energy=0, Communication Services=0, Utilities=0, Consumer Defensive=1 (TWG +12.7% $2.2M), Real Estate=0, Financial Services=0, Consumer Cyclical=0, Basic Materials=0. Options-flow scan: **unavailable — rate-limited again, every cycle this week so far, not retried.**
+
+**Step 5 catalyst verification on fresh sweep hits:**
+- **PEPG (+163%, $166M):** No same-day catalyst. Next verified earnings date is 2026-11-24 (two weeks out), not today — unconfirmed WebSearch mentions of 11/5 or 11/10 earnings dates do not match the earnings-calendar record. **No catalyst found — fails Step 5**, despite the extreme magnitude.
+- **TTEC (+37.6%, $69M):** Actually reported **yesterday PM** (11/9) with a **miss** (-$0.10 actual vs $0.19 est, verified) — today's big rally directly contradicts that miss, no news found explaining the disconnect (same pattern as last night's LQDA anomaly). **Unexplained — flagged, not scored.**
+- **PXLW (+29.6%, $31M):** Next earnings is tomorrow PM (2026-11-11), not yet reported. **No catalyst found for today's move — fails Step 5.**
+- **MNDO (+45.4%, $17.6M):** Thin, low-liquidity name with a documented history of "little company news... low liquidity exaggerates moves" per WebSearch. **No catalyst found — fails Step 5.**
+- **AMIX, TWG:** sub-$5M extreme microcaps, consistent with the no-catalyst speculative-froth pattern seen all week; not individually searched. **No confirmed catalyst, fails Step 5.**
+
+**Standing watch — AAOI/COHR:** AAOI $49.54 vs Monday close $52.10, -4.9%; COHR $222.41 vs close $225.19, -1.2% (COHR partially recovering from this morning's -3.2% pre-market read). Both continuing Tuesday's pullback after Monday's hot run — no fresh news, not a trade signal.
+
+**Verdict:** No qualifying trade this cycle. Every carryover bullish candidate (ONTO/TTWO/VG) is genuinely too early to call 10 minutes into the session — all three showed a sharp spike-and-fade in the opening range, exactly the kind of volatile opening-minute noise Step 6 expects and says not to force a read on. Every fresh sweep hit either has no confirmed catalyst or (TTEC) directly contradicts its own confirmed catalyst. Carrying ONTO/TTWO/VG forward to the 11am cycle for a cleaner structural read once the open settles.
+**No-catalyst candidates suggested for approval:** No — PEPG/MNDO/TWG/AMIX's magnitude is notable but none shows a clean, compelling setup beyond "unexplained spike," and TTEC's rally actively contradicts its own catalyst.
+**Options potential:** not run — no candidate cleared Step 6 (all three carryovers flagged "too early to call").
+**Exceptional small-deal exception:** not invoked. **Small-cap tech:** PXLW/MNDO flagged above, no catalyst, not pursued even under the carve-out's approval gate.
+**Time-stops:** none (flat). **Sector concentration:** 0/2 every sector. **Micro-cap slot:** open.
