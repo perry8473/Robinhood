@@ -121,3 +121,41 @@ Covered above for last night's top 3 (ONTO/TTWO/TTD) — all preliminary/structu
 **Options potential:** not run — no candidate cleared Step 6 (all three carryovers flagged "too early to call").
 **Exceptional small-deal exception:** not invoked. **Small-cap tech:** PXLW/MNDO flagged above, no catalyst, not pursued even under the carve-out's approval gate.
 **Time-stops:** none (flat). **Sector concentration:** 0/2 every sector. **Micro-cap slot:** open.
+
+## 11:00am cycle (2026-11-10) — results
+**Account:** flat, $3,534.01 (the $600 Monday-to-today increase noted at 9:40am stands — still appears to be a deposit, no trades have occurred). Sector concentration: 0/2 every sector. Micro-cap slot: open. Time-stops: none.
+**Market:** SPX 7,502.02, NDX 27,710.97, VIX 20.65 — essentially flat vs. the 9:40am read, range-bound.
+**Crypto watchlist:** MARA +11.1% (continuing to extend), RIOT +1.8%, CORZ +1.8% up; COIN -4.0%, MSTR -3.7%, CLSK -3.6%, BMNR -5.0%, HOOD -2.6%, HUT -0.4% down — more red than green this cycle, a shift from yesterday's broad rally. No action, informational only.
+
+**Carryover candidates, re-verified:**
+- **ONTO:** $198.99 vs Monday close $194.04, +2.6% — holding roughly steady vs. the 9:40am read. Catalyst now 2 days old (Monday PM beat); no longer fresh. Not re-scored.
+- **TTWO:** $224.32 vs close $207.40, **+8.1%** — strengthening further (was +6.7% at 9:40am). 30-min bars show early chaos (high $229.46/low $214.29 in the first 30 min) resolving into a tighter, higher range the last 30 min ($222.50-$225.84) — structure is settling into a tradeable base. Catalyst is 2 days old.
+- **VG:** $12.04 vs close $11.80, +2.0% — modest, steady. Catalyst also 2 days old.
+- **AAOI/COHR:** AAOI $48.08 vs Monday close $52.10, -7.7% (deepening); COHR $217.26 vs close $225.19, -3.5%. Both continuing the pullback, no fresh news. Standing watch only.
+
+**Full 15-scan sweep — three fresh confirmed-catalyst names found this cycle:**
+General=1 (SECZ +33% $1.14B), Small-mid=5 (SECZ, PEPG +136%, PDYN +19% $175M, TTEC +54%, KULR +30% $75M), Mid-cap=0, Large-cap=0, Technology=6 (SECZ, PXLW +15% relvol 1046x, PDYN, TTEC, KULR, MNDO +46% relvol 165x), Healthcare=4 (SENS +22% $518M, PEPG, AMIX +17% relvol 322x, ELAB +5% $1.3M), Basic Materials=1 (TREO +36% $27M), Consumer Cyclical=1 (SSM +11% $1.7M), Financial Services=0, Real Estate=0, Consumer Defensive=0, Utilities=0, Communication Services=0, Energy=0, Industrials=1 (CIIT +6% $2.7M). Options-flow scan: **unavailable — rate-limited again.**
+
+**Step 5 catalyst verification on the three real-sized fresh names:**
+- **SECZ (Securitize, $1.14B):** Reported Q3 2026 last night (11/9 PM) — a **miss** (-$0.41 actual vs -$0.03 est, verified). BUT the same earnings call announced genuine fresh business news: a tokenized money-market fund with BlackRock, a tokenized ARK venture fund, a Neuberger high-income fund tokenization, and a Cantor Fitzgerald collaboration on onchain IPOs. **Mixed/real catalyst** — the EPS line missed badly but the strategic announcements are the likely actual driver of the +33% move.
+- **SENS (Senseonics, $518M):** Reported Q3 2026 last night (11/9 PM) — a **beat** (-$0.50 actual vs -$0.52 est, verified), plus management presenting at the Stifel Healthcare Conference today (11/10). **Real/fresh catalyst confirmed.**
+- **PDYN (Palladyne AI, $175M):** Reported Q3 2026 **this morning** (11/10 AM) — a **beat** (-$0.17 actual vs -$0.23 est, verified), continuing a trend of narrowing losses each quarter. **Real/fresh catalyst confirmed** — the freshest of the three (same-day AM report).
+- **PEPG, TTEC, PXLW, MNDO, KULR, TREO, SSM, CIIT, ELAB, AMIX:** unchanged or newly thin/no-catalyst — **no confirmed catalyst, fails Step 5.**
+
+**Step 6 price structure on the three confirmed-catalyst names (30-min bars since open):**
+- **SECZ:** opened $8.73 → spiked to $9.73 → dropped to $8.25 → recovered to $9.86 → pulled back to $9.32-9.36. ~20% total range across 90 minutes, no clear resolved base. **Chaotic — fails Step 6**, re-check later.
+- **SENS:** opened $12.445 → spiked to **$13.978** → crashed to $11.67 → now $12.03. ~19.6% range, classic spike-and-fade. **Chaotic — fails Step 6**, re-check later.
+- **PDYN:** opened $3.74 → early range $3.56-$4.08 → resolved into a tighter, higher range the next two bars ($3.82-$4.24, then $4.10-$4.24) — now consolidating near highs with a definable floor ~$4.10. **Passes Step 6** — early chaos resolved into a tradeable structure.
+
+**Confidence scores:**
+- **PDYN: 78** — clean same-day beat, structure has resolved well, narrowing-losses trend is a genuine positive arc. Held below 85 by: still a small ($175M) name with real losses every quarter, already +19% intraday, liquidity/spread not deeply tested. Not executed.
+- **TTWO: 72** — cleanest structure of all the carryovers, but catalyst is now 2 days stale and the stock is up a cumulative ~8% over two sessions — the "already extended" entry the DON'T-CHASE principle flags as weaker outside the formal small-cap-tech carve-out too. Not executed.
+No other candidate reached scoring (SECZ/SENS failed Step 6 chaos; everything else failed Step 5).
+
+**Options potential:**
+- **PDYN:** listed chain confirmed, 2026-11-20 expiration (10 DTE, within window) — DTE window: PASS (structural), listed chain: PASS. Premium/OI/live spread not pulled (stock score below 85, no execution contemplated).
+- **TTWO:** listed chain confirmed (per yesterday's build), 2026-11-20 (10 DTE) within window — same structural PASS, not pursued further.
+**No-catalyst candidates suggested for approval:** No — PEPG/TTEC/PXLW/MNDO/KULR/TREO's magnitude is notable but none shows a clean setup distinct from unexplained/thin-float churn.
+**Exceptional small-deal exception:** not invoked. **Small-cap tech:** PXLW/MNDO/KULR flagged, no catalyst, not pursued; PDYN is NOT subject to the small-cap-tech carve-out (market cap $175M, above the sub-$15-20M threshold) and was scored normally.
+**Time-stops:** none (flat). **Sector concentration:** 0/2 every sector. **Micro-cap slot:** open.
+**Qualifying trade:** none this cycle — PDYN (78) and TTWO (72) scored but neither cleared 85.
