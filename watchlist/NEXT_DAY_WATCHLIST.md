@@ -1,13 +1,35 @@
 # Next-Day Watchlist — build for Tuesday, 2026-11-10
 
 > **PROVISIONAL — RESEARCH ONLY. NOT A TRADE LIST.**
-> Nothing below is pre-approved. Every entry must be re-verified against live price action and a fresh options chain at the open before being treated as a candidate. Built 6:05pm ET Monday 2026-11-09. Asian and European overnight-session news has **NOT** been checked yet at this hour (those sessions haven't opened/traded) — that is the job of the ~8am overnight true-up routine.
+> Nothing below is pre-approved. Every entry must be re-verified against live price action and a fresh options chain at the open before being treated as a candidate. Built 6:05pm ET Monday 2026-11-09, **trued up 8am ET Tuesday 2026-11-10** against overnight/pre-market action.
 
 ## WEEKLY PERFORMANCE TARGET — standing note (carried forward)
 3-5% account growth this week via tight trailing stops, conservative execution, no autonomous sizing increase (explicit user instruction, 2026-11-08). Today (Monday 2026-11-09), the account ran flat all day — four market-hours cycles found no candidate clearing the 85-confidence autonomous bar (three cycles had no confirmed catalyst at all; the 3pm cycle found four real-catalyst names but all too extended/late in the session to enter cleanly). Zero realized P&L today, but also zero risk taken — consistent with the conservative framing. No $ deployment change made or proposed.
 
-## Step 0 — held position check (6pm routine)
-No stock or options position held (`get_equity_positions` confirmed empty; all option legs are legacy zero-quantity). Nothing to defend. Account flat entering tomorrow, same as it has been all session.
+## Step 0 — held position check (6pm routine, re-confirmed 8am)
+No stock or options position held (`get_equity_positions` confirmed empty both at 6pm and again at 8am; all option legs are legacy zero-quantity). Nothing to defend. Account flat entering today.
+
+## Tuesday 2026-11-10 — 8am true-up: pre-market reactions on last night's candidates
+- **ONTO:** pre-market $199.00 vs Monday close $194.04, **+2.6%** — faded from last night's AH peak ($209.89, +8.4%) but still net positive vs. the regular close. WEAKENED vs. last night's peak, but still a live, confirmed-catalyst setup — re-verify live structure at the open.
+- **TTWO:** pre-market $214.50 vs close $207.40, **+3.4%** — holding close to last night's AH level ($215.92). STRENGTHENED/steady — the cleanest hold-through of the three.
+- **TTD:** pre-market $14.15 vs close $14.93, **-5.2%** — reversed hard overnight; was +2.5% in last night's AH read. WEAKENED significantly — the beat reaction did not hold. Demoted, no longer a live bullish candidate.
+- **QLYS:** pre-market $192.63 vs close $202.46, **-4.9%** — still down but partially recovered from last night's AH low (-8.1%). UNCHANGED verdict: bearish/fade, not a long.
+- **RKLB:** pre-market $54.20 vs close $58.86, **-7.9%** — extending the post-miss decline further (was -5.0% AH). WEAKENED further — confirmed bearish, avoid long.
+- **HIMS:** pre-market $22.71 vs close $22.94, **-1.0%** — stabilizing somewhat vs. last night's -2.8% AH. Still negative, no longer worth a bearish flag on its own.
+- **MARA:** pre-market $6.48 vs close $6.64, **-2.4%** — mild fade, still muted/no fresh signal.
+
+## Tuesday 2026-11-10 — AM reporters: verified actuals and pre-market reactions as of ~8am ET
+- **VG:** EPS $0.96 actual vs $0.52 est — **big beat**. Pre-market $12.23 vs close $11.80, **+3.6%** — clean, proportionate positive reaction. **Best fresh setup this morning.**
+- **SE (Sea Limited):** EPS $0.78 actual vs $0.94 est — **miss**. Pre-market $70.24 vs close $77.96, **-9.9%** — severe, proportionate negative reaction. Large-cap, high-attention; avoid long, not pursued as short without explicit approval.
+- **ONON:** EPS $0.66 actual vs $0.46 est — beat, but pre-market $35.58 vs close $37.53, **-5.2%** — another "sell the beat" case (joining MNDY, QLYS from this week's pattern). Not a long.
+- **WIX:** EPS $1.42 actual vs $1.12 est — beat, but pre-market $67.51 vs close $69.75, **-3.2%** — same sell-the-beat pattern. Not a long.
+- **TDG (TransDigm):** EPS $12.44 actual vs $12.05 est — beat, pre-market essentially flat (-0.07%, $1218.00 vs $1218.85) — muted, already priced in for this large, slow-moving industrial name.
+- **LQDA:** EPS -$2.64 actual vs $0.93 est — **huge miss**, but pre-market $49.68 vs close $47.87, **+3.8%** — price action directly contradicts the EPS line; WebSearch found no same-day article explaining the disconnect (likely a one-time charge or revenue/guidance-driven reaction overriding the GAAP EPS miss). Flagged as unexplained/needs live reverification, not scored.
+- **BTDR:** EPS -$0.38 actual vs -$0.33 est — miss, pre-market flat (-0.07%). Muted.
+- **QBTS:** EPS -$0.13 actual vs -$0.11 est — miss, pre-market $11.16 vs close $11.47, -2.7%. Mild negative, consistent but not a standout.
+- **ATAT:** EPS $0.22 actual vs $0.56 est — big miss, pre-market essentially flat (-0.08%) — thin pre-market liquidity, no clear reaction yet.
+- **HSAI:** EPS $0.01 actual vs $0.08 est — miss, pre-market +1.1% — muted/inconsistent, not a standout either way.
+- **CRWV, RGTI:** still report PM today, unchanged from last night — carry forward, not yet actionable.
 
 ## Today's (2026-11-09) PM earnings reactions — after-hours price action vs. today's close
 Verified actuals via `get_earnings_calendar`, AH reaction via `get_equity_quotes` (last_non_reg_trade_price vs. today's close) as of ~6:05pm ET:
@@ -51,14 +73,16 @@ None of these have actuals yet — all are "stale/unconfirmed, awaiting verified
 **CRWV (CoreWeave)** — est -$1.53, PM. High-attention AI-infrastructure name; flag for Tuesday's EOD/after-hours routines, not actionable Tuesday itself.
 **RGTI, QBTS** (quantum computing pair) — both report, timing mixed (QBTS am, RGTI pm) — notable sector-pair, watch for a possible correlated reaction across both names.
 
-## Standing watch — optoelectronic sector (AAOI / COHR)
-Both remain standing-watch-only, closed positions from Friday 11/6's trade (small realized gains, +$12.06 combined). COHR ran hard again today (+7-8% intraday per the 9:40am cycle read) but no re-entry proposed without a fresh qualifying setup on its own merits — chasing a closed winner back in on a gap-up would itself violate the DON'T-CHASE principle. Continue standing-watch-only treatment.
+## Standing watch — optoelectronic sector (AAOI / COHR), Tuesday update
+- **AAOI:** Monday close $52.10. Pre-market $49.54 (bid $49.40/ask $49.56), **-4.9%** — pulling back/giving back some of Monday's strong run. No fresh news found via WebSearch.
+- **COHR:** Monday close $225.19. Pre-market $217.91 (bid $217.00/ask $218.15), **-3.2%** — same pattern, fading off Monday's hot run. No fresh news found.
+Both remain standing-watch-only, closed positions from Friday 11/6's trade (small realized gains, +$12.06 combined) — this is a pullback after two strong up days, not a catalyst-driven move. No re-entry proposed without a fresh qualifying setup on its own merits.
 
 ## Pre-market small-cap-tech shortlist
 Not checked this build (after-hours, regular-session-only scan data) — Technology sector sweep found only thin/no-catalyst names all day today (JZ, HOLO, TLS — TLS reclassified as enterprise security with a real catalyst, scored 60, not executed). Re-run fresh at the 9:40am cycle.
 
-## Market condition — close of day 2026-11-09
-SPX 7,561.55 (final intraday read, 3pm cycle), NDX 27,917.56, VIX 19.87 — VIX closed the week's first session under 20 for the first time, a genuine stabilization signal after last week's volatility. Broad crypto-equity rally held up all day (CLSK +12.8%, HUT +7.1%, CORZ +7.9%, RIOT +6.6% at the 3pm read). No major macro shock identified.
+## Market condition — overnight/pre-market Tuesday 2026-11-10
+SPX 7,549.94, NDX 27,907.63, VIX 20.17 — essentially flat overnight vs. Monday's 3pm read (SPX 7,561.55, VIX 19.87), ticking up slightly but still holding under 21. No major overnight macro shock found via WebSearch.
 
 ## Pending binary events / standing notes (carried forward)
 - LOAR/MGRC/ZG/NXT remain on the user's explicit hold from the earlier-week instruction — no new information this pass.
@@ -68,4 +92,4 @@ SPX 7,561.55 (final intraday read, 3pm cycle), NDX 27,917.56, VIX 19.87 — VIX 
 - Options-flow scan (8719a93e-58d5-4b84-9905-c0c93b7676c1) was rate-limited on **every single cycle today** (9:40am, 11am, 12pm, 3pm) — worth flagging to the user as a persistent, not intermittent, issue if it continues tomorrow.
 
 ## Options consideration
-Covered above for the top 3 bullish PM reporters (ONTO/TTWO/TTD) — all preliminary/structural only, pending live re-verification at the open.
+Covered above for last night's top 3 (ONTO/TTWO/TTD) — all preliminary/structural only. Updated this morning's top candidate, **VG**: listed chain confirmed, expirations include 2026-11-13 (3 DTE, too close) and 2026-11-20 (10 DTE, within window) — DTE window: PASS (structural), listed chain: PASS. Premium/OI/live spread: not checked (pre-market, no live tradeable quote). Re-pull live for all four (ONTO/TTWO/VG, TTD now demoted) fresh at the 9:40am opening-bell cycle before any options consideration — this is pure head-start research, not a pre-approval of any kind.
