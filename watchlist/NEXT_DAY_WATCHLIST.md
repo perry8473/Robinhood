@@ -169,3 +169,34 @@ No other candidate reached scoring (SECZ/SENS failed Step 6 chaos; everything el
 **Exceptional small-deal exception:** not invoked. **Small-cap tech:** PXLW/MNDO/KULR flagged, no catalyst, not pursued; PDYN is NOT subject to the small-cap-tech carve-out (market cap $175M, above the sub-$15-20M threshold) and was scored normally.
 **Time-stops:** none (flat). **Sector concentration:** 0/2 every sector. **Micro-cap slot:** open.
 **Qualifying trade:** none this cycle — PDYN (78) and TTWO (72) scored but neither cleared 85.
+
+## 12:00pm cycle (2026-11-10) — first cycle under the new blended-strategy framework
+**Account:** flat, $3,534.01. Sector concentration: 0/2 every sector. Micro-cap slot: open. Time-stops: none.
+**Market:** SPX 7,486.54, NDX 27,531.73, VIX 20.82 — flat vs. 11am, still range-bound.
+**Crypto watchlist:** mostly red today — CLSK -6.6%, BMNR -5.3%, MSTR -4.6%, COIN -4.0%, HOOD -3.5%, HUT -2.6% down; MARA +5.8% up (lone standout); RIOT flat, CORZ -0.3%. No action, informational.
+**Carryover:** ONTO flat (+0.1%), VG flat (+0.8%), TTWO holding +7.2%, TTD whipsawed back to +4.0% (was -5.2% at 9:40am) — too unstable to treat as a clean candidate given the reversal pattern today. AAOI -9.2%/COHR -7.4% continuing to deepen, no fresh news, standing watch only. PDYN/TTWO from the 11am cycle: PDYN cooled to only +6.5% (down from +19% premarket), TTWO still the strongest carryover.
+
+**Full 15-scan sweep — two new real-sized earnings movers found:**
+General=2 (SENS +13.7%, SECZ +22.7%), Small-mid=6 (SENS, SECZ, PEPG +119-136%, PDYN, TTEC +68-81%, KULR +20-21%), Mid-cap=2 (**AAON new $5.18B +21.7%**, CSQR new $2.54B +15.1%), Large-cap=1 (**EMBJ new $13.75B +6.8%**), Technology=6 (SECZ, PXLW +29%, TTEC, KULR, LGCL new +13%, MNDO +46-60%), Healthcare=5 (SENS, PEPG, LGVN new +38%, TCRT new +7.5%, BNGO new +12%), Industrials=3 (APT new +8%, RAIL new +6.5%, CIIT +6%), Consumer Cyclical=1 (EFOI new +11%), Financial Services=1 (AAME new +13.3%), Communication Services=1 (**ZIP new $353M +33.9%**), Basic Materials=1 (TREO +27.9%), Real Estate=0, Consumer Defensive=0, Utilities=0, Energy=0. Options-flow scan: **unavailable — rate-limited again, every single cycle today.**
+
+**Step 5 catalyst verification on the four new real-sized names:**
+- **AAON ($5.18B, HVAC/water-systems manufacturer):** Q3 2026 reported last night (11/9 PM) — **big beat**, $0.83 actual vs $0.57 est (+46%), the third consecutive quarterly beat (also beat Q1 and Q2 2026). **Real/fresh catalyst confirmed.** Notable: the stock traded near $127 in June 2026 before a guidance-driven selloff into the $60s-80s range — today's beat may mark the start of a base, worth re-evaluating as a possible LONG-HORIZON candidate on a future cycle once the post-earnings dust settles (not scored as long-horizon today — today's move is clearly the earnings catalyst, a day/swing read).
+- **ZIP (ZipRecruiter, $353M):** Q3 2026 reported last night (11/9 PM) — beat, $0.06 actual vs -$0.01 est (swung positive vs. an expected loss). **Real/fresh catalyst confirmed.**
+- **CSQR (Csquare, $2.54B, post-IPO industrial/SPAC-type name):** Q3 2026 reported last night — a **miss** (-$0.58 actual vs -$0.49 est), yet stock +15.1%. No explanation found for the disconnect (same "unexplained" pattern as LQDA/TTEC earlier this week). **Fails Step 5 as a clean catalyst** despite real size.
+- **EMBJ (Embraer, $13.75B, large-cap aerospace):** Q3 2026 reported **this morning** (11/10 AM) — a **big miss** ($0.398 actual vs $0.87 est), yet stock only +6.8%, with a forward ADS split also announced and "tariff impact already priced in" per one source. Mixed/contradictory signal. **Fails Step 5 as a clean catalyst.**
+- **PEPG, TTEC, PXLW, MNDO, KULR, TREO, LGCL, LGVN, TCRT, BNGO, APT, RAIL, CIIT, EFOI, AAME:** no confirmed same-day catalyst found (consistent thin-float/no-catalyst pattern) — **fails Step 5.**
+
+**Step 6 price structure on AAON and ZIP (30-min bars):**
+- **AAON:** opened $71.59 → first 30min range $67.87-$78.50 (wide, typical opening chaos) → resolved into a tighter $75-80 band over the next 2.5 hours, now consolidating ~$75-77.5. Clean-ish resolved structure. **Passes Step 6** — but the stock already gapped ~22% at the open and this is now ~3 hours into the move (12pm cycle), which is a weaker, more extended entry per the don't-chase principle applied qualitatively to non-small-cap-tech names.
+- **ZIP:** opened $4.705 → climbed steadily to a high of $6.03 → pulled back to $5.72 in the most recent 30-min bar (-3.7% off the peak). Less resolved than AAON — still showing active profit-taking.
+
+**Confidence scores:**
+- **AAON: 76** — strong, confirmed beat (3rd consecutive), real size/liquidity, structure has resolved into a tradeable range. Held below 85 primarily by extension/lateness (~3hrs post-gap) rather than catalyst or structure quality. Not executed. Flagged as a candidate to re-evaluate for the LONG-HORIZON track once the post-earnings base settles.
+- **ZIP: 68** — real beat but smaller/more volatile name, structure still actively pulling back off its peak rather than consolidating. Not executed.
+No other candidate reached scoring (CSQR/EMBJ failed Step 5 on contradictory catalyst signals; everything else had no catalyst at all).
+
+**Options potential:** not pulled live for AAON/ZIP this cycle (both below 85, no execution contemplated) — will re-check if either strengthens next cycle.
+**No-catalyst candidates suggested for approval:** No — CSQR and EMBJ's up-moves directly contradict their own earnings misses, which is a weaker basis for a no-catalyst discretionary flag than a genuinely unexplained clean technical setup.
+**Exceptional small-deal exception:** not invoked. **Small-cap tech:** PXLW/MNDO/KULR/LGCL flagged, no catalyst, not pursued.
+**Time-stops:** none (flat). **Sector concentration:** 0/2 every sector. **Micro-cap slot:** open.
+**Qualifying trade:** none this cycle — AAON (76) and ZIP (68) scored but neither cleared 85. Consistent with the user's "sitting patiently is ok" guidance during this turbulent stretch.
