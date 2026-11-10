@@ -3,8 +3,17 @@
 > **PROVISIONAL — RESEARCH ONLY. NOT A TRADE LIST.**
 > Nothing below is pre-approved. Every entry must be re-verified against live price action and a fresh options chain at the open before being treated as a candidate. Built 6:05pm ET Monday 2026-11-09, **trued up 8am ET Tuesday 2026-11-10** against overnight/pre-market action.
 
-## WEEKLY PERFORMANCE TARGET — standing note (carried forward)
-3-5% account growth this week via tight trailing stops, conservative execution, no autonomous sizing increase (explicit user instruction, 2026-11-08). Today (Monday 2026-11-09), the account ran flat all day — four market-hours cycles found no candidate clearing the 85-confidence autonomous bar (three cycles had no confirmed catalyst at all; the 3pm cycle found four real-catalyst names but all too extended/late in the session to enter cleanly). Zero realized P&L today, but also zero risk taken — consistent with the conservative framing. No $ deployment change made or proposed.
+## STRATEGY FRAMEWORK — updated 2026-11-10 by explicit user instruction (sequence of clarifying messages)
+This account now runs a deliberate **blend of three opportunity types** every cycle, not just the original catalyst-driven day/swing track:
+1. **Day/swing (existing):** fresh-catalyst-confirmed, 85-confidence-bar, same-day/week exit discipline — unchanged.
+2. **Long-horizon value/solid-base (NEW):** large-cap or genuinely liquid mid-cap names that are undervalued on fundamentals or show a solid multi-week/month technical base — held days to months, no fresh-news-catalyst requirement (the valuation/base itself is the thesis), liquidity is the hard gate (must be easy to exit if cash is needed elsewhere), wider structure-based stop instead of the tight day-trade trail. Flagged explicitly as "LONG-HORIZON" in any report where one is entered.
+3. **Sensible speculative ("occasional moonshot"):** a less-certain setup is fine to score and execute when the upside is both *likely* (credible path, not a lottery ticket) and *meaningful* (a real move) — still subject to every existing gate (catalyst confirmation, caps, stops), just not marked down in score merely for being speculative in character.
+
+**Weekly performance target reframed:** 3-5%/week remains a reference *parameter* for judging whether an opportunity's size/quality aligns with the account's goals — not a literal weekly requirement. User's words: "Goal of 3-5% weekly is parameter to consider whether something aligns with our goals. Some will miss. So achieve half that in reality is still very good outcome," and separately, "Aggregate making goal of 1-2% weekly gains would be amazing, if consistently reached over long periods... that's over time and average." Flat weeks (like 2026-11-09's, zero trades/zero P&L) are expected and never a reason to force a marginal trade. Also explicitly confirmed: **"Lots of turbulence right now. Sitting patiently is ok"** — patience is the preferred default in choppy conditions, not just a fallback.
+
+All of this has been persisted into the standing trigger prompt (trig_017rc7KNGPfAKxjUEkCNNN82) so every future cycle carries it forward automatically — this note is a summary for quick reference, not the authoritative source.
+
+**Account housekeeping (2026-11-10):** user confirmed the $600 balance increase was a deposit (not a trading artifact), and separately moved crypto holdings out of the read-only benchmark account 570898312 into another account — that benchmark should now be read as its **stock + ETF portion only**.
 
 ## Step 0 — held position check (6pm routine, re-confirmed 8am)
 No stock or options position held (`get_equity_positions` confirmed empty both at 6pm and again at 8am; all option legs are legacy zero-quantity). Nothing to defend. Account flat entering today.
