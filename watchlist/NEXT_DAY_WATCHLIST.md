@@ -87,7 +87,8 @@ SPX 7,549.94, NDX 27,907.63, VIX 20.17 — essentially flat overnight vs. Monday
 ## Pending binary events / standing notes (carried forward)
 - LOAR/MGRC/ZG/NXT remain on the user's explicit hold from the earlier-week instruction — no new information this pass.
 - DAIC (CID HoldCo) remains excluded from consideration regardless of any future move — tied to the 2026-09-17 "don't chase" realized-loss lesson.
-- Benchmark account 570898312 (ETF buy-and-hold) remains **read-only** — tracked for performance comparison only, never traded.
+- Benchmark account 570898312 (ETF buy-and-hold) remains **read-only** — tracked for performance comparison only, never traded. **Updated 2026-11-10 by explicit user instruction:** the user made a deposit to the agentic account (confirming the $600 increase flagged at today's 9:40am cycle — not a trading gain) and separately moved crypto holdings out of the benchmark account into another account of theirs. Going forward, the benchmark comparison should be read as the **stock + ETF portion only** of account 570898312 — crypto is no longer part of that benchmark.
+- **Standing note, added 2026-11-10 by explicit user instruction** ("Lots of turbulence right now. Sitting patiently is ok"): the user is explicitly comfortable with the account sitting flat/idle through choppy conditions rather than forcing a trade to stay active. This reinforces, not loosens, the existing 85-confidence bar and DON'T-CHASE principle — patience is the explicitly preferred default right now, not just a tolerated fallback when nothing qualifies.
 - SECTOR CONCENTRATION CAP and MICRO-CAP CONCURRENCY CAP remain in effect for every cycle until the user says otherwise.
 - Options-flow scan (8719a93e-58d5-4b84-9905-c0c93b7676c1) was rate-limited on **every single cycle today** (9:40am, 11am, 12pm, 3pm) — worth flagging to the user as a persistent, not intermittent, issue if it continues tomorrow.
 
