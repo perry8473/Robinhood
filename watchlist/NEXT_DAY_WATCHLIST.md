@@ -200,3 +200,58 @@ No other candidate reached scoring (CSQR/EMBJ failed Step 5 on contradictory cat
 **Exceptional small-deal exception:** not invoked. **Small-cap tech:** PXLW/MNDO/KULR/LGCL flagged, no catalyst, not pursued.
 **Time-stops:** none (flat). **Sector concentration:** 0/2 every sector. **Micro-cap slot:** open.
 **Qualifying trade:** none this cycle — AAON (76) and ZIP (68) scored but neither cleared 85. Consistent with the user's "sitting patiently is ok" guidance during this turbulent stretch.
+
+## 3:00pm cycle (2026-11-10) — results
+
+**Account:** Still flat, $3,534.01 cash/total value, no open positions (stock or options). Micro-cap slot open. Sector concentration: none open. Time-stop flags: none. Options sizing cap now 10% of balance = ~$353 (balance crossed $2000). `pending_deposits` field shows $600 — status unclear (likely the same deposit flagged at 9:40am still settling in the field), no action needed.
+
+**Market:** SPX 7,505.86 / NDX 27,625.18 / VIX 20.09 — choppy, VIX ticking down slightly from midday.
+
+**Crypto watchlist:** MARA +7.2% (standout again), CORZ +0.9%, RIOT +0.8% — rest red: COIN -3.7%, MSTR -4.7%, CLSK -6.9%, HUT -1.9%, BMNR -4.9%, HOOD -3.3%.
+
+**Carryovers re-verified:** ONTO +0.6% (flat, still too-early-to-call), VG +0.5% (flat), TTWO +8.1% (continuing to hold/extend), TTD +3.4% (still whipsawed/unstable, not treating as clean), AAOI -7.9% / COHR -5.6% (both continuing to bleed, no fresh news, watch only).
+
+**Full sweep (all scans run; Options-flow scan 8719a93e again rate-limited — unavailable, standard handling):**
+- General: 3 (SENS, SECZ, ZIP)
+- Small-mid: 9 (SENS, SECZ, ZIP, RAIL, PEPG, HUCK, PLX, TTEC, KULR)
+- Mid-cap: 4 (SANM, AAON, CSQR, PRCH)
+- Large-cap: 1 (EMBJ)
+- Basic Materials: 1 (TREO, $27M — too illiquid)
+- Consumer Cyclical: 1 (EFOI, $28M — too illiquid)
+- Financial Services: 3 (PRCH, AAME $23M — too illiquid, AVAT $35M — too illiquid)
+- Real Estate: 0
+- Consumer Defensive: 1 (MSS, $862K — too illiquid)
+- Utilities: 0
+- Communication Services: 1 (ZIP)
+- Energy: 0
+- Industrials: 2 (APT $57M — too illiquid, RAIL $146M — too illiquid)
+- Technology: 7 (SECZ, PXLW, HUCK, TTEC, KULR, LGCL $1.8M — too illiquid, MNDO)
+- Healthcare: 6 (SENS, PEPG, PLX, LGVN $6.4M — too illiquid, AMIX $3.3M — too illiquid, BNGO $16M — too illiquid)
+- Options-flow: unavailable (rate-limited every cycle this session)
+
+**Catalyst verdicts (new/re-checked names):**
+- ZIP: real/fresh catalyst — Q3 reported 2026-11-09 pm, verified=true, actual $0.06 vs est -$0.01 (swing to profit). Passes.
+- SANM ($8.0B): real/fresh catalyst — Q4 reported 2026-11-09 pm, verified, actual $4.43 vs est $3.19 (4th consecutive beat). Catalyst confirmed, but see Step 6 below.
+- KULR ($75M): earnings reported today am, verified, actual +$0.10 (no estimate to compare) — directionally positive but WebSearch found no dated corroboration. Treating cautiously; see Step 6.
+- PRCH ($2.36B): earnings were reported 2026-10-28 (13 days ago) — stale, not fresh. Today's move unexplained by that report; WebSearch surfaced an undated KBW downgrade note. No fresh catalyst found.
+- PEPG ($166M, +90% intraday): Q3 reported today am, actual -$0.28 vs est -$0.27 — essentially an inline miss, does NOT explain a 90% rally. Unexplained anomaly — joining CSQR/EMBJ/LQDA/TTEC this week's pattern. Fails Step 5.
+- HUCK ($138M): no earnings event found; WebSearch found no dated catalyst (profile-page noise only, some content mismatched to a different ticker). No catalyst found.
+- AAON/CSQR/EMBJ/TTEC/PXLW/MNDO/SECZ/SENS: verdicts unchanged from earlier cycles today (AAON real/fresh beat; CSQR/EMBJ unexplained-anomaly/contradictory; TTEC/PXLW/MNDO no-catalyst; SECZ/SENS chaotic, failed Step 6 earlier).
+- All other sweep names: too illiquid (market cap noted above).
+
+**Step 6 price structure:**
+- ZIP: Opened $4.70, climbed in an orderly uptrend (one clean pullback $5.98→$5.72, then resumed) to $6.42 by the close of this window — a genuine resolved uptrend, passes structurally. BUT now ~5.5 hours into an already-extended move (up ~37% intraday, more off yesterday's close) — DON'T-CHASE discount applies heavily this late in the day.
+- SANM: Opened $164.95, spiked to $167.97, then reversed hard down to $150.11 (a ~10% round-trip whipsaw), then partially recovered to $155.88 — chaotic, failed-breakout pattern. Fails Step 6 despite a clean confirmed catalyst.
+- KULR: Opened $1.80, ran to $2.20, then chopped back down to ~$1.98 with several near-zero-volume bars — spike-and-fade, unresolved. Fails Step 6.
+
+**Confidence scores:** ZIP = 70 (clean catalyst + resolved structure, but heavily discounted for lateness/extension — don't chase). SANM and KULR not scored (failed Step 6). Neither candidate reaches scoring threshold vs. the 85 bar.
+
+**No-catalyst candidates suggested for approval:** No.
+**Small-cap tech candidates under consideration:** No new ones awaiting approval. HUCK/PXLW/MNDO/LGCL noted as no-catalyst, not surfaced.
+**Time-stop flags:** None (no open positions).
+**Micro-cap concurrency slot:** Open.
+**Sector concentration slots:** None open.
+**Options checklist status:** No options position open. Sizing cap now ~$353 (10% of $3,534 balance).
+**Stock position status:** None open.
+
+**Action taken:** None. No trade this cycle — consistent with "sitting patiently is ok." ZIP is the closest candidate but is being passed on for being too extended this late in the session; would need a fresh, earlier-caught setup to qualify next time.
