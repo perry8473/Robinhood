@@ -53,3 +53,26 @@ User flagged the morning tape independently ("tech stocks, semi and opto electro
 ## Summary for the 9:40am cycle
 
 Ranked by live-setup likelihood: **CRWV** (biggest pre-market move, options structurally the cleanest of the three but the stock-side move is already very large — treat as a don't-chase risk, not a slam dunk), **SANM** (cleaner structure forming, re-check Step 6 fresh), **MRCY** (still constructive but thinner options liquidity), then **AAOI/COHR** (standing watch, sector-wide tailwind, re-verify catalyst specificity before scoring). **FRNM** and **ZIP** are demoted — no real overnight follow-through.
+
+## 9:40am opening-bell cycle (2026-11-11) — results
+
+Account: still flat, $3,534.01, no open positions. SPX 7,587.52 / NDX 28,235.37 / VIX 18.47 — risk-on tone continuing from pre-market. No WBD/GRML/CRML positions exist (that one-time instruction from weeks ago is stale/inapplicable — nothing to act on).
+
+**CRWV / COHR / AAOI — per explicit user instruction this morning to measure these three for entry with tightly-supported stops:** all three gapped up hard and were still actively whipsawing in the first ~12 minutes of the session:
+- CRWV: $55.65-$57.40 range in the first 10 minutes (~3% bar-to-bar swings), still oscillating as of 9:42am ($55.66-56.50 the last two 1-min bars).
+- COHR: $228.55-$238.65 range, still swinging ($229.01-233.65 the last two bars).
+- AAOI: $51.53-$53.85 range, marginally the most orderly of the three (higher lows visible) but still $53.21-54.10 swings minute-to-minute.
+
+None had resolved into a level clean enough to place a genuinely *tight, support-based* stop against (per the user's own stated plan) — any stop set right now would be guessing at a level mid-whipsaw, not anchored to real support. Per standing Step 6 guidance ("big catalyst days often show violent early price discovery that only resolves into a tradeable base later — it's fine to pass early and re-check later"), all three are flagged **too early to call — re-check at 11am**, not dropped. This isn't a pass on the user's idea, it's in service of it: a tight stop needs an actual support level to anchor to, which hasn't formed yet.
+
+**Full sweep:** General=1 (BRAI, no catalyst found — erratic history of unexplained swings, skip), Small-mid=1 (BRAI, same), Mid-cap=0, Large-cap=0, Basic Materials=1 (YMAT $4.6M, too illiquid), Consumer Cyclical=0, Financial Services=1 (CANG $47M, too illiquid), Real Estate=0, Consumer Defensive=0, Utilities=0, Communication Services=0, Energy=0, Industrials=1 (BKYI $4.9M, too illiquid), Technology=1 (BRAI, same), Healthcare=0, Options-flow=rate-limited/unavailable (standard, every cycle this session). Nothing here clears any bar.
+
+**No-catalyst candidates suggested for approval:** CRWV/COHR/AAOI are effectively in this bucket (sector-momentum move, no fresh company-specific dated catalyst on COHR/AAOI specifically — CRWV has its own fresh earnings beat) — already covered by the user's own explicit go-ahead this morning, so no separate approval needed; carrying forward as "too early to call" rather than fully approved-and-pending, since structure hasn't qualified yet either.
+**Small-cap tech candidates:** none.
+**Time-stop flags:** none (no positions).
+**Micro-cap concurrency slot:** open.
+**Sector concentration slots:** none open.
+**Options checklist status:** no options position open; sizing cap ~$353 (10% of balance).
+**Stock position status:** none open.
+
+**Action taken:** None. Continuing to watch CRWV/COHR/AAOI into the 11am cycle for a resolved, tradeable structure.
