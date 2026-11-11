@@ -46,6 +46,10 @@ Technology sector scan (scan_id 4ab9bad9) returned **0 matches** pre-market. Not
 - **MRCY** $87.5 call, 2026-11-20 (9 DTE): close $4.33/contract ($433) — fails the $353 cap; wide $2.75/$5.90 spread (thin), OI only 60, volume 36. Weak structurally even before repricing for the further +3.5% pre-market move.
 - **SANM** $165 call, 2026-11-20 (9 DTE): close $4.65/contract ($465) — fails the $353 cap; wide $3.30/$6.00 spread, OI 852, volume 186. Also pre-dates the +6.9% pre-market move.
 
+## User instruction, 2026-11-11 (pre-open, via chat)
+
+User flagged the morning tape independently ("tech stocks, semi and opto electronics seem to be climbing") and then gave explicit direction: **"CRWV, COHR and AAOI can all be measured for entry, tightly supported stops would be the plan."** This is a real-time steer to give all three serious entry consideration at the open, with the stop specifically anchored tight to the nearest clear support level (not the default wider band) if any of them qualifies. This does not waive the normal gates — each still needs Step 5 catalyst confirmation and Step 6 clean structure before sizing/entry, and CRWV's size of pre-market gap still warrants normal don't-chase judgment — but the user's emphasis is to actively look for a tight, support-based entry on these three rather than pass on them by default. Carry this into the 9:40am cycle.
+
 ## Summary for the 9:40am cycle
 
 Ranked by live-setup likelihood: **CRWV** (biggest pre-market move, options structurally the cleanest of the three but the stock-side move is already very large — treat as a don't-chase risk, not a slam dunk), **SANM** (cleaner structure forming, re-check Step 6 fresh), **MRCY** (still constructive but thinner options liquidity), then **AAOI/COHR** (standing watch, sector-wide tailwind, re-verify catalyst specificity before scoring). **FRNM** and **ZIP** are demoted — no real overnight follow-through.
