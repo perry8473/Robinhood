@@ -106,3 +106,10 @@ None had resolved into a level clean enough to place a genuinely *tight, support
 - AAOI: 6 shares @ $56.31, stop $55.00 (support-based, tight per user instruction).
 
 **Qualifying trades:** COHR (1 sh @ $242.46, stop $240.50) and AAOI (6 sh @ $56.31, stop $55.00) — both executed per the user's explicit morning instruction to measure CRWV/COHR/AAOI for entry with tightly-supported stops, once their structure resolved. CRWV blocked by an internal permission classifier, not re-attempted.
+
+## Mid-cycle updates (2026-11-11, between 11am and 12pm)
+
+- **COHR stopped out** at $240.46 (filled 16:08:20 UTC) — clean, tight exit per design, -0.82% ($242.46 → $240.46). Technology sector slot freed (now 1/2, AAOI only).
+- **User suggested considering RSKD** for the freed slot (real/fresh catalyst: Q3 beat $0.07 vs $0.02 est, reported today am, verified). Checked structure: RSKD peaked ~$11.13 around 10:25am ET then rolled over into a fade/chop, now ~$10.48 with lower highs since the peak — not a clean higher-lows base. **Declined to enter** — chasing a fading move isn't the setup the tight-stop plan calls for. Watching for a fresh base/turn before reconsidering.
+- **User asked to bump AAOI's stop** since it climbed. Raised resting stop from $55.00 to **$55.85** (cancelled old order, confirmed cancellation, placed and confirmed new one) — now sits just below the most recent higher-low cluster ($56.12-56.15) with AAOI trading ~$57.33.
+- **Standing conditional instruction (2026-11-11, pending):** User said "if it climbs above $57.50 then try to stop at entry price. $56.30" — i.e. once AAOI prints above $57.50, cancel the resting stop and replace it with one at breakeven ($56.30, the entry price). Checked immediately: AAOI was at $57.40, **not yet triggered**. Carry this forward every cycle/check until it either triggers (then execute: cancel $55.85 stop, place new stop at $56.30, confirm both) or the user says otherwise — do not drop this silently.
