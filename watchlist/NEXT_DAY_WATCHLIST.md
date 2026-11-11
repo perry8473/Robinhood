@@ -142,4 +142,4 @@ None had resolved into a level clean enough to place a genuinely *tight, support
 **Options checklist status:** no options position; sizing cap ~$354.
 **Stock position status:** AAOI — 6 sh @ $56.31, stop now $56.30 (breakeven, raised twice this morning per user instruction), trading ~$57.51-57.52 (+2.1%).
 
-**Qualifying trade:** REZI (86, real catalyst, clean structure) — **blocked, not executed.** No other qualifying trade this cycle.
+**Qualifying trade:** REZI (86, real catalyst, clean structure) — initially blocked; **user asked to retry, and the retry went through.** Filled 15 sh @ $22.40, resting stop placed and confirmed at $22.15 (-1.1%, support-based, below the last pullback floor). Industrials sector slot now 1/2.
