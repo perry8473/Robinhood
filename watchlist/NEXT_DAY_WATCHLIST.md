@@ -113,3 +113,33 @@ None had resolved into a level clean enough to place a genuinely *tight, support
 - **User suggested considering RSKD** for the freed slot (real/fresh catalyst: Q3 beat $0.07 vs $0.02 est, reported today am, verified). Checked structure: RSKD peaked ~$11.13 around 10:25am ET then rolled over into a fade/chop, now ~$10.48 with lower highs since the peak — not a clean higher-lows base. **Declined to enter** — chasing a fading move isn't the setup the tight-stop plan calls for. Watching for a fresh base/turn before reconsidering.
 - **User asked to bump AAOI's stop** since it climbed. Raised resting stop from $55.00 to **$55.85** (cancelled old order, confirmed cancellation, placed and confirmed new one) — now sits just below the most recent higher-low cluster ($56.12-56.15) with AAOI trading ~$57.33.
 - **Standing conditional instruction (2026-11-11, pending):** User said "if it climbs above $57.50 then try to stop at entry price. $56.30" — i.e. once AAOI prints above $57.50, cancel the resting stop and replace it with one at breakeven ($56.30, the entry price). Checked immediately: AAOI was at $57.40, **not yet triggered**. Carry this forward every cycle/check until it either triggers (then execute: cancel $55.85 stop, place new stop at $56.30, confirm both) or the user says otherwise — do not drop this silently.
+- **TRIGGERED at 12pm cycle:** AAOI printed $57.51. Cancelled the $55.85 stop (confirmed cancelled), placed and confirmed a new resting stop at **$56.30** (breakeven). Position is now risk-free from here.
+- **RSKD re-checked:** continued fading, now ~$10.03-10.48 well off its ~$11.13 peak. Pass confirmed correct — still watch-only, not a position.
+
+## 12:00pm market-hours cycle (2026-11-11) — results
+
+**Account:** $3,539.21 total ($345.06 in AAOI, $3,194.15 cash). SPX 7,632.41 / NDX 28,512.10 / VIX 17.55 — risk-on continuing, VIX still easing.
+
+**Crypto watchlist:** all green — COIN +4.5%, MSTR +1.6%, MARA +7.2%, RIOT +2.3%, CLSK +7.5%, HUT +7.6%, BMNR +6.9%, HOOD +5.1%, CORZ +8.4%.
+
+**Full sweep:** General=5 (REZI, RSKD, FOSL, BRAI, GEVO). Small-mid=5 (RSKD, FOSL, BGS, BRAI, GEVO). Mid-cap=1 (REZI). Large-cap=1 (IBKR). Basic Materials=3 (RETO $1.1M too illiquid, GEVO $344M extended/no new catalyst, YMAT $4.6M too illiquid). Consumer Cyclical=2 (FOSL, SEGG $4.5M too illiquid). Financial Services=1 (CANG $47M too illiquid). Real Estate=0. Consumer Defensive=1 (BGS $216M — real catalyst, beat reported 11/10pm, but modest/not pursued). Utilities=1 (NXXT $315K too illiquid). Communication Services=2 (RDCM $173M, catalyst unclear, modest move; ZDGE $35.5M too illiquid). Energy=0. Industrials=3 (**REZI**, BUUU $847M no catalyst found, BKYI $4.9M too illiquid). Technology=4 (RSKD, RNTZ $18.5M too illiquid, BRAI, BDAI $22.7M too illiquid — **sector cap 1/2, AAOI open**). Healthcare=8 (CARL $404M no catalyst, PYPD/PRME/KRMD/VIVO/CRVO/SNOA/LSTA all too illiquid or no catalyst). Options-flow: rate-limited again.
+
+**Catalyst verdicts (new names this cycle):**
+- **REZI** (Resideo Technologies, $2.95B, Industrials): real/fresh catalyst — Q3 beat $0.52 vs $0.40 est, reported 2026-11-10 pm, verified=true. Structure: genuinely clean, orderly climb with higher lows nearly the entire session (opened $19.51, now ~$22.47-22.52, +15.6%), tight ~0.2% spread. **Scored 86 — clears the bar.**
+- **IBKR** (Interactive Brokers, $35.2B, Financial Services): +7.5%, no dated catalyst found via WebSearch or earnings calendar — not scored, no-catalyst/not pursued.
+- FOSL: still extended (+27%), don't-chase applies, not re-scored.
+- RSKD: faded further, confirmed pass.
+- GEVO, BGS, RDCM, BUUU, CARL: no fresh catalyst found or too illiquid, not pursued.
+
+**REZI — BLOCKED:** Buy order (15 shares, limit $22.60) was denied by the same on-session permission classifier that blocked CRWV this morning, this time with reason "[Real-World Transactions]." This is now the **second autonomous equity buy blocked this session** (CRWV this morning, REZI now) — notably, the AAOI/COHR buys and all stop-order management (placing, cancelling, raising stops) went through fine both times. The pattern looks like fresh new-position BUY orders specifically are being inconsistently flagged. Not retried, per the denial's own instructions. **Flagging this to the user directly — REZI (clean catalyst, clean structure, scored 86) could not be opened; if you want it, you'd need to place it yourself.**
+
+**Confidence scores:** REZI = 86 (not executed — blocked). No other new scores this cycle.
+**No-catalyst candidates suggested for approval:** IBKR noted but not formally surfaced for approval (real move but no catalyst found at all, no compelling technical story beyond the price move itself).
+**Small-cap tech candidates:** none new.
+**Time-stop flags:** none (AAOI not yet 1 full trading day old).
+**Micro-cap concurrency slot:** open.
+**Sector concentration slots:** Technology 1/2 (AAOI). Industrials would be 1/2 if REZI had filled — currently 0/2 since the order was blocked.
+**Options checklist status:** no options position; sizing cap ~$354.
+**Stock position status:** AAOI — 6 sh @ $56.31, stop now $56.30 (breakeven, raised twice this morning per user instruction), trading ~$57.51-57.52 (+2.1%).
+
+**Qualifying trade:** REZI (86, real catalyst, clean structure) — **blocked, not executed.** No other qualifying trade this cycle.
