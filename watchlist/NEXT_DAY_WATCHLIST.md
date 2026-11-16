@@ -1,68 +1,70 @@
-# Next-Day Watchlist — trued up for Monday, 2026-11-16
+# Next-Day Watchlist — built after-hours Monday, 2026-11-16, for Tuesday 2026-11-17
 
-> **PROVISIONAL — RESEARCH ONLY. NOT A TRADE LIST.** Nothing below is pre-approved. Every entry must be re-verified against live price action and a fresh options chain at the open before being treated as an actionable candidate.
-
-## Note on this file's state
-
-Built Sunday evening (resume after the "pack it in" pause) and trued up this morning by the normal 8am pre-market routine, now back on its regular Mon-Fri schedule. Account confirmed fully flat again this morning (fresh `get_equity_positions`/`get_equity_orders` check) — nothing to defend. Correction to Sunday's framing: last week's indices actually rose >2% overall (strongest week since August) despite Friday's dip and the Nvidia drama — Friday was a one-day pullback within a strong week, not the start of a new downtrend. Pre-market this morning is broadly soft again, but the bigger context now is **Nvidia's own Q3 earnings tomorrow (Tuesday 11/17)** — its market cap fell below $4T last week for the first time since 2025 after Huang's departure, and Vital Knowledge flags its 70%-forward-revenue-growth guidance as the thing under particular scrutiny. Index futures early Monday: Nasdaq-100 -0.9% to -1.5%, S&P 500 -0.3% to -0.7% depending on the snapshot (NVDA itself -1.5% to -3.5% pre-market, estimates vary). VIX ticked up to ~20.6.
+> **PROVISIONAL — RESEARCH ONLY. NOT A TRADE LIST.** Nothing below is pre-approved. Every entry must be re-verified against live price action and a fresh options chain at the open before being treated as an actionable candidate. Asian/European overnight-session news has NOT been checked yet at this hour — that's the job of the ~8am overnight true-up routine.
 
 ## Step 0 — held position check
 
-No stock or options position held. Nothing to defend this run.
+No stock or options position held as of this run (confirmed fresh: `get_equity_positions`, `get_equity_orders`, `get_option_positions` all empty). Nothing to defend.
 
-## Dominant macro risk for the week — Nvidia leadership crisis (escalating, unresolved)
+## Context: today was a defensive-hold day by explicit user instruction
 
-Not a single-stock trade idea, but the biggest context item for Monday: Jensen Huang resigned as Nvidia CEO Thursday 11/12 (reports cite extramarital relationships, one involving a suspected Chinese spy, raising chip-export-control questions). CFO Colette Kress is interim CEO; board launched a permanent-CEO search and reportedly approached Arm's CEO Rene Haas. Over the weekend (Sunday 11/15) the story escalated further: FT reports Huang is actively discussing a comeback with allies, a "war room" of Silicon Valley executives (Musk, Epic's Tim Sweeney, former Uber CEO Kalanick among signatories) is lobbying for his return with White House support sought, and three House committees have summoned Huang to testify December 1. NVDA fell ~4.3% Thursday and continued weighing on tech Friday (SPX futures -0.42% Friday, broad "AI trade" wobble). This is the likely explanation for the heavy market-wide red seen Friday. Treat NVDA/AI-complex names as elevated-volatility this week regardless of other catalysts — a board decision or fresh reporting could swing sentiment sharply in either direction with little warning.
+Account closed HAWK (+entry $18.62, exit $18.2353, -2.1%, -$6.15) and WSE (+entry $11.75, exit $11.7416, -0.1%, -$0.21) at ~1pm ET on explicit user instruction, in response to (a) escalating broad market negativity and (b) a report of a Chase security concern. No new entries were opened for the rest of the day. Account is flat, cash $2,998.37 + $600 pending deposit.
 
-Separately: October CPI came in above expectations, reinforcing market expectations the Fed moves toward a **December rate hike** (not a cut) — a second, independent source of macro headwind/volatility for the week. Both items argue for extra caution on size/leverage and faster trigger on stops this week, consistent with the account's standing conservative-profit-philosophy default.
+**On the Chase/JPMorgan story (flagging plainly, per standing practice on unreliable WebSearch hits):** found an **unverified** extortion claim from a group calling itself "n0n," reported today (2026-11-16), claiming to have stolen customer/marketing data from Visa, Mastercard, and JPMorgan Chase and threatening to publish it absent a settlement — none of the three companies have confirmed or denied this as of the reporting found. Separately, there *was* a real outage affecting Chase/Bank of America/Wells Fargo customers today; JPMorgan attributed it to a software bug in on-premise hardware, explicitly **not** a cyberattack, per a source close to the matter. Net: a real outage (bank's own explanation: not a breach) plus an unverified extortion claim swirling the same day — treat as unconfirmed/developing, not a confirmed breach, but the market clearly reacted to the headline risk regardless (VIX rose from ~20.6 this morning to 23.55+ by early afternoon).
 
-## Standing watch — AAOI / COHR (optoelectronic sector, not a trade signal)
+## Dominant macro event — Nvidia Q3 FY2027 earnings, tomorrow (Tue 11/17) after close
 
-Both fading hard pre-market this morning: **AAOI** $49.89 (Fri official close) → ~$46.70 pre-market (-6.4%, bid $46.65/ask $46.84); **COHR** $218.15 → ~$204.36 pre-market (-6.3%, bid $203.85/ask $204.50). No name-specific news found — reads as sector/AI-capex sentiment tracking the broader Nvidia-ahead-of-earnings jitters (both are optical/photonics suppliers into AI datacenters) rather than anything specific to either company. Per the standing rule this is a watch item only; the 9:40am cycle applies its own catalyst/structure gate before either could be scored.
+This is now the single biggest near-term catalyst/risk for the entire AI/semiconductor/datacenter complex:
+- Consensus revenue ~$108.8B (mgmt guided $108B ±2%), EPS estimate $2.47. Both Q3 beat expectations and the Q4 outlook will matter — the outlook probably matters more for the stock reaction.
+- Options market is pricing an **±10.6% move** on the print, above NVDA's own 10-year average earnings-day move of ±7.8% — confirms genuinely elevated expected volatility, not just headline noise.
+- Guidance assumes **zero China datacenter compute revenue** (existing export restrictions) — a beat that still excludes China is already the expected base case, not new upside.
+- The Huang-resignation/governance situation (board search for permanent CEO, comeback lobbying effort, December 1 Congressional testimony) remains unresolved and is flagged by outside analysts as the most significant *non-earnings* catalyst in play — i.e., the stock's path depends on more than just the print itself.
+- **Action implication:** treat every AI/chip/datacenter-adjacent name (CBRS, AAOI, COHR, the crypto-mining/GPU-exposed complex) as elevated-volatility through at least Tuesday's close, in both directions. Do not size normally into AI-complex names tomorrow without accounting for this.
 
-## Top candidate (carried, STRENGTHENED relatively) — NU (Nu Holdings)
+## Today's close/after-hours read on carried-forward names
 
-- **Ticker:** NU
-- **Catalyst:** Q3 2026 earnings (reported 2026-11-13 AM): record net income $1.1B (+31% FX-neutral), Mexico banking-license debut adding 870K customers. Real, dated, source-confirmed.
-- **Friday's action:** Closed the regular session +10.75% ($11.83 → ~$13.09/official close $13.22), the cleanest, lowest-volatility uptrend of the entire session — a 2.5-hour grind with higher lows at essentially every step, never once chopping the way every other real-catalyst name that day did (MOD, LFTO, CBRS, NMAX, HAWK all whipsawed hard). The account's one trade of the week (26 sh @ $13.0474) was closed flat before the weekend purely as a "pack it in" housekeeping decision, not because the thesis broke down.
-- **This morning:** Pre-market $13.03 (bid $12.99/ask $13.06), only -1.4% off Friday's close — notably more resilient than every other name on this list in a broadly soft pre-market tape (AAOI/COHR -6%+, CBRS -4%, NMAX -2.5%, MOD -2.1%, SBC -3%). STRENGTHENED on a relative basis — the stock is holding up materially better than the market around it.
-- **Disqualifiers:** Known analyst-flagged risk (rising 90+ day delinquency ratio, 7.3% vs. 6.9% prior) unchanged, already priced in. No new weekend-specific NU news found.
-- **Options read (PRELIMINARY, NOT A LIVE QUOTE):** 2026-11-20 expiration is now 4 DTE — **likely fails** the 7-30 DTE preference; a fresh expiration will need to be checked live at the open (next one out is probably the better choice for a new entry).
+| Ticker | Fri close (11/13) | Today's move (reg + after-hours) | Read |
+|---|---|---|---|
+| **NU** | $13.22 | **-4.3%** (~$12.65 last) | Underperformed the broader tape today despite Friday's relative resilience — real catalyst (Q3 earnings) still intact, but today's drop needs a fresh structure check at the open before treating it as still-clean. **Note: 11/20 options expiration will be 3 DTE tomorrow — fails the 4 DTE floor.** Next viable expiration is 11/27 (10 DTE tomorrow) — see Options read below. |
+| **WSE** | $11.23 | **+2.3%** (~$11.49 last; intraday reg-session high $11.645, +3.7%) | Best relative performer of the whole list on a genuinely bad market day — real catalyst (H1 beat, raised guidance, Belgian settlement) continuing to show real strength. Strongest carry-forward candidate for tomorrow. |
+| **HAWK** | $18.16 | +0.4% (~$18.23 last) | The position closed today at $18.2353 — essentially unchanged since, confirming the exit was clean with no material regret either way. |
+| **SBC** | $7.35 | **-16.3%** (~$6.15 last) | Sharp, outsized decline — well beyond market-wide weakness. **Could not find a same-day news catalyst via WebSearch** (results returned were stale, mid-2026). This is now a disqualifier until verified fresh tomorrow — do not treat as a live candidate; flag for a clean catalyst check at the open before considering it at all. |
+| **MOD** | $135.66 | -3.8% (~$130.55 last) | Continued fade of the still-unconfirmed Samsung acquisition rumor. Capped-arb character unchanged, no weekend/today resolution found. |
+| **NMAX** | $9.58 | -7.7% (~$8.84 last) | Weak, underperforming the tape. Fold back into normal sweep. |
+| **LFTO** | $24.44 | +1.0% (~$24.68 last) | Held up better than expected given earlier whipsaw concerns — worth a fresh structure look tomorrow, no longer an automatic pass. |
+| **CBRS** | $108.72 | -8.5% (~$99.50 last) | Hit hard — consistent with AI-complex de-risking ahead of NVDA earnings. Reinforces the already-lower priority given double exposure to tomorrow's dominant macro risk. |
 
-## Other candidates — real catalysts, all extended/faded Friday; pre-market mostly soft too, re-verify structure fresh
+## Standing watch — AAOI / COHR (still not a trade signal, but notable)
 
-| Ticker | Catalyst | Fri close | Pre-market this AM | Note |
-|---|---|---|---|---|
-| **MOD** (Modine) | Samsung acquisition-talks rumor (Bloomberg, 11/13) | $135.66 | ~$132.80 (-2.1%) | **No weekend update found** — still "discussions early stages... no guarantee of a sale" per Bloomberg's sourcing. Live, real-but-unconfirmed capped-arb/rumor situation — a confirmed deal or a denial could move it sharply either way. |
-| **WSE** (Wise Group) | H1 beat + raised guidance + Belgian settlement resolved | $11.23 | ~$11.44 (**+1.9%**) | One of the only green names pre-market — STRENGTHENED relatively. Still never found a clean breakout Friday; watch for one to form at the open. |
-| **HAWK** (HawkEye 360) | Q3 beat (+84% YoY rev) + raised guidance + $135M contracts | $18.16 | ~$18.10 (flat, wide spread) | UNCHANGED — holding Friday's post-fade level, not extending further either way. |
-| **SBC** (SBC Medical) | Q3 beat + AI partnership | $7.35 | ~$7.13 (-3%, thin/wide pre-market book) | WEAKENED slightly; still near 1-year high with the insider-selling flag from Friday. |
-| **NMAX** (Newsmax) | Q3 beat + analyst upgrade + board appointment | $9.58 | ~$9.34 (-2.5%) | WEAKENED, continuing Friday afternoon's fade. |
-| **LFTO** (Liftoff Mobile) | Q3 beat + analyst upgrades | $24.44 | ~$24.00 (-1.8%) | UNCHANGED — still never built the clean base Step 6 needs. |
-| **CBRS** (Cerebras Systems) | Q3 beat + Microsoft cloud deal + raised guidance | $108.72 | ~$104.25 (-4.1%) | WEAKENED, and now doubly exposed to this week's dominant risk — it's AI/chip-adjacent and NVDA's own Tuesday earnings is the single biggest event risk in the sector this week. |
+Both continued falling hard today, on top of this morning's pre-market fade: **AAOI** $49.89 (Fri close) → ~$44.81 now (**-10.2%** cumulative); **COHR** $218.15 → ~$202.52 now (**-7.2%** cumulative). WebSearch again found **no company-specific news** for either dated today — the only AAOI/COHR coverage findable was stale (May/June 2026 "optics rally"/"optics cool off" pieces). This continues to read as AI-capex sentiment/de-risking ahead of NVDA's print, not a company-specific problem — which is exactly the kind of "unfairly hit, no confirmed catalyst" setup worth re-checking at the open per the LONG-HORIZON VALUE/SOLID-BASE track, **but**: (a) neither has a confirmed catalyst per Step 5, so neither can be scored or auto-executed regardless of how clean the chart looks — any entry requires explicit user approval per the NO-CATALYST CANDIDATES rule; (b) both are extremely exposed to tomorrow's NVDA print — buying into either ahead of that report is a real risk of catching a falling knife just before a volatility event that could extend the move either direction. Flagging prominently for tomorrow's open as a **possible value/bounce candidate pending approval**, not a scored trade.
 
-## Crypto / crypto-adjacent — still broadly weak, no reversal yet
+## Tomorrow (Tue 2026-11-17) scheduled earnings
 
-Friday close: COIN -1.8%, MSTR -3.5%, MARA -3.9%, RIOT -2.6%, CLSK -4.3%, HUT -7.4%, BMNR -4.8%, HOOD -4.1%, CORZ -1.0% (all vs. Thursday's close). Weekend crypto action (24/7 market) was quiet: BTC ~$65,300, ETH ~$1,833 as of Sunday evening, roughly flat vs. Friday levels — no strong weekend signal either way for Monday's open in this complex.
+**Before the open:** DIS (excluded — entertainment/media, standing exclusion), HD (Home Depot — large-cap, highly liquid, real near-term catalyst once reported), JD, WB, TME (pm actually — see below), KLAR, AS, GFF, VIK, OPRA, ESLT, MNSO, LUXE, MFP, OCSL, ENR, SR.
+**After the close:** NVDA (the big one — see above), CAAP, ZTO, GBDC, LZB, DLB, SQM.
 
-## Monday 2026-11-16 scheduled earnings — thin, mostly "am" (already known by cycle time) and foreign/smaller names
+**HD (Home Depot)** is the standout from this list for tomorrow's open — large-cap, deeply liquid, reports before the bell, nothing yet known about the actual result (estimate $3.87 EPS) so this is a "check fresh at 8am/9:40am" item, not yet a scored candidate tonight.
 
-High-market-cap names reporting: **BIDU** (Baidu, am), **ARMK** (Aramark, am), **TSN** (Tyson Foods, am), **BEKE** (KE Holdings, am), **HTHT** (H World, am), **XPEV** (XPeng, am) before the open; **XP** (XP Inc, pm), **PAGS** (PagSeguro, pm), **SKE** (Skeena Resources, pm), **POWL** (Powell Industries, pm), **ACM** (AECOM, pm), **OMER** (Omeros, pm) after the close. None of these were on this week's radar previously — the "am" names will already be fully known/reacted-to by the 9:40am opening-bell cycle, so they're really just continuation-or-fade candidates by the time any cycle can act, same as any other morning mover. BIDU/XPEV are Chinese ADRs — worth a quick overseas-session check at the 8am true-up given their size.
+## Options read (PRELIMINARY, NOT LIVE — re-verify everything fresh at the open)
 
-## No other scheduled macro/legislative events flagged beyond the Nvidia situation and the CPI/Fed read above
+- **WSE:** Current chain's only near-dated expiration (11/20) will be 3 DTE tomorrow — fails the floor. Next out is 12/18 (31 DTE, just over the 30-day preference). $12.50 strike call: mid ~$0.10 (bid $0.05/ask $0.15), OI 574, but only **4 contracts traded today** — thin same-day volume and a spread that's 100%+ of the premium. **Preliminary FAIL** — OI/volume too thin, spread too wide. Stock-only is the cleaner route for WSE tomorrow.
+- **NU:** 11/20 fails the 4-DTE floor tomorrow (3 DTE). Next out is 11/27 (10 DTE tomorrow — within the preferred window). $12.50 strike call: mid ~$0.27 (bid $0.25/ask $0.28), OI 1,921, volume 717 today — reasonably liquid, workable spread (~11% of mid). $13.00 strike: mid ~$0.495, OI 1,255, volume 38 — also workable. **Preliminary PASS on liquidity/DTE structure** for the $12.50 or $13.00 11/27 calls — but catalyst/technical confirmation must be re-run fresh at the open given today's -4.3% move, and premium/IV should be re-checked live (today's NU IV read was taken amid elevated market-wide vol).
+- AAOI/COHR: not pulled — no confirmed catalyst per Step 5, so no options research budget spent per the routine's own scoping (skip tickers that aren't tradeable in their own right).
+- HD: not yet reported — nothing to check until the pre-market reaction is known.
 
-## Ranking for Monday's open
+## Ranking for Tuesday's open
 
-1. **NU** — cleanest structure from Friday, real catalyst, and now the most pre-market-resilient name on this list (-1.4% vs. peers' -2% to -6%) — fully re-verify at the open, but this is the strongest carry-forward. Note: 11/20 options expiration is now only 4 DTE, likely needs a different contract.
-2. **WSE** — real catalyst, large-cap, good liquidity, one of the only names green pre-market — watch for the breakout it never found Friday.
-3. **SBC** — real catalyst, closed near its high Friday; moderate confidence, worth a fresh look despite the softer pre-market tape.
-4. **MOD** — real rumor-stage catalyst, unresolved, genuinely news-sensitive (confirmation or denial both plausible) — approach any Monday gap carefully, capped-arb character.
-5. **HAWK / NMAX / LFTO** — real catalysts that whipsawed or faded Friday, pre-market mixed-to-soft; fold back into the normal sweep, re-score from scratch if they show fresh structure.
-6. **CBRS** — real catalyst but weakest pre-market of the bunch (-4.1%) and double-exposed to this week's NVDA-earnings risk; lowest priority of the carry-forward names.
-7. Everything else (Monday's earnings calendar, crypto complex) — no standout setup identified yet; normal full sweep applies.
+1. **WSE** — strongest, cleanest relative performer through two consecutive down days; real catalyst still fully intact. Top carry-forward.
+2. **HD** — fresh, large-cap, highly liquid earnings catalyst; unknown result yet, check first thing at 8am/9:40am.
+3. **NU** — real catalyst, but today's -4.3% needs a clean structure re-check before trusting it again; options route now workable via the 11/27 expiration if the stock thesis still holds.
+4. **AAOI / COHR** — no confirmed catalyst, pending-approval-only value/bounce watch, elevated NVDA-earnings-adjacent risk — surface for approval only, do not auto-score.
+5. **LFTO** — held up better than expected; worth a fresh look, no longer dismiss reflexively.
+6. **MOD** — unresolved rumor, capped-arb, unchanged priority.
+7. **SBC** — demoted hard pending a clean catalyst check for today's outsized -16.3% drop; do not treat as live until verified.
+8. **NMAX, CBRS** — fold back into normal sweep; CBRS specifically carries elevated NVDA-earnings-adjacent risk.
 
-**Standing reminders for the week ahead:**
-- **Nvidia reports Q3 earnings Tuesday 11/17** — the single biggest event risk this week for the whole AI/semiconductor/datacenter-adjacent complex (CBRS, AAOI, COHR, the crypto-mining complex via GPU exposure). NVDA's market cap fell below $4T last week after Huang's departure; guidance scrutiny will be high. Expect elevated volatility Monday-Tuesday in anything AI-adjacent regardless of its own catalyst.
-- Huang comeback/board-search story (see above) remains unresolved and could move the complex sharply on fresh reporting at any time.
-- October CPI came in hot, reinforcing Fed December hike expectations — a second, independent macro headwind.
-- Correction from Sunday's build: last week was actually a strong week overall (+2%+ across major indices) despite Friday's pullback — don't over-read Friday's one-day softness as a trend change.
+**Standing reminders for tomorrow:**
+- **NVDA reports Q3 after tomorrow's close** — the single biggest event risk this week, options market pricing ±10.6% move. Treat the whole AI/chip/datacenter complex as elevated-volatility through Tuesday's close in both directions.
+- Huang governance situation remains unresolved — a fresh headline could move the complex sharply at any time, independent of NVDA's own numbers.
+- Chase/JPMorgan "breach" story is **unverified** (extortion claim, not a confirmed breach) — don't treat it as a dated, tradeable catalyst on its own without further confirmation, but don't dismiss the market's real reaction to the headline either.
+- October CPI came in hot — still reinforcing Fed December-hike expectations, a second independent macro headwind.
