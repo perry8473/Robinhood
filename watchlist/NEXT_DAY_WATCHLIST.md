@@ -1,4 +1,4 @@
-# Next-Day Watchlist — trued up 8am Tuesday, 2026-11-17 (built Monday evening 11/16)
+# Next-Day Watchlist — built after-hours Tuesday, 2026-11-17, for Wednesday 2026-11-18
 
 > **PROVISIONAL — RESEARCH ONLY. NOT A TRADE LIST.** Nothing below is pre-approved. Every entry must be re-verified against live price action and a fresh options chain at the open before being treated as an actionable candidate. Asian/European overnight-session news has NOT been checked yet at this hour — that's the job of the ~8am overnight true-up routine.
 
@@ -6,70 +6,57 @@
 
 No stock or options position held as of this run (confirmed fresh: `get_equity_positions`, `get_equity_orders`, `get_option_positions` all empty). Nothing to defend.
 
-## 8am true-up — what changed overnight
+## Headline overnight development — NVDA beat big, market's dominant risk this week resolves bullishly (for now)
 
-**Biggest overnight development: AAOI and COHR both flip from "no catalyst found" to a real, fresh, dated catalyst.** Reuters reported that the Trump administration plans to move forward with restricting imports of Chinese datacenter equipment — a genuine sector tailwind for domestic optical-component suppliers. Both names are up sharply pre-market on this news: **AAOI** $45.16 (11/16 close) → ~$49.00 (**+8.5%**); **COHR** $203.43 → ~$223.24 (**+9.7%**). This is dated to today (Tuesday) per the source found, not stale. STRENGTHENED materially — both move up the ranking and are now eligible for normal Step 5/6 scoring (pending a clean Step 6 structure check at the open, which is non-trivial given the size of the gap).
+NVDA reported Q3 after today's close: **EPS $2.68 actual vs. $2.47 estimate (verified, real beat)**. Stock reacting well — regular close $156.14 → after-hours ~$162.31 (**+4.0%**). This was the single biggest event risk flagged all week (options had priced an ±10.6% move), and a clean beat removes a major overhang from the AI/chip/datacenter complex, at least for tomorrow's open. The Huang-resignation/governance situation remains technically unresolved (Congressional testimony still scheduled Dec 1), so don't treat this as fully closed — but the fundamental business result was strong.
 
-Everything else overnight is comparatively quiet: VIX eased slightly to 22.68 (from ~23.55 at yesterday's 3pm check) — a modest de-escalation but still elevated vs. Friday's ~20.6 baseline. SPX/NDX cash levels are flat overnight (no new print yet pre-open). **HD (Home Depot)** reported before the open: Q3 sales $43.4B (+4.9% YoY), comps +2.2%, adjusted EPS $3.86 vs. $3.87 estimate — essentially in-line/a penny light. Stock reacting **-1.7%** pre-market ($347.51 → ~$341.50) — a real, verified, dated catalyst, but a soft/negative reaction, not a clean bullish setup. NVDA itself is +1.3% pre-market ($156.14 → ~$158.19) ahead of tonight's Q3 report.
+**Market tone improved into the close today**, consistent with this: VIX eased from the day's high of 27.33 (3pm read) back to **25.46** by the close — the first real sign of the "bottom" the account was waiting for, though it needs confirming at tomorrow's open before treating it as settled. SPX 7340.5 (up from 7299 at 3pm), NDX 27,001.8 (up from 26,770.7).
 
-## Context: today was a defensive-hold day by explicit user instruction
+## AAOI — INVALIDATED, do not treat as a candidate tomorrow
 
-Account closed HAWK (+entry $18.62, exit $18.2353, -2.1%, -$6.15) and WSE (+entry $11.75, exit $11.7416, -0.1%, -$0.21) at ~1pm ET on explicit user instruction, in response to (a) escalating broad market negativity and (b) a report of a Chase security concern. No new entries were opened for the rest of the day. Account is flat, cash $2,998.37 + $600 pending deposit.
+**AAOI announced a $550M at-the-market stock offering plan tonight** (Raymond James/Needham as sales agents) — a real, fresh, dated, company-specific catalyst, but a bearish one (dilution). Stock dropped hard in after-hours: regular close $45.23 → after-hours ~$41.14 (**-9% to -13%** depending on source/timing). This fully explains last night/today's bullish catalyst getting overrun — the chart weakness wasn't just broad market risk-off, it was this dilution news hitting after the close. **AAOI is now a clean pass for tomorrow — real catalyst, but inverted from bullish to bearish; do not chase a "bounce" here.**
 
-**On the Chase/JPMorgan story (flagging plainly, per standing practice on unreliable WebSearch hits):** found an **unverified** extortion claim from a group calling itself "n0n," reported today (2026-11-16), claiming to have stolen customer/marketing data from Visa, Mastercard, and JPMorgan Chase and threatening to publish it absent a settlement — none of the three companies have confirmed or denied this as of the reporting found. Separately, there *was* a real outage affecting Chase/Bank of America/Wells Fargo customers today; JPMorgan attributed it to a software bug in on-premise hardware, explicitly **not** a cyberattack, per a source close to the matter. Net: a real outage (bank's own explanation: not a breach) plus an unverified extortion claim swirling the same day — treat as unconfirmed/developing, not a confirmed breach, but the market clearly reacted to the headline risk regardless (VIX rose from ~20.6 this morning to 23.55+ by early afternoon).
+## COHR — STRENGTHENED, now the standout candidate for tomorrow
 
-## Dominant macro event — Nvidia Q3 FY2027 earnings, tomorrow (Tue 11/17) after close
+**COHR continued higher in after-hours, unaffected by AAOI's dilution-specific news**: regular close $210.82 (already +3.6% on the day) → after-hours ~$224.04 (**+6.3% further**). No negative offsetting catalyst found for COHR specifically — it's benefiting from NVDA's beat (same AI-datacenter-equipment tailwind as yesterday's China-import-restriction catalyst) without AAOI's dilution problem. This is now the single most interesting name on the list for tomorrow's open: two days of a real, fresh catalyst (China equipment-import restriction + NVDA's beat read-through), finally showing sustained after-hours strength rather than the whipsaw seen the last two sessions. Needs a clean Step 6 structure check at the open given the size of the move, but the setup has clearly improved.
 
-This is now the single biggest near-term catalyst/risk for the entire AI/semiconductor/datacenter complex:
-- Consensus revenue ~$108.8B (mgmt guided $108B ±2%), EPS estimate $2.47. Both Q3 beat expectations and the Q4 outlook will matter — the outlook probably matters more for the stock reaction.
-- Options market is pricing an **±10.6% move** on the print, above NVDA's own 10-year average earnings-day move of ±7.8% — confirms genuinely elevated expected volatility, not just headline noise.
-- Guidance assumes **zero China datacenter compute revenue** (existing export restrictions) — a beat that still excludes China is already the expected base case, not new upside.
-- The Huang-resignation/governance situation (board search for permanent CEO, comeback lobbying effort, December 1 Congressional testimony) remains unresolved and is flagged by outside analysts as the most significant *non-earnings* catalyst in play — i.e., the stock's path depends on more than just the print itself.
-- **Action implication:** treat every AI/chip/datacenter-adjacent name (CBRS, AAOI, COHR, the crypto-mining/GPU-exposed complex) as elevated-volatility through at least Tuesday's close, in both directions. Do not size normally into AI-complex names tomorrow without accounting for this.
+## Other carried-forward names — overnight read
 
-## Overnight/pre-market read on carried-forward names (updated 8am)
-
-| Ticker | 11/16 close | Pre-market now | Read |
+| Ticker | Regular close | After-hours | Read |
 |---|---|---|---|
-| **AAOI** | $45.16 | **+8.5%** (~$49.00) | **PROMOTED — now a real/fresh catalyst** (China datacenter-equipment-import restriction news, Reuters-sourced, dated today). No longer a no-catalyst watch item; eligible for normal scoring once Step 6 structure is checked fresh at the open. Large pre-market gap — needs careful confirmation, not an automatic chase. |
-| **COHR** | $203.43 | **+9.7%** (~$223.24) | **PROMOTED — same catalyst as AAOI**, same caveats. |
-| **WSE** | $11.66 | -0.5% (~$11.60) | Roughly flat pre-market after yesterday's strong relative performance. Still the cleanest, most intact real catalyst on the list (H1 beat, raised guidance). Re-verify structure fresh at the open. |
-| **NU** | $12.68 | +0.2% (~$12.70) | Flat pre-market, stabilizing after yesterday's -4.3% fade. Real catalyst (Q3 earnings) intact; needs a clean intraday structure check. 11/20 options now 3 DTE (fails floor) — use 11/27 (10 DTE) instead. |
-| **MOD** | $130.55 | +1.1% (~$132.00) | Modest bounce. Rumor-stage Samsung catalyst still unconfirmed/unresolved. |
-| **CBRS** | $100.99 | +0.7% (~$101.64) | Modest bounce off yesterday's hard selloff. Still elevated-risk given AI-complex exposure ahead of tonight's NVDA print. |
-| **SBC** | $6.18 | flat (~$6.18, wide spread) | Still no catalyst found for yesterday's -16.3% drop. Remains disqualified/demoted until a clean explanation surfaces. |
-| **NMAX** | $8.84 | flat (thin, wide spread) | No change. Fold back into normal sweep. |
-| **LFTO** | $24.46 | flat (thin, wide spread) | No change. |
-| **HD** | $347.51 (new) | **-1.7%** (~$341.50) | **NEW — real, verified, dated catalyst** (Q3 reported before today's open: sales $43.4B +4.9% YoY, comps +2.2%, EPS $3.86 vs. $3.87 est. — essentially in-line/a penny light). Reaction is soft/negative, not a clean bullish setup — large-cap, highly liquid, worth a look but bearish-leaning. |
-| **NVDA** | $156.14 | +1.3% (~$158.19) | Context only — reports Q3 after tonight's close, the dominant event risk of the week. |
+| **CBRS** | $104.17 (+3.1%) | ~$108.54 (**+4.2% further**) | Benefiting from the same NVDA-beat read-through as COHR. No company-specific catalyst found beyond general AI-complex sentiment — still a secondary candidate behind COHR. |
+| **NU** | $12.325 | ~$12.50 (+1.4%, thin AH book) | Modest bounce, no new catalyst found. |
+| **HD** | $339.17 | ~$338.00 (roughly flat) | No change, still a soft/negative reaction to yesterday's report. |
+| **WSE** | $11.365 | ~$11.53 (bid/ask extremely wide — $10.40/$11.60, thin AH book, treat as unreliable) | No new catalyst found; AH quote too thin to read. |
+| **MOD** | $129.72 | ~$127.13 last trade but bid/ask ($133/$134.70) inconsistent — thin/stale AH book, don't trust this print | Samsung rumor still unresolved, nothing new tonight. |
+| **SBC** | $6.10 | ~$6.12, flat | Still no catalyst found for Monday's unexplained drop. |
+| **NMAX** | $8.359 | ~$8.50, roughly flat | No change. |
+| **LFTO** | $22.67 | ~$22.68, flat (wide AH spread) | No change. |
 
-## Today's (2026-11-17) scheduled earnings
+## Wednesday 2026-11-18 scheduled earnings
 
-**Reported before today's open (all verified, actuals in):** HD (see above), DIS (excluded — entertainment/media, standing exclusion; beat $1.77 vs $1.68 est), JD (miss, $0.88 vs $0.93), WB (big miss, $0.06 vs $0.24), TME (beat), ESLT (beat), AS (beat), OCSL/OPRA/GFF (in-line), VIK/MFP/KLAR/LUXE/MNSO/SR (mixed/misses, lower-profile names not otherwise on this list).
-**After today's close:** NVDA (the big one — see above), CAAP, ZTO, GBDC, LZB, DLB, SQM.
+**Before the open:** TJX, LOW (Lowe's — large-cap retail, highly liquid, direct HD read-through/comp given HD's soft report yesterday), TGT (Target — same retail-read-through angle), ZIM, TCEHY, PONY, BRBR, GLBE, JJSF, HAFN, GLNG, BLSH.
+**After the close:** PANW (Palo Alto Networks — large-cap, worth watching), SNEX, NJR, SBLK, UTI, KLIC, P, CPA, WWD, HI, JOYY.
 
-## Options read (PRELIMINARY, NOT LIVE — re-verify everything fresh at the open; refreshed where material)
+**LOW and TGT** are the standouts for tomorrow's open — both large-cap, highly liquid retail names reporting before the bell, with a natural read-through/comparison to HD's soft report yesterday (did the whole sector miss, or was it HD-specific?). Nothing yet known about actual results — check fresh at 8am/9:40am.
 
-- **AAOI:** 11/27 expiration (10 DTE), $50 strike call: last-close premium $1.98 (bid $1.90/ask $2.05), OI 184, volume 213 — workable liquidity and spread (~7.6%). Premium ~$198/contract fits the current ~10%-of-balance (~$300) cap. **Preliminary structural PASS** — but this quote is from last night's close, before today's +8.5% gap; premium will reprice materially higher at the open and IV is already extreme (123% as of last close) — re-price and re-check live, don't use this number to size.
-- **COHR:** 11/27 expiration, $225 strike call: last-close premium $7.55 (bid $5.60/ask $9.50), OI 161, volume only 4 — thin, wide spread (~52%), and premium ~$755/contract **exceeds the sizing cap** even before today's gap pushes it higher. **Preliminary FAIL** — premium too high, volume too thin. Stock-only is the right route for COHR if it's traded at all.
-- **WSE:** 11/20 fails the 4-DTE floor today (3 DTE). Next out is 12/18 (31 DTE). $12.50 strike call was thin/wide as of last night (4 contracts traded, spread ~100% of premium) — **FAIL**, re-check live but don't expect improvement. Stock-only route.
-- **NU:** 11/20 now fails the floor (3 DTE). 11/27 (10 DTE) $12.50/$13.00 calls were reasonably liquid last night (OI 1,921/1,255, volume 717/38) — **preliminary PASS on structure**, re-verify live given this morning's stabilization.
-- **HD:** not checked — large-cap with a soft/negative reaction, not an obvious direction to express via options this morning; revisit if the stock shows a clean structure either way at the open.
+## Options read (PRELIMINARY, NOT LIVE — re-verify everything fresh at the open)
 
-## Ranking for today's open
+- **COHR**: now the clear priority for options research at the open — a real catalyst with two days of confirmed strength deserves a fresh options-chain check once the market opens and live quotes are available. Last night's preliminary read (11/27 $225 call, thin volume, premium over cap) is now stale given tonight's further ~6% move — don't rely on it, re-pull live.
+- **AAOI**: do not check — invalidated candidate, dilution overhang makes any bullish options expression unsound regardless of liquidity.
+- **CBRS, NU, HD, WSE, MOD**: not checked tonight — none cleared a strong enough setup to spend the options research budget on; re-evaluate if any shows a clean structure at the open.
 
-1. **AAOI** — promoted on a genuine fresh catalyst (China equipment-import policy news) with a strong pre-market move (+8.5%) and workable options liquidity. Needs careful Step 6 confirmation given the gap size, but this is now the most interesting new setup on the list.
-2. **COHR** — same catalyst, even bigger move (+9.7%); options route fails on cost/liquidity, stock-only if it qualifies.
-3. **WSE** — still the cleanest intact real catalyst carried from yesterday; flat pre-market, re-verify structure at the open.
-4. **NU** — real catalyst, stabilizing after yesterday's fade; options now viable via 11/27 if the stock thesis holds.
-5. **HD** — fresh, real, verified catalyst but a soft reaction (-1.7%); large-cap/liquid, worth a look, not an obvious long.
-6. **MOD** — unresolved rumor, capped-arb, unchanged priority.
-7. **CBRS** — modest bounce, still elevated NVDA-earnings-adjacent risk; lower priority.
-8. **SBC** — still demoted pending a clean catalyst check for yesterday's unexplained -16.3% drop.
-9. **NMAX, LFTO** — fold back into normal sweep, no material change overnight.
+## Ranking for Wednesday's open
 
-**Standing reminders for today:**
-- **NVDA reports Q3 after today's close** — the single biggest event risk this week, options market pricing ±10.6% move. Treat the whole AI/chip/datacenter complex (now including AAOI/COHR's fresh catalyst) as elevated-volatility through the close in both directions — a position opened this morning on the AAOI/COHR news should size and stop with tonight's print explicitly in mind, not just today's catalyst in isolation.
-- Huang governance situation remains unresolved — a fresh headline could move the complex sharply at any time, independent of NVDA's own numbers.
-- Chase/JPMorgan "breach" story remains **unverified** (extortion claim, not a confirmed breach) — don't treat it as a dated, tradeable catalyst on its own without further confirmation.
-- VIX eased slightly overnight (23.55 → 22.68) but remains elevated vs. Friday's ~20.6 baseline; October CPI heat and Fed December-hike expectations are unchanged.
+1. **COHR** — real catalyst, two days of confirmed after-hours strength, now the standout. Needs a clean Step 6 structure check given the size of the move, but this is the most live, qualified candidate heading into tomorrow.
+2. **LOW / TGT** — fresh, real, large-cap earnings catalysts reporting before the open; unknown results yet, check first thing.
+3. **CBRS** — secondary AI-complex beneficiary of NVDA's beat; real catalyst but no company-specific news tonight.
+4. **NU** — real catalyst, stabilizing; re-check structure fresh.
+5. **HD** — unchanged, soft reaction continuing.
+6. **WSE, MOD, SBC, NMAX, LFTO** — no material overnight change; fold back into normal sweep.
+7. **AAOI** — INVALIDATED. Real catalyst but bearish (dilution). Do not treat as a bounce candidate.
+
+**Standing reminders for tomorrow:**
+- NVDA's beat removes the week's dominant overhang, but Huang's governance situation (board search, Dec 1 Congressional testimony) remains technically unresolved — don't treat the AI-complex as fully de-risked, just meaningfully less risky than it was this morning.
+- VIX eased into today's close (27.33 → 25.46) — the first real sign of the bottom the account was watching for; needs confirmation at tomorrow's open (VIX continuing to ease, SPX/NDX holding or extending gains) before treating it as settled.
+- AAOI's dilution news is a reminder that a real catalyst can flip direction overnight — always re-verify Step 5 fresh, never assume yesterday's catalyst direction still holds.
