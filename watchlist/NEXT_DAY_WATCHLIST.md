@@ -1,69 +1,66 @@
-# Next-Day Watchlist — trued up 8am Wednesday, 2026-11-18 (built Tuesday evening 11/17)
+# Next-Day Watchlist — built Wednesday evening, 2026-11-18 (for Thursday, 2026-11-19)
 
 > **PROVISIONAL — RESEARCH ONLY. NOT A TRADE LIST.** Nothing below is pre-approved. Every entry must be re-verified against live price action and a fresh options chain at the open before being treated as an actionable candidate. Asian/European overnight-session news has NOT been checked yet at this hour — that's the job of the ~8am overnight true-up routine.
 
-## Step 0 — held position check
+## Step 0 — held position defense check
 
-No stock or options position held as of this run (confirmed fresh: `get_equity_positions`, `get_equity_orders`). Nothing to defend.
+**COHR held: 2 shares @ avg $212.52.** Resting stop confirmed: stop_market, stop_price $206.15, state=confirmed, GTC (persists overnight, no daily re-placement needed unlike options). After-hours quote: last trade $212.50 (23:05 ET), bid $212.50 — well above the stop trigger. **No defensive action needed.**
 
-## 8am true-up — what changed overnight
+## Headline overnight development — PANW double beat + raised guidance + $4.5B AI acquisition
 
-**VIX continues easing: 25.46 (last night's close) → 24.59 now.** Bottom signal strengthening, not just a one-session blip. **COHR extends further: $210.86 close → ~$218.69 pre-market (+3.7% more)** — now three consecutive periods of confirmed strength (yesterday's regular session, yesterday's after-hours, and now pre-market). **AAOI remains invalidated**: pre-market ~$40.66 vs. $45.22 close (-10.1%), the dilution overhang holding overnight as expected — no reversal. **NVDA continuing higher pre-market**: ~$160.03 vs. $155.46 close (+2.9%), good follow-through on the beat.
+**Palo Alto Networks (PANW) reported fiscal Q1 2027 after today's close: adjusted EPS $1.05 vs. $0.97 consensus, revenue $3.44B vs. $3.31B est. — a clean beat on both lines.** Raised FY2027 guidance (EPS $4.26-$4.30, revenue $14.52-$14.57B) above the prior $4.18/$14.16B analyst view, and announced a $4.5B stock acquisition of AI startup Applied Compute. Stock had already run up 9.9% intraday ahead of the print (close $339.92), then added another ~7-8% after-hours to ~$365-367. Combined move from Tuesday's close (~$309.29) is roughly +18%. **Freshness: very high (hours old, three stacked catalysts — beat, raise, M&A). Disqualifier: already a massive move captured before this routine even ran; AH liquidity is thin and one source saw a brief -4% swing right after the release, so treat any specific AH level as noisy until the regular session opens.** Large-cap ($100B+), excellent normal liquidity. **Top candidate for tomorrow, but this is a "don't chase the gap" situation — needs a clean Step 6 structure check at the open, likely best entered only on a pullback/consolidation, not the opening print.**
 
-**New overnight theme — retail earnings beating but stocks selling off:** LOW reported a big beat (EPS $3.10 actual vs. $2.86 est.) but is **down -4.7% pre-market** (~$210.01 vs. $220.46 close). TGT beat even bigger (EPS $2.65 vs. $2.05 est.) but is also **down -3.0% pre-market** (~$154.71 vs. $159.50 close). Combined with HD's soft reaction yesterday despite an in-line result, this reads as a sector-wide pattern — the market discounting retail guidance/consumer-spending caution even when the quarter itself beat. **Not a bullish setup for any of the three** — do not treat a beat alone as a reason to go long here; the market's own reaction is telling a different story, likely tariff/guidance-driven caution for next year.
+## COHR — held position, follow-through check
 
-## Headline overnight development — NVDA beat big, market's dominant risk this week resolves bullishly (for now)
+No fresh catalyst overnight; this is pure position management, not a new entry. Regular close today $212.?? (choppy, flat-to-down from the $216.98 midday high), after-hours last trade $212.50 — holding roughly flat versus the $212.52 entry. The move that justified yesterday's 12pm re-entry (higher-low structure, break to $216.98) has not continued; no new catalyst to report. **Watching for a break below the ~$208.70 pivot as a proactive exit signal tomorrow, stop remains at $206.15.**
 
-NVDA reported Q3 after today's close: **EPS $2.68 actual vs. $2.47 estimate (verified, real beat)**. Stock reacting well — regular close $156.14 → after-hours ~$162.31 (**+4.0%**). This was the single biggest event risk flagged all week (options had priced an ±10.6% move), and a clean beat removes a major overhang from the AI/chip/datacenter complex, at least for tomorrow's open. The Huang-resignation/governance situation remains technically unresolved (Congressional testimony still scheduled Dec 1), so don't treat this as fully closed — but the fundamental business result was strong.
+## AAOI — still invalidated
 
-**Market tone improved into the close today**, consistent with this: VIX eased from the day's high of 27.33 (3pm read) back to **25.46** by the close — the first real sign of the "bottom" the account was waiting for, though it needs confirming at tomorrow's open before treating it as settled. SPX 7340.5 (up from 7299 at 3pm), NDX 27,001.8 (up from 26,770.7).
+Regular close today ~$40.77, after-hours ~$40.41 — continuing to hold the dilution-driven loss from last night's $550M ATM offering announcement, no reversal. **Still a clean pass, do not treat as a bounce candidate.**
 
-## AAOI — INVALIDATED, do not treat as a candidate tomorrow
+## NVDA — beat has now fully faded, no longer a bullish catalyst
 
-**AAOI announced a $550M at-the-market stock offering plan tonight** (Raymond James/Needham as sales agents) — a real, fresh, dated, company-specific catalyst, but a bearish one (dilution). Stock dropped hard in after-hours: regular close $45.23 → after-hours ~$41.14 (**-9% to -13%** depending on source/timing). This fully explains last night/today's bullish catalyst getting overrun — the chart weakness wasn't just broad market risk-off, it was this dilution news hitting after the close. **AAOI is now a clean pass for tomorrow — real catalyst, but inverted from bullish to bearish; do not chase a "bounce" here.**
+Regular close today $150.86, after-hours ~$151.34 — down again from yesterday's $155.46 close. The Monday beat's after-hours/pre-market pop has now completely round-tripped over two sessions. **Stale — do not treat the earnings beat as a live catalyst anymore; if NVDA shows up again it needs a fresh reason.**
 
-## COHR — STRENGTHENED, now the standout candidate for tomorrow
+## Retail earnings theme — TGT/LOW beat-but-sold pattern fully reversed by today's close
 
-**COHR continued higher in after-hours, unaffected by AAOI's dilution-specific news**: regular close $210.82 (already +3.6% on the day) → after-hours ~$224.04 (**+6.3% further**). No negative offsetting catalyst found for COHR specifically — it's benefiting from NVDA's beat (same AI-datacenter-equipment tailwind as yesterday's China-import-restriction catalyst) without AAOI's dilution problem. This is now the single most interesting name on the list for tomorrow's open: two days of a real, fresh catalyst (China equipment-import restriction + NVDA's beat read-through), finally showing sustained after-hours strength rather than the whipsaw seen the last two sessions. Needs a clean Step 6 structure check at the open given the size of the move, but the setup has clearly improved.
+Both fully recovered and held gains through the close: **TGT** $165.96 (+4.0%), AH ~$166.6. **LOW** $222.73 (+1.0%), AH ~$224.0. The "beat but sold" pre-market reaction from this morning proved temporary — both names spent the day grinding back to genuine gains consistent with their earnings beats. **Not re-flagging these as fresh candidates (the catalyst is now a day old and already fully priced through), but worth noting the lesson: today's instant pre-market reaction to a beat was not the final word.**
 
-## Other carried-forward names — overnight/pre-market read (updated 8am)
+## Other names from today's scans — overnight follow-through
 
-| Ticker | Yesterday's close | Pre-market now | Read |
-|---|---|---|---|
-| **CBRS** | $104.18 | ~$105.70 (+1.5%) | Continued modest NVDA-beat read-through. No company-specific catalyst. |
-| **HD** | $339.01 | ~$334.30 (**-1.4% further**) | Continuing to weaken — part of the broader "beat but sold" retail pattern (see above). |
-| **MOD** | $129.73 | ~$125.56 (**-3.2% further**) | Weakening further, Samsung rumor still unresolved/unconfirmed. |
-| **NU** | $12.33 | ~$12.33, flat | No change. |
-| **WSE** | $11.36 | ~$11.36, flat | No change. |
-| **SBC** | $6.12 | mixed/thin (last $6.45, bid $5.55/ask $6.24 — wide, unreliable) | Still no catalyst found. |
-| **NMAX** | $8.36 | ~$8.31, roughly flat (thin book) | No change. |
-| **LFTO** | $22.68 | ~$22.94 last trade, but bid/ask ($22.22/$27.68) wildly wide — stale/unreliable quote | No change, don't trust this print. |
+| Ticker | Catalyst (dated) | Today's regular close | After-hours | Read |
+|---|---|---|---|---|
+| **AKAM** | Bullish AI-outlook commentary (RBC conf.) + Microsoft Edge security partnership, both 11/18 | $91.68 (+8.3%) | ~$92.00 | Held gains well, no AH fade. Scored 74 at the 3pm cycle (below 85 bar) — real catalyst, clean base breakout, but soft/conference-type catalyst and already extended. Re-check fresh at the open; a continuation above today's high would be more interesting than a gap-and-fade. |
+| **TTWO** | GTA VI global launch (Nov 19) + near-perfect reviews + $1.5B+ pre-orders, 11/18 | $216.49 (+6.2%) | ~$220.36 (new high) | Unlike the 3pm read (choppy/fading), it added a fresh leg higher after hours as the actual launch approaches. Freshness very high — the launch itself is tomorrow, so the catalyst isn't stale yet. Worth a clean look at the open. Note: borderline on the entertainment/media exclusion (video-game publisher, not a studio/broadcaster/streamer per the rule's own language) — flagging the ambiguity rather than silently scoring it. |
+| **FSLY** | Comcast CDN partnership tied to GTA VI, 11/18 | $17.91 (+12.6%) | ~$17.66 | Held most of the gain, didn't extend further. Smaller/mid-cap, decent follow-through. |
+| **WWD** | Earnings beat ($2.83 vs $2.52 est.) + initially-weak-then-recovered 2027 outlook | — | ~$321 (+3.6%) | Recovered an early post-earnings drop. Minor, not a strong standalone candidate. |
+| **KLIC** | Earnings beat ($1.52 vs $1.41 est.) | — | ~$68.70 (+4.9%) | Decent reaction, smaller semi-equipment name. |
+| **CPA** | Earnings beat ($4.29 vs $3.81 est.) | — | ~$133.33 (slightly below regular close) | Beat but no positive reaction — no bullish setup despite the beat. |
 
-## Wednesday 2026-11-18 scheduled earnings — most "am" names already reported by this hour
+## Thursday 2026-11-19 scheduled earnings
 
-**Reported before today's open (verified, actuals in):** **TGT** (big beat: $2.65 actual vs $2.05 est., but **-3.0% pre-market**), **LOW** (big beat: $3.10 vs $2.86 est., but **-4.7% pre-market**), TJX (in-line), GLBE (beat), JJSF (beat), TCEHY (miss), HAFN (beat), ZIM (beat), PONY (beat), BRBR (miss), BLSH (beat).
-**After today's close:** PANW (large-cap, worth watching), NJR, JOYY, UTI, SNEX, SBLK, KLIC, P, CPA, WWD, HI.
-
-**Retail beat-but-sell pattern confirmed and widened**: HD (soft reaction yesterday), LOW (-4.7% pre-market despite a big beat), TGT (-3.0% pre-market despite an even bigger beat) — three large-cap retail names all beating estimates and all selling off. This is a real, dated pattern (not a data glitch — each confirmed independently) and argues against treating any of the three as a value/bounce candidate on the beat alone; the market is reading something else into these reports (likely forward guidance/consumer-spending caution), and that read should be respected, not faded.
+**Before the open (am):** **WMT (Walmart)** — the single most important scheduled catalyst tomorrow, large-cap, highly market-moving, continues this week's retail-earnings theme. Also: BABA, NTES, WSM, PDD, GAP(pm)... — WMT is the one to prioritize at the 9:40am cycle.
+**After the close (pm):** ROST, POST, INTU, GLOB, KEYS, GAP, HP, BULL, ESTC.
+No other confirmed binary catalysts (FDA/legislative) surfaced this pass.
 
 ## Options read (PRELIMINARY, NOT LIVE — re-verify everything fresh at the open)
 
-- **COHR**: Checked fresh this morning. 11/20 now 2 DTE (fails floor). 11/27 (9 DTE): $220 strike call, last-close premium $11.30 (bid $10.70/ask $11.90), OI 403, volume 129 — **premium ~$1,130/contract, far exceeds the ~$300 cap**. $240 strike: premium $4.90 (bid $4.10/ask $5.70, ~33% spread), OI 386, volume 43 — **still exceeds the cap, and the spread is wide**. **Preliminary FAIL on premium cap at every strike checked** — COHR's price (~$219) and elevated IV (106-113%) make it very hard to find a contract both within budget and not deep OTM/low-delta. Stock-only is almost certainly the right route for COHR today; don't force an options fit.
+- **PANW**: 11/20 is 2 DTE (fails floor). 11/27 (9 DTE) $365 call: mark $10.68 (bid $9.55/ask $11.80), OI 81, volume 59 — **premium ~$1,068/contract, far exceeds the ~$297 cap** (10% of $2,974 balance). Preliminary FAIL on premium cap — the stock's size (~$366) and the move already made push any reasonable-delta strike well over budget. Stock-only route, if at all, once Step 6 clears at the open.
+- **AKAM, TTWO, FSLY**: not checked — ranked below PANW for the research budget this pass; worth a look live at the 9:40am cycle given TTWO's fresh AH leg.
 - **AAOI**: not checked — invalidated candidate.
-- **CBRS, HD, MOD, NU, WSE**: not checked — none show a strong enough setup to spend the research budget on.
 
-## Ranking for Wednesday's open
+## Ranking for Thursday's open
 
-1. **COHR** — real catalyst, now three consecutive periods of confirmed strength (regular session, after-hours, pre-market). Options route fails on cost — stock-only if it clears Step 6 at the open. Top candidate.
-2. **CBRS** — secondary AI-complex beneficiary, real catalyst but no company-specific news.
-3. **NU, WSE** — flat overnight, real catalysts intact but unchanged; re-check structure fresh.
-4. **HD, LOW, TGT** — all real, confirmed, verified catalysts but all showing a beat-but-sold pattern; not bullish setups, possible short/put consideration if structure supports it, but do not go long on the beat alone.
-5. **MOD** — continuing to weaken, rumor still unresolved.
-6. **SBC, NMAX, LFTO** — no material change, thin/unreliable pre-market quotes.
-7. **AAOI** — INVALIDATED. Dilution overhang holding overnight as expected. Do not treat as a bounce candidate.
+1. **PANW** — triple catalyst (beat + raised guidance + M&A), but already up ~18% combined — don't chase the gap, needs a clean pullback/consolidation entry per Step 6.
+2. **TTWO** — fresh AH leg higher ahead of tomorrow's actual GTA VI launch; catalyst still live, not stale. Note possible (but likely inapplicable) entertainment/media exclusion ambiguity.
+3. **AKAM** — scored 74 yesterday, held gains overnight; re-check if it breaks to a fresh high vs. consolidates.
+4. **FSLY, KLIC, WWD** — smaller follow-through names, worth a glance, not a priority.
+5. **WMT** — not yet reported (reports tomorrow am) — the key scheduled catalyst to watch fresh at the open, not a pre-report candidate.
+6. **CPA** — beat but no positive reaction; not a candidate.
+7. **AAOI, NVDA** — both stale/invalidated. AAOI's dilution overhang holds; NVDA's beat has fully faded.
 
-**Standing reminders for today:**
-- VIX continues easing (27.33 → 25.46 → 24.59) — a genuinely strengthening bottom signal over three readings now, not just one data point. Still worth confirming live at the open rather than assuming it's fully settled.
-- NVDA's beat continues to show good follow-through (+2.9% further pre-market) — the AI-complex overhang is meaningfully reduced, though Huang's governance situation remains technically unresolved (Dec 1 testimony).
-- The retail beat-but-sell pattern (HD/LOW/TGT) is a new, real signal about market sentiment on consumer spending/guidance — factor it in when evaluating any other consumer-facing name today.
-- AAOI's reversal is a reminder that a catalyst's direction can flip overnight — always re-verify Step 5 fresh, never assume yesterday's read still holds.
+**Standing reminders for tomorrow:**
+- **COHR is a held position, not a watchlist candidate** — manage it on its own merits (structure, stop) at each cycle, independent of this list.
+- TGT/LOW's reversal from "beat but sold" to fully recovered by the close is a reminder that an instant pre-market reaction isn't always the final word — don't over-weight the first 30 minutes of a reaction to a confirmed catalyst.
+- PANW's size of move means most of the easy reward is already captured; this is exactly the kind of setup the DON'T-CHASE principle (applied qualitatively to large-caps) warns about.
+- The entertainment/media sector exclusion's exact boundary (studios/broadcasters/streamers vs. a video-game publisher like TTWO) remains a judgment call — flagged, not resolved; raise it with the user if TTWO ever scores high enough to matter.
