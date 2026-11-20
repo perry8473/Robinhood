@@ -57,6 +57,10 @@ Not checked this pass — given the macro-dominated, no-entries-without-discussi
 4. **GAP, KEYS, WMG** — milder reactions, lower priority, not re-checked this pass.
 5. **NTES, BABA** — misses, not a priority either direction.
 
+## 9:40am opening-bell check — no footing yet, sweep empty
+
+SPX 7139.85, NDX 26,063.09 — both at fresh weekly lows at the open. VIX 28.66, down slightly from the 30.73 overnight spike but indices aren't holding — does not meet the footing bar (VIX easing + indices holding + real follow-through). Account confirmed flat (no stock/options positions). All 4 cap-tier scans + 10/11 sector scans: 0 matches. Healthcare: 1 hit (AKAN, $9.2M cap) — too illiquid, not scored. Options-flow scan: SNDK only name with real size (-0.9%, $107B cap, 6.3x rel. options volume) but no fresh catalyst, not pursuing. Crypto watchlist broadly red (RIOT -5.2%, HUT -6.9%, CORZ -6.8%, CLSK -5.0%, MARA -4.2%). COHR $198.52 (-7.6%) and AAOI $35.59 (-9.8%) continuing to extend losses, pure macro drag. PDD $85.96 (-0.05%) still the standout relative-strength name through a second full session of broad deterioration — watch only. **No qualifying trade — staying flat per standing instruction until the market finds a footing.**
+
 **Standing reminders for today:**
 - **No new entries without explicit user discussion/approval** — overrides standard autonomous-execution authority until the user says otherwise.
 - **The rout escalated overnight rather than stabilizing** — VIX 28.44 → 30.73, a 6th straight down session for the Dow, worst week since April 2025. This is now a confirmed multi-day de-risking event, not a one-day flush. The 9:40am opening-bell cycle's first job is reading whether this continues, stabilizes, or reverses — that answer matters far more than any single name's setup today.
