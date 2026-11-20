@@ -1,69 +1,79 @@
-# Next-Day Watchlist — trued up 8am Friday, 2026-11-20 (built Thursday evening 11/19)
+# Next-Day Watchlist — built Friday evening, 2026-11-20 (for Monday, 2026-11-23)
 
-> **PROVISIONAL — RESEARCH ONLY. NOT A TRADE LIST.** Nothing below is pre-approved. Every entry must be re-verified against live price action and a fresh options chain at the open before being treated as an actionable candidate. **Standing user instruction currently in effect: no new entries without explicit discussion/approval, regardless of score.**
+> **PROVISIONAL — RESEARCH ONLY. NOT A TRADE LIST.** Nothing below is pre-approved. Every entry must be re-verified against live price action and a fresh options chain at the open before being treated as an actionable candidate. **Standing user instruction currently in effect: sidelines — no new entries until the market finds a footing (not just discussion-per-candidate, a flat prohibition until conditions genuinely improve).** Asian/European overnight-session news has NOT been checked yet at this hour — that's the job of Monday's ~8am overnight true-up.
 
 ## Step 0 — held position check
 
 No stock or options position held as of this run (confirmed fresh: `get_equity_positions`). Nothing to defend.
 
-## 8am true-up — the rout has escalated overnight, not stabilized
+## Market close — the rout extended into a 3rd session, no footing yet
 
-**VIX now 30.73-31, up further from yesterday's 28.44 close — highest level since March, per CNBC.** This is no longer a one-day flush: the Dow has fallen 6 consecutive sessions, down 6.2% week-to-date (worst week since April 2025), S&P 500 and Nasdaq each down ~5% this week, and Asian markets are heading for their worst week since 2020. The Anthropic IPO yesterday failed to revive AI-sector sentiment. Cause remains broad AI/tech-valuation de-risking, not a single company-specific event. **Counter-signal worth noting: Deutsche Bank's Binky Chadha called the market "very oversold," pointing out growth/earnings fundamentals remain strong** — a real bull case exists if this reverses, but nothing here confirms that yet. Next week's PCE inflation report is the next scheduled macro catalyst. Nasdaq 100 futures -1.5%, S&P 500 futures ~7,149 (-0.67%) as of this pre-market check.
+SPX 6910.39, NDX 25,028.98, VIX 35.89 — a fresh high for this entire episode (28.44 Thu close → 30.73 Fri overnight peak → 34.11 at 3pm → 35.89 at the close). Indices closed at session lows. This was the worst session yet in the current de-risking stretch — no stabilization today at any point, despite the user's own read this morning of "a few signs of positivity" mixed with "lots of negative sentiment." VIX easing/indices holding — the explicit footing bar — was not met at any point Friday.
 
-## Headline from last night — broad, tech-led market rout; now confirmed as multi-day, not single-day
+**Important wrinkle worth flagging explicitly: a broad after-hours bounce is underway as of this write-up.** COHR, AAOI, and nearly every crypto-related name (MARA, RIOT, CLSK, HUT, BMNR, COIN, MSTR, HOOD, CORZ) are all bidding up meaningfully off their regular-session closes in thin after-hours trading. This is **not confirmed follow-through** — after-hours volume is thin and three trading days of straight-down action can produce a one-evening dead-cat bounce that fades by Monday's open. Flagged here specifically so the 8am true-up and 9:40am Monday cycle know to check whether it held over the weekend or evaporated.
 
-VIX closed Thursday at 28.44 (+15.8%), described as an "AI-driven market rout" that wiped ~$2.2T off U.S. equity value. **This has now extended into a second day and escalated** (see 8am update above) — treat the macro regime as the dominant fact for today, well above any individual stock catalyst below.
+| Ticker | Regular close | % chg | After-hours last | AH move off close |
+|---|---|---|---|---|
+| COHR | $187.20 | -12.9% | $194.60 | +3.95% |
+| AAOI | $32.90 | -16.6% | $34.08 | +3.59% |
+| PDD | $83.655 | -2.72% | $83.78 | +0.15% (flat) |
+| MARA | $5.08 | -18.7% | $5.33 | +4.92% |
+| RIOT | $16.225 | -8.5% | $16.86 | +3.92% |
+| CLSK | $4.89 | -16.3% | $5.06 | +3.48% |
+| HUT | $45.96 | -17.6% | $48.49 | +5.51% |
+| BMNR | $12.955 | -14.0% | $13.44 | +3.74% |
+| HOOD | $62.17 | -9.4% | $64.11 | +3.12% |
+| CORZ | $11.34 | -15.1% | $11.94 | +5.29% |
+| COIN | $101.96 | -6.3% | $102.63 | +0.66% |
+| MSTR | $77.94 | -9.5% | $79.61 | +2.14% |
 
-## STANDING WATCH — optoelectronic sector (AAOI/COHR), checked fresh
+**Read: this looks like short-covering / oversold-bounce attempt, not a fundamental all-clear.** Deutsche Bank's "very oversold" call (carried forward from Friday 8am) is the kind of thing that produces exactly this shape of bounce. Treat as **tentative, unconfirmed** — the 8am Monday true-up needs to see whether Asian/European Monday-morning trade extends this or erases it before it means anything.
 
-**COHR**: pre-market $202.00 vs. $214.94 close (**-6.0%**). No fresh company-specific catalyst found for today — yesterday's $2B buyback authorization (11/19 news) is already priced in. Today's drop reads as pure sector/macro drag (the broader AI-optical complex is getting hit alongside the wider AI selloff), not a reversal of COHR's own thesis. Trend read: **pulling back hard with the market, not on its own news.**
-**AAOI**: pre-market $36.40 vs. $39.46 close (**-7.8%**). Same read — no new company-specific news, continuing to fall with the broader complex. The dilution overhang from 11/17 remains the standing thesis-invalidator regardless of today's macro-driven move.
+## STANDING WATCH — optoelectronic sector (AAOI/COHR) — user flagged COHR explicitly for turnaround watch today
 
-## Tonight's earnings reactions — macro overwhelmed almost every single-name result
+**COHR**: closed regular session -12.9% ($187.20), bounced to $194.60 (+3.95%) after hours. No fresh company-specific catalyst found today — still pure sector/macro drag, now three sessions running. The user explicitly said this afternoon: *"we'll watch COHR for another turn-around once the market drop slows."* Today's AH bounce is the first hint of that, but it is not yet a confirmed base — no higher-low structure established yet, just a single evening's thin-volume bid. Needs to hold through Monday's open before it counts as anything.
+**AAOI**: closed -16.6% ($32.90), bounced to $34.08 (+3.59%) after hours. Same read as COHR — no new catalyst, dilution-overhang thesis-invalidation from 11/17 still stands independently of any macro bounce.
 
-A striking pattern: **beats got crushed just as hard as misses tonight**, which is itself informative — the market is punishing exposure/valuation, not differentiating on fundamentals right now.
+## Today's earnings reactions — "beats get crushed" pattern continued, with one exception
 
-| Ticker | Result | AH reaction | Read |
+| Ticker | Result | Close reaction | Read |
 |---|---|---|---|
-| **PDD** | Beat big: $3.14 vs $2.69 est. (dated 11/19 am, verified) | Closed Thu +11.0% ($85.97). Pre-market now $84.97 (**only -1.2%** from Thursday's close) | **Still the standout relative-strength name** — barely budging while COHR/AAOI/the broader tape fall 6-8%. Worth a fresh look at the open, but re-verify structure fresh — still just a candidate for discussion, not pre-approved. |
-| **INTU** | Beat big: $2.91 vs $2.61 est. | -10.8% AH Thu, pre-market now $285.91 (**-7.8% further** from Thu's $310.02 close) | Clean beat, continuing to fall with the macro tape, not reversing. Don't treat as a short thesis on fundamentals; don't treat a bounce as a long thesis either without the broader tape stabilizing first. |
-| **ESTC** | Beat huge: $0.94 vs $0.68 est. (+38%) | -8.6% AH Thu, pre-market now $73.00 (**-4.4% further**) | Same pattern as INTU, still falling. |
-| **ROST** | Beat: $1.91 vs $1.85 est. | -8.2% AH Thu, pre-market now $208.00 (**-5.4% further**) | Same pattern, still falling. |
-| **GAP** | Beat: $0.86 vs $0.76 est. | -2.0% AH | Milder version of the same pattern. |
-| **KEYS** | Beat: $3.61 vs $3.32 est. | ~flat/-0.4% AH | Smallest reaction of the beat group — closest to a "normal" muted response. |
-| **WMG** | Beat: $0.55 vs $0.42 est. | ~flat AH | Similarly muted. |
-| **NTES** | Miss: $2.12 vs $2.49 est. | **-10.1% AH** ($106.49 vs $118.43 close) | Miss AND crushed — the one name tonight where the reaction actually matches the fundamental result. |
-| **BABA** | Miss: $1.21 vs $1.64 est. | -0.7% AH (modest) | Miss but mild reaction — notably calmer than NTES despite a similar-sized miss. |
+| **IESC** | Huge beat: $4.07 vs $2.81 est. | **-6.4%** ($156.28 vs $166.90 close) | Beat crushed again — same pattern as Thursday's INTU/ESTC/ROST. Macro override, not a fundamental rejection. |
+| **BJ** | Big beat: $1.73 vs $1.24 est. | **-5.2%** ($104.96 vs $110.75) | Same pattern — beat sold hard. |
+| **FRO** | Beat: $2.38 vs $2.26 est. | +1.0% ($45.19 vs $44.75) | Mild positive, one of the few "normal" reactions today. |
+| **MOG.A** | Beat: $3.37 vs $2.68 est. | +2.1% ($334.89 vs $328.07) | Held up reasonably — a genuine exception to the crush-the-beat pattern. |
+| **BKE** | Beat: $0.94 vs $0.92 est. | **+5.7%** ($44.16 vs $41.78) | Notable exception — small-cap retailer actually rewarded for its beat despite the macro backdrop. Worth a fresh look Monday if this holds, though a $1.8B-ish name with no options-flow signal seen today. |
 
-**Freshness confidence:** All of tonight's earnings catalysts are fresh (today, dated, verified via `get_earnings_calendar` with `eps.actual` populated). But given the macro override described above, freshness of the catalyst doesn't translate cleanly into freshness of a tradeable signal tonight — the open tomorrow needs to separate "is the market stabilizing" from "is this specific name's move real."
+**Freshness confidence:** all verified today (`eps.actual` populated, `report.verified=true`). The split outcome (IESC/BJ crushed, FRO/MOG.A/BKE held or gained) is itself informative — it's the first sign this session that the "every beat gets punished" pattern from Wednesday/Thursday may be loosening slightly, though it's too mixed to call a real shift yet.
 
-## PRE-MARKET SMALL-CAP-TECH SHORTLIST — AWAITING APPROVAL
+## GPN (Global Payments) — real catalyst, capped merger-arb, not a day/swing candidate
 
-Technology sector scan returned 0 matches this pass. **Nothing qualifies — no shortlist this morning.**
+GPN ($22.1B cap) closed **+10.0%** ($91.84 vs $83.52) on a take-private report — Clayton, Dubilier & Rice reportedly negotiating a buyout with GTCR. **Strengthening after hours**, bid $93/ask $95 (last $93.00). This is a confirmed real catalyst but structurally a **capped merger-arb** situation: upside is bounded by whatever deal price eventually surfaces (or the whole move reverses if talks fall through). Not scored under STOCK TRADES per the standing capped-arb exclusion — noted here for continuity in case deal news develops over the weekend, not as an actionable candidate.
 
-## Friday 2026-11-20 scheduled earnings
+## Monday 2026-11-23 scheduled earnings
 
-**Before the open (am), now reported:** BJ (beat big: $1.73 vs $1.24 est.), IESC (beat big: $4.07 vs $2.81 est.), BKE (beat: $0.94 vs $0.92), FRO (beat: $2.38 vs $2.26), RLX. **No large-cap/high-market-cap names reporting today** — confirms today's tape will be driven entirely by macro follow-through on the ongoing selloff, not a fresh earnings slate. None of today's small-cap beats are large enough to move the broader market.
+**Before the open (am):** only CDLR and CVAC — both **unverified** timing, neither a high-market-cap name with real conviction behind the "am" tag. Effectively **nothing of substance reports before Monday's open.**
+**After Monday's close (pm):** the real large-cap slate — Agilent (A), Hewlett Packard Enterprise (HPE), Zoom (ZM), Jacobs (J), AMTM — all report Monday evening, so they're catalysts for **Tuesday's** open, not Monday's.
+
+**Net: Monday's open has no fresh earnings catalyst of real size.** Whatever happens at the open will be driven entirely by whether Friday night's after-hours bounce holds, fades, or reverses — i.e., purely a macro/sentiment question, not an earnings-driven one.
 
 ## Options read (PRELIMINARY, NOT LIVE — re-verify everything fresh at the open)
 
-Not checked this pass — given the macro-dominated, no-entries-without-discussion posture tonight, the research budget wasn't spent on options chains for names whose stock-level signal is itself this uncertain. Re-evaluate PDD's options chain fresh at the open if its relative-strength setup still looks clean after the overnight true-up.
+Not checked this pass — no candidate cleared Step 5 catalyst verification at the stock level (GPN is capped-arb and excluded; COHR/AAOI are watch-only with no confirmed catalyst yet; BKE's beat-reward is too fresh/unconfirmed to spend the research budget on its chain tonight). Re-evaluate COHR specifically at the open if Monday's price action shows genuine basing, per the user's explicit turnaround-watch instruction.
 
-## Ranking for Friday's open
+## Ranking for Monday's open
 
-1. **PDD** — the one name showing genuine relative strength through a now-escalating rout (barely down pre-market while everything else falls further). Top candidate to re-verify fresh at the open, but still just a candidate for discussion, not pre-approved.
-2. **COHR, AAOI** — both falling hard (-6% to -8% pre-market) on pure sector/macro drag, no fresh company-specific news. Standing watch only; AAOI's dilution thesis-invalidation still stands regardless.
-3. **INTU, ESTC, ROST** — real beats, continuing to fall further this morning on top of Thursday's AH drop. The macro regime, not these companies, is driving this.
-4. **GAP, KEYS, WMG** — milder reactions, lower priority, not re-checked this pass.
-5. **NTES, BABA** — misses, not a priority either direction.
+1. **COHR** — explicit user watch item for a turnaround once the market drop slows. Friday's AH bounce (+3.95%) is the first tentative sign, unconfirmed. Top priority to re-verify fresh Monday morning — still just a watch item, not pre-approved, and the sidelines instruction governs regardless of what it shows.
+2. **AAOI** — same bounce pattern as COHR, but the dilution thesis-invalidation stands independently; lower priority than COHR specifically.
+3. **PDD** — relative-strength leader for four straight sessions now, essentially flat again today (-2.7% close, roughly flat AH). Still a watch item, not a trade signal.
+4. **BKE** — the one earnings beat actually rewarded today; worth a fresh look if Monday confirms follow-through, but no options-flow signal and a modest-size name.
+5. **GPN** — capped merger-arb, not a day/swing candidate; tracked for continuity only.
+6. **IESC, BJ** — beats crushed again, continuing the macro-override pattern; not a long or short thesis on fundamentals alone.
 
-## 9:40am opening-bell check — no footing yet, sweep empty
-
-SPX 7139.85, NDX 26,063.09 — both at fresh weekly lows at the open. VIX 28.66, down slightly from the 30.73 overnight spike but indices aren't holding — does not meet the footing bar (VIX easing + indices holding + real follow-through). Account confirmed flat (no stock/options positions). All 4 cap-tier scans + 10/11 sector scans: 0 matches. Healthcare: 1 hit (AKAN, $9.2M cap) — too illiquid, not scored. Options-flow scan: SNDK only name with real size (-0.9%, $107B cap, 6.3x rel. options volume) but no fresh catalyst, not pursuing. Crypto watchlist broadly red (RIOT -5.2%, HUT -6.9%, CORZ -6.8%, CLSK -5.0%, MARA -4.2%). COHR $198.52 (-7.6%) and AAOI $35.59 (-9.8%) continuing to extend losses, pure macro drag. PDD $85.96 (-0.05%) still the standout relative-strength name through a second full session of broad deterioration — watch only. **No qualifying trade — staying flat per standing instruction until the market finds a footing.**
-
-**Standing reminders for today:**
-- **No new entries without explicit user discussion/approval** — overrides standard autonomous-execution authority until the user says otherwise.
-- **The rout escalated overnight rather than stabilizing** — VIX 28.44 → 30.73, a 6th straight down session for the Dow, worst week since April 2025. This is now a confirmed multi-day de-risking event, not a one-day flush. The 9:40am opening-bell cycle's first job is reading whether this continues, stabilizes, or reverses — that answer matters far more than any single name's setup today.
-- Counter-signal to weigh, not act on: Deutsche Bank calls the market "very oversold" with fundamentals intact — a real bull case for eventual reversal, but nothing here confirms timing.
-- Next week's PCE inflation report is the next scheduled macro catalyst worth tracking.
-- Tonight's "beats got crushed as hard as misses" pattern (now extending into this morning) is a reminder that individual catalyst quality doesn't override macro regime right now.
+**Standing reminders for Monday:**
+- **Sidelines until the market finds a footing** — explicit, current user instruction. No new entries regardless of score until genuine stabilization is confirmed (VIX easing + indices holding + real follow-through, not a single bounce).
+- **Friday's after-hours bounce across COHR/AAOI/crypto is the single most important thing to re-check at Monday's open** — did it hold over the weekend, or was it a thin-volume dead-cat bounce that's already gone by 8am?
+- **COHR is on explicit user watch for a turnaround entry** — once the market drop slows, re-verify its price structure for a genuine base (higher lows), not just a bounce.
+- VIX closed at 35.89, the highest point of this entire episode — three straight sessions of deterioration (28.44 → 30.73 → 34.11 → 35.89). This needs to reverse meaningfully before "footing" is real.
+- Next week's PCE inflation report remains the next scheduled macro catalyst.
+- Monday's earnings calendar is essentially empty before the open — whatever happens will be sentiment-driven, not earnings-driven.
