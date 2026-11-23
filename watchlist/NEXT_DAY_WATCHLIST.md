@@ -1,4 +1,29 @@
-# Next-Day Watchlist — built Friday evening, 2026-11-20 (for Monday, 2026-11-23)
+# Next-Day Watchlist — trued up 8am Monday, 2026-11-23 (built Friday evening 11/20)
+
+## 8am true-up — Friday's after-hours bounce held and extended over the weekend; VIX pulling back meaningfully
+
+**VIX 31.61, down sharply from Friday's close of 35.89 (-11.9%).** This is the first real, multi-session pullback in VIX since the rout began (28.44 → 30.73 → 34.11 → 35.89 → **31.61**). SPX/NDX pre-market levels aren't readable through this session's index-quote tool (stale since Friday's close), so the "indices holding" half of the footing bar isn't confirmed yet — that's the 9:40am cycle's job. But the pre-market tape is broadly, strongly green:
+
+| Ticker | Fri close | Pre-market now | Move |
+|---|---|---|---|
+| COHR | $187.22 | $194.70 | **+4.0%** |
+| AAOI | $32.93 | $35.19 | **+6.9%** |
+| PDD | $83.68 | $85.75 | +2.5% |
+| GPN | $91.83 | $93.50 | +1.8% |
+| COIN | $101.97 | $106.30 | +4.3% |
+| MSTR | $77.80 | $84.00 | +7.9% |
+| MARA | $5.085 | $5.40 | +6.2% |
+| RIOT | $16.23 | $17.07 | +5.2% |
+| CLSK | $4.89 | $5.18 | +6.0% |
+| HUT | $45.95 | $48.77 | +6.1% |
+| BMNR | $12.98 | $14.12 | +8.8% |
+| HOOD | $62.17 | $65.50 | +5.4% |
+| CORZ | $11.33 | $11.97 | +5.7% |
+
+**This is the strongest, broadest confirmation yet that Friday's thin after-hours bounce was real, not a dead-cat fade** — it held through the entire weekend gap and extended further. Still short of the user's full "footing" bar (needs the indices actually holding through the session, not just a green pre-market print) — flagging this prominently per standing commitment to surface it the moment it starts looking real. The 9:40am opening-bell cycle needs to confirm follow-through at the open before this becomes anything more than an promising pre-market signal.
+
+COHR/AAOI specifically: no fresh company-specific news found (get_equity_news remains unavailable this session; WebSearch for overnight market-wide news returned nothing dated to today). The bounce reads as macro-driven (VIX pullback lifting the whole beaten-down complex together), not stock-specific — consistent with how both fell on the way down. Per the user's explicit COHR turnaround-watch request: this is the first real sign, but still needs the open to show genuine higher-low structure, not just a gap-up.
+
 
 > **PROVISIONAL — RESEARCH ONLY. NOT A TRADE LIST.** Nothing below is pre-approved. Every entry must be re-verified against live price action and a fresh options chain at the open before being treated as an actionable candidate. **Standing user instruction currently in effect: sidelines — no new entries until the market finds a footing (not just discussion-per-candidate, a flat prohibition until conditions genuinely improve).** Asian/European overnight-session news has NOT been checked yet at this hour — that's the job of Monday's ~8am overnight true-up.
 
@@ -61,19 +86,19 @@ GPN ($22.1B cap) closed **+10.0%** ($91.84 vs $83.52) on a take-private report �
 
 Not checked this pass — no candidate cleared Step 5 catalyst verification at the stock level (GPN is capped-arb and excluded; COHR/AAOI are watch-only with no confirmed catalyst yet; BKE's beat-reward is too fresh/unconfirmed to spend the research budget on its chain tonight). Re-evaluate COHR specifically at the open if Monday's price action shows genuine basing, per the user's explicit turnaround-watch instruction.
 
-## Ranking for Monday's open
+## Ranking for Monday's open (updated 8am)
 
-1. **COHR** — explicit user watch item for a turnaround once the market drop slows. Friday's AH bounce (+3.95%) is the first tentative sign, unconfirmed. Top priority to re-verify fresh Monday morning — still just a watch item, not pre-approved, and the sidelines instruction governs regardless of what it shows.
-2. **AAOI** — same bounce pattern as COHR, but the dilution thesis-invalidation stands independently; lower priority than COHR specifically.
-3. **PDD** — relative-strength leader for four straight sessions now, essentially flat again today (-2.7% close, roughly flat AH). Still a watch item, not a trade signal.
-4. **BKE** — the one earnings beat actually rewarded today; worth a fresh look if Monday confirms follow-through, but no options-flow signal and a modest-size name.
-5. **GPN** — capped merger-arb, not a day/swing candidate; tracked for continuity only.
-6. **IESC, BJ** — beats crushed again, continuing the macro-override pattern; not a long or short thesis on fundamentals alone.
+1. **COHR** — explicit user watch item for a turnaround. Pre-market +4.0%, extending Friday's AH bounce over the full weekend gap. Top priority to re-verify fresh at the open for genuine higher-low structure — still just a watch item, not pre-approved, and the sidelines instruction governs regardless of what it shows.
+2. **AAOI** — strongest pre-market mover of the complex (+6.9%), same macro-bounce read as COHR; dilution thesis-invalidation still stands independently as a reason not to treat this as a clean long.
+3. **PDD** — relative-strength leader for five straight sessions now, +2.5% pre-market, participating in today's bounce rather than standing out from it. Still a watch item.
+4. **GPN** — capped merger-arb, +1.8% pre-market, continuing to firm on the take-private story; tracked for continuity, not a day/swing candidate.
+5. **BKE** — pre-market quote too thin/wide to read cleanly (bid $40.50/ask $45.01); no real signal yet.
+6. **IESC, BJ** — Friday's crushed beats; no pre-market data checked, lower priority given the macro-driven bounce is the dominant story.
 
 **Standing reminders for Monday:**
 - **Sidelines until the market finds a footing** — explicit, current user instruction. No new entries regardless of score until genuine stabilization is confirmed (VIX easing + indices holding + real follow-through, not a single bounce).
-- **Friday's after-hours bounce across COHR/AAOI/crypto is the single most important thing to re-check at Monday's open** — did it hold over the weekend, or was it a thin-volume dead-cat bounce that's already gone by 8am?
-- **COHR is on explicit user watch for a turnaround entry** — once the market drop slows, re-verify its price structure for a genuine base (higher lows), not just a bounce.
-- VIX closed at 35.89, the highest point of this entire episode — three straight sessions of deterioration (28.44 → 30.73 → 34.11 → 35.89). This needs to reverse meaningfully before "footing" is real.
+- **VIX pulled back sharply overnight/over the weekend: 35.89 Fri close → 31.61 now.** This is the first real retreat since the rout began (28.44 → 30.73 → 34.11 → 35.89 → 31.61). Still elevated by any normal standard, but the direction flipped for the first time.
+- **Friday's after-hours bounce across COHR/AAOI/crypto held and extended over the weekend** — broadly +2% to +9% pre-market across the whole beaten-down complex. This is the strongest positive signal of the whole episode so far, but it is pre-market only — the 9:40am cycle must confirm the indices are actually holding through the session, not just gapping up and fading (the exact pattern that's burned several names already this week).
+- **COHR is on explicit user watch for a turnaround entry** — the bounce is real and has held two sessions now (Fri AH + weekend), but still needs confirmed basing structure at the open before it's anything more than "oversold bounce."
 - Next week's PCE inflation report remains the next scheduled macro catalyst.
 - Monday's earnings calendar is essentially empty before the open — whatever happens will be sentiment-driven, not earnings-driven.
