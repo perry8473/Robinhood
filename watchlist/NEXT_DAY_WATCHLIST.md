@@ -94,6 +94,16 @@ Not checked this pass — none of tonight's candidates were ranked firmly enough
 7. **KYMR** — still climbing, still zero catalyst found (earnings calendar + WebSearch both checked). Watch-only, never score without confirmation.
 8. **PDD** — pulling back premarket; not an active candidate.
 
+## 12pm cycle — retail complex now too extended to chase; market recovered; stand-down holds
+
+Market recovered meaningfully: SPX 7212.91, NDX 26300.82, VIX 26.36 (down sharply from 11am's 28.78 — back near Monday's close level). Crypto still broadly red but less so (COIN -4.6%, MARA -5.5%, RIOT -7.7%, CLSK -9.4%, CORZ -11.7%).
+
+COHR -8.2% (improved slightly from -10.4%), AAOI +0.8% (first positive reading of the day), LITE/FN/CIEN -8 to -10% (all improved slightly but still deep red) — stand-down holds, no real base yet despite the bounce off the worst levels.
+
+**Retail complex kept extending through midday with no pullback: ANF +25.3%, KSS +18.6%, DKS +17.5%, BURL +10.5%, BBY +4.5%, DLTR +11.8% (flattening).** A 4th WebSearch attempt (broad "retail stocks surge" query) still found no dated same-day corroboration — confirmed index-lag, not a real doubt about the event. **At this point the extension itself (3+ hours in, 10-25% already realized, no pullback/base) is the controlling reason to stand aside, regardless of the catalyst-corroboration technicality** — don't-chase judgment applies squarely. ADI continued sliding to -16.3% (confirmed showing up on the options-flow scan too, elevated options activity) — a real, large guidance-driven move, not actionable long but notable.
+
+AMTM (+20.6% today, $5.05B) is extending its Monday-night earnings beat into a second day — not deep-dived this cycle, flagged for the 3pm cycle if still active. Several new small/micro-cap scan hits (COGT, BBIO, PINS, TEX, FLNC + a cluster of sub-$500M healthcare names) not individually researched this cycle — mostly no catalyst found on quick inspection or too illiquid/thin (e.g. YFOR $135K market cap, GLXG $4.7M). No trade taken.
+
 ## 11am cycle — retail complex structure is clean, but catalyst corroboration gap flagged
 
 COHR deepened further to ~$193 (-10.4% intraday, continuing straight-line lower highs/lower lows all morning — no base at all). LITE -11.2%, FN -11.9%, CIEN -9.7%, AAOI roughly flat (-0.8%) — group now down double digits. Stand-down confirmed correct again. Broader market also softened (SPX 7154, NDX 26020, both down from the 9:40 open; VIX 28.78, back up to the 8am level) and crypto is broadly red (COIN -5%, MARA/RIOT -9-10%, CLSK/CORZ -12%) — some of today's optoelectronics weakness may be beta to a mildly risk-off tape, not purely sector-specific, but the magnitude (double digits) still argues for genuine name-specific weakness on top of that.
