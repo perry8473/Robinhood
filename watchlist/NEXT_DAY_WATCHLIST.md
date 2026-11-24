@@ -1,10 +1,41 @@
-# Next-Day Watchlist — built Monday evening, 2026-11-23 (for Tuesday, 2026-11-24)
+# Next-Day Watchlist — trued up Tuesday 8am, 2026-11-24
 
-> **PROVISIONAL — RESEARCH ONLY. NOT A TRADE LIST.** Nothing below is pre-approved. Every entry must be re-verified against live price action and a fresh options chain at the open before being treated as an actionable candidate. Asian/European overnight-session news has NOT been checked yet at this hour — that's the job of Tuesday's ~8am overnight true-up.
+> **PROVISIONAL — RESEARCH ONLY. NOT A TRADE LIST.** Nothing below is pre-approved. Every entry must be re-verified against live price action and a fresh options chain at the open before being treated as an actionable candidate.
 
 ## Step 0 — held position check
 
 No stock or options position held as of this run (confirmed fresh: `get_equity_positions`). Nothing to defend.
+
+## 8am true-up — the headline is a broad retail-earnings beat morning, not COHR
+
+**VIX ticked UP overnight: 26.62 (Mon close) → 28.77 (Tue 8am)** — the first reversal after two straight sessions of improvement. Not alarming on its own (still well off the 35.89 Friday high) but it breaks the clean "footing" narrative — worth confirming at the open whether this is just pre-earnings-morning jitters or a real risk-off tick. SPX/NDX pre-market levels weren't available live via this tool (stale index quotes) — re-check at 9:40am.
+
+**COHR/AAOI — stand-down continues, no new catalyst found.** COHR pre-market $207.83 vs Monday's $215.81 close = **-3.7%**, reversing Monday night's modest AH firming. AAOI pre-market $38.80 vs $38.70 close ≈ flat. WebSearch turned up nothing dated to today for either name — no fresh news, just the same pattern of large unexplained swings this pair has shown for months (per search results, moves with "no stock-specific catalyst" are common for this trio). This pullback works **against** the "revisit in AM" turnaround thesis, not for it — COHR still hasn't shown the "slide-ends-and-re-climbs" structure the user asked for, and now it's also moving against the market's generally strong tone this morning. **Recommend treating COHR as still not ready** — no base, and now also underperforming a good tape. Will re ávaluate live at 9:40am once real price action starts, but the premarket data doesn't support lifting the stand-down yet.
+
+**A (Agilent) — holding its gain, still the cleanest setup.** Pre-market $188.70, matching Monday night's AH peak — no overnight fade, no overnight extension either. Clean continuation of the beat+raise reaction. Still top of the list pending a live Step 6 price-structure check at the open.
+
+**ZS — flat overnight, not extending further.** Pre-market $229.25 vs $229.24 close. Confirms the "likely too extended to chase" read from last night; the catalyst is now ~24hrs old with no fresh follow-through energy.
+
+**KYMR — still climbing, still no catalyst.** Pre-market $157.88, **+5% further** on top of Monday's +34% move. No earnings-calendar entry, no news found. Remains a pure watch-only curiosity, never a candidate without a confirmed catalyst.
+
+**PDD — pulling back.** Pre-market $85.02 vs $87.14 close, -2.4%. Not on today's active list regardless.
+
+### The real story: a sweeping, broadly positive retail-earnings morning
+
+Nearly the entire retail slate flagged last night reported before the open and **beat**, with large, genuine premarket reactions — all verified via `get_earnings_calendar` (actual EPS populated, not just estimates):
+
+| Ticker | EPS actual vs est. | Premarket move | Read |
+|---|---|---|---|
+| **DKS** (Dick's) | $1.94 vs $1.38 | **+17.9%** | Biggest beat, biggest reaction. |
+| **ANF** (Abercrombie) | $3.42 vs $3.10 | **+11.8%** | Big, clean beat and reaction. |
+| **KSS** (Kohl's) | $1.76 vs -$0.01 | **+8.7%** | Est. was negative — a real turnaround surprise. |
+| **DLTR** (Dollar Tree) | $1.16 vs $0.89 | **+7.9%** | Large beat (+30%), strong reaction. |
+| **BBY** (Best Buy) | $1.62 vs $1.49 | **+6.2%** | Solid beat and reaction. |
+| **BURL** (Burlington) | $1.73 vs $1.67 | **+5.9%** | Smaller beat, still a clean positive reaction. |
+| **MDT** (Medtronic) | $1.34 vs $1.33 | **-3.3%** | In-line, but sold off — likely guidance concern, diverges from the sector. |
+| **ADI** (Analog Devices) | $4.06 vs $3.89 | **-9.5%** | Beat the number but hit hard — guidance/outlook disappointment, the sharpest divergence of the morning. |
+
+**This is a much bigger, more actionable development than anything on last night's board.** Six large, liquid retail names gapping 6-18% on confirmed beats is a genuine broad-sector tell on consumer spending heading into the holidays — exactly the kind of fresh, same-morning, high-conviction catalyst the 9:40am opening-bell cycle exists to catch. Two things to weigh before chasing any of these at 9:40: (1) pre-market gaps this large mean a chunk of the move is already priced in before the bell — the don't-chase judgment still applies, just against today's open rather than yesterday's; (2) MDT and ADI falling despite beating is a useful divergence signal — not every "beat" in this tape is being rewarded, so read each name's own guidance commentary, don't assume sector momentum carries every ticker.
 
 ## Market close — the broad rally held and extended through the whole session
 
@@ -52,20 +83,20 @@ Neither shows a dramatic AH move. Tuesday 8am needs to check: (1) is the broad r
 
 Not checked this pass — none of tonight's candidates were ranked firmly enough yet (A/AMTM are fresh AH reactions needing a regular-session re-verify first; COHR is on explicit stand-down). Check A's chain first at the 8am/9:40am pass if its AH strength holds — large, liquid name, clean beat, good continuation.
 
-## Ranking for Tuesday's open
+## Ranking for Tuesday's open (updated 8am true-up)
 
-1. **A (Agilent)** — cleanest, strongest reaction tonight (beat + AH follow-through). Top candidate to re-verify fresh at the open — confirm the gap holds and isn't already fully priced by the time of the 9:40am check.
-2. **COHR** — still the user's explicit turnaround watch. Needs both the broad rally to hold a second day AND its own genuine base (three failed attempts Monday). Stood down for today; revisit at 8am per explicit instruction.
-3. **AMTM** — good AH follow-through, smaller/less liquid, lower priority than A.
-4. **ZS** — real, confirmed, large catalyst but already ~24hrs old and extended (+17.8%) by tomorrow morning — likely too extended to chase per the don't-chase judgment; re-verify structure before dismissing entirely.
-5. **AAOI** — same stand-down status as COHR; dilution thesis-invalidation still stands independently.
-6. **The retail earnings slate (BBY/DLTR/KSS/DKS/BURL/ANF)** — not yet reported, pure research placeholder; 8am true-up needs to check each once results land.
-7. **CRWD** — flagged for caution, not opportunity; a beat that got punished hard is worth understanding (guidance?) before treating either direction as a signal.
-8. **KYMR** — exceptional, unexplained move; no catalyst found, do not score without confirmation.
+1. **DKS / ANF / KSS / DLTR / BBY / BURL (retail beat complex)** — fresh, same-morning, confirmed catalysts, large and liquid, broadly positive. Top priority for the 9:40am live structure check. Treat each independently, not as one basket — confirm the gap isn't fully priced before the bell and read guidance commentary on each before sizing.
+2. **A (Agilent)** — still clean, holding its +7% gain overnight with no fade. Re-verify fresh at the open; still a strong, lower-drama alternative to the retail names' bigger gaps.
+3. **MDT / ADI (divergence watch)** — both beat but sold off premarket; not long candidates, but worth understanding why (guidance?) since it's a useful tell on how selective this tape is being with "beats."
+4. **ZS** — flat overnight, confirms "too extended to chase" from last night. Low priority.
+5. **COHR** — stand-down **not lifted**. Premarket pullback (-3.7%) and no new catalyst found work against the turnaround thesis. Needs live price action to even reconsider; do not treat the 8am data as sufficient to act.
+6. **AAOI** — same stand-down status as COHR, flat overnight.
+7. **KYMR** — still climbing, still zero catalyst found (earnings calendar + WebSearch both checked). Watch-only, never score without confirmation.
+8. **PDD** — pulling back premarket; not an active candidate.
 
 **Standing reminders for Tuesday:**
-- **COHR stand-down lifts at 8am** — explicit user instruction to revisit fresh tomorrow morning, checking both broad-market follow-through and COHR's own structure before any entry. The $500 size / -3% to -5% stop / autonomous-execution authorization from today still applies once a genuine base is confirmed.
-- **Process note:** cross-check `get_earnings_calendar` against every Step 4 scan hit before concluding "no catalyst found" — ZS's real earnings catalyst was missed today because this cross-check wasn't done during the day cycles.
-- **VIX has now eased two sessions running (35.89 → 31.61 → 26.62)** — the most sustained improvement of the whole episode. Still needs a second day of the broad rally holding (not just today) before this is unambiguous "footing."
-- Tuesday's retail earnings slate (BBY/DLTR/KSS/DKS/BURL/ANF) is a genuine consumer-spending tell — worth extra attention at the 8am true-up.
-- Next week's PCE inflation report remains the next scheduled macro catalyst.
+- **COHR/AAOI stand-down is NOT lifted by this 8am data** — the user's "revisit in AM" instruction has been honored (checked fresh), but both the market-direction read (VIX ticked up) and COHR's own action (-3.7% premarket, no base) argue for continuing to wait, consistent with the user's own caveat: *"think it's oversold, but need broad agreement to make that pay."* Re-check live at 9:40am before fully closing the door.
+- **VIX reversed overnight (26.62 → 28.77)** after two sessions of improvement — don't treat the de-risking narrative as settled; confirm at the open whether this is pre-earnings jitters or a real shift.
+- **Process note (standing):** cross-check `get_earnings_calendar` against every Step 4 scan hit before concluding "no catalyst found" — this caught the retail beats cleanly this morning; keep doing it every cycle.
+- **The retail earnings complex (DKS/ANF/KSS/DLTR/BBY/BURL) is today's real opportunity**, not COHR — a broad, confirmed, same-day catalyst across liquid large caps. This wasn't anticipated at last night's 6pm build; treat it as the primary focus of the 9:40am opening-bell cycle.
+- Next scheduled macro catalyst: PCE inflation report, date to be confirmed — no reliable dated confirmation found this morning; re-check calendar sources closer to the date.
