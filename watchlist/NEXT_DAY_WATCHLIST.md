@@ -94,6 +94,16 @@ Not checked this pass — none of tonight's candidates were ranked firmly enough
 7. **KYMR** — still climbing, still zero catalyst found (earnings calendar + WebSearch both checked). Watch-only, never score without confirmation.
 8. **PDD** — pulling back premarket; not an active candidate.
 
+## 3pm cycle — day closes with COHR/AAOI confirmed weak all session; retail leaders faded from midday highs (validates the no-chase call)
+
+SPX 7173.19, NDX 26096.90, VIX 27.39 (ticked back up from 12pm's 26.36 — a choppy, not-fully-settled afternoon). Crypto still broadly red (COIN -5.3%, MSTR -7.3%, CLSK -6.9%, CORZ -11.8%).
+
+**COHR closed out the regular session around $194.70, -9.8% — its worst level of the day, not an improvement.** LITE -10.9%, FN -10.9%, CIEN -8.8% — the whole group stayed deep red the entire session with no recovery. **This is a full trading day of confirmed, sustained weakness, not a one-off gap — the "oversold bounce" thesis needs to be weighed against a second straight day of real group-wide selling, not just stale weekend-old price levels.** Tomorrow's AM review should treat today as incremental evidence against the thesis, not neutral.
+
+**Retail complex: ANF/KSS/DKS/BURL all pulled back meaningfully from their midday highs into the 1-3:30pm window** (ANF $178→$171, KSS $25.15→$24.39, DKS $157→$154, BURL $260→$253) — a textbook flat-top-then-fade pattern. This retroactively validates the 12pm "too extended, don't chase" call: anyone entering at the midday highs would be underwater into the close. Still finished the day up big (ANF +22%, KSS +15%, DKS +15.4%, BURL +7.6%) — real, large moves, just not ones this process could respectably enter today given the WebSearch corroboration gap (never resolved, 4 attempts) and the extension itself. ADI kept sliding, -16.9% by 3pm.
+
+No trade taken this cycle either. End-of-day wrap for tonight's after-hours build: the retail-earnings story was today's real catalyst but the window to act on it responsibly never opened for this account (confirmation gap + extension); COHR/AAOI stand-down enters tomorrow having been reinforced, not weakened, by today's full session.
+
 ## 12pm cycle — retail complex now too extended to chase; market recovered; stand-down holds
 
 Market recovered meaningfully: SPX 7212.91, NDX 26300.82, VIX 26.36 (down sharply from 11am's 28.78 — back near Monday's close level). Crypto still broadly red but less so (COIN -4.6%, MARA -5.5%, RIOT -7.7%, CLSK -9.4%, CORZ -11.7%).
