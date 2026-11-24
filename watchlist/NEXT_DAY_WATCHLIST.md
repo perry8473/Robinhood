@@ -94,6 +94,12 @@ Not checked this pass — none of tonight's candidates were ranked firmly enough
 7. **KYMR** — still climbing, still zero catalyst found (earnings calendar + WebSearch both checked). Watch-only, never score without confirmation.
 8. **PDD** — pulling back premarket; not an active candidate.
 
+## 9:40am opening-bell cycle — sector check result: group is WEAKENING, not basing
+
+Live 5-min bars in the first 10 minutes of trading (9:30-9:40am ET): **COHR broke down further to ~$200** (open $209.67 → $199.96, now -7% intraday, a new low for this entire multi-day move, through Monday's $212.29 low). **LITE -6.7%, FN -6.4%, CIEN -6.4%** — the whole optoelectronics/networking-optical peer group is extending its losses, not reversing. AAOI is choppy (spiked to $41.05, pulled back to $39.49) — no clean signal either way, and a single noisy name doesn't satisfy the "coordinated group floor" bar. **Verdict: the sector check the user asked for comes back negative — this is continued group-wide weakness, the opposite of the entry signal we're watching for. COHR stand-down stays in force; no basis for AAOI either.** Re-check at 11am.
+
+**Retail earnings complex, first 10 minutes:** KSS, DLTR, BURL show clean, steady uptrends (not spike-and-fade) — best structure of the group so far. DKS and ANF both spiked hard then gave back a meaningful chunk (ANF: premarket ~$167 → opened $158.89 → spiked to $171.98 → now $170.83; DKS: opened $148.76 → spiked to $155.78 → now $152.18) — more volatile, chasier. BBY V-shaped (dipped then recovered). ADI continues breaking down (-15% now, worse than premarket -9.5%) — confirms the outlook-disappointment read. **Only 10 minutes of data — too early to call a real entry per Step 6; re-check at 11am before sizing anything.** INSM (+14.2%, large-cap, $32.7B, biotech) appeared on the large-cap-movers sweep but no catalyst found (no earnings this week, no dated news) — flagged "no catalyst found," not scored. KYMR still extending (+12% more) with zero catalyst found across two days of checking — remains watch-only.
+
 ## COHR/AAOI — user adds a 52-week-range framing, wants a sector-wide tape check before entry (late 8am)
 
 User's observation, verified: COHR and AAOI (and the whole optoelectronics/networking-optical complex — LITE, FN, CIEN checked as peers) are trading **much closer to their 52-week lows than their 52-week highs**, a genuine structural fact, not just impression:
