@@ -94,6 +94,22 @@ Not checked this pass — none of tonight's candidates were ranked firmly enough
 7. **KYMR** — still climbing, still zero catalyst found (earnings calendar + WebSearch both checked). Watch-only, never score without confirmation.
 8. **PDD** — pulling back premarket; not an active candidate.
 
+## COHR/AAOI — user adds a 52-week-range framing, wants a sector-wide tape check before entry (late 8am)
+
+User's observation, verified: COHR and AAOI (and the whole optoelectronics/networking-optical complex — LITE, FN, CIEN checked as peers) are trading **much closer to their 52-week lows than their 52-week highs**, a genuine structural fact, not just impression:
+
+| Ticker | 52wk low (date) | 52wk high (date) | Premarket | % up from low (of range) | % down from high |
+|---|---|---|---|---|---|
+| COHR | $142.46 (2025-11-25) | $440.00 (2026-06-03) | ~$206.80 | 21.6% | -53% |
+| AAOI | $20.63 (2025-11-24) | $233.67 (2026-05-13) | ~$38.82 | 8.5% | -83% |
+| LITE | $266.01 (2025-11-24) | $1143.00 (2026-10-09) | ~$515.42 | 28.4% | -55% |
+| FN | $280.01 (**2026-11-20, 4 days ago**) | $748.89 (2026-05-14) | ~$313.00 | 7.0% | -58% |
+| CIEN | $182.18 (2025-11-24) | $637.51 (2026-06-03) | ~$253.70 | 15.7% | -60% |
+
+Several of these 52-week lows were set almost exactly a year ago (not fresh), but **FN just printed a new 52-week low four days ago** — this whole group has been under sustained pressure, not just COHR/AAOI in isolation. User's thesis: beaten-down-far-more-than-broader-tech + still-promising-upside = worth considering entries today, **contingent on watching what the optoelectronics group does generally first**, with disciplined stop management to cap downside if wrong.
+
+**Live premarket read as of ~8am (before this can be acted on): the whole group is DOWN this morning, not showing sector strength.** COHR -4.2%, LITE -5.3%, FN -4.9%, CIEN -4.2%, AAOI roughly flat (+0.3%). This is a weak tape for the group right now, not a green light — consistent with the earlier finding that COHR/AAOI pulled back overnight with no fresh catalyst. **Plan: watch the sector as a group (not just COHR/AAOI) through the open and the day's scheduled cycles (9:40/11/12/3) for a real floor/reversal forming across multiple names together — that's a much stronger signal than COHR alone bouncing, since these names are known to move together (per WebSearch history, swings in this group are often described as having "no stock-specific catalyst," i.e., sector/sentiment-driven).** Only consider an entry once the group shows coordinated strength, not before. If pursued, size and stop discipline follow the user's existing framework (~$500 range, tight stop, standing autonomous-execution authorization for this specific setup once conditions are met).
+
 **Standing reminders for Tuesday:**
 - **COHR/AAOI stand-down is NOT lifted by this 8am data** — the user's "revisit in AM" instruction has been honored (checked fresh), but both the market-direction read (VIX ticked up) and COHR's own action (-3.7% premarket, no base) argue for continuing to wait, consistent with the user's own caveat: *"think it's oversold, but need broad agreement to make that pay."* Re-check live at 9:40am before fully closing the door.
 - **VIX reversed overnight (26.62 → 28.77)** after two sessions of improvement — don't treat the de-risking narrative as settled; confirm at the open whether this is pre-earnings jitters or a real shift.
