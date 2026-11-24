@@ -94,6 +94,10 @@ Not checked this pass — none of tonight's candidates were ranked firmly enough
 7. **KYMR** — still climbing, still zero catalyst found (earnings calendar + WebSearch both checked). Watch-only, never score without confirmation.
 8. **PDD** — pulling back premarket; not an active candidate.
 
+## Holiday-week plan — explicit user instruction (2026-11-24, 3pm+)
+
+**Thursday 11/27 (Thanksgiving, market closed) and Friday 11/28 (half day) are off regardless — no scanning/trading either day, independent of market tone.** Wednesday 11/25 is conditional: if the tape is showing good signs (constructive tone, not choppy/negative), work the normal full day of cycles as usual. If Wednesday is choppy and more negative than positive, end the day early rather than forcing it through to the close. **The 8am true-up on 11/25 should make this call explicitly and state it plainly in its report** — "good signs, proceeding normally" or "choppy/negative, recommend ending early" — so the user can confirm before the day's cycles continue. Carry this plan forward into tonight's 6pm after-hours build.
+
 ## 3pm cycle — day closes with COHR/AAOI confirmed weak all session; retail leaders faded from midday highs (validates the no-chase call)
 
 SPX 7173.19, NDX 26096.90, VIX 27.39 (ticked back up from 12pm's 26.36 — a choppy, not-fully-settled afternoon). Crypto still broadly red (COIN -5.3%, MSTR -7.3%, CLSK -6.9%, CORZ -11.8%).
