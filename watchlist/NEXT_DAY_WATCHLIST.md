@@ -1,5 +1,11 @@
 # Next-Day Watchlist — built Tuesday evening, 2026-11-24 (for Wednesday, 2026-11-25)
 
+## 8am true-up / go-no-go call — CHOPPY AND NEGATIVE: recommend sitting in cash today
+
+Per the user's own stated criteria ("if broad climb, play; otherwise sit in cash") — **this morning is the opposite of a broad climb.** VIX spiked to 30.52 (up sharply from yesterday's 27.39 close, the worst reading of this whole multi-day episode outside last Friday's 35.89 peak). Every tracked name is down premarket, not a mixed bag: COHR -4.7% (third straight day of decline), AAOI -6.4%, LITE -6.2%, FN -4.9%, CIEN -6.3% — the optoelectronics group extending its losing streak into day three. The broad tech "beat but sold off anyway" story from last night is deepening, not stabilizing: AMBA -32.9% further premarket (now -ca.33% just since last night's already-brutal -39% AH print — compounding, not bouncing), NTNX -13.9% further, URBN -12.4% further, ADSK -5.0%, WDAY -4.9%, DELL giving back its entire AH bounce and then some (-4.7% premarket vs last night's +5% AH). DE (Deere) -2.2%, mild by comparison but still red. A (Agilent) roughly flat, the one name holding its ground.
+
+**Recommendation: sit in cash today.** Nothing here supports "good signs" — this is broad, compounding weakness across every tracked name plus a real VIX spike. Per the standing holiday-week plan, today was the swing day (Thu/Fri off regardless); this reading argues for ending early / not forcing entries rather than running the full cycle schedule. Will keep monitoring and flag immediately if the tape genuinely turns, but starting from a stand-aside posture this morning.
+
 > **PROVISIONAL — RESEARCH ONLY. NOT A TRADE LIST.** Nothing below is pre-approved. Every entry must be re-verified against live price action and a fresh options chain at the open before being treated as an actionable candidate. Asian/European overnight-session news has NOT been checked yet at this hour — that's the job of Wednesday's ~8am overnight true-up.
 
 ## Step 0 — held position check
