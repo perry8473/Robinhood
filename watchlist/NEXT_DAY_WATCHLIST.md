@@ -73,3 +73,9 @@ Not checked this pass — nothing on tonight's board clears the bar for a clean 
 - COHR/AAOI stand-down: two sessions of confirmed group weakness now, not a one-day blip.
 - DE (Deere) is the one scheduled large-cap catalyst worth a clean look tomorrow.
 - Next scheduled macro catalyst: PCE inflation report, date unconfirmed — recheck closer to release.
+
+## 9:40am opening-bell cycle — CONFIRMED: broad, negative open. Recommend ending the day early (per user's own stated plan)
+
+Account confirmed flat (nothing to manage). Market opened decisively negative, not choppy-but-mixed: SPX 6994.81 (below 7000, down sharply from yesterday's ~7173-7200 range), NDX 25,079.40 (down from ~26,000+), VIX 33.75 (spiked further, now approaching last Friday's 35.89 episode peak). Every tracked name deepened at the open rather than stabilizing: COHR -8.9% (new low for the move, through $180), AAOI -11.0%, LITE -10.9%, FN -8.1%, CIEN -9.3% — the one previously-steady name (A/Agilent) is now also down -2.8%. NTNX -21.9%, AMBA -24.3%, URBN -11.4%, DELL -7.6%, ADSK -6.0% — all extending their post-earnings declines further at the open rather than finding a floor.
+
+This is the negative scenario the user described yesterday ("if choppy and more negative than positive, we'll end early"). Recommending ending today's cycles now rather than running the full 11am/12pm/3pm sweep — nothing here supports continuing to look for entries. Thursday/Friday are already off regardless per the holiday-week plan. Full mandatory sweep skipped this cycle given the clear stand-down call; will resume normal scanning next week unless told otherwise.
